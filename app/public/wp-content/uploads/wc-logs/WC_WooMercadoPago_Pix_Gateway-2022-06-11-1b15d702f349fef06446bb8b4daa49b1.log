@@ -1,0 +1,1086 @@
+06-11-2022 @ 19:43:19 - [process_payment]: Payment via Pix POST: 
+06-11-2022 @ 19:43:19 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13786",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "date_of_expiration": "2022-06-11T23:13:19.000+0000",
+    "transaction_amount": 113.599999999999994315658113919198513031005859375,
+    "description": "Kit Sekiama x 1, Farofa com Muitas Sementes e Castanhas x 1",
+    "payment_method_id": "pix",
+    "payer": {
+        "email": "renata.rod.lopes2@gmail.com",
+        "first_name": "Renata",
+        "last_name": "Rodrigues",
+        "address": {
+            "zip_code": "20530-000",
+            "street_name": "Rua Conde Bonfim",
+            "street_number": "",
+            "neighborhood": "",
+            "city": "Rio de Janeiro - Rio de Janeiro",
+            "federal_unit": "RJ"
+        }
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 209,
+                "title": "Kit Sekiama x 1",
+                "description": "Nao-sabe-qual-farofa-escolher-Quer-presentear-alguem-que-ama-farofa-Este-e-o-Kit-ideal.-Neste-kit-contem-as-farofas-strongDoce-Com-Muita-Cebola-Com-Muitas-Sementes-Faropop-Churrasco-com-Manteiga-e-Com-Muitas-Semen",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-sekiama-1.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 95
+            },
+            {
+                "id": 197,
+                "title": "Farofa com Muitas Sementes e Castanhas x 1",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 18.60000000000000142108547152020037174224853515625
+            }
+        ],
+        "payer": {
+            "first_name": "Renata",
+            "last_name": "Rodrigues",
+            "phone": {
+                "number": "(21) 97198-1150"
+            },
+            "address": {
+                "zip_code": "20530-000",
+                "street_name": "Rua Conde Bonfim \/ Rio de Janeiro - Rio de Janeiro RJ BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "20530-000",
+                "street_name": "Rua Conde Bonfim AP803 Rio de Janeiro - Rio de Janeiro RJ BR",
+                "apartment": "AP803",
+                "city_name": "Rio de Janeiro - Rio de Janeiro",
+                "state_name": "RJ"
+            }
+        }
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.5.1",
+        "module_version": "5.8.0",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "20530-000",
+            "street_name": "Rua Conde Bonfim",
+            "city_name": "Rio de Janeiro - Rio de Janeiro",
+            "state_name": "RJ",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "custom",
+        "checkout_type": "pix"
+    }
+}
+06-11-2022 @ 19:43:20 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "id": 23109098126,
+        "date_created": "2022-06-11T18:43:18.320-04:00",
+        "date_approved": null,
+        "date_last_updated": "2022-06-11T18:43:18.320-04:00",
+        "date_of_expiration": "2022-06-11T19:13:19.000-04:00",
+        "money_release_date": null,
+        "operation_type": "regular_payment",
+        "issuer_id": null,
+        "payment_method_id": "pix",
+        "payment_type_id": "bank_transfer",
+        "status": "pending",
+        "status_detail": "pending_waiting_transfer",
+        "currency_id": "BRL",
+        "description": "Kit Sekiama x 1, Farofa com Muitas Sementes e Castanhas x 1",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": null,
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "749847438",
+            "operator_id": null,
+            "email": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "pix",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Rio de Janeiro - Rio de Janeiro",
+                "state_name": "RJ",
+                "country_name": "BR",
+                "zip_code": "20530-000",
+                "street_name": "Rua Conde Bonfim"
+            },
+            "module_version": "5.8.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.5.1",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "209",
+                    "title": "Kit Sekiama x 1",
+                    "description": "Nao-sabe-qual-farofa-escolher-Quer-presentear-alguem-que-ama-farofa-Este-e-o-Kit-ideal.-Neste-kit-contem-as-farofas-strongDoce-Com-Muita-Cebola-Com-Muitas-Sementes-Faropop-Churrasco-com-Manteiga-e-Com-Muitas-Semen",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-sekiama-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "95"
+                },
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 1",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "18.6"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(21) 97198-1150"
+                },
+                "address": {
+                    "zip_code": "20530-000",
+                    "street_name": "Rua Conde Bonfim \/ Rio de Janeiro - Rio de Janeiro RJ BR"
+                },
+                "first_name": "Renata",
+                "last_name": "Rodrigues"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "20530-000",
+                    "state_name": "RJ",
+                    "city_name": "Rio de Janeiro - Rio de Janeiro",
+                    "street_name": "Rua Conde Bonfim AP803 Rio de Janeiro - Rio de Janeiro RJ BR",
+                    "apartment": "AP803"
+                }
+            },
+            "available_balance": null,
+            "nsu_processadora": null,
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13786",
+        "transaction_amount": 113.599999999999994315658113919198513031005859375,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "callback_url": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 0,
+            "total_paid_amount": 113.599999999999994315658113919198513031005859375,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 0,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null,
+            "bank_transfer_id": null,
+            "transaction_id": null
+        },
+        "fee_details": [],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": null,
+        "card": [],
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "OPENPLATFORM",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            },
+            "location": {
+                "state_id": null,
+                "source": null
+            },
+            "application_data": {
+                "name": null,
+                "version": null
+            },
+            "transaction_data": {
+                "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da05204000053039865406113.605802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter2310909812663049D0F",
+                "bank_transfer_id": null,
+                "transaction_id": null,
+                "financial_institution": null,
+                "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/23109098126\/ticket?caller_id=749847438&hash=4a3eb274-eb9e-4de8-9537-296e7b6a40e2",
+                "bank_info": {
+                    "payer": {
+                        "account_id": null,
+                        "id": null,
+                        "long_name": null,
+                        "external_account_id": null
+                    },
+                    "collector": {
+                        "account_id": null,
+                        "long_name": null,
+                        "account_holder_name": "Thiago Erminio Victor",
+                        "transfer_account_id": null
+                    },
+                    "is_same_bank_account_owner": null,
+                    "origin_bank_id": null,
+                    "origin_wallet_id": null
+                },
+                "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAI3klEQVR42u3dUa7zRAwG0NnB7H+X2UEQAkQz\/jy3CIQgc\/qA+Nve5KRvn+yxx\/0\/el2DlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlvaf1471NX99b\/7+wa\/fXd\/7\/PR+vjd\/u\/off\/bHBX7\/Xr3o5+Urg5aWlpaWlpaWlpaW9hDt\/Ixsnxd5vD4Vs3wvffq8Y\/2BFm1i0NLS0tLS0tLS0tLSnqItSfB+Br5Rst4C2IfF5YHa+yYGLS0tLS0tLS0tLS3tmdoaB4vxKmW68mjzGSCvz3rg581paWlpaWlpaWlpaWlp+zT3iI2LLFUBU\/9lIn9WBm9aWlpaWlpaWlpaWtrTtRmfrlQ7LD\/\/L0XEfd1wbps\/aWlpaWlpaWlpaWlpj9C2U0r+3f\/83ZkqtLS0tLS0tLS0tLS0\/1Pt\/lVi4whtlktEnM9AOrsYWseX5BctLS0tLS0tLS0tLe3btWlS5N3Nh7yfZ+Vqd+Yy3KSUAu9QD5zde7S0tLS0tLS0tLS0tAdol2uWGY8jTIWsdyyxcWxmkyw\/1WeRcYZkSUtLS0tLS0tLS0tLe4S2VuMSIC3ALuNLlmjazDVZppSUquKkpaWlpaWlpaWlpaU9RLsU2EomTM\/SziFJxb6m9le0NZXS0tLS0tLS0tLS0tIeoU05MZX4StNk04mZH7dZuVbumy5FS0tLS0tLS0tLS0v7dm2e2DjKpyPM8h85+pXzdc2qgMK7YmMmLS0tLS0tLS0tLS3tGdoU\/T5vltoxRzg19\/iL5elTUbDUF79KkbS0tLS0tLS0tLS0tK\/Slv\/bb61ehvyPMt+\/PG7qunwEyJxUaWlpaWlpaWlpaWlpD9CWtWmjZMcl5uWq3Xzeuzk6t9wo\/zbzhx0EtLS0tLS0tLS0tLS0L9Uu7yVF+t6+fpd4SzRN80q6rktaWlpaWlpaWlpaWtr3actFZpjvf4VzbO0q7FnOxSXU0u2ZejxpaWlpaWlpaWlpaWnP0Zaex3SlGUaaXKGbstmillsvr+4UHi0tLS0tLS0tLS0t7Sna5cMyC7LiU0tlru41XZebf37VdUlLS0tLS0tLS0tLS\/sq7b7KVpomry5tpux4jXqj5mcpxpuWlpaWlpaWlpaWlvYY7dyGxRHGQM7tGrYFMMJhuzvs3P7z+X7a2U1LS0tLS0tLS0tLS\/sq7RIMW2jajJ26KVOZbjPrJE3136RIWlpaWlpaWlpaWlraN2rv3AyZ+yqvsiwtb8teImKFpi7O5QNaWlpaWlpaWlpaWtpDtFeeSFIuXFepJfLmKvN5y1oKTFVAWlpaWlpaWlpaWlra92vvZ9flDL2RI+9JSx+UKDlK7iyrAtKntLS0tLS0tLS0tLS0p2g\/\/+AKk\/mvUqYr0e8Oi9aWS81wozvsYkszTGhpaWlpaWlpaWlpad+tLSnykQR\/+ko6EpfWaN95XGS5aLo5LS0tLS0tLS0tLS3tu7UlLN6bldSp\/zLlydxmmRJjc\/mfq3u0tLS0tLS0tLS0tLTv0aZpj6PU+X6aKDm7PQBpgVpq0WwjJy0tLS0tLS0tLS0t7bu1y82WWt1PQXPmZ06zSZYSXmrWXE7X0dLS0tLS0tLS0tLSHqK98tq0ZQ5JHkFSJ5J0nZMj3W3fsUlLS0tLS0tLS0tLS3uEdqnklWvOTTWu1OpGWKOdan93eIz2PVpaWlpaWlpaWlpa2rdr992U46f2yaQt976+mv7fnaSjpaWlpaWlpaWlpaV9vTbtTlsmO6bA98VU\/815t1Eya7oyLS0tLS0tLS0tLS3tEdq2uXIpAG4GmdRnLg2cj3GRywq31LZJS0tLS0tLS0tLS0t7hDbV4PImtGVGfz0Xtzz9vjGz\/F7NcBNaWlpaWlpaWlpaWtq3a8vXxmhqf42iTPC\/wkaAZQ7J6D6oG9hoaWlpaWlpaWlpaWnfrk03y0W8u6TITe\/mY+BJm0X3YZaWlpaWlpaWlpaWlvYc7ZL6lg\/SgJL9tuwvHii3bd5xwCQtLS0tLS0tLS0tLe2bteVP9x2RjzrfJl42H5TDcXcInxctLS0tLS0tLS0tLe1Z2naqfw18mxNt49m2mVJpmydnnoRCS0tLS0tLS0tLS0t7hLYkvLYP8vqZPHP4XF555\/ZVZp3Q0tLS0tLS0tLS0tIeom3iYNcC2aS+RLnCPrXHfMgUUmlpaWlpaWlpaWlpac\/UpgNp16bOt5TpNkfnmj7NdMSuPBotLS0tLS0tLS0tLe0R2qvbWj3C4JER2yIf8yZnLgpuAuTdbROgpaWlpaWlpaWlpaU9Qnt\/UlI1rj0rlyPiFdLm2Aw3SfelpaWlpaWlpaWlpaU9R7t8tyxau\/Oi7Hzb5TTc2Bb70kMuWZSWlpaWlpaWlpaWlvYA7WZQf1uhu0LFL42BHCFo3qGzc\/+ipaWlpaWlpaWlpaV9u\/YRDNv2ybJFbb\/nen6FSmMlS\/ikpaWlpaWlpaWlpaV9t7YccFtkrba2bbZNmEvFr123\/WXXJS0tLS0tLS0tLS0t7Ru1oxxcyz2Z9ZTbPoa2gyP35UFaWlpaWlpaWlpaWtpztLnoNp\/tmLNbcd38c9PUWbsu829z09LS0tLS0tLS0tLSHqId66vJfzkxjjBfZPfe8sHyuGUwCi0tLS0tLS0tLS0t7RHaeqItHWtLI\/uXhywVv3aYZHOm7psUSUtLS0tLS0tLS0tL+0ptCZA1O5Yt2E2oLJXBWsQr9\/0rPaK0tLS0tLS0tLS0tLTHaLtIN5Za3ZInP58gzZbcZccvq3u0tLS0tLS0tLS0tLRnaNM5tnY9dqrzpbkm5SBcOhI3aWlpaWlpaWlpaWlpj9OmrsvcPjkKoFT8rm6gfzOSspQRb1paWlpaWlpaWlpa2rO0bdPk0gzZLsVup4+kjs1RvlcefNt1SUtLS0tLS0tLS0tL+zbtf\/9FS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS\/uPaX8BZyT9D4TqSVcAAAAASUVORK5CYII="
+            }
+        }
+    }
+}
+06-11-2022 @ 19:43:20 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 23109098126,
+        "date_created": "2022-06-11T18:43:18.320-04:00",
+        "date_approved": null,
+        "date_last_updated": "2022-06-11T18:43:18.320-04:00",
+        "date_of_expiration": "2022-06-11T19:13:19.000-04:00",
+        "money_release_date": null,
+        "operation_type": "regular_payment",
+        "issuer_id": null,
+        "payment_method_id": "pix",
+        "payment_type_id": "bank_transfer",
+        "status": "pending",
+        "status_detail": "pending_waiting_transfer",
+        "currency_id": "BRL",
+        "description": "Kit Sekiama x 1, Farofa com Muitas Sementes e Castanhas x 1",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": null,
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "749847438",
+            "operator_id": null,
+            "email": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "pix",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Rio de Janeiro - Rio de Janeiro",
+                "state_name": "RJ",
+                "country_name": "BR",
+                "zip_code": "20530-000",
+                "street_name": "Rua Conde Bonfim"
+            },
+            "module_version": "5.8.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.5.1",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "209",
+                    "title": "Kit Sekiama x 1",
+                    "description": "Nao-sabe-qual-farofa-escolher-Quer-presentear-alguem-que-ama-farofa-Este-e-o-Kit-ideal.-Neste-kit-contem-as-farofas-strongDoce-Com-Muita-Cebola-Com-Muitas-Sementes-Faropop-Churrasco-com-Manteiga-e-Com-Muitas-Semen",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-sekiama-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "95"
+                },
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 1",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "18.6"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(21) 97198-1150"
+                },
+                "address": {
+                    "zip_code": "20530-000",
+                    "street_name": "Rua Conde Bonfim \/ Rio de Janeiro - Rio de Janeiro RJ BR"
+                },
+                "first_name": "Renata",
+                "last_name": "Rodrigues"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "20530-000",
+                    "state_name": "RJ",
+                    "city_name": "Rio de Janeiro - Rio de Janeiro",
+                    "street_name": "Rua Conde Bonfim AP803 Rio de Janeiro - Rio de Janeiro RJ BR",
+                    "apartment": "AP803"
+                }
+            },
+            "available_balance": null,
+            "nsu_processadora": null,
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13786",
+        "transaction_amount": 113.599999999999994315658113919198513031005859375,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "callback_url": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 0,
+            "total_paid_amount": 113.599999999999994315658113919198513031005859375,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 0,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null,
+            "bank_transfer_id": null,
+            "transaction_id": null
+        },
+        "fee_details": [],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": null,
+        "card": [],
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "OPENPLATFORM",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            },
+            "location": {
+                "state_id": null,
+                "source": null
+            },
+            "application_data": {
+                "name": null,
+                "version": null
+            },
+            "transaction_data": {
+                "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da05204000053039865406113.605802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter2310909812663049D0F",
+                "bank_transfer_id": null,
+                "transaction_id": null,
+                "financial_institution": null,
+                "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/23109098126\/ticket?caller_id=749847438&hash=4a3eb274-eb9e-4de8-9537-296e7b6a40e2",
+                "bank_info": {
+                    "payer": {
+                        "account_id": null,
+                        "id": null,
+                        "long_name": null,
+                        "external_account_id": null
+                    },
+                    "collector": {
+                        "account_id": null,
+                        "long_name": null,
+                        "account_holder_name": "Thiago Erminio Victor",
+                        "transfer_account_id": null
+                    },
+                    "is_same_bank_account_owner": null,
+                    "origin_bank_id": null,
+                    "origin_wallet_id": null
+                },
+                "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAI3klEQVR42u3dUa7zRAwG0NnB7H+X2UEQAkQz\/jy3CIQgc\/qA+Nve5KRvn+yxx\/0\/el2DlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlvaf1471NX99b\/7+wa\/fXd\/7\/PR+vjd\/u\/off\/bHBX7\/Xr3o5+Urg5aWlpaWlpaWlpaW9hDt\/Ixsnxd5vD4Vs3wvffq8Y\/2BFm1i0NLS0tLS0tLS0tLSnqItSfB+Br5Rst4C2IfF5YHa+yYGLS0tLS0tLS0tLS3tmdoaB4vxKmW68mjzGSCvz3rg581paWlpaWlpaWlpaWlp+zT3iI2LLFUBU\/9lIn9WBm9aWlpaWlpaWlpaWtrTtRmfrlQ7LD\/\/L0XEfd1wbps\/aWlpaWlpaWlpaWlpj9C2U0r+3f\/83ZkqtLS0tLS0tLS0tLS0\/1Pt\/lVi4whtlktEnM9AOrsYWseX5BctLS0tLS0tLS0tLe3btWlS5N3Nh7yfZ+Vqd+Yy3KSUAu9QD5zde7S0tLS0tLS0tLS0tAdol2uWGY8jTIWsdyyxcWxmkyw\/1WeRcYZkSUtLS0tLS0tLS0tLe4S2VuMSIC3ALuNLlmjazDVZppSUquKkpaWlpaWlpaWlpaU9RLsU2EomTM\/SziFJxb6m9le0NZXS0tLS0tLS0tLS0tIeoU05MZX4StNk04mZH7dZuVbumy5FS0tLS0tLS0tLS0v7dm2e2DjKpyPM8h85+pXzdc2qgMK7YmMmLS0tLS0tLS0tLS3tGdoU\/T5vltoxRzg19\/iL5elTUbDUF79KkbS0tLS0tLS0tLS0tK\/Slv\/bb61ehvyPMt+\/PG7qunwEyJxUaWlpaWlpaWlpaWlpD9CWtWmjZMcl5uWq3Xzeuzk6t9wo\/zbzhx0EtLS0tLS0tLS0tLS0L9Uu7yVF+t6+fpd4SzRN80q6rktaWlpaWlpaWlpaWtr3actFZpjvf4VzbO0q7FnOxSXU0u2ZejxpaWlpaWlpaWlpaWnP0Zaex3SlGUaaXKGbstmillsvr+4UHi0tLS0tLS0tLS0t7Sna5cMyC7LiU0tlru41XZebf37VdUlLS0tLS0tLS0tLS\/sq7b7KVpomry5tpux4jXqj5mcpxpuWlpaWlpaWlpaWlvYY7dyGxRHGQM7tGrYFMMJhuzvs3P7z+X7a2U1LS0tLS0tLS0tLS\/sq7RIMW2jajJ26KVOZbjPrJE3136RIWlpaWlpaWlpaWlraN2rv3AyZ+yqvsiwtb8teImKFpi7O5QNaWlpaWlpaWlpaWtpDtFeeSFIuXFepJfLmKvN5y1oKTFVAWlpaWlpaWlpaWlra92vvZ9flDL2RI+9JSx+UKDlK7iyrAtKntLS0tLS0tLS0tLS0p2g\/\/+AKk\/mvUqYr0e8Oi9aWS81wozvsYkszTGhpaWlpaWlpaWlpad+tLSnykQR\/+ko6EpfWaN95XGS5aLo5LS0tLS0tLS0tLS3tu7UlLN6bldSp\/zLlydxmmRJjc\/mfq3u0tLS0tLS0tLS0tLTv0aZpj6PU+X6aKDm7PQBpgVpq0WwjJy0tLS0tLS0tLS0t7bu1y82WWt1PQXPmZ06zSZYSXmrWXE7X0dLS0tLS0tLS0tLSHqK98tq0ZQ5JHkFSJ5J0nZMj3W3fsUlLS0tLS0tLS0tLS3uEdqnklWvOTTWu1OpGWKOdan93eIz2PVpaWlpaWlpaWlpa2rdr992U46f2yaQt976+mv7fnaSjpaWlpaWlpaWlpaV9vTbtTlsmO6bA98VU\/815t1Eya7oyLS0tLS0tLS0tLS3tEdq2uXIpAG4GmdRnLg2cj3GRywq31LZJS0tLS0tLS0tLS0t7hDbV4PImtGVGfz0Xtzz9vjGz\/F7NcBNaWlpaWlpaWlpaWtq3a8vXxmhqf42iTPC\/wkaAZQ7J6D6oG9hoaWlpaWlpaWlpaWnfrk03y0W8u6TITe\/mY+BJm0X3YZaWlpaWlpaWlpaWlvYc7ZL6lg\/SgJL9tuwvHii3bd5xwCQtLS0tLS0tLS0tLe2bteVP9x2RjzrfJl42H5TDcXcInxctLS0tLS0tLS0tLe1Z2naqfw18mxNt49m2mVJpmydnnoRCS0tLS0tLS0tLS0t7hLYkvLYP8vqZPHP4XF555\/ZVZp3Q0tLS0tLS0tLS0tIeom3iYNcC2aS+RLnCPrXHfMgUUmlpaWlpaWlpaWlpac\/UpgNp16bOt5TpNkfnmj7NdMSuPBotLS0tLS0tLS0tLe0R2qvbWj3C4JER2yIf8yZnLgpuAuTdbROgpaWlpaWlpaWlpaU9Qnt\/UlI1rj0rlyPiFdLm2Aw3SfelpaWlpaWlpaWlpaU9R7t8tyxau\/Oi7Hzb5TTc2Bb70kMuWZSWlpaWlpaWlpaWlvYA7WZQf1uhu0LFL42BHCFo3qGzc\/+ipaWlpaWlpaWlpaV9u\/YRDNv2ybJFbb\/nen6FSmMlS\/ikpaWlpaWlpaWlpaV9t7YccFtkrba2bbZNmEvFr123\/WXXJS0tLS0tLS0tLS0t7Ru1oxxcyz2Z9ZTbPoa2gyP35UFaWlpaWlpaWlpaWtpztLnoNp\/tmLNbcd38c9PUWbsu829z09LS0tLS0tLS0tLSHqId66vJfzkxjjBfZPfe8sHyuGUwCi0tLS0tLS0tLS0t7RHaeqItHWtLI\/uXhywVv3aYZHOm7psUSUtLS0tLS0tLS0tL+0ptCZA1O5Yt2E2oLJXBWsQr9\/0rPaK0tLS0tLS0tLS0tLTHaLtIN5Za3ZInP58gzZbcZccvq3u0tLS0tLS0tLS0tLRnaNM5tnY9dqrzpbkm5SBcOhI3aWlpaWlpaWlpaWlpj9OmrsvcPjkKoFT8rm6gfzOSspQRb1paWlpaWlpaWlpa2rO0bdPk0gzZLsVup4+kjs1RvlcefNt1SUtLS0tLS0tLS0tL+zbtf\/9FS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS\/uPaX8BZyT9D4TqSVcAAAAASUVORK5CYII="
+            }
+        }
+    }
+}
+06-11-2022 @ 19:43:20 - [check_ipn_response]: received _get content: {
+    "data_id": "23109098126",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+06-11-2022 @ 19:43:20 - [successful_request]: starting to process  update...
+06-11-2022 @ 19:43:20 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Nao-sabe-qual-farofa-escolher-Quer-presentear-alguem-que-ama-farofa-Este-e-o-Kit-ideal.-Neste-kit-contem-as-farofas-strongDoce-Com-Muita-Cebola-Com-Muitas-Sementes-Faropop-Churrasco-com-Manteiga-e-Com-Muitas-Semen",
+                "id": "209",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-sekiama-1.png",
+                "quantity": "1",
+                "title": "Kit Sekiama x 1",
+                "unit_price": "95"
+            },
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 1",
+                "unit_price": "18.6"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Conde Bonfim \/ Rio de Janeiro - Rio de Janeiro RJ BR",
+                "zip_code": "20530-000"
+            },
+            "first_name": "Renata",
+            "last_name": "Rodrigues",
+            "phone": {
+                "number": "(21) 97198-1150"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "AP803",
+                "city_name": "Rio de Janeiro - Rio de Janeiro",
+                "state_name": "RJ",
+                "street_name": "Rua Conde Bonfim AP803 Rio de Janeiro - Rio de Janeiro RJ BR",
+                "zip_code": "20530-000"
+            }
+        }
+    },
+    "authorization_code": null,
+    "binary_mode": false,
+    "brand_id": null,
+    "call_for_authorize_id": null,
+    "callback_url": null,
+    "captured": true,
+    "card": [],
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": null,
+    "date_created": "2022-06-11T18:43:18.000-04:00",
+    "date_last_updated": "2022-06-11T18:43:18.000-04:00",
+    "date_of_expiration": "2022-06-11T19:13:19.000-04:00",
+    "deduction_schema": null,
+    "description": "Kit Sekiama x 1, Farofa com Muitas Sementes e Castanhas x 1",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13786",
+    "fee_details": [],
+    "id": 23109098126,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": null,
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "pix",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Rio de Janeiro - Rio de Janeiro",
+            "state_name": "RJ",
+            "country_name": "BR",
+            "street_name": "Rua Conde Bonfim",
+            "zip_code": "20530-000"
+        },
+        "module_version": "5.8.0",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.5.1",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": null,
+    "money_release_schema": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": null,
+        "entity_type": null,
+        "first_name": null,
+        "id": "749847438",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "pix",
+    "payment_type_id": "bank_transfer",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "application_data": {
+            "name": null,
+            "version": null
+        },
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "location": {
+            "source": null,
+            "state_id": null
+        },
+        "transaction_data": {
+            "bank_info": {
+                "collector": {
+                    "account_holder_name": "Thiago Erminio Victor",
+                    "account_id": null,
+                    "long_name": null,
+                    "transfer_account_id": null
+                },
+                "is_same_bank_account_owner": null,
+                "origin_bank_id": null,
+                "origin_wallet_id": null,
+                "payer": {
+                    "account_id": null,
+                    "external_account_id": null,
+                    "id": null,
+                    "long_name": null
+                }
+            },
+            "bank_transfer_id": null,
+            "financial_institution": null,
+            "infringement_notification": {
+                "status": null,
+                "type": null
+            },
+            "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da05204000053039865406113.605802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter2310909812663049D0F",
+            "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAI3klEQVR42u3dUa7zRAwG0NnB7H+X2UEQAkQz\/jy3CIQgc\/qA+Nve5KRvn+yxx\/0\/el2DlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlvaf1471NX99b\/7+wa\/fXd\/7\/PR+vjd\/u\/off\/bHBX7\/Xr3o5+Urg5aWlpaWlpaWlpaW9hDt\/Ixsnxd5vD4Vs3wvffq8Y\/2BFm1i0NLS0tLS0tLS0tLSnqItSfB+Br5Rst4C2IfF5YHa+yYGLS0tLS0tLS0tLS3tmdoaB4vxKmW68mjzGSCvz3rg581paWlpaWlpaWlpaWlp+zT3iI2LLFUBU\/9lIn9WBm9aWlpaWlpaWlpaWtrTtRmfrlQ7LD\/\/L0XEfd1wbps\/aWlpaWlpaWlpaWlpj9C2U0r+3f\/83ZkqtLS0tLS0tLS0tLS0\/1Pt\/lVi4whtlktEnM9AOrsYWseX5BctLS0tLS0tLS0tLe3btWlS5N3Nh7yfZ+Vqd+Yy3KSUAu9QD5zde7S0tLS0tLS0tLS0tAdol2uWGY8jTIWsdyyxcWxmkyw\/1WeRcYZkSUtLS0tLS0tLS0tLe4S2VuMSIC3ALuNLlmjazDVZppSUquKkpaWlpaWlpaWlpaU9RLsU2EomTM\/SziFJxb6m9le0NZXS0tLS0tLS0tLS0tIeoU05MZX4StNk04mZH7dZuVbumy5FS0tLS0tLS0tLS0v7dm2e2DjKpyPM8h85+pXzdc2qgMK7YmMmLS0tLS0tLS0tLS3tGdoU\/T5vltoxRzg19\/iL5elTUbDUF79KkbS0tLS0tLS0tLS0tK\/Slv\/bb61ehvyPMt+\/PG7qunwEyJxUaWlpaWlpaWlpaWlpD9CWtWmjZMcl5uWq3Xzeuzk6t9wo\/zbzhx0EtLS0tLS0tLS0tLS0L9Uu7yVF+t6+fpd4SzRN80q6rktaWlpaWlpaWlpaWtr3actFZpjvf4VzbO0q7FnOxSXU0u2ZejxpaWlpaWlpaWlpaWnP0Zaex3SlGUaaXKGbstmillsvr+4UHi0tLS0tLS0tLS0t7Sna5cMyC7LiU0tlru41XZebf37VdUlLS0tLS0tLS0tLS\/sq7b7KVpomry5tpux4jXqj5mcpxpuWlpaWlpaWlpaWlvYY7dyGxRHGQM7tGrYFMMJhuzvs3P7z+X7a2U1LS0tLS0tLS0tLS\/sq7RIMW2jajJ26KVOZbjPrJE3136RIWlpaWlpaWlpaWlraN2rv3AyZ+yqvsiwtb8teImKFpi7O5QNaWlpaWlpaWlpaWtpDtFeeSFIuXFepJfLmKvN5y1oKTFVAWlpaWlpaWlpaWlra92vvZ9flDL2RI+9JSx+UKDlK7iyrAtKntLS0tLS0tLS0tLS0p2g\/\/+AKk\/mvUqYr0e8Oi9aWS81wozvsYkszTGhpaWlpaWlpaWlpad+tLSnykQR\/+ko6EpfWaN95XGS5aLo5LS0tLS0tLS0tLS3tu7UlLN6bldSp\/zLlydxmmRJjc\/mfq3u0tLS0tLS0tLS0tLTv0aZpj6PU+X6aKDm7PQBpgVpq0WwjJy0tLS0tLS0tLS0t7bu1y82WWt1PQXPmZ06zSZYSXmrWXE7X0dLS0tLS0tLS0tLSHqK98tq0ZQ5JHkFSJ5J0nZMj3W3fsUlLS0tLS0tLS0tLS3uEdqnklWvOTTWu1OpGWKOdan93eIz2PVpaWlpaWlpaWlpa2rdr992U46f2yaQt976+mv7fnaSjpaWlpaWlpaWlpaV9vTbtTlsmO6bA98VU\/815t1Eya7oyLS0tLS0tLS0tLS3tEdq2uXIpAG4GmdRnLg2cj3GRywq31LZJS0tLS0tLS0tLS0t7hDbV4PImtGVGfz0Xtzz9vjGz\/F7NcBNaWlpaWlpaWlpaWtq3a8vXxmhqf42iTPC\/wkaAZQ7J6D6oG9hoaWlpaWlpaWlpaWnfrk03y0W8u6TITe\/mY+BJm0X3YZaWlpaWlpaWlpaWlvYc7ZL6lg\/SgJL9tuwvHii3bd5xwCQtLS0tLS0tLS0tLe2bteVP9x2RjzrfJl42H5TDcXcInxctLS0tLS0tLS0tLe1Z2naqfw18mxNt49m2mVJpmydnnoRCS0tLS0tLS0tLS0t7hLYkvLYP8vqZPHP4XF555\/ZVZp3Q0tLS0tLS0tLS0tIeom3iYNcC2aS+RLnCPrXHfMgUUmlpaWlpaWlpaWlpac\/UpgNp16bOt5TpNkfnmj7NdMSuPBotLS0tLS0tLS0tLe0R2qvbWj3C4JER2yIf8yZnLgpuAuTdbROgpaWlpaWlpaWlpaU9Qnt\/UlI1rj0rlyPiFdLm2Aw3SfelpaWlpaWlpaWlpaU9R7t8tyxau\/Oi7Hzb5TTc2Bb70kMuWZSWlpaWlpaWlpaWlvYA7WZQf1uhu0LFL42BHCFo3qGzc\/+ipaWlpaWlpaWlpaV9u\/YRDNv2ybJFbb\/nen6FSmMlS\/ikpaWlpaWlpaWlpaV9t7YccFtkrba2bbZNmEvFr123\/WXXJS0tLS0tLS0tLS0t7Ru1oxxcyz2Z9ZTbPoa2gyP35UFaWlpaWlpaWlpaWtpztLnoNp\/tmLNbcd38c9PUWbsu829z09LS0tLS0tLS0tLSHqId66vJfzkxjjBfZPfe8sHyuGUwCi0tLS0tLS0tLS0t7RHaeqItHWtLI\/uXhywVv3aYZHOm7psUSUtLS0tLS0tLS0tL+0ptCZA1O5Yt2E2oLJXBWsQr9\/0rPaK0tLS0tLS0tLS0tLTHaLtIN5Za3ZInP58gzZbcZccvq3u0tLS0tLS0tLS0tLRnaNM5tnY9dqrzpbkm5SBcOhI3aWlpaWlpaWlpaWlpj9OmrsvcPjkKoFT8rm6gfzOSspQRb1paWlpaWlpaWlpa2rO0bdPk0gzZLsVup4+kjs1RvlcefNt1SUtLS0tLS0tLS0tL+zbtf\/9FS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS\/uPaX8BZyT9D4TqSVcAAAAASUVORK5CYII=",
+            "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/23109098126\/ticket?caller_id=749847438&hash=4a3eb274-eb9e-4de8-9537-296e7b6a40e2",
+            "transaction_id": null
+        },
+        "type": "OPENPLATFORM"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": null,
+    "status": "pending",
+    "status_detail": "pending_waiting_transfer",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 113.599999999999994315658113919198513031005859375,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "bank_transfer_id": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 0,
+        "net_received_amount": 0,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 113.599999999999994315658113919198513031005859375,
+        "transaction_id": null
+    }
+}
+06-11-2022 @ 19:43:20 - [successful_request]: Changing order status to: pending
+06-11-2022 @ 19:45:16 - [check_ipn_response]: received _get content: {
+    "data_id": "23109098126",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+06-11-2022 @ 19:45:16 - [successful_request]: starting to process  update...
+06-11-2022 @ 19:45:16 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "bank_info": {
+            "is_same_bank_account_owner": false
+        },
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Nao-sabe-qual-farofa-escolher-Quer-presentear-alguem-que-ama-farofa-Este-e-o-Kit-ideal.-Neste-kit-contem-as-farofas-strongDoce-Com-Muita-Cebola-Com-Muitas-Sementes-Faropop-Churrasco-com-Manteiga-e-Com-Muitas-Semen",
+                "id": "209",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-sekiama-1.png",
+                "quantity": "1",
+                "title": "Kit Sekiama x 1",
+                "unit_price": "95"
+            },
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 1",
+                "unit_price": "18.6"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Conde Bonfim \/ Rio de Janeiro - Rio de Janeiro RJ BR",
+                "zip_code": "20530-000"
+            },
+            "first_name": "Renata",
+            "last_name": "Rodrigues",
+            "phone": {
+                "number": "(21) 97198-1150"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "AP803",
+                "city_name": "Rio de Janeiro - Rio de Janeiro",
+                "state_name": "RJ",
+                "street_name": "Rua Conde Bonfim AP803 Rio de Janeiro - Rio de Janeiro RJ BR",
+                "zip_code": "20530-000"
+            }
+        }
+    },
+    "authorization_code": null,
+    "binary_mode": false,
+    "brand_id": null,
+    "call_for_authorize_id": null,
+    "callback_url": null,
+    "captured": true,
+    "card": [],
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-06-11T18:45:12.000-04:00",
+    "date_created": "2022-06-11T18:43:18.000-04:00",
+    "date_last_updated": "2022-06-11T18:45:12.000-04:00",
+    "date_of_expiration": "2022-06-11T19:13:19.000-04:00",
+    "deduction_schema": null,
+    "description": "Kit Sekiama x 1, Farofa com Muitas Sementes e Castanhas x 1",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13786",
+    "fee_details": [
+        {
+            "amount": 1.12000000000000010658141036401502788066864013671875,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 23109098126,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": null,
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "pix",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Rio de Janeiro - Rio de Janeiro",
+            "state_name": "RJ",
+            "country_name": "BR",
+            "street_name": "Rua Conde Bonfim",
+            "zip_code": "20530-000"
+        },
+        "module_version": "5.8.0",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.5.1",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-06-11T18:45:12.000-04:00",
+    "money_release_schema": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": "renata.rod.lopes2@gmail.com",
+        "entity_type": null,
+        "first_name": null,
+        "id": "749847438",
+        "identification": {
+            "number": "38433408895",
+            "type": "CPF"
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "pix",
+    "payment_type_id": "bank_transfer",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "application_data": {
+            "name": null,
+            "version": null
+        },
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "location": {
+            "source": null,
+            "state_id": null
+        },
+        "sub_type": "INTER_PSP",
+        "transaction_data": {
+            "bank_info": {
+                "collector": {
+                    "account_holder_name": "Thiago Erminio Victor",
+                    "account_id": 55972707790,
+                    "long_name": "Mercadopago.com Representações Ltda.",
+                    "transfer_account_id": null
+                },
+                "is_same_bank_account_owner": false,
+                "origin_bank_id": null,
+                "origin_wallet_id": null,
+                "payer": {
+                    "account_id": 310586,
+                    "external_account_id": null,
+                    "id": null,
+                    "long_name": "Itaú Unibanco S.A."
+                }
+            },
+            "bank_transfer_id": 1043168453,
+            "financial_institution": 1,
+            "infringement_notification": {
+                "status": null,
+                "type": null
+            },
+            "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da05204000053039865406113.605802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter2310909812663049D0F",
+            "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAI3klEQVR42u3dUa7zRAwG0NnB7H+X2UEQAkQz\/jy3CIQgc\/qA+Nve5KRvn+yxx\/0\/el2DlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlvaf1471NX99b\/7+wa\/fXd\/7\/PR+vjd\/u\/off\/bHBX7\/Xr3o5+Urg5aWlpaWlpaWlpaW9hDt\/Ixsnxd5vD4Vs3wvffq8Y\/2BFm1i0NLS0tLS0tLS0tLSnqItSfB+Br5Rst4C2IfF5YHa+yYGLS0tLS0tLS0tLS3tmdoaB4vxKmW68mjzGSCvz3rg581paWlpaWlpaWlpaWlp+zT3iI2LLFUBU\/9lIn9WBm9aWlpaWlpaWlpaWtrTtRmfrlQ7LD\/\/L0XEfd1wbps\/aWlpaWlpaWlpaWlpj9C2U0r+3f\/83ZkqtLS0tLS0tLS0tLS0\/1Pt\/lVi4whtlktEnM9AOrsYWseX5BctLS0tLS0tLS0tLe3btWlS5N3Nh7yfZ+Vqd+Yy3KSUAu9QD5zde7S0tLS0tLS0tLS0tAdol2uWGY8jTIWsdyyxcWxmkyw\/1WeRcYZkSUtLS0tLS0tLS0tLe4S2VuMSIC3ALuNLlmjazDVZppSUquKkpaWlpaWlpaWlpaU9RLsU2EomTM\/SziFJxb6m9le0NZXS0tLS0tLS0tLS0tIeoU05MZX4StNk04mZH7dZuVbumy5FS0tLS0tLS0tLS0v7dm2e2DjKpyPM8h85+pXzdc2qgMK7YmMmLS0tLS0tLS0tLS3tGdoU\/T5vltoxRzg19\/iL5elTUbDUF79KkbS0tLS0tLS0tLS0tK\/Slv\/bb61ehvyPMt+\/PG7qunwEyJxUaWlpaWlpaWlpaWlpD9CWtWmjZMcl5uWq3Xzeuzk6t9wo\/zbzhx0EtLS0tLS0tLS0tLS0L9Uu7yVF+t6+fpd4SzRN80q6rktaWlpaWlpaWlpaWtr3actFZpjvf4VzbO0q7FnOxSXU0u2ZejxpaWlpaWlpaWlpaWnP0Zaex3SlGUaaXKGbstmillsvr+4UHi0tLS0tLS0tLS0t7Sna5cMyC7LiU0tlru41XZebf37VdUlLS0tLS0tLS0tLS\/sq7b7KVpomry5tpux4jXqj5mcpxpuWlpaWlpaWlpaWlvYY7dyGxRHGQM7tGrYFMMJhuzvs3P7z+X7a2U1LS0tLS0tLS0tLS\/sq7RIMW2jajJ26KVOZbjPrJE3136RIWlpaWlpaWlpaWlraN2rv3AyZ+yqvsiwtb8teImKFpi7O5QNaWlpaWlpaWlpaWtpDtFeeSFIuXFepJfLmKvN5y1oKTFVAWlpaWlpaWlpaWlra92vvZ9flDL2RI+9JSx+UKDlK7iyrAtKntLS0tLS0tLS0tLS0p2g\/\/+AKk\/mvUqYr0e8Oi9aWS81wozvsYkszTGhpaWlpaWlpaWlpad+tLSnykQR\/+ko6EpfWaN95XGS5aLo5LS0tLS0tLS0tLS3tu7UlLN6bldSp\/zLlydxmmRJjc\/mfq3u0tLS0tLS0tLS0tLTv0aZpj6PU+X6aKDm7PQBpgVpq0WwjJy0tLS0tLS0tLS0t7bu1y82WWt1PQXPmZ06zSZYSXmrWXE7X0dLS0tLS0tLS0tLSHqK98tq0ZQ5JHkFSJ5J0nZMj3W3fsUlLS0tLS0tLS0tLS3uEdqnklWvOTTWu1OpGWKOdan93eIz2PVpaWlpaWlpaWlpa2rdr992U46f2yaQt976+mv7fnaSjpaWlpaWlpaWlpaV9vTbtTlsmO6bA98VU\/815t1Eya7oyLS0tLS0tLS0tLS3tEdq2uXIpAG4GmdRnLg2cj3GRywq31LZJS0tLS0tLS0tLS0t7hDbV4PImtGVGfz0Xtzz9vjGz\/F7NcBNaWlpaWlpaWlpaWtq3a8vXxmhqf42iTPC\/wkaAZQ7J6D6oG9hoaWlpaWlpaWlpaWnfrk03y0W8u6TITe\/mY+BJm0X3YZaWlpaWlpaWlpaWlvYc7ZL6lg\/SgJL9tuwvHii3bd5xwCQtLS0tLS0tLS0tLe2bteVP9x2RjzrfJl42H5TDcXcInxctLS0tLS0tLS0tLe1Z2naqfw18mxNt49m2mVJpmydnnoRCS0tLS0tLS0tLS0t7hLYkvLYP8vqZPHP4XF555\/ZVZp3Q0tLS0tLS0tLS0tIeom3iYNcC2aS+RLnCPrXHfMgUUmlpaWlpaWlpaWlpac\/UpgNp16bOt5TpNkfnmj7NdMSuPBotLS0tLS0tLS0tLe0R2qvbWj3C4JER2yIf8yZnLgpuAuTdbROgpaWlpaWlpaWlpaU9Qnt\/UlI1rj0rlyPiFdLm2Aw3SfelpaWlpaWlpaWlpaU9R7t8tyxau\/Oi7Hzb5TTc2Bb70kMuWZSWlpaWlpaWlpaWlvYA7WZQf1uhu0LFL42BHCFo3qGzc\/+ipaWlpaWlpaWlpaV9u\/YRDNv2ybJFbb\/nen6FSmMlS\/ikpaWlpaWlpaWlpaV9t7YccFtkrba2bbZNmEvFr123\/WXXJS0tLS0tLS0tLS0t7Ru1oxxcyz2Z9ZTbPoa2gyP35UFaWlpaWlpaWlpaWtpztLnoNp\/tmLNbcd38c9PUWbsu829z09LS0tLS0tLS0tLSHqId66vJfzkxjjBfZPfe8sHyuGUwCi0tLS0tLS0tLS0t7RHaeqItHWtLI\/uXhywVv3aYZHOm7psUSUtLS0tLS0tLS0tL+0ptCZA1O5Yt2E2oLJXBWsQr9\/0rPaK0tLS0tLS0tLS0tLTHaLtIN5Za3ZInP58gzZbcZccvq3u0tLS0tLS0tLS0tLRnaNM5tnY9dqrzpbkm5SBcOhI3aWlpaWlpaWlpaWlpj9OmrsvcPjkKoFT8rm6gfzOSspQRb1paWlpaWlpaWlpa2rO0bdPk0gzZLsVup4+kjs1RvlcefNt1SUtLS0tLS0tLS0tL+zbtf\/9FS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS\/uPaX8BZyT9D4TqSVcAAAAASUVORK5CYII=",
+            "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/23109098126\/ticket?caller_id=749847438&hash=4a3eb274-eb9e-4de8-9537-296e7b6a40e2",
+            "transaction_id": "PIXE60701190202206112244DY5YU1WY3XF"
+        },
+        "type": "OPENPLATFORM"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": null,
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 113.599999999999994315658113919198513031005859375,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "bank_transfer_id": 1043168453,
+        "external_resource_url": null,
+        "financial_institution": "1",
+        "installment_amount": 0,
+        "net_received_amount": 112.4800000000000039790393202565610408782958984375,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 113.599999999999994315658113919198513031005859375,
+        "transaction_id": "PIXE60701190202206112244DY5YU1WY3XF"
+    }
+}
+06-11-2022 @ 19:45:16 - [successful_request]: Changing order status to: processing

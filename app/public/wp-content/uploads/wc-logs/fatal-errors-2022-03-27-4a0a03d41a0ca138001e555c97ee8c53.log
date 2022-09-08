@@ -1,0 +1,16 @@
+2022-03-27T04:18:36+00:00 CRITICAL Maximum execution time of 55 seconds exceeded, em /home/p000001a/public_html/sekiama/wp-content/plugins/php-compatibility-checker/vendor/squizlabs/php_codesniffer/CodeSniffer.php, na linha 290
+
+2022-03-27T14:00:06+00:00 CRITICAL Maximum execution time of 55 seconds exceeded, em /home/p000001a/public_html/sekiama/wp-content/plugins/php-compatibility-checker/vendor/phpcompatibility/php-compatibility/PHPCompatibility/PHPCSHelper.php, na linha 95
+
+2022-03-27T14:16:26+00:00 CRITICAL Maximum execution time of 55 seconds exceeded, em /home/p000001a/public_html/sekiama/wp-content/plugins/php-compatibility-checker/vendor/squizlabs/php_codesniffer/CodeSniffer.php, na linha 2374
+
+2022-03-27T16:28:40+00:00 CRITICAL Maximum execution time of 55 seconds exceeded, em /home/p000001a/public_html/sekiama/wp-content/plugins/php-compatibility-checker/vendor/phpcompatibility/php-compatibility/PHPCompatibility/PHPCSHelper.php, na linha 95
+
+2022-03-27T16:54:24+00:00 CRITICAL Maximum execution time of 55 seconds exceeded, em /home/p000001a/public_html/sekiama/wp-content/plugins/php-compatibility-checker/vendor/phpcompatibility/php-compatibility/PHPCompatibility/Sniff.php, na linha 131
+
+2022-03-27T16:59:15+00:00 CRITICAL Maximum execution time of 55 seconds exceeded, em /home/p000001a/public_html/sekiama/wp-content/plugins/php-compatibility-checker/vendor/phpcompatibility/php-compatibility/PHPCompatibility/PHPCSHelper.php, na linha 95
+
+2022-03-27T19:22:02+00:00 CRITICAL Maximum execution time of 55 seconds exceeded, em /home/p000001a/public_html/sekiama/wp-content/plugins/php-compatibility-checker/vendor/phpcompatibility/php-compatibility/PHPCompatibility/PHPCSHelper.php, na linha 95
+
+2022-03-27T21:21:48+00:00 CRITICAL Maximum execution time of 55 seconds exceeded, em /home/p000001a/public_html/sekiama/wp-content/plugins/php-compatibility-checker/vendor/squizlabs/php_codesniffer/CodeSniffer.php, na linha 298
+

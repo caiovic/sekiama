@@ -1,0 +1,502 @@
+03-29-2022 @ 23:04:42 - [process_payment]: POST Custom: {
+    "amount": "148.01",
+    "currency_ratio": "1",
+    "campaign_id": "",
+    "campaign": "",
+    "discount": "",
+    "paymentMethodId": "",
+    "token": "",
+    "checkout_type": "wallet_button"
+}
+03-29-2022 @ 23:04:42 - [process_payment]: preparing to render wallet button checkout.
+03-29-2022 @ 23:04:43 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-7100",
+    "notification_url": "https:\/\/sekiama.otimaideia.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "items": [
+        {
+            "id": 196,
+            "title": "Farofa para Churrasco com Manteiga x 2",
+            "description": "O-incrivel-sabor-da-farofa-amanteigada-agora-pronta-para-fazer-parte-da-sua-alimentacao.-Feita-de-forma-caseira-e-com-muito-sabor-tambem-combina-com-todos-os-tipos-de-alimentos.-strongIngredientes-strongFarinha-de-M",
+            "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/churrasco.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 31.39999999999999857891452847979962825775146484375,
+            "currency_id": "BRL"
+        },
+        {
+            "id": 204,
+            "title": "Kit Veggie x 2",
+            "description": "As-tres-farofas-que-dao-match-com-seu-paladar-e-seu-estilo-de-vida-Neste-kit-contem-as-farofas-strongFaropop-strongstrongCom-Muita-Cebola-e-strongstrongCom-Muitas-Sementes.strong",
+            "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/kit-veggie-1.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 88,
+            "currency_id": "BRL"
+        },
+        {
+            "title": "Jadlog Package (Entrega em 6 dias úteis)",
+            "description": "Serviço de envio usado pela loja.",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 28.6099999999999994315658113919198513031005859375
+        }
+    ],
+    "payer": {
+        "name": "Carla",
+        "surname": "Almeida",
+        "email": "dcarlacasadecarnes@gmail.com",
+        "phone": {
+            "number": "51981056386"
+        },
+        "address": {
+            "zip_code": "92110-000",
+            "street_name": "Venâncio Aires 784 \/ Canoas Rs RS BR"
+        }
+    },
+    "back_urls": {
+        "success": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7100\/?key=wc_order_DOUAJdY0YWEYT",
+        "failure": "https:\/\/sekiama.otimaideia.com.br\/carrinho\/?cancel_order=true&order=wc_order_DOUAJdY0YWEYT&order_id=7100&redirect&_wpnonce=916b9e9f48",
+        "pending": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7100\/?key=wc_order_DOUAJdY0YWEYT"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "92110-000",
+            "street_name": "Venâncio Aires 784 Sala Canoas Rs RS BR",
+            "apartment": "Sala",
+            "city_name": "Canoas Rs",
+            "state_name": "RS"
+        }
+    },
+    "payment_methods": {
+        "installments": 12,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.3.1",
+        "module_version": "5.7.4",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "https:\/\/sekiama.otimaideia.com.br",
+        "billing_address": {
+            "zip_code": "92110-000",
+            "street_name": "Venâncio Aires 784",
+            "city_name": "Canoas Rs",
+            "state_name": "RS",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "pro",
+        "checkout_type": "wallet_button"
+    },
+    "purpose": "wallet_purchase"
+}
+03-29-2022 @ 23:04:43 - [create_preference_wallet_button]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/sekiama.otimaideia.com.br\/carrinho\/?cancel_order=true&order=wc_order_DOUAJdY0YWEYT&order_id=7100&redirect&_wpnonce=916b9e9f48",
+            "pending": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7100\/?key=wc_order_DOUAJdY0YWEYT",
+            "success": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7100\/?key=wc_order_DOUAJdY0YWEYT"
+        },
+        "binary_mode": false,
+        "client_id": "6290074584163570",
+        "collector_id": 163745094,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-03-30T02:04:42.233+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-7100",
+        "id": "163745094-47e17c8f-0f14-4601-a65d-5faf69a82849",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-47e17c8f-0f14-4601-a65d-5faf69a82849",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "196",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "O-incrivel-sabor-da-farofa-amanteigada-agora-pronta-para-fazer-parte-da-sua-alimentacao.-Feita-de-forma-caseira-e-com-muito-sabor-tambem-combina-com-todos-os-tipos-de-alimentos.-strongIngredientes-strongFarinha-de-M",
+                "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/churrasco.png",
+                "title": "Farofa para Churrasco com Manteiga x 2",
+                "quantity": 1,
+                "unit_price": 31.39999999999999857891452847979962825775146484375
+            },
+            {
+                "id": "204",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "As-tres-farofas-que-dao-match-com-seu-paladar-e-seu-estilo-de-vida-Neste-kit-contem-as-farofas-strongFaropop-strongstrongCom-Muita-Cebola-e-strongstrongCom-Muitas-Sementes.strong",
+                "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/kit-veggie-1.png",
+                "title": "Kit Veggie x 2",
+                "quantity": 1,
+                "unit_price": 88
+            },
+            {
+                "id": "",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Serviço de envio usado pela loja.",
+                "title": "Jadlog Package (Entrega em 6 dias úteis)",
+                "quantity": 1,
+                "unit_price": 28.6099999999999994315658113919198513031005859375
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Canoas Rs",
+                "country_name": "BR",
+                "state_name": "RS",
+                "street_name": "Venâncio Aires 784",
+                "zip_code": "92110-000"
+            },
+            "checkout": "pro",
+            "checkout_type": "wallet_button",
+            "collector": "163745094",
+            "custom_settings": {
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "gateway_discount_checkbox": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "5.7.4",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.3.1",
+            "seller_website": "https:\/\/sekiama.otimaideia.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": "https:\/\/sekiama.otimaideia.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "51981056386"
+            },
+            "address": {
+                "zip_code": "92110-000",
+                "street_name": "Venâncio Aires 784  Canoas Rs RS BR",
+                "street_number": null
+            },
+            "email": "dcarlacasadecarnes@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Carla",
+            "surname": "Almeida",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 12,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-47e17c8f-0f14-4601-a65d-5faf69a82849",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "92110-000",
+                "street_name": "Venâncio Aires 784 Sala Canoas Rs RS BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "Sala",
+                "city_name": "Canoas Rs",
+                "state_name": "RS",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "Sekiama MP",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+03-29-2022 @ 23:04:43 - [create_preference_wallet_button]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/sekiama.otimaideia.com.br\/carrinho\/?cancel_order=true&order=wc_order_DOUAJdY0YWEYT&order_id=7100&redirect&_wpnonce=916b9e9f48",
+            "pending": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7100\/?key=wc_order_DOUAJdY0YWEYT",
+            "success": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7100\/?key=wc_order_DOUAJdY0YWEYT"
+        },
+        "binary_mode": false,
+        "client_id": "6290074584163570",
+        "collector_id": 163745094,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-03-30T02:04:42.233+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-7100",
+        "id": "163745094-47e17c8f-0f14-4601-a65d-5faf69a82849",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-47e17c8f-0f14-4601-a65d-5faf69a82849",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "196",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "O-incrivel-sabor-da-farofa-amanteigada-agora-pronta-para-fazer-parte-da-sua-alimentacao.-Feita-de-forma-caseira-e-com-muito-sabor-tambem-combina-com-todos-os-tipos-de-alimentos.-strongIngredientes-strongFarinha-de-M",
+                "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/churrasco.png",
+                "title": "Farofa para Churrasco com Manteiga x 2",
+                "quantity": 1,
+                "unit_price": 31.39999999999999857891452847979962825775146484375
+            },
+            {
+                "id": "204",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "As-tres-farofas-que-dao-match-com-seu-paladar-e-seu-estilo-de-vida-Neste-kit-contem-as-farofas-strongFaropop-strongstrongCom-Muita-Cebola-e-strongstrongCom-Muitas-Sementes.strong",
+                "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/kit-veggie-1.png",
+                "title": "Kit Veggie x 2",
+                "quantity": 1,
+                "unit_price": 88
+            },
+            {
+                "id": "",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Serviço de envio usado pela loja.",
+                "title": "Jadlog Package (Entrega em 6 dias úteis)",
+                "quantity": 1,
+                "unit_price": 28.6099999999999994315658113919198513031005859375
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Canoas Rs",
+                "country_name": "BR",
+                "state_name": "RS",
+                "street_name": "Venâncio Aires 784",
+                "zip_code": "92110-000"
+            },
+            "checkout": "pro",
+            "checkout_type": "wallet_button",
+            "collector": "163745094",
+            "custom_settings": {
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "gateway_discount_checkbox": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "5.7.4",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.3.1",
+            "seller_website": "https:\/\/sekiama.otimaideia.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": "https:\/\/sekiama.otimaideia.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "51981056386"
+            },
+            "address": {
+                "zip_code": "92110-000",
+                "street_name": "Venâncio Aires 784  Canoas Rs RS BR",
+                "street_number": null
+            },
+            "email": "dcarlacasadecarnes@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Carla",
+            "surname": "Almeida",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 12,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-47e17c8f-0f14-4601-a65d-5faf69a82849",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "92110-000",
+                "street_name": "Venâncio Aires 784 Sala Canoas Rs RS BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "Sala",
+                "city_name": "Canoas Rs",
+                "state_name": "RS",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "Sekiama MP",
+        "total_amount": null,
+        "last_updated": null
+    }
+}

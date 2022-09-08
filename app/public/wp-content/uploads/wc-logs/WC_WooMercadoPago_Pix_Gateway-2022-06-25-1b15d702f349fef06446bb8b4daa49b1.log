@@ -1,0 +1,1174 @@
+06-25-2022 @ 13:59:49 - [process_payment]: Payment via Pix POST: 
+06-25-2022 @ 13:59:49 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13812",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "date_of_expiration": "2022-06-25T17:29:49.000+0000",
+    "transaction_amount": 105.1299999999999954525264911353588104248046875,
+    "description": "Farofa com Muitas Sementes e Castanhas x 2, Farofa com Muita Cebola x 1, Faropop x 1",
+    "payment_method_id": "pix",
+    "payer": {
+        "email": "sergio.tscha@gmail.com",
+        "first_name": "Sergio",
+        "last_name": "Wanderley",
+        "address": {
+            "zip_code": "95670-000",
+            "street_name": "Rua Tia Rita",
+            "street_number": "",
+            "neighborhood": "",
+            "city": "Gramado",
+            "federal_unit": "RS"
+        }
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 197,
+                "title": "Farofa com Muitas Sementes e Castanhas x 2",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 37.2000000000000028421709430404007434844970703125
+            },
+            {
+                "id": 195,
+                "title": "Farofa com Muita Cebola x 1",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 17.199999999999999289457264239899814128875732421875
+            },
+            {
+                "id": 200,
+                "title": "Faropop x 1",
+                "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 14.199999999999999289457264239899814128875732421875
+            },
+            {
+                "title": "Jadlog Package (Entrega em 7 dias úteis)",
+                "description": "Serviço de envio usado pela loja.",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 36.530000000000001136868377216160297393798828125
+            }
+        ],
+        "payer": {
+            "first_name": "Sergio",
+            "last_name": "Wanderley",
+            "phone": {
+                "number": "(54) 9123-0718"
+            },
+            "address": {
+                "zip_code": "95670-000",
+                "street_name": "Rua Tia Rita \/ Gramado RS BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "95670-000",
+                "street_name": "Rua Tia Rita Ap 205 Gramado RS BR",
+                "apartment": "Ap 205",
+                "city_name": "Gramado",
+                "state_name": "RS"
+            }
+        }
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.6.1",
+        "module_version": "5.8.0",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "95670-000",
+            "street_name": "Rua Tia Rita",
+            "city_name": "Gramado",
+            "state_name": "RS",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "sergio.tscha@gmail.com",
+            "user_registration_date": "2022-05-18T23:29:43.000+00:00"
+        },
+        "checkout": "custom",
+        "checkout_type": "pix"
+    }
+}
+06-25-2022 @ 13:59:50 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "id": 23465792917,
+        "date_created": "2022-06-25T12:59:49.373-04:00",
+        "date_approved": null,
+        "date_last_updated": "2022-06-25T12:59:49.373-04:00",
+        "date_of_expiration": "2022-06-25T13:29:49.000-04:00",
+        "money_release_date": null,
+        "operation_type": "regular_payment",
+        "issuer_id": null,
+        "payment_method_id": "pix",
+        "payment_type_id": "bank_transfer",
+        "status": "pending",
+        "status_detail": "pending_waiting_transfer",
+        "currency_id": "BRL",
+        "description": "Farofa com Muitas Sementes e Castanhas x 2, Farofa com Muita Cebola x 1, Faropop x 1",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": null,
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "6350391",
+            "operator_id": null,
+            "email": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "pix",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Gramado",
+                "state_name": "RS",
+                "country_name": "BR",
+                "zip_code": "95670-000",
+                "street_name": "Rua Tia Rita"
+            },
+            "module_version": "5.8.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.6.1",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": "sergio.tscha@gmail.com",
+                "registered_user": "yes",
+                "user_registration_date": "2022-05-18T23:29:43.000+00:00"
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 2",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "37.2"
+                },
+                {
+                    "id": "195",
+                    "title": "Farofa com Muita Cebola x 1",
+                    "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "17.2"
+                },
+                {
+                    "id": "200",
+                    "title": "Faropop x 1",
+                    "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "14.2"
+                },
+                {
+                    "id": null,
+                    "title": "Jadlog Package (Entrega em 7 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "36.53"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(54) 9123-0718"
+                },
+                "address": {
+                    "zip_code": "95670-000",
+                    "street_name": "Rua Tia Rita \/ Gramado RS BR"
+                },
+                "first_name": "Sergio",
+                "last_name": "Wanderley"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "95670-000",
+                    "state_name": "RS",
+                    "city_name": "Gramado",
+                    "street_name": "Rua Tia Rita Ap 205 Gramado RS BR",
+                    "apartment": "Ap 205"
+                }
+            },
+            "available_balance": null,
+            "nsu_processadora": null,
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13812",
+        "transaction_amount": 105.1299999999999954525264911353588104248046875,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "callback_url": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 0,
+            "total_paid_amount": 105.1299999999999954525264911353588104248046875,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 0,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null,
+            "bank_transfer_id": null,
+            "transaction_id": null
+        },
+        "fee_details": [],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": null,
+        "card": [],
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "OPENPLATFORM",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            },
+            "location": {
+                "state_id": null,
+                "source": null
+            },
+            "application_data": {
+                "name": null,
+                "version": null
+            },
+            "transaction_data": {
+                "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da05204000053039865406105.135802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter2346579291763040294",
+                "bank_transfer_id": null,
+                "transaction_id": null,
+                "financial_institution": null,
+                "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/23465792917\/ticket?caller_id=6350391&hash=e174ee4c-2cfc-440e-86d5-8e2e9bd59f75",
+                "bank_info": {
+                    "payer": {
+                        "account_id": null,
+                        "id": null,
+                        "long_name": null,
+                        "external_account_id": null
+                    },
+                    "collector": {
+                        "account_id": null,
+                        "long_name": null,
+                        "account_holder_name": "Thiago Erminio Victor",
+                        "transfer_account_id": null
+                    },
+                    "is_same_bank_account_owner": null,
+                    "origin_bank_id": null,
+                    "origin_wallet_id": null
+                },
+                "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAI0klEQVR42u3dUa7bRgwF0NmB9r9L7UBFigSRh5ejlzYomtHxR5DEtnTkvwtyyHH9Qa9z0NLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tL+fu2YX8e3\/zu+v\/Hts\/P\/lTc+vvb3G9\/f\/fG57zeqFy1X+WDQ0tLS0tLS0tLS0tK+RHvcI9v9IuN+zbuiwU\/vfibB+gNN2sSgpaWlpaWlpaWlpaV9i7Ykwese+O74n7xyzT4sTpdq75sYtLS0tLS0tLS0tLS079ROYXGq+DVxcAqf9zemBxqfZFpaWlpaWlpaWlpaWtqHNFeLcylZtv2XiXxvzLxoaWlpaWlpaWlpaWnfrs34mvXKva975MwRcVU3vP\/fP+4RpaWlpaWlpaWlpaWl\/dO17ZSS\/\/aPfztThZaWlpaWlpaWlpaW9g\/Vrl\/TBMgp+qUhI095cnTFvvZFS0tLS0tLS0tLS0u7u7YdQTLKeP48ir+GwDLVPz1kcwBvWd2jpaWlpaWlpaWlpaXdTztdsz29Nj1LAUyxcSxmk0w\/VfsNWlpaWlpaWlpaWlraN2mvr0+KTKiS\/9br2qagWY0PKZKWlpaWlpaWlpaWlnYj7VS1K184w7OMz2TZNFyua39JW5Zn09LS0tLS0tLS0tLSvkJbc2LZtja6pslR+i+nx22Pvy2+e35lSgktLS0tLS0tLS0tLe1W2vSF+9\/SkbgJdeQWzRQlQ\/0u5lhaWlpaWlpaWlpaWtpXaNfRbyrdpY1pZZ31NH2kaanMlcE80oSWlpaWlpaWlpaWlnZn7VSwK+Qr4M8yFTIlxjSXMhX70sx\/WlpaWlpaWlpaWlraN2nXt22nj6zCYj46VzcC5Hx6PEwpoaWlpaWlpaWlpaWl3Uw7NT5en6hVmW6q7q1rdfeJJKvy4HKqPy0tLS0tLS0tLS0t7X7a6WNltP9RPteuws59muvuzNXNaWlpaWlpaWlpaWlp36MtHZHTKuzpw03azJmwvVGqB47Hs3u0tLS0tLS0tLS0tLS7aUv0W51ou6fIK084+ULXZfnIL\/aI0tLS0tLS0tLS0tLSbqUtuS5V\/KYJIs3QkpQx2wTa4kNDKC0tLS0tLS0tLS0t7d7aZvrI\/Y7VU\/428pG4e8mwKfbl3W4HLS0tLS0tLS0tLS3tS7SpS3JabF2qe\/U+pSh4hdJdWnZ9dofjLlpaWlpaWlpaWlpa2tdoP1ov29kk6RZ5bVqdXJKg6anKLWlpaWlpaWlpaWlpaV+hPcOUkmuxBTsFw5QO80emd6\/chElLS0tLS0tLS0tLS\/sm7RQCRxhakip5dQzk1HpZomR6jNp1WY7E0dLS0tLS0tLS0tLS7q1N00fyMJIJ+jTyceQt2GdIqme40UFLS0tLS0tLS0tLS\/sS7SIEHjloFkDzGOmBUjkvjTmhpaWlpaWlpaWlpaV9jzaHxSP3Wt5lDWU65Tb9GOlwXPnu2Z+Go6WlpaWlpaWlpaWl3VHbrq5+nOWfd1qPbvna9Zkivxo5aWlpaWlpaWlpaWlp99ampsnpqFtpzGyetCTQK1+0FAWPRaKlpaWlpaWlpaWlpaXdX9tOHznzhXOH5SixsRyOq3dbd2zS0tLS0tLS0tLS0tK+Qpsj4tmFwGORHUuxb3S1vys8Rvt\/tLS0tLS0tLS0tLS0u2uPHCDTu1f3Sl+73\/scY9Fwmcp+By0tLS0tLS0tLS0t7Uu0i9eZT74ttD+\/NvLe7DTNJF2ZlpaWlpaWlpaWlpb2Pdp88m2VBEuyPJd9miOPi1xM9R\/9aThaWlpaWlpaWlpaWtodtcdn0+R04fpqN2OXLs6jBM3yY5zLf9LS0tLS0tLS0tLS0r5FW0aV1FNu01T\/afBIiH5jseJ6dG\/UDWy0tLS0tLS0tLS0tLS7a1OQW+xdSxW6q9Tq7vXAs6\/aNQNKFlNKaGlpaWlpaWlpaWlpt9WeeYRkucVUFBx5W3b6bioZlt\/higMmaWlpaWlpaWlpaWlpd9aWr7bx8ip1vvSNUvtrvlYuOoVPWlpaWlpaWlpaWlra92iPp5VrqUyXFVdOlimBTkFzeoznHQS0tLS0tLS0tLS0tLT7aEe5Y4IuyJPiKqNP0piT\/GPU\/dq0tLS0tLS0tLS0tLSv0E5TSgr5sUyXKWf39NdyNwAtLS0tLS0tLS0tLe2rtKm5shxNWx1hK3c8np6veOov0nVd0tLS0tLS0tLS0tLSbqpN5bcS6WqXZNoI0BYFFwGy4pcpkpaWlpaWlpaWlpaWdittmeBfq3HlCepqtuk03NPnPnJiui8tLS0tLS0tLS0tLe17tLkQV0f2l3uPEAyn03BjWexrlrktp5TQ0tLS0tLS0tLS0tJuqs0JL2W9tA973Mt+ZXDkGYagXN1agPwb0tLS0tLS0tLS0tLSvkA7PlsqP4Y\/li1qae11vcoXUG2350OKpKWlpaWlpaWlpaWl3Ug7GfNEko\/iXPrnIiLWM3CLwSjPPaK0tLS0tLS0tLS0tLSbatNhtqucVMu9lqOU+MofY+Eu331OkbS0tLS0tLS0tLS0tBtpc9Ht6NZjX2HF9ZE3AtwfsrlK2X094oI3WlpaWlpaWlpaWlranbU5BE5n22olb5EdR5g5MrolbUeeX\/mceWlpaWlpaWlpaWlpaffRHosAWTosmyH\/5UjcepjktDTgV1IkLS0tLS0tLS0tLS3tlto20qWuyxwMmxiaHuipY3PZI0pLS0tLS0tLS0tLS\/sube7KPMv0\/+kWKTF+AmJ2\/GJ1j5aWlpaWlpaWlpaW9gXaEfak1WNtZd5kcxCuXdyWy4MHLS0tLS0tLS0tLS3t67QF36BK62Xzbh7on5or6\/WeUyQtLS0tLS0tLS0tLe1m2tr4WBopRxhQcuSbtag00uROvvIabVpaWlpaWlpaWlpa2t21\/\/8XLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLe1v0\/4FTD6s5kSKwCkAAAAASUVORK5CYII="
+            }
+        }
+    }
+}
+06-25-2022 @ 13:59:50 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 23465792917,
+        "date_created": "2022-06-25T12:59:49.373-04:00",
+        "date_approved": null,
+        "date_last_updated": "2022-06-25T12:59:49.373-04:00",
+        "date_of_expiration": "2022-06-25T13:29:49.000-04:00",
+        "money_release_date": null,
+        "operation_type": "regular_payment",
+        "issuer_id": null,
+        "payment_method_id": "pix",
+        "payment_type_id": "bank_transfer",
+        "status": "pending",
+        "status_detail": "pending_waiting_transfer",
+        "currency_id": "BRL",
+        "description": "Farofa com Muitas Sementes e Castanhas x 2, Farofa com Muita Cebola x 1, Faropop x 1",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": null,
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "6350391",
+            "operator_id": null,
+            "email": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "pix",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Gramado",
+                "state_name": "RS",
+                "country_name": "BR",
+                "zip_code": "95670-000",
+                "street_name": "Rua Tia Rita"
+            },
+            "module_version": "5.8.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.6.1",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": "sergio.tscha@gmail.com",
+                "registered_user": "yes",
+                "user_registration_date": "2022-05-18T23:29:43.000+00:00"
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 2",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "37.2"
+                },
+                {
+                    "id": "195",
+                    "title": "Farofa com Muita Cebola x 1",
+                    "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "17.2"
+                },
+                {
+                    "id": "200",
+                    "title": "Faropop x 1",
+                    "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "14.2"
+                },
+                {
+                    "id": null,
+                    "title": "Jadlog Package (Entrega em 7 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "36.53"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(54) 9123-0718"
+                },
+                "address": {
+                    "zip_code": "95670-000",
+                    "street_name": "Rua Tia Rita \/ Gramado RS BR"
+                },
+                "first_name": "Sergio",
+                "last_name": "Wanderley"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "95670-000",
+                    "state_name": "RS",
+                    "city_name": "Gramado",
+                    "street_name": "Rua Tia Rita Ap 205 Gramado RS BR",
+                    "apartment": "Ap 205"
+                }
+            },
+            "available_balance": null,
+            "nsu_processadora": null,
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13812",
+        "transaction_amount": 105.1299999999999954525264911353588104248046875,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "callback_url": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 0,
+            "total_paid_amount": 105.1299999999999954525264911353588104248046875,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 0,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null,
+            "bank_transfer_id": null,
+            "transaction_id": null
+        },
+        "fee_details": [],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": null,
+        "card": [],
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "OPENPLATFORM",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            },
+            "location": {
+                "state_id": null,
+                "source": null
+            },
+            "application_data": {
+                "name": null,
+                "version": null
+            },
+            "transaction_data": {
+                "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da05204000053039865406105.135802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter2346579291763040294",
+                "bank_transfer_id": null,
+                "transaction_id": null,
+                "financial_institution": null,
+                "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/23465792917\/ticket?caller_id=6350391&hash=e174ee4c-2cfc-440e-86d5-8e2e9bd59f75",
+                "bank_info": {
+                    "payer": {
+                        "account_id": null,
+                        "id": null,
+                        "long_name": null,
+                        "external_account_id": null
+                    },
+                    "collector": {
+                        "account_id": null,
+                        "long_name": null,
+                        "account_holder_name": "Thiago Erminio Victor",
+                        "transfer_account_id": null
+                    },
+                    "is_same_bank_account_owner": null,
+                    "origin_bank_id": null,
+                    "origin_wallet_id": null
+                },
+                "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAI0klEQVR42u3dUa7bRgwF0NmB9r9L7UBFigSRh5ejlzYomtHxR5DEtnTkvwtyyHH9Qa9z0NLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tL+fu2YX8e3\/zu+v\/Hts\/P\/lTc+vvb3G9\/f\/fG57zeqFy1X+WDQ0tLS0tLS0tLS0tK+RHvcI9v9IuN+zbuiwU\/vfibB+gNN2sSgpaWlpaWlpaWlpaV9i7Ykwese+O74n7xyzT4sTpdq75sYtLS0tLS0tLS0tLS079ROYXGq+DVxcAqf9zemBxqfZFpaWlpaWlpaWlpaWtqHNFeLcylZtv2XiXxvzLxoaWlpaWlpaWlpaWnfrs34mvXKva975MwRcVU3vP\/fP+4RpaWlpaWlpaWlpaWl\/dO17ZSS\/\/aPfztThZaWlpaWlpaWlpaW9g\/Vrl\/TBMgp+qUhI095cnTFvvZFS0tLS0tLS0tLS0u7u7YdQTLKeP48ir+GwDLVPz1kcwBvWd2jpaWlpaWlpaWlpaXdTztdsz29Nj1LAUyxcSxmk0w\/VfsNWlpaWlpaWlpaWlraN2mvr0+KTKiS\/9br2qagWY0PKZKWlpaWlpaWlpaWlnYj7VS1K184w7OMz2TZNFyua39JW5Zn09LS0tLS0tLS0tLSvkJbc2LZtja6pslR+i+nx22Pvy2+e35lSgktLS0tLS0tLS0tLe1W2vSF+9\/SkbgJdeQWzRQlQ\/0u5lhaWlpaWlpaWlpaWtpXaNfRbyrdpY1pZZ31NH2kaanMlcE80oSWlpaWlpaWlpaWlnZn7VSwK+Qr4M8yFTIlxjSXMhX70sx\/WlpaWlpaWlpaWlraN2nXt22nj6zCYj46VzcC5Hx6PEwpoaWlpaWlpaWlpaWl3Uw7NT5en6hVmW6q7q1rdfeJJKvy4HKqPy0tLS0tLS0tLS0t7X7a6WNltP9RPteuws59muvuzNXNaWlpaWlpaWlpaWlp36MtHZHTKuzpw03azJmwvVGqB47Hs3u0tLS0tLS0tLS0tLS7aUv0W51ou6fIK084+ULXZfnIL\/aI0tLS0tLS0tLS0tLSbqUtuS5V\/KYJIs3QkpQx2wTa4kNDKC0tLS0tLS0tLS0t7d7aZvrI\/Y7VU\/428pG4e8mwKfbl3W4HLS0tLS0tLS0tLS3tS7SpS3JabF2qe\/U+pSh4hdJdWnZ9dofjLlpaWlpaWlpaWlpa2tdoP1ov29kk6RZ5bVqdXJKg6anKLWlpaWlpaWlpaWlpaV+hPcOUkmuxBTsFw5QO80emd6\/chElLS0tLS0tLS0tLS\/sm7RQCRxhakip5dQzk1HpZomR6jNp1WY7E0dLS0tLS0tLS0tLS7q1N00fyMJIJ+jTyceQt2GdIqme40UFLS0tLS0tLS0tLS\/sS7SIEHjloFkDzGOmBUjkvjTmhpaWlpaWlpaWlpaV9jzaHxSP3Wt5lDWU65Tb9GOlwXPnu2Z+Go6WlpaWlpaWlpaWl3VHbrq5+nOWfd1qPbvna9Zkivxo5aWlpaWlpaWlpaWlp99ampsnpqFtpzGyetCTQK1+0FAWPRaKlpaWlpaWlpaWlpaXdX9tOHznzhXOH5SixsRyOq3dbd2zS0tLS0tLS0tLS0tK+Qpsj4tmFwGORHUuxb3S1vys8Rvt\/tLS0tLS0tLS0tLS0u2uPHCDTu1f3Sl+73\/scY9Fwmcp+By0tLS0tLS0tLS0t7Uu0i9eZT74ttD+\/NvLe7DTNJF2ZlpaWlpaWlpaWlpb2Pdp88m2VBEuyPJd9miOPi1xM9R\/9aThaWlpaWlpaWlpaWtodtcdn0+R04fpqN2OXLs6jBM3yY5zLf9LS0tLS0tLS0tLS0r5FW0aV1FNu01T\/afBIiH5jseJ6dG\/UDWy0tLS0tLS0tLS0tLS7a1OQW+xdSxW6q9Tq7vXAs6\/aNQNKFlNKaGlpaWlpaWlpaWlpt9WeeYRkucVUFBx5W3b6bioZlt\/higMmaWlpaWlpaWlpaWlpd9aWr7bx8ip1vvSNUvtrvlYuOoVPWlpaWlpaWlpaWlra92iPp5VrqUyXFVdOlimBTkFzeoznHQS0tLS0tLS0tLS0tLT7aEe5Y4IuyJPiKqNP0piT\/GPU\/dq0tLS0tLS0tLS0tLSv0E5TSgr5sUyXKWf39NdyNwAtLS0tLS0tLS0tLe2rtKm5shxNWx1hK3c8np6veOov0nVd0tLS0tLS0tLS0tLSbqpN5bcS6WqXZNoI0BYFFwGy4pcpkpaWlpaWlpaWlpaWdittmeBfq3HlCepqtuk03NPnPnJiui8tLS0tLS0tLS0tLe17tLkQV0f2l3uPEAyn03BjWexrlrktp5TQ0tLS0tLS0tLS0tJuqs0JL2W9tA973Mt+ZXDkGYagXN1agPwb0tLS0tLS0tLS0tLSvkA7PlsqP4Y\/li1qae11vcoXUG2350OKpKWlpaWlpaWlpaWl3Ug7GfNEko\/iXPrnIiLWM3CLwSjPPaK0tLS0tLS0tLS0tLSbatNhtqucVMu9lqOU+MofY+Eu331OkbS0tLS0tLS0tLS0tBtpc9Ht6NZjX2HF9ZE3AtwfsrlK2X094oI3WlpaWlpaWlpaWlranbU5BE5n22olb5EdR5g5MrolbUeeX\/mceWlpaWlpaWlpaWlpaffRHosAWTosmyH\/5UjcepjktDTgV1IkLS0tLS0tLS0tLS3tlto20qWuyxwMmxiaHuipY3PZI0pLS0tLS0tLS0tLS\/sube7KPMv0\/+kWKTF+AmJ2\/GJ1j5aWlpaWlpaWlpaW9gXaEfak1WNtZd5kcxCuXdyWy4MHLS0tLS0tLS0tLS3t67QF36BK62Xzbh7on5or6\/WeUyQtLS0tLS0tLS0tLe1m2tr4WBopRxhQcuSbtag00uROvvIabVpaWlpaWlpaWlpa2t21\/\/8XLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLe1v0\/4FTD6s5kSKwCkAAAAASUVORK5CYII="
+            }
+        }
+    }
+}
+06-25-2022 @ 13:59:50 - [check_ipn_response]: received _get content: {
+    "data_id": "23465792917",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+06-25-2022 @ 13:59:50 - [successful_request]: starting to process  update...
+06-25-2022 @ 13:59:50 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 2",
+                "unit_price": "37.2"
+            },
+            {
+                "category_id": "others",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "id": "195",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "quantity": "1",
+                "title": "Farofa com Muita Cebola x 1",
+                "unit_price": "17.2"
+            },
+            {
+                "category_id": "others",
+                "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                "id": "200",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                "quantity": "1",
+                "title": "Faropop x 1",
+                "unit_price": "14.2"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Jadlog Package (Entrega em 7 dias úteis)",
+                "unit_price": "36.53"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Tia Rita \/ Gramado RS BR",
+                "zip_code": "95670-000"
+            },
+            "first_name": "Sergio",
+            "last_name": "Wanderley",
+            "phone": {
+                "number": "(54) 9123-0718"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Ap 205",
+                "city_name": "Gramado",
+                "state_name": "RS",
+                "street_name": "Rua Tia Rita Ap 205 Gramado RS BR",
+                "zip_code": "95670-000"
+            }
+        }
+    },
+    "authorization_code": null,
+    "binary_mode": false,
+    "brand_id": null,
+    "call_for_authorize_id": null,
+    "callback_url": null,
+    "captured": true,
+    "card": [],
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": null,
+    "date_created": "2022-06-25T12:59:49.000-04:00",
+    "date_last_updated": "2022-06-25T12:59:49.000-04:00",
+    "date_of_expiration": "2022-06-25T13:29:49.000-04:00",
+    "deduction_schema": null,
+    "description": "Farofa com Muitas Sementes e Castanhas x 2, Farofa com Muita Cebola x 1, Faropop x 1",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13812",
+    "fee_details": [],
+    "id": 23465792917,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": null,
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "pix",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Gramado",
+            "state_name": "RS",
+            "country_name": "BR",
+            "street_name": "Rua Tia Rita",
+            "zip_code": "95670-000"
+        },
+        "module_version": "5.8.0",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.6.1",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": "sergio.tscha@gmail.com",
+            "registered_user": "yes",
+            "user_registration_date": "2022-05-18T23:29:43.000+00:00"
+        }
+    },
+    "money_release_date": null,
+    "money_release_schema": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": null,
+        "entity_type": null,
+        "first_name": null,
+        "id": "6350391",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "pix",
+    "payment_type_id": "bank_transfer",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "application_data": {
+            "name": null,
+            "version": null
+        },
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "location": {
+            "source": null,
+            "state_id": null
+        },
+        "transaction_data": {
+            "bank_info": {
+                "collector": {
+                    "account_holder_name": "Thiago Erminio Victor",
+                    "account_id": null,
+                    "long_name": null,
+                    "transfer_account_id": null
+                },
+                "is_same_bank_account_owner": null,
+                "origin_bank_id": null,
+                "origin_wallet_id": null,
+                "payer": {
+                    "account_id": null,
+                    "external_account_id": null,
+                    "id": null,
+                    "long_name": null
+                }
+            },
+            "bank_transfer_id": null,
+            "financial_institution": null,
+            "infringement_notification": {
+                "status": null,
+                "type": null
+            },
+            "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da05204000053039865406105.135802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter2346579291763040294",
+            "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAI0klEQVR42u3dUa7bRgwF0NmB9r9L7UBFigSRh5ejlzYomtHxR5DEtnTkvwtyyHH9Qa9z0NLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tL+fu2YX8e3\/zu+v\/Hts\/P\/lTc+vvb3G9\/f\/fG57zeqFy1X+WDQ0tLS0tLS0tLS0tK+RHvcI9v9IuN+zbuiwU\/vfibB+gNN2sSgpaWlpaWlpaWlpaV9i7Ykwese+O74n7xyzT4sTpdq75sYtLS0tLS0tLS0tLS079ROYXGq+DVxcAqf9zemBxqfZFpaWlpaWlpaWlpaWtqHNFeLcylZtv2XiXxvzLxoaWlpaWlpaWlpaWnfrs34mvXKva975MwRcVU3vP\/fP+4RpaWlpaWlpaWlpaWl\/dO17ZSS\/\/aPfztThZaWlpaWlpaWlpaW9g\/Vrl\/TBMgp+qUhI095cnTFvvZFS0tLS0tLS0tLS0u7u7YdQTLKeP48ir+GwDLVPz1kcwBvWd2jpaWlpaWlpaWlpaXdTztdsz29Nj1LAUyxcSxmk0w\/VfsNWlpaWlpaWlpaWlraN2mvr0+KTKiS\/9br2qagWY0PKZKWlpaWlpaWlpaWlnYj7VS1K184w7OMz2TZNFyua39JW5Zn09LS0tLS0tLS0tLSvkJbc2LZtja6pslR+i+nx22Pvy2+e35lSgktLS0tLS0tLS0tLe1W2vSF+9\/SkbgJdeQWzRQlQ\/0u5lhaWlpaWlpaWlpaWtpXaNfRbyrdpY1pZZ31NH2kaanMlcE80oSWlpaWlpaWlpaWlnZn7VSwK+Qr4M8yFTIlxjSXMhX70sx\/WlpaWlpaWlpaWlraN2nXt22nj6zCYj46VzcC5Hx6PEwpoaWlpaWlpaWlpaWl3Uw7NT5en6hVmW6q7q1rdfeJJKvy4HKqPy0tLS0tLS0tLS0t7X7a6WNltP9RPteuws59muvuzNXNaWlpaWlpaWlpaWlp36MtHZHTKuzpw03azJmwvVGqB47Hs3u0tLS0tLS0tLS0tLS7aUv0W51ou6fIK084+ULXZfnIL\/aI0tLS0tLS0tLS0tLSbqUtuS5V\/KYJIs3QkpQx2wTa4kNDKC0tLS0tLS0tLS0t7d7aZvrI\/Y7VU\/428pG4e8mwKfbl3W4HLS0tLS0tLS0tLS3tS7SpS3JabF2qe\/U+pSh4hdJdWnZ9dofjLlpaWlpaWlpaWlpa2tdoP1ov29kk6RZ5bVqdXJKg6anKLWlpaWlpaWlpaWlpaV+hPcOUkmuxBTsFw5QO80emd6\/chElLS0tLS0tLS0tLS\/sm7RQCRxhakip5dQzk1HpZomR6jNp1WY7E0dLS0tLS0tLS0tLS7q1N00fyMJIJ+jTyceQt2GdIqme40UFLS0tLS0tLS0tLS\/sS7SIEHjloFkDzGOmBUjkvjTmhpaWlpaWlpaWlpaV9jzaHxSP3Wt5lDWU65Tb9GOlwXPnu2Z+Go6WlpaWlpaWlpaWl3VHbrq5+nOWfd1qPbvna9Zkivxo5aWlpaWlpaWlpaWlp99ampsnpqFtpzGyetCTQK1+0FAWPRaKlpaWlpaWlpaWlpaXdX9tOHznzhXOH5SixsRyOq3dbd2zS0tLS0tLS0tLS0tK+Qpsj4tmFwGORHUuxb3S1vys8Rvt\/tLS0tLS0tLS0tLS0u2uPHCDTu1f3Sl+73\/scY9Fwmcp+By0tLS0tLS0tLS0t7Uu0i9eZT74ttD+\/NvLe7DTNJF2ZlpaWlpaWlpaWlpb2Pdp88m2VBEuyPJd9miOPi1xM9R\/9aThaWlpaWlpaWlpaWtodtcdn0+R04fpqN2OXLs6jBM3yY5zLf9LS0tLS0tLS0tLS0r5FW0aV1FNu01T\/afBIiH5jseJ6dG\/UDWy0tLS0tLS0tLS0tLS7a1OQW+xdSxW6q9Tq7vXAs6\/aNQNKFlNKaGlpaWlpaWlpaWlpt9WeeYRkucVUFBx5W3b6bioZlt\/higMmaWlpaWlpaWlpaWlpd9aWr7bx8ip1vvSNUvtrvlYuOoVPWlpaWlpaWlpaWlra92iPp5VrqUyXFVdOlimBTkFzeoznHQS0tLS0tLS0tLS0tLT7aEe5Y4IuyJPiKqNP0piT\/GPU\/dq0tLS0tLS0tLS0tLSv0E5TSgr5sUyXKWf39NdyNwAtLS0tLS0tLS0tLe2rtKm5shxNWx1hK3c8np6veOov0nVd0tLS0tLS0tLS0tLSbqpN5bcS6WqXZNoI0BYFFwGy4pcpkpaWlpaWlpaWlpaWdittmeBfq3HlCepqtuk03NPnPnJiui8tLS0tLS0tLS0tLe17tLkQV0f2l3uPEAyn03BjWexrlrktp5TQ0tLS0tLS0tLS0tJuqs0JL2W9tA973Mt+ZXDkGYagXN1agPwb0tLS0tLS0tLS0tLSvkA7PlsqP4Y\/li1qae11vcoXUG2350OKpKWlpaWlpaWlpaWl3Ug7GfNEko\/iXPrnIiLWM3CLwSjPPaK0tLS0tLS0tLS0tLSbatNhtqucVMu9lqOU+MofY+Eu331OkbS0tLS0tLS0tLS0tBtpc9Ht6NZjX2HF9ZE3AtwfsrlK2X094oI3WlpaWlpaWlpaWlranbU5BE5n22olb5EdR5g5MrolbUeeX\/mceWlpaWlpaWlpaWlpaffRHosAWTosmyH\/5UjcepjktDTgV1IkLS0tLS0tLS0tLS3tlto20qWuyxwMmxiaHuipY3PZI0pLS0tLS0tLS0tLS\/sube7KPMv0\/+kWKTF+AmJ2\/GJ1j5aWlpaWlpaWlpaW9gXaEfak1WNtZd5kcxCuXdyWy4MHLS0tLS0tLS0tLS3t67QF36BK62Xzbh7on5or6\/WeUyQtLS0tLS0tLS0tLe1m2tr4WBopRxhQcuSbtag00uROvvIabVpaWlpaWlpaWlpa2t21\/\/8XLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLe1v0\/4FTD6s5kSKwCkAAAAASUVORK5CYII=",
+            "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/23465792917\/ticket?caller_id=6350391&hash=e174ee4c-2cfc-440e-86d5-8e2e9bd59f75",
+            "transaction_id": null
+        },
+        "type": "OPENPLATFORM"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": null,
+    "status": "pending",
+    "status_detail": "pending_waiting_transfer",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 105.1299999999999954525264911353588104248046875,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "bank_transfer_id": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 0,
+        "net_received_amount": 0,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 105.1299999999999954525264911353588104248046875,
+        "transaction_id": null
+    }
+}
+06-25-2022 @ 13:59:50 - [successful_request]: Changing order status to: pending
+06-25-2022 @ 14:00:39 - [check_ipn_response]: received _get content: {
+    "data_id": "23465792917",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+06-25-2022 @ 14:00:40 - [successful_request]: starting to process  update...
+06-25-2022 @ 14:00:40 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "bank_info": {
+            "is_same_bank_account_owner": false
+        },
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 2",
+                "unit_price": "37.2"
+            },
+            {
+                "category_id": "others",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "id": "195",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "quantity": "1",
+                "title": "Farofa com Muita Cebola x 1",
+                "unit_price": "17.2"
+            },
+            {
+                "category_id": "others",
+                "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                "id": "200",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                "quantity": "1",
+                "title": "Faropop x 1",
+                "unit_price": "14.2"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Jadlog Package (Entrega em 7 dias úteis)",
+                "unit_price": "36.53"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Tia Rita \/ Gramado RS BR",
+                "zip_code": "95670-000"
+            },
+            "first_name": "Sergio",
+            "last_name": "Wanderley",
+            "phone": {
+                "number": "(54) 9123-0718"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Ap 205",
+                "city_name": "Gramado",
+                "state_name": "RS",
+                "street_name": "Rua Tia Rita Ap 205 Gramado RS BR",
+                "zip_code": "95670-000"
+            }
+        }
+    },
+    "authorization_code": null,
+    "binary_mode": false,
+    "brand_id": null,
+    "call_for_authorize_id": null,
+    "callback_url": null,
+    "captured": true,
+    "card": [],
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-06-25T13:00:33.000-04:00",
+    "date_created": "2022-06-25T12:59:49.000-04:00",
+    "date_last_updated": "2022-06-25T13:00:33.000-04:00",
+    "date_of_expiration": "2022-06-25T13:29:49.000-04:00",
+    "deduction_schema": null,
+    "description": "Farofa com Muitas Sementes e Castanhas x 2, Farofa com Muita Cebola x 1, Faropop x 1",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13812",
+    "fee_details": [
+        {
+            "amount": 1.04000000000000003552713678800500929355621337890625,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 23465792917,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": null,
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "pix",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Gramado",
+            "state_name": "RS",
+            "country_name": "BR",
+            "street_name": "Rua Tia Rita",
+            "zip_code": "95670-000"
+        },
+        "module_version": "5.8.0",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.6.1",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": "sergio.tscha@gmail.com",
+            "registered_user": "yes",
+            "user_registration_date": "2022-05-18T23:29:43.000+00:00"
+        }
+    },
+    "money_release_date": "2022-06-25T13:00:33.000-04:00",
+    "money_release_schema": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": "sergio.tscha@gmail.com",
+        "entity_type": null,
+        "first_name": null,
+        "id": "6350391",
+        "identification": {
+            "number": "02527853471",
+            "type": "CPF"
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "pix",
+    "payment_type_id": "bank_transfer",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "application_data": {
+            "name": null,
+            "version": null
+        },
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "location": {
+            "source": null,
+            "state_id": null
+        },
+        "sub_type": "INTER_PSP",
+        "transaction_data": {
+            "bank_info": {
+                "collector": {
+                    "account_holder_name": "Thiago Erminio Victor",
+                    "account_id": 55972707790,
+                    "long_name": "Mercadopago.com Representações Ltda.",
+                    "transfer_account_id": null
+                },
+                "is_same_bank_account_owner": false,
+                "origin_bank_id": null,
+                "origin_wallet_id": null,
+                "payer": {
+                    "account_id": 65059831,
+                    "external_account_id": null,
+                    "id": null,
+                    "long_name": "Nu Pagamentos S.A."
+                }
+            },
+            "bank_transfer_id": 1101999494,
+            "financial_institution": 1,
+            "infringement_notification": {
+                "status": null,
+                "type": null
+            },
+            "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da05204000053039865406105.135802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter2346579291763040294",
+            "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAI0klEQVR42u3dUa7bRgwF0NmB9r9L7UBFigSRh5ejlzYomtHxR5DEtnTkvwtyyHH9Qa9z0NLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tL+fu2YX8e3\/zu+v\/Hts\/P\/lTc+vvb3G9\/f\/fG57zeqFy1X+WDQ0tLS0tLS0tLS0tK+RHvcI9v9IuN+zbuiwU\/vfibB+gNN2sSgpaWlpaWlpaWlpaV9i7Ykwese+O74n7xyzT4sTpdq75sYtLS0tLS0tLS0tLS079ROYXGq+DVxcAqf9zemBxqfZFpaWlpaWlpaWlpaWtqHNFeLcylZtv2XiXxvzLxoaWlpaWlpaWlpaWnfrs34mvXKva975MwRcVU3vP\/fP+4RpaWlpaWlpaWlpaWl\/dO17ZSS\/\/aPfztThZaWlpaWlpaWlpaW9g\/Vrl\/TBMgp+qUhI095cnTFvvZFS0tLS0tLS0tLS0u7u7YdQTLKeP48ir+GwDLVPz1kcwBvWd2jpaWlpaWlpaWlpaXdTztdsz29Nj1LAUyxcSxmk0w\/VfsNWlpaWlpaWlpaWlraN2mvr0+KTKiS\/9br2qagWY0PKZKWlpaWlpaWlpaWlnYj7VS1K184w7OMz2TZNFyua39JW5Zn09LS0tLS0tLS0tLSvkJbc2LZtja6pslR+i+nx22Pvy2+e35lSgktLS0tLS0tLS0tLe1W2vSF+9\/SkbgJdeQWzRQlQ\/0u5lhaWlpaWlpaWlpaWtpXaNfRbyrdpY1pZZ31NH2kaanMlcE80oSWlpaWlpaWlpaWlnZn7VSwK+Qr4M8yFTIlxjSXMhX70sx\/WlpaWlpaWlpaWlraN2nXt22nj6zCYj46VzcC5Hx6PEwpoaWlpaWlpaWlpaWl3Uw7NT5en6hVmW6q7q1rdfeJJKvy4HKqPy0tLS0tLS0tLS0t7X7a6WNltP9RPteuws59muvuzNXNaWlpaWlpaWlpaWlp36MtHZHTKuzpw03azJmwvVGqB47Hs3u0tLS0tLS0tLS0tLS7aUv0W51ou6fIK084+ULXZfnIL\/aI0tLS0tLS0tLS0tLSbqUtuS5V\/KYJIs3QkpQx2wTa4kNDKC0tLS0tLS0tLS0t7d7aZvrI\/Y7VU\/428pG4e8mwKfbl3W4HLS0tLS0tLS0tLS3tS7SpS3JabF2qe\/U+pSh4hdJdWnZ9dofjLlpaWlpaWlpaWlpa2tdoP1ov29kk6RZ5bVqdXJKg6anKLWlpaWlpaWlpaWlpaV+hPcOUkmuxBTsFw5QO80emd6\/chElLS0tLS0tLS0tLS\/sm7RQCRxhakip5dQzk1HpZomR6jNp1WY7E0dLS0tLS0tLS0tLS7q1N00fyMJIJ+jTyceQt2GdIqme40UFLS0tLS0tLS0tLS\/sS7SIEHjloFkDzGOmBUjkvjTmhpaWlpaWlpaWlpaV9jzaHxSP3Wt5lDWU65Tb9GOlwXPnu2Z+Go6WlpaWlpaWlpaWl3VHbrq5+nOWfd1qPbvna9Zkivxo5aWlpaWlpaWlpaWlp99ampsnpqFtpzGyetCTQK1+0FAWPRaKlpaWlpaWlpaWlpaXdX9tOHznzhXOH5SixsRyOq3dbd2zS0tLS0tLS0tLS0tK+Qpsj4tmFwGORHUuxb3S1vys8Rvt\/tLS0tLS0tLS0tLS0u2uPHCDTu1f3Sl+73\/scY9Fwmcp+By0tLS0tLS0tLS0t7Uu0i9eZT74ttD+\/NvLe7DTNJF2ZlpaWlpaWlpaWlpb2Pdp88m2VBEuyPJd9miOPi1xM9R\/9aThaWlpaWlpaWlpaWtodtcdn0+R04fpqN2OXLs6jBM3yY5zLf9LS0tLS0tLS0tLS0r5FW0aV1FNu01T\/afBIiH5jseJ6dG\/UDWy0tLS0tLS0tLS0tLS7a1OQW+xdSxW6q9Tq7vXAs6\/aNQNKFlNKaGlpaWlpaWlpaWlpt9WeeYRkucVUFBx5W3b6bioZlt\/higMmaWlpaWlpaWlpaWlpd9aWr7bx8ip1vvSNUvtrvlYuOoVPWlpaWlpaWlpaWlra92iPp5VrqUyXFVdOlimBTkFzeoznHQS0tLS0tLS0tLS0tLT7aEe5Y4IuyJPiKqNP0piT\/GPU\/dq0tLS0tLS0tLS0tLSv0E5TSgr5sUyXKWf39NdyNwAtLS0tLS0tLS0tLe2rtKm5shxNWx1hK3c8np6veOov0nVd0tLS0tLS0tLS0tLSbqpN5bcS6WqXZNoI0BYFFwGy4pcpkpaWlpaWlpaWlpaWdittmeBfq3HlCepqtuk03NPnPnJiui8tLS0tLS0tLS0tLe17tLkQV0f2l3uPEAyn03BjWexrlrktp5TQ0tLS0tLS0tLS0tJuqs0JL2W9tA973Mt+ZXDkGYagXN1agPwb0tLS0tLS0tLS0tLSvkA7PlsqP4Y\/li1qae11vcoXUG2350OKpKWlpaWlpaWlpaWl3Ug7GfNEko\/iXPrnIiLWM3CLwSjPPaK0tLS0tLS0tLS0tLSbatNhtqucVMu9lqOU+MofY+Eu331OkbS0tLS0tLS0tLS0tBtpc9Ht6NZjX2HF9ZE3AtwfsrlK2X094oI3WlpaWlpaWlpaWlranbU5BE5n22olb5EdR5g5MrolbUeeX\/mceWlpaWlpaWlpaWlpaffRHosAWTosmyH\/5UjcepjktDTgV1IkLS0tLS0tLS0tLS3tlto20qWuyxwMmxiaHuipY3PZI0pLS0tLS0tLS0tLS\/sube7KPMv0\/+kWKTF+AmJ2\/GJ1j5aWlpaWlpaWlpaW9gXaEfak1WNtZd5kcxCuXdyWy4MHLS0tLS0tLS0tLS3t67QF36BK62Xzbh7on5or6\/WeUyQtLS0tLS0tLS0tLe1m2tr4WBopRxhQcuSbtag00uROvvIabVpaWlpaWlpaWlpa2t21\/\/8XLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLe1v0\/4FTD6s5kSKwCkAAAAASUVORK5CYII=",
+            "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/23465792917\/ticket?caller_id=6350391&hash=e174ee4c-2cfc-440e-86d5-8e2e9bd59f75",
+            "transaction_id": "PIXE18236120202206251700s007301d602"
+        },
+        "type": "OPENPLATFORM"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": null,
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 105.1299999999999954525264911353588104248046875,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "bank_transfer_id": 1101999494,
+        "external_resource_url": null,
+        "financial_institution": "1",
+        "installment_amount": 0,
+        "net_received_amount": 104.090000000000003410605131648480892181396484375,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 105.1299999999999954525264911353588104248046875,
+        "transaction_id": "PIXE18236120202206251700s007301d602"
+    }
+}
+06-25-2022 @ 14:00:40 - [successful_request]: Changing order status to: processing

@@ -1,0 +1,166 @@
+# Translation of Plugins - Frenet Shipping Gateway for WooCommerce - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Frenet Shipping Gateway for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-24 15:24:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Frenet Shipping Gateway for WooCommerce - Stable (latest release)\n"
+
+#: includes/class-wc-frenet.php:119
+msgid "Display shipping simulator in single product"
+msgstr "Exibir simulador de frete na página do produto"
+
+#: includes/class-wc-frenet.php:116
+msgid "Shipping Simulator"
+msgstr "Simulador de frete"
+
+#: includes/class-wc-frenet-shipping-simulator.php:40
+msgid "Não foi possível simular o frete, por favor tente adicionar o produto ao carrinho e prossiga para tentar obter o valor"
+msgstr "Não foi possível simular o frete, por favor tente adicionar o produto ao carrinho e prossiga para tentar obter o valor"
+
+#: includes/class-wc-frenet.php:154
+msgid "Your Frenet token."
+msgstr "Seu token Frenet."
+
+#: includes/class-wc-frenet.php:152
+msgid "Token"
+msgstr "Token"
+
+#. Author URI of the plugin
+msgid "http://www.frenet.com.br"
+msgstr "http://www.frenet.com.br"
+
+#. Author of the plugin
+msgid "Rafael Mancini"
+msgstr "Rafael Mancini"
+
+#. Description of the plugin
+msgid "Frenet para WooCommerce"
+msgstr "Frenet para WooCommerce"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/FrenetGatewaydeFretes/woo-shipping-gateway"
+msgstr "https://github.com/FrenetGatewaydeFretes/woo-shipping-gateway"
+
+#: includes/class-wc-frenet.php:356
+msgid "Delivery in %d working day"
+msgid_plural "Delivery in %d working days"
+msgstr[0] "Entrega em %d dia útil"
+msgstr[1] "Entrega em %d dias úteis"
+
+#: includes/class-wc-frenet.php:193
+msgid "Log Frenet events, such as WebServices requests, inside %s."
+msgstr "Registrar eventos do Frenet, como solicitações de serviços da Web, dentro de %s. "
+
+#: includes/class-wc-frenet.php:191
+msgid "Enable logging"
+msgstr "Habilitar o relatório de depuração"
+
+#: includes/class-wc-frenet.php:189
+msgid "Debug Log"
+msgstr "Relatório de Depuração"
+
+#: includes/class-wc-frenet.php:185
+msgid "Testing"
+msgstr "Teste"
+
+#: includes/class-wc-frenet.php:180
+msgid "Minimum length of the package. Frenet needs at least 16 cm."
+msgstr "Comprimento mínimo do pacote. O Frenet precisa de pelo menos 16 cm. "
+
+#: includes/class-wc-frenet.php:178
+msgid "Minimum Length"
+msgstr "Comprimento Mínimo"
+
+#: includes/class-wc-frenet.php:173
+msgid "Minimum width of the package. Frenet needs at least 11 cm."
+msgstr "Largura mínima do pacote. O Frenet precisa de pelo menos 11 cm. "
+
+#: includes/class-wc-frenet.php:171
+msgid "Minimum Width"
+msgstr "Largura Mínima"
+
+#: includes/class-wc-frenet.php:166
+msgid "Minimum height of the package. Frenet needs at least 2 cm."
+msgstr "Altura mínima do pacote. O Frenet precisa de pelo menos 2 cm. "
+
+#: includes/class-wc-frenet.php:164
+msgid "Minimum Height"
+msgstr "Altura Mínima"
+
+#: includes/class-wc-frenet.php:160
+msgid "Sets a minimum measure for the package."
+msgstr "Defina uma medida mínima para o pacote."
+
+#: includes/class-wc-frenet.php:158
+msgid "Package Standard"
+msgstr "Pacote Padrão"
+
+#: includes/class-wc-frenet.php:148
+msgid "Your Frenet access key password."
+msgstr "Sua senha da chave de acesso do Frenet. "
+
+#: includes/class-wc-frenet.php:146
+msgid "Password"
+msgstr "Password"
+
+#: includes/class-wc-frenet.php:142
+msgid "Your Frenet access key."
+msgstr "Sua chave de acesso Frenet. "
+
+#: includes/class-wc-frenet.php:140
+msgid "User"
+msgstr "Usuário"
+
+#: includes/class-wc-frenet.php:134
+msgid "Additional days to the estimated delivery."
+msgstr "Dias adicionais para a entrega estimada."
+
+#: includes/class-wc-frenet.php:132
+msgid "Additional days"
+msgstr "Dias adicionais"
+
+#: includes/class-wc-frenet.php:127
+msgid "Display date of estimated delivery."
+msgstr "Exibe a data de entrega estimada."
+
+#: includes/class-wc-frenet.php:118 includes/class-wc-frenet.php:126
+msgid "Enable"
+msgstr "Ativar"
+
+#: includes/class-wc-frenet.php:124
+msgid "Estimated delivery"
+msgstr "Estimativa de entrega"
+
+#: includes/class-wc-frenet.php:112
+msgid "Zip Code from where the requests are sent."
+msgstr "CEP de onde os pedidos são enviados."
+
+#: includes/class-wc-frenet.php:110
+msgid "Origin Zip Code"
+msgstr "CEP de origem"
+
+#: includes/class-wc-frenet.php:105
+msgid "This controls the title which the user sees during checkout."
+msgstr "Isso controla o título que o usuário vê durante o checkout."
+
+#: includes/class-wc-frenet.php:103
+msgid "Title"
+msgstr "Title"
+
+#: includes/class-wc-frenet.php:99
+msgid "Enable this shipping method"
+msgstr "Ativar este método de envio"
+
+#: includes/class-wc-frenet.php:97
+msgid "Enable/Disable"
+msgstr "Habilita/Desabilita"
+
+#: includes/class-wc-frenet.php:22 includes/class-wc-frenet.php:107
+msgid "Frenet"
+msgstr "Frenet"

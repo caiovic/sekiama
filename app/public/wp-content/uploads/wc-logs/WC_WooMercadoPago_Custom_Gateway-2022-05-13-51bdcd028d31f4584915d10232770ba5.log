@@ -1,0 +1,789 @@
+05-13-2022 @ 14:45:30 - [process_payment]: POST Custom: {
+    "installments": "1",
+    "amount": "41.36",
+    "currency_ratio": "1",
+    "campaign_id": "",
+    "campaign": "",
+    "discount": "",
+    "paymentMethodId": "visa",
+    "token": "e8c8c9771c43916940ac938f79aa69de",
+    "checkout_type": "custom"
+}
+05-13-2022 @ 14:45:30 - [process_payment]: preparing to get response of custom checkout.
+05-13-2022 @ 14:45:30 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13747",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "transaction_amount": 41.3599999999999994315658113919198513031005859375,
+    "token": "e8c8c9771c43916940ac938f79aa69de",
+    "description": "Kit Fit x 1",
+    "installments": 1,
+    "payment_method_id": "visa",
+    "payer": {
+        "email": "fesavino@hotmail.com"
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.4.1",
+        "module_version": "5.7.6",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "03114-000",
+            "street_name": "Av. Paes de Barros",
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "custom",
+        "checkout_type": "credit_card"
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 205,
+                "title": "Kit Fit x 1",
+                "description": "As-farofas-que-cabem-no-seu-plano-alimentar.-Otima-fonte-de-fibras-nutricionais.-Neste-kit-contem-as-farofas-strongCom-Muitas-Sementes-e-Com-Muitas-Sementes-Castanhas.strong",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-fit-1.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 29.699999999999999289457264239899814128875732421875
+            },
+            {
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "description": "Serviço de envio usado pela loja.",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 11.660000000000000142108547152020037174224853515625
+            }
+        ],
+        "payer": {
+            "first_name": "Fernanda",
+            "last_name": "Savino",
+            "phone": {
+                "number": "(11) 99750-7848"
+            },
+            "address": {
+                "zip_code": "03114-000",
+                "street_name": "Av. Paes de Barros \/ São Paulo SP BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "03114-000",
+                "street_name": "Av. Paes de Barros Apto. 22 São Paulo SP BR",
+                "apartment": "Apto. 22",
+                "city_name": "São Paulo",
+                "state_name": "SP"
+            }
+        }
+    }
+}
+05-13-2022 @ 14:45:32 - [create_preference]: Preference created: {
+    "status": 201,
+    "response": {
+        "id": 22333186754,
+        "date_created": "2022-05-13T13:45:29.884-04:00",
+        "date_approved": "2022-05-13T13:45:31.353-04:00",
+        "date_last_updated": "2022-05-13T13:45:31.353-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-05-13T13:45:31.353-04:00",
+        "operation_type": "regular_payment",
+        "issuer_id": "25",
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Kit Fit x 1",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "063346",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "106204767",
+            "operator_id": null,
+            "email": "fesavino@hotmail.com",
+            "identification": {
+                "type": "CPF",
+                "number": "29966724885"
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "03114-000",
+                "street_name": "Av. Paes de Barros"
+            },
+            "module_version": "5.7.6",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.4.1",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "205",
+                    "title": "Kit Fit x 1",
+                    "description": "As-farofas-que-cabem-no-seu-plano-alimentar.-Otima-fonte-de-fibras-nutricionais.-Neste-kit-contem-as-farofas-strongCom-Muitas-Sementes-e-Com-Muitas-Sementes-Castanhas.strong",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-fit-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "29.7"
+                },
+                {
+                    "id": null,
+                    "title": "Sedex (Entrega em 3 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "11.66"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 99750-7848"
+                },
+                "address": {
+                    "zip_code": "03114-000",
+                    "street_name": "Av. Paes de Barros \/ São Paulo SP BR"
+                },
+                "first_name": "Fernanda",
+                "last_name": "Savino"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "03114-000",
+                    "state_name": "SP",
+                    "city_name": "São Paulo",
+                    "street_name": "Av. Paes de Barros Apto. 22 São Paulo SP BR",
+                    "apartment": "Apto. 22"
+                }
+            },
+            "available_balance": null,
+            "nsu_processadora": "6553597451421336",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13747",
+        "transaction_amount": 41.3599999999999994315658113919198513031005859375,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": "141309906",
+            "net_received_amount": 39.2999999999999971578290569595992565155029296875,
+            "total_paid_amount": 41.3599999999999994315658113919198513031005859375,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 41.3599999999999994315658113919198513031005859375,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 2.060000000000000053290705182007513940334320068359375,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MP*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "490172",
+            "last_four_digits": "3140",
+            "bin": "49017211",
+            "expiration_month": 9,
+            "expiration_year": 2029,
+            "date_created": "2022-05-13T13:45:29.000-04:00",
+            "date_last_updated": "2022-05-13T13:45:29.000-04:00",
+            "cardholder": {
+                "name": "Fernanda C Savino",
+                "identification": {
+                    "number": "29966724885",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+05-13-2022 @ 14:45:32 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 22333186754,
+        "date_created": "2022-05-13T13:45:29.884-04:00",
+        "date_approved": "2022-05-13T13:45:31.353-04:00",
+        "date_last_updated": "2022-05-13T13:45:31.353-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-05-13T13:45:31.353-04:00",
+        "operation_type": "regular_payment",
+        "issuer_id": "25",
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Kit Fit x 1",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "063346",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "106204767",
+            "operator_id": null,
+            "email": "fesavino@hotmail.com",
+            "identification": {
+                "type": "CPF",
+                "number": "29966724885"
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "03114-000",
+                "street_name": "Av. Paes de Barros"
+            },
+            "module_version": "5.7.6",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.4.1",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "205",
+                    "title": "Kit Fit x 1",
+                    "description": "As-farofas-que-cabem-no-seu-plano-alimentar.-Otima-fonte-de-fibras-nutricionais.-Neste-kit-contem-as-farofas-strongCom-Muitas-Sementes-e-Com-Muitas-Sementes-Castanhas.strong",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-fit-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "29.7"
+                },
+                {
+                    "id": null,
+                    "title": "Sedex (Entrega em 3 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "11.66"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 99750-7848"
+                },
+                "address": {
+                    "zip_code": "03114-000",
+                    "street_name": "Av. Paes de Barros \/ São Paulo SP BR"
+                },
+                "first_name": "Fernanda",
+                "last_name": "Savino"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "03114-000",
+                    "state_name": "SP",
+                    "city_name": "São Paulo",
+                    "street_name": "Av. Paes de Barros Apto. 22 São Paulo SP BR",
+                    "apartment": "Apto. 22"
+                }
+            },
+            "available_balance": null,
+            "nsu_processadora": "6553597451421336",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13747",
+        "transaction_amount": 41.3599999999999994315658113919198513031005859375,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": "141309906",
+            "net_received_amount": 39.2999999999999971578290569595992565155029296875,
+            "total_paid_amount": 41.3599999999999994315658113919198513031005859375,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 41.3599999999999994315658113919198513031005859375,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 2.060000000000000053290705182007513940334320068359375,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MP*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "490172",
+            "last_four_digits": "3140",
+            "bin": "49017211",
+            "expiration_month": 9,
+            "expiration_year": 2029,
+            "date_created": "2022-05-13T13:45:29.000-04:00",
+            "date_last_updated": "2022-05-13T13:45:29.000-04:00",
+            "cardholder": {
+                "name": "Fernanda C Savino",
+                "identification": {
+                    "number": "29966724885",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+05-13-2022 @ 14:45:33 - [check_ipn_response]: received _get content: {
+    "data_id": "22333186754",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+05-13-2022 @ 14:45:33 - [successful_request]: starting to process  update...
+05-13-2022 @ 14:45:33 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "As-farofas-que-cabem-no-seu-plano-alimentar.-Otima-fonte-de-fibras-nutricionais.-Neste-kit-contem-as-farofas-strongCom-Muitas-Sementes-e-Com-Muitas-Sementes-Castanhas.strong",
+                "id": "205",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-fit-1.png",
+                "quantity": "1",
+                "title": "Kit Fit x 1",
+                "unit_price": "29.7"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "unit_price": "11.66"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Av. Paes de Barros \/ São Paulo SP BR",
+                "zip_code": "03114-000"
+            },
+            "first_name": "Fernanda",
+            "last_name": "Savino",
+            "phone": {
+                "number": "(11) 99750-7848"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Apto. 22",
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "street_name": "Av. Paes de Barros Apto. 22 São Paulo SP BR",
+                "zip_code": "03114-000"
+            }
+        }
+    },
+    "authorization_code": "063346",
+    "binary_mode": false,
+    "brand_id": null,
+    "call_for_authorize_id": null,
+    "captured": true,
+    "card": {
+        "bin": "49017211",
+        "cardholder": {
+            "identification": {
+                "number": "29966724885",
+                "type": "CPF"
+            },
+            "name": "Fernanda C Savino"
+        },
+        "date_created": "2022-05-13T13:45:29.000-04:00",
+        "date_last_updated": "2022-05-13T13:45:29.000-04:00",
+        "expiration_month": 9,
+        "expiration_year": 2029,
+        "first_six_digits": "490172",
+        "id": null,
+        "last_four_digits": "3140"
+    },
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-05-13T13:45:31.000-04:00",
+    "date_created": "2022-05-13T13:45:29.000-04:00",
+    "date_last_updated": "2022-05-13T13:45:31.000-04:00",
+    "date_of_expiration": null,
+    "deduction_schema": null,
+    "description": "Kit Fit x 1",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13747",
+    "fee_details": [
+        {
+            "amount": 2.060000000000000053290705182007513940334320068359375,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 22333186754,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": "25",
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "credit_card",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Av. Paes de Barros",
+            "zip_code": "03114-000"
+        },
+        "module_version": "5.7.6",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.4.1",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-05-13T13:45:31.000-04:00",
+    "money_release_schema": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": "fesavino@hotmail.com",
+        "entity_type": null,
+        "first_name": null,
+        "id": "106204767",
+        "identification": {
+            "number": "29966724885",
+            "type": "CPF"
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "visa",
+    "payment_type_id": "credit_card",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "type": "UNSPECIFIED"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": "MP*SEKIAMAMP",
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 41.3599999999999994315658113919198513031005859375,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 41.3599999999999994315658113919198513031005859375,
+        "net_received_amount": 39.2999999999999971578290569595992565155029296875,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": "141309906",
+        "total_paid_amount": 41.3599999999999994315658113919198513031005859375
+    }
+}
+05-13-2022 @ 14:45:33 - [successful_request]: Changing order status to: processing

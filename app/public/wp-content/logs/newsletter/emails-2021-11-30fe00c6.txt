@@ -1,0 +1,4 @@
+07-11-2021 15:05:49 - ERROR - 7.3.1 - 74,4 MB/512 MB - otimaideia > Missing block.php file in C:/laragon/www/sekiama/wp-content/plugins/newsletter/emails/blocks (1) - 
+07-11-2021 15:05:49 - ERROR - 7.3.1 - 74,4 MB/512 MB - otimaideia > Missing block.php file in C:/laragon/www/sekiama/wp-content/plugins/newsletter/emails (1) - 
+07-11-2021 15:05:50 - ERROR - 7.3.1 - 65,4 MB/512 MB - otimaideia > Missing block.php file in C:/laragon/www/sekiama/wp-content/plugins/newsletter/emails/blocks (1) - 
+07-11-2021 15:05:50 - ERROR - 7.3.1 - 65,4 MB/512 MB - otimaideia > Missing block.php file in C:/laragon/www/sekiama/wp-content/plugins/newsletter/emails (1) - 

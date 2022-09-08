@@ -1,0 +1,758 @@
+07-08-2022 @ 14:01:46 - [process_payment]: POST Custom: {
+    "amount": "103.8",
+    "currency_ratio": "1",
+    "paymentMethodId": "master",
+    "checkout_type": "custom",
+    "installments": "1"
+}
+07-08-2022 @ 14:01:46 - [process_payment]: preparing to get response of custom checkout.
+07-08-2022 @ 14:01:46 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13820",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "transaction_amount": 103.7999999999999971578290569595992565155029296875,
+    "description": "Farofa para Churrasco com Manteiga x 6",
+    "installments": 1,
+    "payment_method_id": "master",
+    "payer": {
+        "email": "g.moura@outlook.com"
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.6.1",
+        "module_version": "6.0.1",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "13560-210",
+            "street_name": "Rua Padre Teixeira",
+            "city_name": "São Carlos",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "g.moura@outlook.com",
+            "user_registration_date": "2022-07-08T16:56:52.000+00:00"
+        },
+        "checkout": "custom",
+        "checkout_type": "credit_card"
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 196,
+                "title": "Farofa para Churrasco com Manteiga x 6",
+                "description": "Baseada-em-uma-receita-caseira-esta-farofa-consegue-ao-mesmo-tempo-ser-crocante-e-ter-um-sabor-bastante-marcado-de-manteiga.-Desenvolvida-especialmente-para-os-apreciadores-de-churrasco-esta-farofa-ira-conquistar-um-espaco-em",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/churrasco-frente-1.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 103.7999999999999971578290569595992565155029296875
+            }
+        ],
+        "payer": {
+            "first_name": "Gabrielle",
+            "last_name": "Moura",
+            "phone": {
+                "number": "(11) 98944-9608"
+            },
+            "address": {
+                "zip_code": "13560-210",
+                "street_name": "Rua Padre Teixeira \/ São Carlos SP BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "13560-210",
+                "street_name": "Rua Padre Teixeira apto 161 roma São Carlos SP BR",
+                "apartment": "apto 161 roma",
+                "city_name": "São Carlos",
+                "state_name": "SP"
+            }
+        }
+    }
+}
+07-08-2022 @ 14:01:48 - [create_preference]: Preference created: {
+    "status": 201,
+    "response": {
+        "id": 23834334842,
+        "date_created": "2022-07-08T13:01:46.288-04:00",
+        "date_approved": "2022-07-08T13:01:47.904-04:00",
+        "date_last_updated": "2022-07-08T13:01:47.904-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-07-08T13:01:47.904-04:00",
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": "12518",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Farofa para Churrasco com Manteiga x 6",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "475870",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.102.1",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "246192205",
+            "operator_id": null,
+            "email": "g.moura@outlook.com",
+            "identification": {
+                "type": "CPF",
+                "number": "41684641802"
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "São Carlos",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "13560-210",
+                "street_name": "Rua Padre Teixeira"
+            },
+            "module_version": "6.0.1",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.6.1",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": "g.moura@outlook.com",
+                "registered_user": "yes",
+                "user_registration_date": "2022-07-08T16:56:52.000+00:00"
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "196",
+                    "title": "Farofa para Churrasco com Manteiga x 6",
+                    "description": "Baseada-em-uma-receita-caseira-esta-farofa-consegue-ao-mesmo-tempo-ser-crocante-e-ter-um-sabor-bastante-marcado-de-manteiga.-Desenvolvida-especialmente-para-os-apreciadores-de-churrasco-esta-farofa-ira-conquistar-um-espaco-em",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/churrasco-frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "103.8"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 98944-9608"
+                },
+                "address": {
+                    "zip_code": "13560-210",
+                    "street_name": "Rua Padre Teixeira \/ São Carlos SP BR"
+                },
+                "first_name": "Gabrielle",
+                "last_name": "Moura"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "13560-210",
+                    "state_name": "SP",
+                    "city_name": "São Carlos",
+                    "street_name": "Rua Padre Teixeira apto 161 roma São Carlos SP BR",
+                    "apartment": "apto 161 roma"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQEBAQNijXgL3Fd3kJr_u6cxPpbRnwuPJkzVnTQVwqu5emKYTQCQwtULJlmo-Q0",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13820",
+        "transaction_amount": 103.7999999999999971578290569595992565155029296875,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 98.6200000000000045474735088646411895751953125,
+            "total_paid_amount": 103.7999999999999971578290569595992565155029296875,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 103.7999999999999971578290569595992565155029296875,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 5.17999999999999971578290569595992565155029296875,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "550209",
+            "last_four_digits": "8121",
+            "bin": "55020924",
+            "expiration_month": 6,
+            "expiration_year": 2028,
+            "date_created": "2022-07-08T13:01:46.000-04:00",
+            "date_last_updated": "2022-07-08T13:01:46.000-04:00",
+            "cardholder": {
+                "name": "GABRIELLE L MOURA",
+                "identification": {
+                    "number": "41684641802",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+07-08-2022 @ 14:01:48 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 23834334842,
+        "date_created": "2022-07-08T13:01:46.288-04:00",
+        "date_approved": "2022-07-08T13:01:47.904-04:00",
+        "date_last_updated": "2022-07-08T13:01:47.904-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-07-08T13:01:47.904-04:00",
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": "12518",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Farofa para Churrasco com Manteiga x 6",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "475870",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.102.1",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "246192205",
+            "operator_id": null,
+            "email": "g.moura@outlook.com",
+            "identification": {
+                "type": "CPF",
+                "number": "41684641802"
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "São Carlos",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "13560-210",
+                "street_name": "Rua Padre Teixeira"
+            },
+            "module_version": "6.0.1",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.6.1",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": "g.moura@outlook.com",
+                "registered_user": "yes",
+                "user_registration_date": "2022-07-08T16:56:52.000+00:00"
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "196",
+                    "title": "Farofa para Churrasco com Manteiga x 6",
+                    "description": "Baseada-em-uma-receita-caseira-esta-farofa-consegue-ao-mesmo-tempo-ser-crocante-e-ter-um-sabor-bastante-marcado-de-manteiga.-Desenvolvida-especialmente-para-os-apreciadores-de-churrasco-esta-farofa-ira-conquistar-um-espaco-em",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/churrasco-frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "103.8"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 98944-9608"
+                },
+                "address": {
+                    "zip_code": "13560-210",
+                    "street_name": "Rua Padre Teixeira \/ São Carlos SP BR"
+                },
+                "first_name": "Gabrielle",
+                "last_name": "Moura"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "13560-210",
+                    "state_name": "SP",
+                    "city_name": "São Carlos",
+                    "street_name": "Rua Padre Teixeira apto 161 roma São Carlos SP BR",
+                    "apartment": "apto 161 roma"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQEBAQNijXgL3Fd3kJr_u6cxPpbRnwuPJkzVnTQVwqu5emKYTQCQwtULJlmo-Q0",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13820",
+        "transaction_amount": 103.7999999999999971578290569595992565155029296875,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 98.6200000000000045474735088646411895751953125,
+            "total_paid_amount": 103.7999999999999971578290569595992565155029296875,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 103.7999999999999971578290569595992565155029296875,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 5.17999999999999971578290569595992565155029296875,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "550209",
+            "last_four_digits": "8121",
+            "bin": "55020924",
+            "expiration_month": 6,
+            "expiration_year": 2028,
+            "date_created": "2022-07-08T13:01:46.000-04:00",
+            "date_last_updated": "2022-07-08T13:01:46.000-04:00",
+            "cardholder": {
+                "name": "GABRIELLE L MOURA",
+                "identification": {
+                    "number": "41684641802",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+07-08-2022 @ 14:01:49 - [check_ipn_response]: received _get content: {
+    "data_id": "23834334842",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+07-08-2022 @ 14:01:49 - [successful_request]: starting to process  update...
+07-08-2022 @ 14:01:49 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Baseada-em-uma-receita-caseira-esta-farofa-consegue-ao-mesmo-tempo-ser-crocante-e-ter-um-sabor-bastante-marcado-de-manteiga.-Desenvolvida-especialmente-para-os-apreciadores-de-churrasco-esta-farofa-ira-conquistar-um-espaco-em",
+                "id": "196",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/churrasco-frente-1.png",
+                "quantity": "1",
+                "title": "Farofa para Churrasco com Manteiga x 6",
+                "unit_price": "103.8"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Padre Teixeira \/ São Carlos SP BR",
+                "zip_code": "13560-210"
+            },
+            "first_name": "Gabrielle",
+            "last_name": "Moura",
+            "phone": {
+                "number": "(11) 98944-9608"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "apto 161 roma",
+                "city_name": "São Carlos",
+                "state_name": "SP",
+                "street_name": "Rua Padre Teixeira apto 161 roma São Carlos SP BR",
+                "zip_code": "13560-210"
+            }
+        }
+    },
+    "authorization_code": "475870",
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.102.1",
+    "call_for_authorize_id": null,
+    "captured": true,
+    "card": {
+        "bin": "55020924",
+        "cardholder": {
+            "identification": {
+                "number": "41684641802",
+                "type": "CPF"
+            },
+            "name": "GABRIELLE L MOURA"
+        },
+        "date_created": "2022-07-08T13:01:46.000-04:00",
+        "date_last_updated": "2022-07-08T13:01:46.000-04:00",
+        "expiration_month": 6,
+        "expiration_year": 2028,
+        "first_six_digits": "550209",
+        "id": null,
+        "last_four_digits": "8121"
+    },
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-07-08T13:01:47.000-04:00",
+    "date_created": "2022-07-08T13:01:46.000-04:00",
+    "date_last_updated": "2022-07-08T13:01:47.000-04:00",
+    "date_of_expiration": null,
+    "deduction_schema": null,
+    "description": "Farofa para Churrasco com Manteiga x 6",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13820",
+    "fee_details": [
+        {
+            "amount": 5.17999999999999971578290569595992565155029296875,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 23834334842,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": "12518",
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "credit_card",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "São Carlos",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Rua Padre Teixeira",
+            "zip_code": "13560-210"
+        },
+        "module_version": "6.0.1",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.6.1",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": "g.moura@outlook.com",
+            "registered_user": "yes",
+            "user_registration_date": "2022-07-08T16:56:52.000+00:00"
+        }
+    },
+    "money_release_date": "2022-07-08T13:01:47.000-04:00",
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": "g.moura@outlook.com",
+        "entity_type": null,
+        "first_name": null,
+        "id": "246192205",
+        "identification": {
+            "number": "41684641802",
+            "type": "CPF"
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "master",
+    "payment_type_id": "credit_card",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "type": "UNSPECIFIED"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 103.7999999999999971578290569595992565155029296875,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 103.7999999999999971578290569595992565155029296875,
+        "net_received_amount": 98.6200000000000045474735088646411895751953125,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 103.7999999999999971578290569595992565155029296875
+    }
+}
+07-08-2022 @ 14:01:49 - [successful_request]: Changing order status to: processing

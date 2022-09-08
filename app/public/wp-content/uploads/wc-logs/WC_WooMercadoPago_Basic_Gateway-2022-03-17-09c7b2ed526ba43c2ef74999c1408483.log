@@ -1,0 +1,6 @@
+03-17-2022 @ 17:27:40 - [check_ipn_response]: received _get content: {
+    "id": "4315630077",
+    "source_news": "ipn",
+    "topic": "merchant_order"
+}
+03-17-2022 @ 17:27:41 - [check_ipn_response]: Not found Payments into Merchant_Order

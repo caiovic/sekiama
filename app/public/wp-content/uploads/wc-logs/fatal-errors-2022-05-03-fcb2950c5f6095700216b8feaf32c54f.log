@@ -1,0 +1,24 @@
+2022-05-03T21:29:30+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/sekiama/public_html/wp-content/themes/Sekiama/header.php:107
+Stack trace:
+#0 /home/sekiama/public_html/wp-includes/template.php(770): require_once()
+#1 /home/sekiama/public_html/wp-includes/template.php(716): load_template('/home/sekiama/p...', true, Array)
+#2 /home/sekiama/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/sekiama/public_html/wp-content/themes/Sekiama/404.php(5): get_header()
+#4 /home/sekiama/public_html/wp-includes/template-loader.php(106): include('/home/sekiama/p...')
+#5 /home/sekiama/public_html/wp-blog-header.php(19): require_once('/home/sekiama/p...')
+#6 /home/sekiama/public_html/index.php(17): require('/home/sekiama/p...')
+#7 {main}
+  thrown, em /home/sekiama/public_html/wp-content/themes/Sekiama/header.php, na linha 107
+
+2022-05-03T21:29:31+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/sekiama/public_html/wp-content/themes/Sekiama/header.php:107
+Stack trace:
+#0 /home/sekiama/public_html/wp-includes/template.php(770): require_once()
+#1 /home/sekiama/public_html/wp-includes/template.php(716): load_template('/home/sekiama/p...', true, Array)
+#2 /home/sekiama/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/sekiama/public_html/wp-content/themes/Sekiama/404.php(5): get_header()
+#4 /home/sekiama/public_html/wp-includes/template-loader.php(106): include('/home/sekiama/p...')
+#5 /home/sekiama/public_html/wp-blog-header.php(19): require_once('/home/sekiama/p...')
+#6 /home/sekiama/public_html/index.php(17): require('/home/sekiama/p...')
+#7 {main}
+  thrown, em /home/sekiama/public_html/wp-content/themes/Sekiama/header.php, na linha 107
+

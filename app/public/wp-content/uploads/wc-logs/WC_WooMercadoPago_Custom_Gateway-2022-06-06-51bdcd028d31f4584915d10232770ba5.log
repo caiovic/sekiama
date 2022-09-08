@@ -1,0 +1,743 @@
+06-06-2022 @ 09:35:12 - [process_payment]: POST Custom: {
+    "amount": "46.14",
+    "currency_ratio": "1",
+    "campaign_id": "",
+    "campaign": "",
+    "discount": "",
+    "paymentMethodId": "",
+    "token": "",
+    "checkout_type": "wallet_button"
+}
+06-06-2022 @ 09:35:12 - [process_payment]: preparing to render wallet button checkout.
+06-06-2022 @ 09:35:13 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13778",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "items": [
+        {
+            "id": 196,
+            "title": "Farofa para Churrasco com Manteiga x 1",
+            "description": "Baseada-em-uma-receita-caseira-esta-farofa-consegue-ao-mesmo-tempo-ser-crocante-e-ter-um-sabor-bastante-marcado-de-manteiga.-Desenvolvida-especialmente-para-os-apreciadores-de-churrasco-esta-farofa-ira-conquistar-um-espaco-em",
+            "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/churrasco-frente-1.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 17.300000000000000710542735760100185871124267578125,
+            "currency_id": "BRL"
+        },
+        {
+            "id": 200,
+            "title": "Faropop x 1",
+            "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+            "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 14.199999999999999289457264239899814128875732421875,
+            "currency_id": "BRL"
+        },
+        {
+            "title": "Sedex (Entrega em 3 dias úteis)",
+            "description": "Serviço de envio usado pela loja.",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 14.6400000000000005684341886080801486968994140625
+        }
+    ],
+    "payer": {
+        "name": "Ana",
+        "surname": "Pereira",
+        "email": "anacarolmartorelli@hotmail.com",
+        "phone": {
+            "number": "(13) 98145-0363"
+        },
+        "address": {
+            "zip_code": "11060-475",
+            "street_name": "Rua Fabio Montenegro \/ Santos SP BR"
+        }
+    },
+    "back_urls": {
+        "success": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13778\/?key=wc_order_lZNAiZZt35McD",
+        "failure": "https:\/\/www.sekiama.com.br\/carrinho\/?cancel_order=true&order=wc_order_lZNAiZZt35McD&order_id=13778&redirect&_wpnonce=486beefa59",
+        "pending": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13778\/?key=wc_order_lZNAiZZt35McD"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "11060-475",
+            "street_name": "Rua Fabio Montenegro  Santos SP BR",
+            "apartment": "",
+            "city_name": "Santos",
+            "state_name": "SP"
+        }
+    },
+    "payment_methods": {
+        "installments": 12,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.5.1",
+        "module_version": "5.7.6",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "11060-475",
+            "street_name": "Rua Fabio Montenegro",
+            "city_name": "Santos",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "pro",
+        "checkout_type": "wallet_button"
+    },
+    "purpose": "wallet_purchase"
+}
+06-06-2022 @ 09:35:13 - [create_preference_wallet_button]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/www.sekiama.com.br\/carrinho\/?cancel_order=true&order=wc_order_lZNAiZZt35McD&order_id=13778&redirect&_wpnonce=486beefa59",
+            "pending": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13778\/?key=wc_order_lZNAiZZt35McD",
+            "success": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13778\/?key=wc_order_lZNAiZZt35McD"
+        },
+        "binary_mode": false,
+        "client_id": "6290074584163570",
+        "collector_id": 163745094,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-06T08:35:13.619-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-13778",
+        "id": "163745094-5a324508-a090-4445-9fa2-18e48a517f21",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-5a324508-a090-4445-9fa2-18e48a517f21",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "196",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Baseada-em-uma-receita-caseira-esta-farofa-consegue-ao-mesmo-tempo-ser-crocante-e-ter-um-sabor-bastante-marcado-de-manteiga.-Desenvolvida-especialmente-para-os-apreciadores-de-churrasco-esta-farofa-ira-conquistar-um-espaco-em",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/churrasco-frente-1.png",
+                "title": "Farofa para Churrasco com Manteiga x 1",
+                "quantity": 1,
+                "unit_price": 17.300000000000000710542735760100185871124267578125
+            },
+            {
+                "id": "200",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                "title": "Faropop x 1",
+                "quantity": 1,
+                "unit_price": 14.199999999999999289457264239899814128875732421875
+            },
+            {
+                "id": "",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Serviço de envio usado pela loja.",
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "quantity": 1,
+                "unit_price": 14.6400000000000005684341886080801486968994140625
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "no",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Santos",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Rua Fabio Montenegro",
+                "zip_code": "11060-475"
+            },
+            "checkout": "pro",
+            "checkout_type": "wallet_button",
+            "collector": "163745094",
+            "custom_settings": {
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "gateway_discount_checkbox": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "5.7.6",
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.5.1",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(13) 98145-0363"
+            },
+            "address": {
+                "zip_code": "11060-475",
+                "street_name": "Rua Fabio Montenegro  Santos SP BR",
+                "street_number": null
+            },
+            "email": "anacarolmartorelli@hotmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Ana",
+            "surname": "Pereira",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 12,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-5a324508-a090-4445-9fa2-18e48a517f21",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "11060-475",
+                "street_name": "Rua Fabio Montenegro  Santos SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "Santos",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "Sekiama MP",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-06-2022 @ 09:35:13 - [create_preference_wallet_button]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/www.sekiama.com.br\/carrinho\/?cancel_order=true&order=wc_order_lZNAiZZt35McD&order_id=13778&redirect&_wpnonce=486beefa59",
+            "pending": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13778\/?key=wc_order_lZNAiZZt35McD",
+            "success": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13778\/?key=wc_order_lZNAiZZt35McD"
+        },
+        "binary_mode": false,
+        "client_id": "6290074584163570",
+        "collector_id": 163745094,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-06T08:35:13.619-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-13778",
+        "id": "163745094-5a324508-a090-4445-9fa2-18e48a517f21",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-5a324508-a090-4445-9fa2-18e48a517f21",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "196",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Baseada-em-uma-receita-caseira-esta-farofa-consegue-ao-mesmo-tempo-ser-crocante-e-ter-um-sabor-bastante-marcado-de-manteiga.-Desenvolvida-especialmente-para-os-apreciadores-de-churrasco-esta-farofa-ira-conquistar-um-espaco-em",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/churrasco-frente-1.png",
+                "title": "Farofa para Churrasco com Manteiga x 1",
+                "quantity": 1,
+                "unit_price": 17.300000000000000710542735760100185871124267578125
+            },
+            {
+                "id": "200",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                "title": "Faropop x 1",
+                "quantity": 1,
+                "unit_price": 14.199999999999999289457264239899814128875732421875
+            },
+            {
+                "id": "",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Serviço de envio usado pela loja.",
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "quantity": 1,
+                "unit_price": 14.6400000000000005684341886080801486968994140625
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "no",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Santos",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Rua Fabio Montenegro",
+                "zip_code": "11060-475"
+            },
+            "checkout": "pro",
+            "checkout_type": "wallet_button",
+            "collector": "163745094",
+            "custom_settings": {
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "gateway_discount_checkbox": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "5.7.6",
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.5.1",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(13) 98145-0363"
+            },
+            "address": {
+                "zip_code": "11060-475",
+                "street_name": "Rua Fabio Montenegro  Santos SP BR",
+                "street_number": null
+            },
+            "email": "anacarolmartorelli@hotmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Ana",
+            "surname": "Pereira",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 12,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-5a324508-a090-4445-9fa2-18e48a517f21",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "11060-475",
+                "street_name": "Rua Fabio Montenegro  Santos SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "Santos",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "Sekiama MP",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-06-2022 @ 09:37:44 - [check_ipn_response]: received _get content: {
+    "data_id": "22939433922",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+06-06-2022 @ 09:37:44 - [successful_request]: starting to process  update...
+06-06-2022 @ 09:37:44 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "ip_address": "187.21.233.153",
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Baseada-em-uma-receita-caseira-esta-farofa-consegue-ao-mesmo-tempo-ser-crocante-e-ter-um-sabor-bastante-marcado-de-manteiga.-Desenvolvida-especialmente-para-os-apreciadores-de-churrasco-esta-farofa-ira-conquistar-um-espaco-em",
+                "id": "196",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/churrasco-frente-1.png",
+                "quantity": "1",
+                "title": "Farofa para Churrasco com Manteiga x 1",
+                "unit_price": "17.299999237060547"
+            },
+            {
+                "category_id": "others",
+                "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                "id": "200",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                "quantity": "1",
+                "title": "Faropop x 1",
+                "unit_price": "14.199999809265137"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "unit_price": "14.640000343322754"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Fabio Montenegro  Santos SP BR",
+                "zip_code": "11060-475"
+            },
+            "first_name": "Ana",
+            "last_name": "Pereira",
+            "phone": {
+                "number": "(13) 98145-0363"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "city_name": "Santos",
+                "state_name": "SP",
+                "street_name": "Rua Fabio Montenegro  Santos SP BR",
+                "zip_code": "11060-475"
+            }
+        }
+    },
+    "authorization_code": "674244",
+    "binary_mode": true,
+    "brand_id": null,
+    "call_for_authorize_id": null,
+    "captured": true,
+    "card": {
+        "bin": "406655",
+        "cardholder": {
+            "identification": {
+                "number": "36898618881",
+                "type": "CPF"
+            },
+            "name": "ANA CAROLINA PEREIR"
+        },
+        "date_created": "2022-06-06T08:37:41.000-04:00",
+        "date_last_updated": "2022-06-06T08:37:41.000-04:00",
+        "expiration_month": 3,
+        "expiration_year": 2025,
+        "first_six_digits": "406655",
+        "id": "9044937948",
+        "last_four_digits": "8126"
+    },
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-06-06T08:37:42.000-04:00",
+    "date_created": "2022-06-06T08:37:41.000-04:00",
+    "date_last_updated": "2022-06-06T08:37:42.000-04:00",
+    "date_of_expiration": null,
+    "deduction_schema": null,
+    "description": "Farofa para Churrasco com Manteiga x 1",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13778",
+    "fee_details": [
+        {
+            "amount": 2.29999999999999982236431605997495353221893310546875,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 22939433922,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": "26",
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "wallet_button",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Santos",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Rua Fabio Montenegro",
+            "zip_code": "11060-475"
+        },
+        "module_version": "5.7.6",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.5.1",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "pro",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-06-06T08:37:42.000-04:00",
+    "money_release_schema": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": {
+        "id": "4909801096",
+        "type": "mercadopago"
+    },
+    "payer": {
+        "email": "anacarolmartorelli@hotmail.com",
+        "entity_type": null,
+        "first_name": null,
+        "id": "131476496",
+        "identification": {
+            "number": "36898618881",
+            "type": "CPF"
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "visa",
+    "payment_type_id": "credit_card",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "business_info": {
+            "sub_unit": "checkout_pro",
+            "unit": "online_payments"
+        },
+        "type": "UNSPECIFIED"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": "MP*SEKIAMAMP",
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 46.1400000000000005684341886080801486968994140625,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 46.1400000000000005684341886080801486968994140625,
+        "net_received_amount": 43.840000000000003410605131648480892181396484375,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": "95355910",
+        "total_paid_amount": 46.1400000000000005684341886080801486968994140625
+    }
+}
+06-06-2022 @ 09:37:44 - [successful_request]: Changing order status to: processing

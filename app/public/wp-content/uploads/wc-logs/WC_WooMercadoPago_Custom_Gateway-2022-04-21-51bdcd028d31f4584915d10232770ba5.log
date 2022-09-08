@@ -1,0 +1,1569 @@
+04-21-2022 @ 00:11:01 - [process_payment]: POST Custom: {
+    "installments": "1",
+    "amount": "155.26",
+    "currency_ratio": "1",
+    "campaign_id": "",
+    "campaign": "",
+    "discount": "",
+    "paymentMethodId": "elo",
+    "token": "45c33ff9de3bdf3e1a96759d2d6c2d25",
+    "checkout_type": "custom"
+}
+04-21-2022 @ 00:11:01 - [process_payment]: preparing to get response of custom checkout.
+04-21-2022 @ 00:11:01 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13732",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "transaction_amount": 155.259999999999990905052982270717620849609375,
+    "token": "45c33ff9de3bdf3e1a96759d2d6c2d25",
+    "description": "Farofa com Muitas Sementes e Castanhas x 8",
+    "installments": 1,
+    "payment_method_id": "elo",
+    "payer": {
+        "email": "lalanaves@gmail.com"
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.4.0",
+        "module_version": "5.7.5",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "30411-183",
+            "street_name": "Rua Chapecó",
+            "city_name": "Belo Horizonte",
+            "state_name": "MG",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "custom",
+        "checkout_type": "credit_card"
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 197,
+                "title": "Farofa com Muitas Sementes e Castanhas x 8",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 135.19999999999998863131622783839702606201171875
+            },
+            {
+                "title": "Uello Expresso (Entrega em 6 dias úteis)",
+                "description": "Serviço de envio usado pela loja.",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 20.059999999999998721023075631819665431976318359375
+            }
+        ],
+        "payer": {
+            "first_name": "Larissa",
+            "last_name": "Sales Cardoso Naves",
+            "phone": {
+                "number": "(31) 98309-9464"
+            },
+            "address": {
+                "zip_code": "30411-183",
+                "street_name": "Rua Chapecó \/ Belo Horizonte MG BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "30411-183",
+                "street_name": "Rua Chapecó Apto 1102 Belo Horizonte MG BR",
+                "apartment": "Apto 1102",
+                "city_name": "Belo Horizonte",
+                "state_name": "MG"
+            }
+        }
+    }
+}
+04-21-2022 @ 00:11:03 - [create_preference]: Preference created: {
+    "status": 201,
+    "response": {
+        "id": 21759821528,
+        "date_created": "2022-04-20T23:10:59.799-04:00",
+        "date_approved": "2022-04-20T23:11:01.255-04:00",
+        "date_last_updated": "2022-04-20T23:11:01.255-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-04-20T23:11:01.255-04:00",
+        "operation_type": "regular_payment",
+        "issuer_id": "687",
+        "payment_method_id": "elo",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Farofa com Muitas Sementes e Castanhas x 8",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "092984",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "40058112",
+            "operator_id": null,
+            "email": "lalanaves@gmail.com",
+            "identification": {
+                "type": "CPF",
+                "number": "05555114648"
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Belo Horizonte",
+                "state_name": "MG",
+                "country_name": "BR",
+                "zip_code": "30411-183",
+                "street_name": "Rua Chapecó"
+            },
+            "module_version": "5.7.5",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.4.0",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 8",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "135.2"
+                },
+                {
+                    "id": null,
+                    "title": "Uello Expresso (Entrega em 6 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "20.06"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(31) 98309-9464"
+                },
+                "address": {
+                    "zip_code": "30411-183",
+                    "street_name": "Rua Chapecó \/ Belo Horizonte MG BR"
+                },
+                "first_name": "Larissa",
+                "last_name": "Sales Cardoso Naves"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "30411-183",
+                    "state_name": "MG",
+                    "city_name": "Belo Horizonte",
+                    "street_name": "Rua Chapecó Apto 1102 Belo Horizonte MG BR",
+                    "apartment": "Apto 1102"
+                }
+            },
+            "available_balance": null,
+            "nsu_processadora": "2141345110021112",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13732",
+        "transaction_amount": 155.259999999999990905052982270717620849609375,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": "6242482",
+            "net_received_amount": 147.509999999999990905052982270717620849609375,
+            "total_paid_amount": 155.259999999999990905052982270717620849609375,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 155.259999999999990905052982270717620849609375,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 7.75,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MP*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "655003",
+            "last_four_digits": "0584",
+            "expiration_month": 11,
+            "expiration_year": 2024,
+            "date_created": "2022-04-20T23:10:59.000-04:00",
+            "date_last_updated": "2022-04-20T23:10:59.000-04:00",
+            "cardholder": {
+                "name": "Larissa s c naves",
+                "identification": {
+                    "number": "05555114648",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+04-21-2022 @ 00:11:03 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 21759821528,
+        "date_created": "2022-04-20T23:10:59.799-04:00",
+        "date_approved": "2022-04-20T23:11:01.255-04:00",
+        "date_last_updated": "2022-04-20T23:11:01.255-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-04-20T23:11:01.255-04:00",
+        "operation_type": "regular_payment",
+        "issuer_id": "687",
+        "payment_method_id": "elo",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Farofa com Muitas Sementes e Castanhas x 8",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "092984",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "40058112",
+            "operator_id": null,
+            "email": "lalanaves@gmail.com",
+            "identification": {
+                "type": "CPF",
+                "number": "05555114648"
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Belo Horizonte",
+                "state_name": "MG",
+                "country_name": "BR",
+                "zip_code": "30411-183",
+                "street_name": "Rua Chapecó"
+            },
+            "module_version": "5.7.5",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.4.0",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 8",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "135.2"
+                },
+                {
+                    "id": null,
+                    "title": "Uello Expresso (Entrega em 6 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "20.06"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(31) 98309-9464"
+                },
+                "address": {
+                    "zip_code": "30411-183",
+                    "street_name": "Rua Chapecó \/ Belo Horizonte MG BR"
+                },
+                "first_name": "Larissa",
+                "last_name": "Sales Cardoso Naves"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "30411-183",
+                    "state_name": "MG",
+                    "city_name": "Belo Horizonte",
+                    "street_name": "Rua Chapecó Apto 1102 Belo Horizonte MG BR",
+                    "apartment": "Apto 1102"
+                }
+            },
+            "available_balance": null,
+            "nsu_processadora": "2141345110021112",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13732",
+        "transaction_amount": 155.259999999999990905052982270717620849609375,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": "6242482",
+            "net_received_amount": 147.509999999999990905052982270717620849609375,
+            "total_paid_amount": 155.259999999999990905052982270717620849609375,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 155.259999999999990905052982270717620849609375,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 7.75,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MP*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "655003",
+            "last_four_digits": "0584",
+            "expiration_month": 11,
+            "expiration_year": 2024,
+            "date_created": "2022-04-20T23:10:59.000-04:00",
+            "date_last_updated": "2022-04-20T23:10:59.000-04:00",
+            "cardholder": {
+                "name": "Larissa s c naves",
+                "identification": {
+                    "number": "05555114648",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+04-21-2022 @ 00:11:04 - [check_ipn_response]: received _get content: {
+    "data_id": "21759821528",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+04-21-2022 @ 00:11:04 - [successful_request]: starting to process  update...
+04-21-2022 @ 00:11:04 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 8",
+                "unit_price": "135.2"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Uello Expresso (Entrega em 6 dias úteis)",
+                "unit_price": "20.06"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Chapecó \/ Belo Horizonte MG BR",
+                "zip_code": "30411-183"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Apto 1102",
+                "city_name": "Belo Horizonte",
+                "state_name": "MG",
+                "street_name": "Rua Chapecó Apto 1102 Belo Horizonte MG BR",
+                "zip_code": "30411-183"
+            }
+        }
+    },
+    "authorization_code": "092984",
+    "binary_mode": false,
+    "brand_id": null,
+    "call_for_authorize_id": null,
+    "captured": true,
+    "card": {
+        "cardholder": {
+            "identification": {
+                "number": "05555114648",
+                "type": "CPF"
+            },
+            "name": "Larissa s c naves"
+        },
+        "date_created": "2022-04-20T23:10:59.000-04:00",
+        "date_last_updated": "2022-04-20T23:10:59.000-04:00",
+        "expiration_month": 11,
+        "expiration_year": 2024,
+        "first_six_digits": "655003",
+        "id": null,
+        "last_four_digits": "0584"
+    },
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-04-20T23:11:01.000-04:00",
+    "date_created": "2022-04-20T23:10:59.000-04:00",
+    "date_last_updated": "2022-04-20T23:11:01.000-04:00",
+    "date_of_expiration": null,
+    "deduction_schema": null,
+    "description": "Farofa com Muitas Sementes e Castanhas x 8",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13732",
+    "fee_details": [
+        {
+            "amount": 7.75,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 21759821528,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": "687",
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "credit_card",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Belo Horizonte",
+            "state_name": "MG",
+            "country_name": "BR",
+            "street_name": "Rua Chapecó",
+            "zip_code": "30411-183"
+        },
+        "module_version": "5.7.5",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.4.0",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-04-20T23:11:01.000-04:00",
+    "money_release_schema": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": "lalanaves@gmail.com",
+        "entity_type": null,
+        "first_name": null,
+        "id": "40058112",
+        "identification": {
+            "number": "05555114648",
+            "type": "CPF"
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "elo",
+    "payment_type_id": "credit_card",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "type": "UNSPECIFIED"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": "MP*SEKIAMAMP",
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 155.259999999999990905052982270717620849609375,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 155.259999999999990905052982270717620849609375,
+        "net_received_amount": 147.509999999999990905052982270717620849609375,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": "6242482",
+        "total_paid_amount": 155.259999999999990905052982270717620849609375
+    }
+}
+04-21-2022 @ 00:11:04 - [successful_request]: Changing order status to: processing
+04-21-2022 @ 19:48:25 - [process_payment]: POST Custom: {
+    "installments": "1",
+    "amount": "101.7",
+    "currency_ratio": "1",
+    "campaign_id": "",
+    "campaign": "",
+    "discount": "",
+    "paymentMethodId": "master",
+    "token": "9740a9c57066b249adca0154c75f01ba",
+    "checkout_type": "custom"
+}
+04-21-2022 @ 19:48:25 - [process_payment]: preparing to get response of custom checkout.
+04-21-2022 @ 19:48:25 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13734",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "transaction_amount": 101.7000000000000028421709430404007434844970703125,
+    "token": "9740a9c57066b249adca0154c75f01ba",
+    "description": "Kit Sekiama x 1, Farofa Doce x 1",
+    "installments": 1,
+    "payment_method_id": "master",
+    "payer": {
+        "email": "gislaine-aparecida@uol.com.br"
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.4.0",
+        "module_version": "5.7.5",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "06414-025",
+            "street_name": "Rua Werner Goldberg",
+            "city_name": "Barueri",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "custom",
+        "checkout_type": "credit_card"
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 209,
+                "title": "Kit Sekiama x 1",
+                "description": "Nao-sabe-qual-farofa-escolher-Quer-presentear-alguem-que-ama-farofa-Este-e-o-Kit-ideal.-Neste-kit-contem-as-farofas-strongDoce-Com-Muita-Cebola-Com-Muitas-Sementes-Faropop-Churrasco-com-Manteiga-e-Com-Muitas-Semen",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-sekiama-1.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 85.5
+            },
+            {
+                "id": 199,
+                "title": "Farofa Doce x 1",
+                "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 16.199999999999999289457264239899814128875732421875
+            }
+        ],
+        "payer": {
+            "first_name": "Gislaine",
+            "last_name": "Gonçalves",
+            "phone": {
+                "number": "(11) 3681-2858"
+            },
+            "address": {
+                "zip_code": "06414-025",
+                "street_name": "Rua Werner Goldberg \/ Barueri SP BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "06414-025",
+                "street_name": "Rua Werner Goldberg Apto 102 A Barueri SP BR",
+                "apartment": "Apto 102 A",
+                "city_name": "Barueri",
+                "state_name": "SP"
+            }
+        }
+    }
+}
+04-21-2022 @ 19:48:27 - [create_preference]: Preference created: {
+    "status": 201,
+    "response": {
+        "id": 21778029699,
+        "date_created": "2022-04-21T18:48:25.494-04:00",
+        "date_approved": "2022-04-21T18:48:26.766-04:00",
+        "date_last_updated": "2022-04-21T18:48:26.766-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-04-21T18:48:26.766-04:00",
+        "operation_type": "regular_payment",
+        "issuer_id": "24",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Kit Sekiama x 1, Farofa Doce x 1",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "015875",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "214899576",
+            "operator_id": null,
+            "email": "gislaine-aparecida@uol.com.br",
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Barueri",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "06414-025",
+                "street_name": "Rua Werner Goldberg"
+            },
+            "module_version": "5.7.5",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.4.0",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "209",
+                    "title": "Kit Sekiama x 1",
+                    "description": "Nao-sabe-qual-farofa-escolher-Quer-presentear-alguem-que-ama-farofa-Este-e-o-Kit-ideal.-Neste-kit-contem-as-farofas-strongDoce-Com-Muita-Cebola-Com-Muitas-Sementes-Faropop-Churrasco-com-Manteiga-e-Com-Muitas-Semen",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-sekiama-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "85.5"
+                },
+                {
+                    "id": "199",
+                    "title": "Farofa Doce x 1",
+                    "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "16.2"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 3681-2858"
+                },
+                "address": {
+                    "zip_code": "06414-025",
+                    "street_name": "Rua Werner Goldberg \/ Barueri SP BR"
+                },
+                "first_name": "Gislaine",
+                "last_name": "Gonçalves"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "06414-025",
+                    "state_name": "SP",
+                    "city_name": "Barueri",
+                    "street_name": "Rua Werner Goldberg Apto 102 A Barueri SP BR",
+                    "apartment": "Apto 102 A"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQEBAQJbhmejYHpGPHgh7aZWjmFp1gdjA4biyky8nsnzExvr2gA8nuKjA5hH5nY",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13734",
+        "transaction_amount": 101.7000000000000028421709430404007434844970703125,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 96.6299999999999954525264911353588104248046875,
+            "total_paid_amount": 101.7000000000000028421709430404007434844970703125,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 101.7000000000000028421709430404007434844970703125,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 5.07000000000000028421709430404007434844970703125,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "512215",
+            "last_four_digits": "3293",
+            "bin": "51221506",
+            "expiration_month": 6,
+            "expiration_year": 2029,
+            "date_created": "2022-04-21T18:48:25.000-04:00",
+            "date_last_updated": "2022-04-21T18:48:25.000-04:00",
+            "cardholder": {
+                "name": "Carlos s goncalves",
+                "identification": {
+                    "number": "16120712879",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+04-21-2022 @ 19:48:27 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 21778029699,
+        "date_created": "2022-04-21T18:48:25.494-04:00",
+        "date_approved": "2022-04-21T18:48:26.766-04:00",
+        "date_last_updated": "2022-04-21T18:48:26.766-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-04-21T18:48:26.766-04:00",
+        "operation_type": "regular_payment",
+        "issuer_id": "24",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Kit Sekiama x 1, Farofa Doce x 1",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "015875",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "214899576",
+            "operator_id": null,
+            "email": "gislaine-aparecida@uol.com.br",
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Barueri",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "06414-025",
+                "street_name": "Rua Werner Goldberg"
+            },
+            "module_version": "5.7.5",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.4.0",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "209",
+                    "title": "Kit Sekiama x 1",
+                    "description": "Nao-sabe-qual-farofa-escolher-Quer-presentear-alguem-que-ama-farofa-Este-e-o-Kit-ideal.-Neste-kit-contem-as-farofas-strongDoce-Com-Muita-Cebola-Com-Muitas-Sementes-Faropop-Churrasco-com-Manteiga-e-Com-Muitas-Semen",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-sekiama-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "85.5"
+                },
+                {
+                    "id": "199",
+                    "title": "Farofa Doce x 1",
+                    "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "16.2"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 3681-2858"
+                },
+                "address": {
+                    "zip_code": "06414-025",
+                    "street_name": "Rua Werner Goldberg \/ Barueri SP BR"
+                },
+                "first_name": "Gislaine",
+                "last_name": "Gonçalves"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "06414-025",
+                    "state_name": "SP",
+                    "city_name": "Barueri",
+                    "street_name": "Rua Werner Goldberg Apto 102 A Barueri SP BR",
+                    "apartment": "Apto 102 A"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQEBAQJbhmejYHpGPHgh7aZWjmFp1gdjA4biyky8nsnzExvr2gA8nuKjA5hH5nY",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13734",
+        "transaction_amount": 101.7000000000000028421709430404007434844970703125,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 96.6299999999999954525264911353588104248046875,
+            "total_paid_amount": 101.7000000000000028421709430404007434844970703125,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 101.7000000000000028421709430404007434844970703125,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 5.07000000000000028421709430404007434844970703125,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "512215",
+            "last_four_digits": "3293",
+            "bin": "51221506",
+            "expiration_month": 6,
+            "expiration_year": 2029,
+            "date_created": "2022-04-21T18:48:25.000-04:00",
+            "date_last_updated": "2022-04-21T18:48:25.000-04:00",
+            "cardholder": {
+                "name": "Carlos s goncalves",
+                "identification": {
+                    "number": "16120712879",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+04-21-2022 @ 19:48:28 - [check_ipn_response]: received _get content: {
+    "data_id": "21778029699",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+04-21-2022 @ 19:48:28 - [successful_request]: starting to process  update...
+04-21-2022 @ 19:48:28 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Nao-sabe-qual-farofa-escolher-Quer-presentear-alguem-que-ama-farofa-Este-e-o-Kit-ideal.-Neste-kit-contem-as-farofas-strongDoce-Com-Muita-Cebola-Com-Muitas-Sementes-Faropop-Churrasco-com-Manteiga-e-Com-Muitas-Semen",
+                "id": "209",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-sekiama-1.png",
+                "quantity": "1",
+                "title": "Kit Sekiama x 1",
+                "unit_price": "85.5"
+            },
+            {
+                "category_id": "others",
+                "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                "id": "199",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                "quantity": "1",
+                "title": "Farofa Doce x 1",
+                "unit_price": "16.2"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Werner Goldberg \/ Barueri SP BR",
+                "zip_code": "06414-025"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Apto 102 A",
+                "city_name": "Barueri",
+                "state_name": "SP",
+                "street_name": "Rua Werner Goldberg Apto 102 A Barueri SP BR",
+                "zip_code": "06414-025"
+            }
+        }
+    },
+    "authorization_code": "015875",
+    "binary_mode": false,
+    "brand_id": null,
+    "call_for_authorize_id": null,
+    "captured": true,
+    "card": {
+        "bin": "51221506",
+        "cardholder": {
+            "identification": {
+                "number": "16120712879",
+                "type": "CPF"
+            },
+            "name": "Carlos s goncalves"
+        },
+        "date_created": "2022-04-21T18:48:25.000-04:00",
+        "date_last_updated": "2022-04-21T18:48:25.000-04:00",
+        "expiration_month": 6,
+        "expiration_year": 2029,
+        "first_six_digits": "512215",
+        "id": null,
+        "last_four_digits": "3293"
+    },
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-04-21T18:48:26.000-04:00",
+    "date_created": "2022-04-21T18:48:25.000-04:00",
+    "date_last_updated": "2022-04-21T18:48:26.000-04:00",
+    "date_of_expiration": null,
+    "deduction_schema": null,
+    "description": "Kit Sekiama x 1, Farofa Doce x 1",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13734",
+    "fee_details": [
+        {
+            "amount": 5.07000000000000028421709430404007434844970703125,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 21778029699,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": "24",
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "credit_card",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Barueri",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Rua Werner Goldberg",
+            "zip_code": "06414-025"
+        },
+        "module_version": "5.7.5",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.4.0",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-04-21T18:48:26.000-04:00",
+    "money_release_schema": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": "gislaine-aparecida@uol.com.br",
+        "entity_type": null,
+        "first_name": null,
+        "id": "214899576",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "master",
+    "payment_type_id": "credit_card",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "type": "UNSPECIFIED"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": "MERCPAGO*SEKIAMAMP",
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 101.7000000000000028421709430404007434844970703125,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 101.7000000000000028421709430404007434844970703125,
+        "net_received_amount": 96.6299999999999954525264911353588104248046875,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 101.7000000000000028421709430404007434844970703125
+    }
+}
+04-21-2022 @ 19:48:28 - [successful_request]: Changing order status to: processing

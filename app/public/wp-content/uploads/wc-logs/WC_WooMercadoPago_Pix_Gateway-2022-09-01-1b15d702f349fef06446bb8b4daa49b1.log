@@ -1,0 +1,262 @@
+08-31-2022 @ 21:00:45 - [check_ipn_response]: received _get content: {
+    "data_id": "25361857655",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+08-31-2022 @ 21:00:45 - [successful_request]: starting to process  update...
+08-31-2022 @ 21:00:45 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "bank_info": {
+            "is_same_bank_account_owner": false
+        },
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                "id": "199",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                "quantity": "1",
+                "title": "Farofa Doce x 2",
+                "unit_price": "39.6"
+            },
+            {
+                "category_id": "others",
+                "description": "As-farofas-que-cabem-no-seu-plano-alimentar.-Otima-fonte-de-fibras-nutricionais.-Neste-kit-contem-as-farofas-strongCom-Muitas-Sementes-e-Com-Muitas-Sementes-Castanhas.strong",
+                "id": "205",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-fit-1.png",
+                "quantity": "1",
+                "title": "Kit Fit x 1",
+                "unit_price": "33"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "unit_price": "16.32"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Av Professor Pedro Clarismundo Fornari \/ Jundiaí SP BR",
+                "zip_code": "13214-660"
+            },
+            "first_name": "Patricia",
+            "last_name": "Bonassi",
+            "phone": {
+                "number": "(11) 99990-0780"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Apto 25...bloco 2",
+                "city_name": "Jundiaí",
+                "state_name": "SP",
+                "street_name": "Av Professor Pedro Clarismundo Fornari Apto 25...bloco 2 Jundiaí SP BR",
+                "zip_code": "13214-660"
+            }
+        }
+    },
+    "authorization_code": null,
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.109.0",
+    "call_for_authorize_id": null,
+    "callback_url": null,
+    "captured": true,
+    "card": [],
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-08-31T20:00:41.000-04:00",
+    "date_created": "2022-08-31T19:59:40.000-04:00",
+    "date_last_updated": "2022-08-31T20:00:41.000-04:00",
+    "date_of_expiration": "2022-08-31T20:29:41.000-04:00",
+    "deduction_schema": null,
+    "description": "Farofa Doce x 2, Kit Fit x 1",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13895",
+    "fee_details": [
+        {
+            "amount": 0.88000000000000000444089209850062616169452667236328125,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 25361857655,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": null,
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "pix",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Jundiaí",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Av Professor Pedro Clarismundo Fornari",
+            "zip_code": "13214-660"
+        },
+        "module_version": "6.1.0",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.8.2",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-08-31T20:00:41.000-04:00",
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": "patricia_bonassi@hotmail.com",
+        "entity_type": null,
+        "first_name": null,
+        "id": "402681974",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "pix",
+    "payment_type_id": "bank_transfer",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "application_data": {
+            "name": null,
+            "version": null
+        },
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "location": {
+            "source": null,
+            "state_id": null
+        },
+        "sub_type": "INTER_PSP",
+        "transaction_data": {
+            "bank_info": {
+                "collector": {
+                    "account_holder_name": "Thiago Erminio Victor",
+                    "account_id": 55972707790,
+                    "long_name": "Mercadopago.com Representações Ltda.",
+                    "transfer_account_id": null
+                },
+                "is_same_bank_account_owner": false,
+                "origin_bank_id": null,
+                "origin_wallet_id": null,
+                "payer": {
+                    "account_id": 10364127,
+                    "external_account_id": null,
+                    "id": null,
+                    "long_name": "Banco Santander (Brasil) S.A."
+                }
+            },
+            "bank_transfer_id": 1437536240,
+            "financial_institution": 1,
+            "infringement_notification": {
+                "status": null,
+                "type": null
+            },
+            "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da0520400005303986540588.925802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter25361857655630409E0",
+            "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAIxklEQVR42u3dW27cOBAFUO5A+9+ldsBBgARusW6xO5lgMJaOPgzbrcdR\/xWqeDnmNzrOQUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0v797VjPY4f\/zt+fvDj3Jf\/vV5xOe\/1t6\/Lfv32ddnPP3\/d9PX2lUFLS0tLS0tLS0tLS\/sQ7fFasr3e5HIkaEEtz06nzPDp0TFoaWlpaWlpaWlpaWmfoi2Kr6pvXp+46cGNDb4tTduClJaWlpaWlpaWlpaW9tna81o7ts2+WiKmvmG+X\/pBS0tLS0tLS0tLS0tLuzbnvkrEeozuWBqF5c8zn0xLS0tLS0tLS0tLS\/tYbYsvD5ulniyfNmObyynpf382I0pLS0tLS0tLS0tLS\/vdtW1KyX\/7499mqtDS0tLS0tLS0tLS0n5T7X6B2zI5ufT52hIxD1eO65q6Mw9rBgYtLS0tLS0tLS0tLe29tfukyLGJ4t+E8i\/twbNMcabpzNzso6WlpaWlpaWlpaWlvbt2lp3Q2syR1w8SuS0W5zWNcua1cjnwhJaWlpaWlpaWlpaW9hHatyOQaTVcifs\/S+uuoFKkyZJccrytImlpaWlpaWlpaWlpae+nrSVimbCs27CVyMe6nC4Z065suXlIS0tLS0tLS0tLS0v7AG3O8j9DYbjMaTZTl+V1z\/w9pLfqRjRpaWlpaWlpaWlpaWnvrR3hjN1MZp61bLYAaF8onZIPWlpaWlpaWlpaWlrae2tTPMhSDm42VZtBsUxT1lr0fSzJeJOpQktLS0tLS0tLS0tLeyvt7KYpj7Cn9RFadzPsaT2uC9xSOOXlzuU3WlpaWlpaWlpaWlrah2k\/nYM83z+7Bp4kXp72nFFAS0tLS0tLS0tLS0t7b22zHVqbIFKundvI\/svUZXruJoOSlpaWlpaWlpaWlpb2Odq52ck6zVV+OqyZV9LNsL3ah6n+tLS0tLS0tLS0tLS0d9Om1WtluHLmRtxS\/5VByubLaIvU91OXtLS0tLS0tLS0tLS0d9Qem23TljHLZeVbqQRn2FA7bb7WXPZ+6pKWlpaWlpaWlpaWlva22tHtgr1o67q4VG2mec606C0zykI9WlpaWlpaWlpaWlra22tTPmSuHUdIhTzKAGeqT9M4ZlpiF25KS0tLS0tLS0tLS0t7Z20b2Z+O5Z5lrvLIbboNr9kju6siaWlpaWlpaWlpaWlp76hdrlqabu2ytuPDU1I45cx7u5X70dLS0tLS0tLS0tLSPkJ75joxhZaU32YHqOVgCTc5wqfnb9S8tLS0tLS0tLS0tLS0d9Em2dzuUD2uq9wu9V8e2zxHM+jZNPtoaWlpaWlpaWlpaWmfo03pIzlx\/7huyNbmQ9b4krZ\/l84LJSctLS0tLS0tLS0tLe2dta\/139ikj7S7VpcbpHj+mmtSis\/mU1paWlpaWlpaWlpa2rtr2+fkKrIGiqRsknd3GbliTK1AWlpaWlpaWlpaWlra+2tT2mPbnNvtsVYagKMUn23d2b4zLS0tLS0tLS0tLS3t3bW5EhzlxmnV3AeVYOaNbRDlubYWaWlpaWlpaWlpaWlp762tG57lqq+5Z762ecl3r3F8tgs2LS0tLS0tLS0tLS3tjbRFVrt2r2XjcqdZPi2epe4c27j\/5dVoaWlpaWlpaWlpaWkfoU2L1OojSrbk8sSl+NwByqxl81xaWlpaWlpaWlpaWtrnaHPtuFSWM0xY1qD+zejlGU5JZSMtLS0tLS0tLS0tLe0TtTNPPyZKCvlv5zQL6nJKSUIZ10wUWlpaWlpaWlpaWlrap2jTwGWpJ9tYyfSSJWmkrxjT8CctLS0tLS0tLS0tLe2TtKNsbF06fvkmoxSVu8tyzMnIj6SlpaWlpaWlpaWlpX2Ytg0eaUcql8tKcy59BftFb5OWlpaWlpaWlpaWlvap2uM6TTm6pWlnJhfPCMOVsyyxa8vG971IWlpaWlpaWlpaWlraW2nbMJK2p1c6eXMTA\/nuGfVbCmvvaGlpaWlpaWlpaWlp761d2mojRD6eZcPqpXbMm6qlRJKZV77lkpOWlpaWlpaWlpaWlvYR2vNdNy6PT47rGxxdEOXIvb8imHm\/AFpaWlpaWlpaWlpa2vtrlwnLpnbcV32pf5e6gHlHt7rsjpaWlpaWlpaWlpaW9jnadEZKH0nvUl5tSZQc4f3O6BlpM25aWlpaWlpaWlpaWtrnaJdt09qg\/tTJK3ux7dqDy1dQvqoz3p6WlpaWlpaWlpaWlvb22hwcWYu7VEWWvJK0Qm5XSqaAElpaWlpaWlpaWlpa2sdpZ6nhlkvL8rfR7YI9Q5jk7ErOs3s4LS0tLS0tLS0tLS3tU7TFc+b6r+SVHOXZeQjz7ArIke9XFujR0tLS0tLS0tLS0tI+QjvKSGWKEUlVXyo+23be63dzlJTJ8gXR0tLS0tLS0tLS0tI+QFsWuJ3XJXGjG66ss5a5IG2MqY7tMkxoaWlpaWlpaWlpaWkfoB3bvdMur7EUmrl2PLYtwyPcdAlLoaWlpaWlpaWlpaWlfYo2Hek5OXZ\/iSpZ6r\/aQfx0t7Xt1CUtLS0tLS0tLS0tLe2ttGM9jpAo2e6ndmxad7mKbCNNjo\/TI2lpaWlpaWlpaWlpaW+mPbYF5My1YwkoqZVgDpMc23d+X0XS0tLS0tLS0tLS0tLeUlvmJZfwkKXF90VuytDPw\/vH786I0tLS0tLS0tLS0tLSPkvb1nptkEl5Ytot+7POIC0tLS0tLS0tLS0tLe1IG2CXic0aN5I\/Pcq6uE0rkJaWlpaWlpaWlpaW9lHa\/dRliuLPBd\/slr+NsLBuGeAco1HR0tLS0tLS0tLS0tLeXZuGJmcpDFOzL2\/SNsPatmVic163V0sDnLS0tLS0tLS0tLS0tE\/R\/v8PWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWtq\/pv0HqcraJiH9km0AAAAASUVORK5CYII=",
+            "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/25361857655\/ticket?caller_id=402681974&hash=e56647a8-438d-4ad6-a92a-ddc6a13b59c9",
+            "transaction_id": "PIXE9040088820220901000005907377572"
+        },
+        "type": "OPENPLATFORM"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": null,
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 88.9200000000000017053025658242404460906982421875,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "bank_transfer_id": 1437536240,
+        "external_resource_url": null,
+        "financial_institution": "1",
+        "installment_amount": 0,
+        "net_received_amount": 88.0400000000000062527760746888816356658935546875,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 88.9200000000000017053025658242404460906982421875,
+        "transaction_id": "PIXE9040088820220901000005907377572"
+    }
+}
+08-31-2022 @ 21:00:46 - [successful_request]: Changing order status to: processing

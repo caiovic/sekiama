@@ -1,0 +1,1079 @@
+03-31-2022 @ 10:17:02 - [process_cancel_order_meta_box_actions]: cancelling payments for 20993480109
+03-31-2022 @ 10:17:02 - [process_cancel_order_meta_box_actions]: cancel payment of id 20993480109 => FAIL - The action requested is not valid for the current payment state
+03-31-2022 @ 10:21:36 - [process_payment]: customer being redirected to Mercado Pago.
+03-31-2022 @ 10:21:36 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-7362",
+    "notification_url": "https:\/\/sekiama.otimaideia.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "items": [
+        {
+            "id": 199,
+            "title": "Farofa Doce x 1",
+            "description": "E-ideal-pra-inovar-o-sabor-de-suas-sobremesas-com-um-toque-extra-crocante.-Alem-de-finalizar-receitas-pode-ser-utilizada-tambem-em-shakes-vitaminas-coberturas-e-onde-mais-preferir.-span-stylecolor-a81414strongIn",
+            "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/doce.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 18,
+            "currency_id": "BRL"
+        },
+        {
+            "title": "Sedex (Entrega em 3 dias úteis)",
+            "description": "Serviço de envio usado pela loja.",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 11.660000000000000142108547152020037174224853515625
+        }
+    ],
+    "payer": {
+        "name": "Danilo",
+        "surname": "Luiz",
+        "email": "danilo@otimaideia.com.br",
+        "phone": {
+            "number": "(13) 97407-9732"
+        },
+        "address": {
+            "zip_code": "11700-270",
+            "street_name": "Rua Jau \/ Praia Grande SP BR"
+        }
+    },
+    "back_urls": {
+        "success": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7362\/?key=wc_order_TCqsbebk7CQbk",
+        "failure": "https:\/\/sekiama.otimaideia.com.br\/carrinho\/?cancel_order=true&order=wc_order_TCqsbebk7CQbk&order_id=7362&redirect&_wpnonce=318a1f10c2",
+        "pending": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7362\/?key=wc_order_TCqsbebk7CQbk"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "11700-270",
+            "street_name": "Rua Jau Loja 1 Praia Grande SP BR",
+            "apartment": "Loja 1",
+            "city_name": "Praia Grande",
+            "state_name": "SP"
+        }
+    },
+    "payment_methods": {
+        "installments": 1,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.3.1",
+        "module_version": "5.7.4",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "https:\/\/sekiama.otimaideia.com.br",
+        "billing_address": {
+            "zip_code": "11700-270",
+            "street_name": "Rua Jau",
+            "city_name": "Praia Grande",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+03-31-2022 @ 10:21:37 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/sekiama.otimaideia.com.br\/carrinho\/?cancel_order=true&order=wc_order_TCqsbebk7CQbk&order_id=7362&redirect&_wpnonce=318a1f10c2",
+            "pending": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7362\/?key=wc_order_TCqsbebk7CQbk",
+            "success": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7362\/?key=wc_order_TCqsbebk7CQbk"
+        },
+        "binary_mode": false,
+        "client_id": "6290074584163570",
+        "collector_id": 163745094,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-03-31T13:21:36.640+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-7362",
+        "id": "163745094-f1a335c0-d4a7-419b-8e85-1c96bb62cef0",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-f1a335c0-d4a7-419b-8e85-1c96bb62cef0",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "199",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "E-ideal-pra-inovar-o-sabor-de-suas-sobremesas-com-um-toque-extra-crocante.-Alem-de-finalizar-receitas-pode-ser-utilizada-tambem-em-shakes-vitaminas-coberturas-e-onde-mais-preferir.-span-stylecolor-a81414strongIn",
+                "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/doce.png",
+                "title": "Farofa Doce x 1",
+                "quantity": 1,
+                "unit_price": 18
+            },
+            {
+                "id": "",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Serviço de envio usado pela loja.",
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "quantity": 1,
+                "unit_price": 11.660000000000000142108547152020037174224853515625
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Praia Grande",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Rua Jau",
+                "zip_code": "11700-270"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "163745094",
+            "custom_settings": {
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "gateway_discount_checkbox": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "5.7.4",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.3.1",
+            "seller_website": "https:\/\/sekiama.otimaideia.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": "https:\/\/sekiama.otimaideia.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(13) 97407-9732"
+            },
+            "address": {
+                "zip_code": "11700-270",
+                "street_name": "Rua Jau  Praia Grande SP BR",
+                "street_number": null
+            },
+            "email": "danilo@otimaideia.com.br",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Danilo",
+            "surname": "Luiz",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 1,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-f1a335c0-d4a7-419b-8e85-1c96bb62cef0",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "11700-270",
+                "street_name": "Rua Jau Loja 1 Praia Grande SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "Loja 1",
+                "city_name": "Praia Grande",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "Sekiama MP",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+03-31-2022 @ 10:21:37 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/sekiama.otimaideia.com.br\/carrinho\/?cancel_order=true&order=wc_order_TCqsbebk7CQbk&order_id=7362&redirect&_wpnonce=318a1f10c2",
+            "pending": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7362\/?key=wc_order_TCqsbebk7CQbk",
+            "success": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7362\/?key=wc_order_TCqsbebk7CQbk"
+        },
+        "binary_mode": false,
+        "client_id": "6290074584163570",
+        "collector_id": 163745094,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-03-31T13:21:36.640+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-7362",
+        "id": "163745094-f1a335c0-d4a7-419b-8e85-1c96bb62cef0",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-f1a335c0-d4a7-419b-8e85-1c96bb62cef0",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "199",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "E-ideal-pra-inovar-o-sabor-de-suas-sobremesas-com-um-toque-extra-crocante.-Alem-de-finalizar-receitas-pode-ser-utilizada-tambem-em-shakes-vitaminas-coberturas-e-onde-mais-preferir.-span-stylecolor-a81414strongIn",
+                "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/doce.png",
+                "title": "Farofa Doce x 1",
+                "quantity": 1,
+                "unit_price": 18
+            },
+            {
+                "id": "",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Serviço de envio usado pela loja.",
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "quantity": 1,
+                "unit_price": 11.660000000000000142108547152020037174224853515625
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Praia Grande",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Rua Jau",
+                "zip_code": "11700-270"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "163745094",
+            "custom_settings": {
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "gateway_discount_checkbox": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "5.7.4",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.3.1",
+            "seller_website": "https:\/\/sekiama.otimaideia.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": "https:\/\/sekiama.otimaideia.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(13) 97407-9732"
+            },
+            "address": {
+                "zip_code": "11700-270",
+                "street_name": "Rua Jau  Praia Grande SP BR",
+                "street_number": null
+            },
+            "email": "danilo@otimaideia.com.br",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Danilo",
+            "surname": "Luiz",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 1,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-f1a335c0-d4a7-419b-8e85-1c96bb62cef0",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "11700-270",
+                "street_name": "Rua Jau Loja 1 Praia Grande SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "Loja 1",
+                "city_name": "Praia Grande",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "Sekiama MP",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+03-31-2022 @ 19:15:31 - [process_payment]: customer being redirected to Mercado Pago.
+03-31-2022 @ 19:15:31 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-7506",
+    "notification_url": "https:\/\/sekiama.otimaideia.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "items": [
+        {
+            "id": 197,
+            "title": "Farofa com Muitas Sementes e Castanhas x 4",
+            "description": "A-farinha-de-mandioca-e-ENRIQUECIDA-com-SEMENTES-e-CASTANHAS-obtendo-micronutrientes-essenciais-gorduras-beneficas-e-muitas-fibras-para-a-felicidade-do-seu-organismo.-strongspan-stylecolor-a81414Ingredientessp",
+            "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/sementesecastanha.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 67.599999999999994315658113919198513031005859375,
+            "currency_id": "BRL"
+        },
+        {
+            "id": 195,
+            "title": "Farofa com Muita Cebola x 1",
+            "description": "Nesta-nobre-preparacao-a-farinha-de-mandioca-ganha-o-incrivel-sabor-da-cebola-com-o-gostinho-de-farofa-caseira-uma-verdadeira-delicia-que-vai-bem-com-todo-tipo-de-prato.-span-stylecolor-a81414strongIngredientes",
+            "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/cebola.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 15.199999999999999289457264239899814128875732421875,
+            "currency_id": "BRL"
+        },
+        {
+            "title": "Sequoia SFX (Entrega em 5 dias úteis)",
+            "description": "Serviço de envio usado pela loja.",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 18.730000000000000426325641456060111522674560546875
+        }
+    ],
+    "payer": {
+        "name": "LARISSA",
+        "surname": "Naves",
+        "email": "lalanaves@gmail.com",
+        "phone": {
+            "number": "(31) 98309-9464"
+        },
+        "address": {
+            "zip_code": "30411-183",
+            "street_name": "Rua Chapecó \/ Belo Horizonte MG BR"
+        }
+    },
+    "back_urls": {
+        "success": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7506\/?key=wc_order_j2VhDKomVUbYO",
+        "failure": "https:\/\/sekiama.otimaideia.com.br\/carrinho\/?cancel_order=true&order=wc_order_j2VhDKomVUbYO&order_id=7506&redirect&_wpnonce=3c031eaed3",
+        "pending": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7506\/?key=wc_order_j2VhDKomVUbYO"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "30411-183",
+            "street_name": "Rua Chapecó Apto 1102 Belo Horizonte MG BR",
+            "apartment": "Apto 1102",
+            "city_name": "Belo Horizonte",
+            "state_name": "MG"
+        }
+    },
+    "payment_methods": {
+        "installments": 1,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.3.1",
+        "module_version": "5.7.4",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "https:\/\/sekiama.otimaideia.com.br",
+        "billing_address": {
+            "zip_code": "30411-183",
+            "street_name": "Rua Chapecó",
+            "city_name": "Belo Horizonte",
+            "state_name": "MG",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+03-31-2022 @ 19:15:32 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/sekiama.otimaideia.com.br\/carrinho\/?cancel_order=true&order=wc_order_j2VhDKomVUbYO&order_id=7506&redirect&_wpnonce=3c031eaed3",
+            "pending": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7506\/?key=wc_order_j2VhDKomVUbYO",
+            "success": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7506\/?key=wc_order_j2VhDKomVUbYO"
+        },
+        "binary_mode": false,
+        "client_id": "6290074584163570",
+        "collector_id": 163745094,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-03-31T22:15:30.654+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-7506",
+        "id": "163745094-a6f93ece-36ae-4972-beeb-fa8dad38b7bd",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-a6f93ece-36ae-4972-beeb-fa8dad38b7bd",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "197",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "A-farinha-de-mandioca-e-ENRIQUECIDA-com-SEMENTES-e-CASTANHAS-obtendo-micronutrientes-essenciais-gorduras-beneficas-e-muitas-fibras-para-a-felicidade-do-seu-organismo.-strongspan-stylecolor-a81414Ingredientessp",
+                "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/sementesecastanha.png",
+                "title": "Farofa com Muitas Sementes e Castanhas x 4",
+                "quantity": 1,
+                "unit_price": 67.599999999999994315658113919198513031005859375
+            },
+            {
+                "id": "195",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Nesta-nobre-preparacao-a-farinha-de-mandioca-ganha-o-incrivel-sabor-da-cebola-com-o-gostinho-de-farofa-caseira-uma-verdadeira-delicia-que-vai-bem-com-todo-tipo-de-prato.-span-stylecolor-a81414strongIngredientes",
+                "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/cebola.png",
+                "title": "Farofa com Muita Cebola x 1",
+                "quantity": 1,
+                "unit_price": 15.199999999999999289457264239899814128875732421875
+            },
+            {
+                "id": "",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Serviço de envio usado pela loja.",
+                "title": "Sequoia SFX (Entrega em 5 dias úteis)",
+                "quantity": 1,
+                "unit_price": 18.730000000000000426325641456060111522674560546875
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Belo Horizonte",
+                "country_name": "BR",
+                "state_name": "MG",
+                "street_name": "Rua Chapecó",
+                "zip_code": "30411-183"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "163745094",
+            "custom_settings": {
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "gateway_discount_checkbox": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "5.7.4",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.3.1",
+            "seller_website": "https:\/\/sekiama.otimaideia.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": "https:\/\/sekiama.otimaideia.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(31) 98309-9464"
+            },
+            "address": {
+                "zip_code": "30411-183",
+                "street_name": "Rua Chapecó  Belo Horizonte MG BR",
+                "street_number": null
+            },
+            "email": "lalanaves@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "LARISSA",
+            "surname": "Naves",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 1,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-a6f93ece-36ae-4972-beeb-fa8dad38b7bd",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "30411-183",
+                "street_name": "Rua Chapecó Apto 1102 Belo Horizonte MG BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "Apto 1102",
+                "city_name": "Belo Horizonte",
+                "state_name": "MG",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "Sekiama MP",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+03-31-2022 @ 19:15:32 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/sekiama.otimaideia.com.br\/carrinho\/?cancel_order=true&order=wc_order_j2VhDKomVUbYO&order_id=7506&redirect&_wpnonce=3c031eaed3",
+            "pending": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7506\/?key=wc_order_j2VhDKomVUbYO",
+            "success": "https:\/\/sekiama.otimaideia.com.br\/finalizar-compra\/order-received\/7506\/?key=wc_order_j2VhDKomVUbYO"
+        },
+        "binary_mode": false,
+        "client_id": "6290074584163570",
+        "collector_id": 163745094,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-03-31T22:15:30.654+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-7506",
+        "id": "163745094-a6f93ece-36ae-4972-beeb-fa8dad38b7bd",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-a6f93ece-36ae-4972-beeb-fa8dad38b7bd",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "197",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "A-farinha-de-mandioca-e-ENRIQUECIDA-com-SEMENTES-e-CASTANHAS-obtendo-micronutrientes-essenciais-gorduras-beneficas-e-muitas-fibras-para-a-felicidade-do-seu-organismo.-strongspan-stylecolor-a81414Ingredientessp",
+                "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/sementesecastanha.png",
+                "title": "Farofa com Muitas Sementes e Castanhas x 4",
+                "quantity": 1,
+                "unit_price": 67.599999999999994315658113919198513031005859375
+            },
+            {
+                "id": "195",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Nesta-nobre-preparacao-a-farinha-de-mandioca-ganha-o-incrivel-sabor-da-cebola-com-o-gostinho-de-farofa-caseira-uma-verdadeira-delicia-que-vai-bem-com-todo-tipo-de-prato.-span-stylecolor-a81414strongIngredientes",
+                "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/cebola.png",
+                "title": "Farofa com Muita Cebola x 1",
+                "quantity": 1,
+                "unit_price": 15.199999999999999289457264239899814128875732421875
+            },
+            {
+                "id": "",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Serviço de envio usado pela loja.",
+                "title": "Sequoia SFX (Entrega em 5 dias úteis)",
+                "quantity": 1,
+                "unit_price": 18.730000000000000426325641456060111522674560546875
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Belo Horizonte",
+                "country_name": "BR",
+                "state_name": "MG",
+                "street_name": "Rua Chapecó",
+                "zip_code": "30411-183"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "163745094",
+            "custom_settings": {
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "gateway_discount_checkbox": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "5.7.4",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.3.1",
+            "seller_website": "https:\/\/sekiama.otimaideia.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": "https:\/\/sekiama.otimaideia.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(31) 98309-9464"
+            },
+            "address": {
+                "zip_code": "30411-183",
+                "street_name": "Rua Chapecó  Belo Horizonte MG BR",
+                "street_number": null
+            },
+            "email": "lalanaves@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "LARISSA",
+            "surname": "Naves",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 1,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-a6f93ece-36ae-4972-beeb-fa8dad38b7bd",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "30411-183",
+                "street_name": "Rua Chapecó Apto 1102 Belo Horizonte MG BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "Apto 1102",
+                "city_name": "Belo Horizonte",
+                "state_name": "MG",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "Sekiama MP",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+03-31-2022 @ 19:16:57 - [check_ipn_response]: received _get content: {
+    "id": "4444039300",
+    "source_news": "ipn",
+    "topic": "merchant_order"
+}
+03-31-2022 @ 19:16:57 - [check_ipn_response]: Not found Payments into Merchant_Order
+03-31-2022 @ 19:17:14 - [check_ipn_response]: received _get content: {
+    "id": "21257120896",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+03-31-2022 @ 19:17:14 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+03-31-2022 @ 19:17:14 - [check_ipn_response]: received _get content: {
+    "id": "4444039300",
+    "source_news": "ipn",
+    "topic": "merchant_order"
+}
+03-31-2022 @ 19:17:15 - [successful_request]: starting to process  update...
+03-31-2022 @ 19:17:15 - [successful_request]: updating metadata and status with data: {
+    "id": 4444039300,
+    "status": "closed",
+    "external_reference": "WC-7506",
+    "preference_id": "163745094-a6f93ece-36ae-4972-beeb-fa8dad38b7bd",
+    "payments": [
+        {
+            "id": 21257120896,
+            "transaction_amount": 101.530000000000001136868377216160297393798828125,
+            "total_paid_amount": 101.530000000000001136868377216160297393798828125,
+            "shipping_cost": 0,
+            "currency_id": "BRL",
+            "status": "pending",
+            "status_detail": "pending_waiting_payment",
+            "operation_type": "regular_payment",
+            "date_approved": "0001-01-01T00:00:00.000+00:00",
+            "date_created": "2022-03-31T18:17:11.000-04:00",
+            "last_modified": "2022-03-31T18:17:11.000-04:00",
+            "amount_refunded": 0
+        }
+    ],
+    "shipments": [],
+    "payouts": [],
+    "collector": {
+        "id": 163745094,
+        "email": "",
+        "nickname": "THIAGOERMINIO"
+    },
+    "marketplace": "NONE",
+    "notification_url": "https:\/\/sekiama.otimaideia.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "date_created": "2022-03-31T22:16:54.014+00:00",
+    "last_updated": "2022-03-31T22:17:12.926+00:00",
+    "sponsor_id": null,
+    "shipping_cost": 0,
+    "total_amount": 101.530000000000001136868377216160297393798828125,
+    "site_id": "MLB",
+    "paid_amount": 101.530000000000001136868377216160297393798828125,
+    "refunded_amount": 0,
+    "payer": {
+        "id": 40058112,
+        "email": ""
+    },
+    "items": [
+        {
+            "id": "197",
+            "category_id": "others",
+            "currency_id": "BRL",
+            "description": "A-farinha-de-mandioca-e-ENRIQUECIDA-com-SEMENTES-e-CASTANHAS-obtendo-micronutrientes-essenciais-gorduras-beneficas-e-muitas-fibras-para-a-felicidade-do-seu-organismo.-strongspan-stylecolor-a81414Ingredientessp",
+            "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/sementesecastanha.png",
+            "picture_id": "882422-MLB49537088766_032022",
+            "title": "Farofa com Muitas Sementes e Castanhas x 4",
+            "quantity": 1,
+            "unit_price": 67.59999847412109375
+        },
+        {
+            "id": "195",
+            "category_id": "others",
+            "currency_id": "BRL",
+            "description": "Nesta-nobre-preparacao-a-farinha-de-mandioca-ganha-o-incrivel-sabor-da-cebola-com-o-gostinho-de-farofa-caseira-uma-verdadeira-delicia-que-vai-bem-com-todo-tipo-de-prato.-span-stylecolor-a81414strongIngredientes",
+            "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/cebola.png",
+            "picture_id": "684322-MLB49537086836_032022",
+            "title": "Farofa com Muita Cebola x 1",
+            "quantity": 1,
+            "unit_price": 15.19999980926513671875
+        },
+        {
+            "id": "",
+            "category_id": "others",
+            "currency_id": "BRL",
+            "description": "Serviço de envio usado pela loja.",
+            "picture_url": null,
+            "title": "Sequoia SFX (Entrega em 5 dias úteis)",
+            "quantity": 1,
+            "unit_price": 18.729999542236328125
+        }
+    ],
+    "cancelled": false,
+    "additional_info": "",
+    "application_id": null,
+    "order_status": "payment_in_process",
+    "ipn_type": "merchant_order"
+}
+03-31-2022 @ 19:17:15 - [successful_request]: Changing order status to: pending
+03-31-2022 @ 19:17:50 - [check_ipn_response]: received _get content: {
+    "id": "21257120896",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+03-31-2022 @ 19:17:50 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+03-31-2022 @ 19:17:51 - [check_ipn_response]: received _get content: {
+    "id": "21257120896",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+03-31-2022 @ 19:17:51 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+03-31-2022 @ 19:40:38 - [check_ipn_response]: received _get content: {
+    "id": "21257120896",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+03-31-2022 @ 19:40:38 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+03-31-2022 @ 20:17:22 - [check_ipn_response]: received _get content: {
+    "id": "21257120896",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+03-31-2022 @ 20:17:22 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order

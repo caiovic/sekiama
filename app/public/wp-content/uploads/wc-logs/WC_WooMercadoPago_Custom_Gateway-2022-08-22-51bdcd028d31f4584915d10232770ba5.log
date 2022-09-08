@@ -1,0 +1,936 @@
+08-22-2022 @ 20:57:26 - [process_payment]: POST Custom: {
+    "amount": "103.68",
+    "currency_ratio": "1",
+    "paymentMethodId": "",
+    "checkout_type": "wallet_button",
+    "installments": ""
+}
+08-22-2022 @ 20:57:26 - [process_payment]: preparing to render wallet button checkout.
+08-22-2022 @ 20:57:27 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13881",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "items": [
+        {
+            "id": 199,
+            "title": "Farofa Doce x 3",
+            "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+            "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 53.46000000000000085265128291212022304534912109375,
+            "currency_id": "BRL"
+        },
+        {
+            "id": 197,
+            "title": "Farofa com Muitas Sementes e Castanhas x 3",
+            "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+            "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 50.219999999999998863131622783839702606201171875,
+            "currency_id": "BRL"
+        }
+    ],
+    "payer": {
+        "name": "Maria",
+        "surname": "Di Fraia",
+        "email": "neves.fraia@gmail.com",
+        "phone": {
+            "number": "(11) 99654-0518"
+        },
+        "address": {
+            "zip_code": "12941-011",
+            "street_name": "Rua Dr Renato Alves Rosa \/ Atibaia SP BR"
+        }
+    },
+    "back_urls": {
+        "success": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13881\/?key=wc_order_HtiGjkZ5egANE",
+        "failure": "https:\/\/www.sekiama.com.br\/carrinho\/?cancel_order=true&order=wc_order_HtiGjkZ5egANE&order_id=13881&redirect&_wpnonce=672f359180",
+        "pending": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13881\/?key=wc_order_HtiGjkZ5egANE"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "12941-011",
+            "street_name": "Rua Dr Renato Alves Rosa  Atibaia SP BR",
+            "apartment": "",
+            "city_name": "Atibaia",
+            "state_name": "SP"
+        }
+    },
+    "payment_methods": {
+        "installments": 12,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.8.0",
+        "module_version": "6.0.2",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "12941-011",
+            "street_name": "Rua Dr Renato Alves Rosa",
+            "city_name": "Atibaia",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "pro",
+        "checkout_type": "wallet_button"
+    },
+    "purpose": "wallet_purchase"
+}
+08-22-2022 @ 20:57:27 - [create_preference_wallet_button]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/www.sekiama.com.br\/carrinho\/?cancel_order=true&order=wc_order_HtiGjkZ5egANE&order_id=13881&redirect&_wpnonce=672f359180",
+            "pending": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13881\/?key=wc_order_HtiGjkZ5egANE",
+            "success": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13881\/?key=wc_order_HtiGjkZ5egANE"
+        },
+        "binary_mode": false,
+        "client_id": "6290074584163570",
+        "collector_id": 163745094,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-08-22T19:57:25.753-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-13881",
+        "id": "163745094-af7ee246-a275-4ad3-852e-dc9eae14ba9c",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-af7ee246-a275-4ad3-852e-dc9eae14ba9c",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "199",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                "title": "Farofa Doce x 3",
+                "quantity": 1,
+                "unit_price": 53.46000000000000085265128291212022304534912109375
+            },
+            {
+                "id": "197",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "title": "Farofa com Muitas Sementes e Castanhas x 3",
+                "quantity": 1,
+                "unit_price": 50.219999999999998863131622783839702606201171875
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "no",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Atibaia",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Rua Dr Renato Alves Rosa",
+                "zip_code": "12941-011"
+            },
+            "checkout": "pro",
+            "checkout_type": "wallet_button",
+            "collector": "163745094",
+            "custom_settings": {
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "gateway_discount_checkbox": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "6.0.2",
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.8.0",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(11) 99654-0518"
+            },
+            "address": {
+                "zip_code": "12941-011",
+                "street_name": "Rua Dr Renato Alves Rosa  Atibaia SP BR",
+                "street_number": null
+            },
+            "email": "neves.fraia@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Maria",
+            "surname": "Di Fraia",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 12,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-af7ee246-a275-4ad3-852e-dc9eae14ba9c",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "12941-011",
+                "street_name": "Rua Dr Renato Alves Rosa  Atibaia SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "Atibaia",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "Sekiama MP",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+08-22-2022 @ 20:57:27 - [create_preference_wallet_button]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/www.sekiama.com.br\/carrinho\/?cancel_order=true&order=wc_order_HtiGjkZ5egANE&order_id=13881&redirect&_wpnonce=672f359180",
+            "pending": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13881\/?key=wc_order_HtiGjkZ5egANE",
+            "success": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13881\/?key=wc_order_HtiGjkZ5egANE"
+        },
+        "binary_mode": false,
+        "client_id": "6290074584163570",
+        "collector_id": 163745094,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-08-22T19:57:25.753-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-13881",
+        "id": "163745094-af7ee246-a275-4ad3-852e-dc9eae14ba9c",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-af7ee246-a275-4ad3-852e-dc9eae14ba9c",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "199",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                "title": "Farofa Doce x 3",
+                "quantity": 1,
+                "unit_price": 53.46000000000000085265128291212022304534912109375
+            },
+            {
+                "id": "197",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "title": "Farofa com Muitas Sementes e Castanhas x 3",
+                "quantity": 1,
+                "unit_price": 50.219999999999998863131622783839702606201171875
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "no",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Atibaia",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Rua Dr Renato Alves Rosa",
+                "zip_code": "12941-011"
+            },
+            "checkout": "pro",
+            "checkout_type": "wallet_button",
+            "collector": "163745094",
+            "custom_settings": {
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "gateway_discount_checkbox": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "6.0.2",
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.8.0",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(11) 99654-0518"
+            },
+            "address": {
+                "zip_code": "12941-011",
+                "street_name": "Rua Dr Renato Alves Rosa  Atibaia SP BR",
+                "street_number": null
+            },
+            "email": "neves.fraia@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Maria",
+            "surname": "Di Fraia",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 12,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-af7ee246-a275-4ad3-852e-dc9eae14ba9c",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "12941-011",
+                "street_name": "Rua Dr Renato Alves Rosa  Atibaia SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "Atibaia",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "Sekiama MP",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+08-22-2022 @ 20:59:42 - [check_ipn_response]: received _get content: {
+    "data_id": "25117715544",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+08-22-2022 @ 20:59:42 - [successful_request]: starting to process  update...
+08-22-2022 @ 20:59:42 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "ip_address": "187.57.240.113",
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                "id": "199",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                "quantity": "1",
+                "title": "Farofa Doce x 3",
+                "unit_price": "53.459999084472656"
+            },
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 3",
+                "unit_price": "50.220001220703125"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Dr Renato Alves Rosa  Atibaia SP BR",
+                "zip_code": "12941-011"
+            },
+            "first_name": "Maria",
+            "last_name": "Di Fraia",
+            "phone": {
+                "number": "(11) 99654-0518"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "city_name": "Atibaia",
+                "state_name": "SP",
+                "street_name": "Rua Dr Renato Alves Rosa  Atibaia SP BR",
+                "zip_code": "12941-011"
+            }
+        }
+    },
+    "authorization_code": "693663",
+    "binary_mode": true,
+    "brand_id": null,
+    "build_version": "2.107.4",
+    "call_for_authorize_id": null,
+    "captured": true,
+    "card": {
+        "bin": "377174",
+        "cardholder": {
+            "identification": {
+                "number": "03165501831",
+                "type": "CPF"
+            },
+            "name": "MARIA NEVES T FRAIA"
+        },
+        "date_created": "2022-08-22T19:59:35.000-04:00",
+        "date_last_updated": "2022-08-22T19:59:35.000-04:00",
+        "expiration_month": 11,
+        "expiration_year": 2023,
+        "first_six_digits": "377174",
+        "id": "9135264958",
+        "last_four_digits": "5933"
+    },
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-08-22T19:59:37.000-04:00",
+    "date_created": "2022-08-22T19:59:35.000-04:00",
+    "date_last_updated": "2022-08-22T19:59:37.000-04:00",
+    "date_of_expiration": null,
+    "deduction_schema": null,
+    "description": "Farofa Doce x 3",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13881",
+    "fee_details": [
+        {
+            "amount": 5.1699999999999999289457264239899814128875732421875,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 25117715544,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": "18",
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "wallet_button",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Atibaia",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Rua Dr Renato Alves Rosa",
+            "zip_code": "12941-011"
+        },
+        "module_version": "6.0.2",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.8.0",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "pro",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-08-22T19:59:37.000-04:00",
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": {
+        "id": "5585736533",
+        "type": "mercadopago"
+    },
+    "payer": {
+        "email": "neves.fraia@gmail.com",
+        "entity_type": null,
+        "first_name": null,
+        "id": "40516801",
+        "identification": {
+            "number": "03165501831",
+            "type": "CPF"
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "amex",
+    "payment_type_id": "credit_card",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "business_info": {
+            "sub_unit": "checkout_pro",
+            "unit": "online_payments"
+        },
+        "type": "UNSPECIFIED"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": "EC*SEKIAMAMP",
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 103.68000000000000682121026329696178436279296875,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 103.68000000000000682121026329696178436279296875,
+        "net_received_amount": 98.5100000000000051159076974727213382720947265625,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": "386169149",
+        "total_paid_amount": 103.68000000000000682121026329696178436279296875
+    }
+}
+08-22-2022 @ 20:59:42 - [successful_request]: Changing order status to: processing
+08-22-2022 @ 20:59:50 - [check_ipn_response]: received _get content: {
+    "data_id": "25117715544",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+08-22-2022 @ 20:59:50 - [successful_request]: starting to process  update...
+08-22-2022 @ 20:59:50 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "ip_address": "187.57.240.113",
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                "id": "199",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                "quantity": "1",
+                "title": "Farofa Doce x 3",
+                "unit_price": "53.459999084472656"
+            },
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 3",
+                "unit_price": "50.220001220703125"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Dr Renato Alves Rosa  Atibaia SP BR",
+                "zip_code": "12941-011"
+            },
+            "first_name": "Maria",
+            "last_name": "Di Fraia",
+            "phone": {
+                "number": "(11) 99654-0518"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "city_name": "Atibaia",
+                "state_name": "SP",
+                "street_name": "Rua Dr Renato Alves Rosa  Atibaia SP BR",
+                "zip_code": "12941-011"
+            }
+        }
+    },
+    "authorization_code": "693663",
+    "binary_mode": true,
+    "brand_id": null,
+    "build_version": "2.107.4",
+    "call_for_authorize_id": null,
+    "captured": true,
+    "card": {
+        "bin": "377174",
+        "cardholder": {
+            "identification": {
+                "number": "03165501831",
+                "type": "CPF"
+            },
+            "name": "MARIA NEVES T FRAIA"
+        },
+        "date_created": "2022-08-22T19:59:35.000-04:00",
+        "date_last_updated": "2022-08-22T19:59:35.000-04:00",
+        "expiration_month": 11,
+        "expiration_year": 2023,
+        "first_six_digits": "377174",
+        "id": "9135264958",
+        "last_four_digits": "5933"
+    },
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-08-22T19:59:37.000-04:00",
+    "date_created": "2022-08-22T19:59:35.000-04:00",
+    "date_last_updated": "2022-08-22T19:59:47.000-04:00",
+    "date_of_expiration": null,
+    "deduction_schema": null,
+    "description": "Farofa Doce x 3",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13881",
+    "fee_details": [
+        {
+            "amount": 5.1699999999999999289457264239899814128875732421875,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 25117715544,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": "18",
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "wallet_button",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Atibaia",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Rua Dr Renato Alves Rosa",
+            "zip_code": "12941-011"
+        },
+        "module_version": "6.0.2",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.8.0",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "pro",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-08-22T19:59:37.000-04:00",
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": {
+        "id": "5585736533",
+        "type": "mercadopago"
+    },
+    "payer": {
+        "email": "neves.fraia@gmail.com",
+        "entity_type": null,
+        "first_name": null,
+        "id": "40516801",
+        "identification": {
+            "number": "03165501831",
+            "type": "CPF"
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "amex",
+    "payment_type_id": "credit_card",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "business_info": {
+            "sub_unit": "checkout_pro",
+            "unit": "online_payments"
+        },
+        "type": "UNSPECIFIED"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": "EC*SEKIAMAMP",
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 103.68000000000000682121026329696178436279296875,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 103.68000000000000682121026329696178436279296875,
+        "net_received_amount": 98.5100000000000051159076974727213382720947265625,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": "386169149",
+        "total_paid_amount": 103.68000000000000682121026329696178436279296875
+    }
+}
+08-22-2022 @ 20:59:50 - [successful_request]: Changing order status to: processing

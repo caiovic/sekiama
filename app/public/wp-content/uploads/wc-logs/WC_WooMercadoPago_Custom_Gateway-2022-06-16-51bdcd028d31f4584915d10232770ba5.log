@@ -1,0 +1,791 @@
+06-16-2022 @ 13:03:02 - [process_payment]: POST Custom: {
+    "installments": "1",
+    "amount": "103.08",
+    "currency_ratio": "1",
+    "campaign_id": "",
+    "campaign": "",
+    "discount": "",
+    "paymentMethodId": "master",
+    "token": "c42d242511c73d3d6c3507ebd8acbd5e",
+    "checkout_type": "custom"
+}
+06-16-2022 @ 13:03:02 - [process_payment]: preparing to get response of custom checkout.
+06-16-2022 @ 13:03:02 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13794",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "transaction_amount": 103.0799999999999982946974341757595539093017578125,
+    "token": "c42d242511c73d3d6c3507ebd8acbd5e",
+    "description": "Faropop x 5",
+    "installments": 1,
+    "payment_method_id": "master",
+    "payer": {
+        "email": "changdorea@gmail.com"
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.6.0",
+        "module_version": "5.8.0",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "71520-210",
+            "street_name": "SHIN QI 8 Conjunto 1",
+            "city_name": "Brasilia",
+            "state_name": "DF",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "custom",
+        "checkout_type": "credit_card"
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 200,
+                "title": "Faropop x 5",
+                "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 71
+            },
+            {
+                "title": "PAC (Entrega em 7 dias úteis)",
+                "description": "Serviço de envio usado pela loja.",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 32.0799999999999982946974341757595539093017578125
+            }
+        ],
+        "payer": {
+            "first_name": "Chang Chung Yu",
+            "last_name": "Dorea",
+            "phone": {
+                "number": "(61) 98131-7512"
+            },
+            "address": {
+                "zip_code": "71520-210",
+                "street_name": "SHIN QI 8 Conjunto 1 \/ Brasilia DF BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "71520-210",
+                "street_name": "SHIN QI 8 Conjunto 1 Casa 9 Brasilia DF BR",
+                "apartment": "Casa 9",
+                "city_name": "Brasilia",
+                "state_name": "DF"
+            }
+        }
+    }
+}
+06-16-2022 @ 13:03:04 - [create_preference]: Preference created: {
+    "status": 201,
+    "response": {
+        "id": 23230442545,
+        "date_created": "2022-06-16T12:03:02.551-04:00",
+        "date_approved": "2022-06-16T12:03:03.698-04:00",
+        "date_last_updated": "2022-06-16T12:03:03.698-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-06-16T12:03:03.698-04:00",
+        "operation_type": "regular_payment",
+        "issuer_id": "24",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Faropop x 5",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "002584",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "224787050",
+            "operator_id": null,
+            "email": "changdorea@gmail.com",
+            "identification": {
+                "type": "CPF",
+                "number": "77043537800"
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Brasilia",
+                "state_name": "DF",
+                "country_name": "BR",
+                "zip_code": "71520-210",
+                "street_name": "SHIN QI 8 Conjunto 1"
+            },
+            "module_version": "5.8.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.6.0",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "200",
+                    "title": "Faropop x 5",
+                    "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "71"
+                },
+                {
+                    "id": null,
+                    "title": "PAC (Entrega em 7 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "32.08"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(61) 98131-7512"
+                },
+                "address": {
+                    "zip_code": "71520-210",
+                    "street_name": "SHIN QI 8 Conjunto 1 \/ Brasilia DF BR"
+                },
+                "first_name": "Chang Chung Yu",
+                "last_name": "Dorea"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "71520-210",
+                    "state_name": "DF",
+                    "city_name": "Brasilia",
+                    "street_name": "SHIN QI 8 Conjunto 1 Casa 9 Brasilia DF BR",
+                    "apartment": "Casa 9"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQEBAQOyEKdyrfMVSIIQzJdwpWCCB335npZlXVH6Fx0zriIWGwBIF2VynsjzGCY",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13794",
+        "transaction_amount": 103.0799999999999982946974341757595539093017578125,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 97.93999999999999772626324556767940521240234375,
+            "total_paid_amount": 103.0799999999999982946974341757595539093017578125,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 103.0799999999999982946974341757595539093017578125,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 5.13999999999999968025576890795491635799407958984375,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "553636",
+            "last_four_digits": "4105",
+            "bin": "55363608",
+            "expiration_month": 4,
+            "expiration_year": 2030,
+            "date_created": "2022-06-16T12:03:02.000-04:00",
+            "date_last_updated": "2022-06-16T12:03:02.000-04:00",
+            "cardholder": {
+                "name": "CHANG CHUNG Y DOREA",
+                "identification": {
+                    "number": "77043537800",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+06-16-2022 @ 13:03:04 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 23230442545,
+        "date_created": "2022-06-16T12:03:02.551-04:00",
+        "date_approved": "2022-06-16T12:03:03.698-04:00",
+        "date_last_updated": "2022-06-16T12:03:03.698-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-06-16T12:03:03.698-04:00",
+        "operation_type": "regular_payment",
+        "issuer_id": "24",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Faropop x 5",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "002584",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "224787050",
+            "operator_id": null,
+            "email": "changdorea@gmail.com",
+            "identification": {
+                "type": "CPF",
+                "number": "77043537800"
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Brasilia",
+                "state_name": "DF",
+                "country_name": "BR",
+                "zip_code": "71520-210",
+                "street_name": "SHIN QI 8 Conjunto 1"
+            },
+            "module_version": "5.8.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.6.0",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "200",
+                    "title": "Faropop x 5",
+                    "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "71"
+                },
+                {
+                    "id": null,
+                    "title": "PAC (Entrega em 7 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "32.08"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(61) 98131-7512"
+                },
+                "address": {
+                    "zip_code": "71520-210",
+                    "street_name": "SHIN QI 8 Conjunto 1 \/ Brasilia DF BR"
+                },
+                "first_name": "Chang Chung Yu",
+                "last_name": "Dorea"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "71520-210",
+                    "state_name": "DF",
+                    "city_name": "Brasilia",
+                    "street_name": "SHIN QI 8 Conjunto 1 Casa 9 Brasilia DF BR",
+                    "apartment": "Casa 9"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQEBAQOyEKdyrfMVSIIQzJdwpWCCB335npZlXVH6Fx0zriIWGwBIF2VynsjzGCY",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13794",
+        "transaction_amount": 103.0799999999999982946974341757595539093017578125,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 97.93999999999999772626324556767940521240234375,
+            "total_paid_amount": 103.0799999999999982946974341757595539093017578125,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 103.0799999999999982946974341757595539093017578125,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 5.13999999999999968025576890795491635799407958984375,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "553636",
+            "last_four_digits": "4105",
+            "bin": "55363608",
+            "expiration_month": 4,
+            "expiration_year": 2030,
+            "date_created": "2022-06-16T12:03:02.000-04:00",
+            "date_last_updated": "2022-06-16T12:03:02.000-04:00",
+            "cardholder": {
+                "name": "CHANG CHUNG Y DOREA",
+                "identification": {
+                    "number": "77043537800",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+06-16-2022 @ 13:03:05 - [check_ipn_response]: received _get content: {
+    "data_id": "23230442545",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+06-16-2022 @ 13:03:05 - [successful_request]: starting to process  update...
+06-16-2022 @ 13:03:05 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                "id": "200",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                "quantity": "1",
+                "title": "Faropop x 5",
+                "unit_price": "71"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "PAC (Entrega em 7 dias úteis)",
+                "unit_price": "32.08"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "SHIN QI 8 Conjunto 1 \/ Brasilia DF BR",
+                "zip_code": "71520-210"
+            },
+            "first_name": "Chang Chung Yu",
+            "last_name": "Dorea",
+            "phone": {
+                "number": "(61) 98131-7512"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Casa 9",
+                "city_name": "Brasilia",
+                "state_name": "DF",
+                "street_name": "SHIN QI 8 Conjunto 1 Casa 9 Brasilia DF BR",
+                "zip_code": "71520-210"
+            }
+        }
+    },
+    "authorization_code": "002584",
+    "binary_mode": false,
+    "brand_id": null,
+    "call_for_authorize_id": null,
+    "captured": true,
+    "card": {
+        "bin": "55363608",
+        "cardholder": {
+            "identification": {
+                "number": "77043537800",
+                "type": "CPF"
+            },
+            "name": "CHANG CHUNG Y DOREA"
+        },
+        "date_created": "2022-06-16T12:03:02.000-04:00",
+        "date_last_updated": "2022-06-16T12:03:02.000-04:00",
+        "expiration_month": 4,
+        "expiration_year": 2030,
+        "first_six_digits": "553636",
+        "id": null,
+        "last_four_digits": "4105"
+    },
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-06-16T12:03:03.000-04:00",
+    "date_created": "2022-06-16T12:03:02.000-04:00",
+    "date_last_updated": "2022-06-16T12:03:03.000-04:00",
+    "date_of_expiration": null,
+    "deduction_schema": null,
+    "description": "Faropop x 5",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13794",
+    "fee_details": [
+        {
+            "amount": 5.13999999999999968025576890795491635799407958984375,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 23230442545,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": "24",
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "credit_card",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Brasilia",
+            "state_name": "DF",
+            "country_name": "BR",
+            "street_name": "SHIN QI 8 Conjunto 1",
+            "zip_code": "71520-210"
+        },
+        "module_version": "5.8.0",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.6.0",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-06-16T12:03:03.000-04:00",
+    "money_release_schema": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": "changdorea@gmail.com",
+        "entity_type": null,
+        "first_name": null,
+        "id": "224787050",
+        "identification": {
+            "number": "77043537800",
+            "type": "CPF"
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "master",
+    "payment_type_id": "credit_card",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "type": "UNSPECIFIED"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 103.0799999999999982946974341757595539093017578125,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 103.0799999999999982946974341757595539093017578125,
+        "net_received_amount": 97.93999999999999772626324556767940521240234375,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 103.0799999999999982946974341757595539093017578125
+    }
+}
+06-16-2022 @ 13:03:05 - [successful_request]: Changing order status to: processing

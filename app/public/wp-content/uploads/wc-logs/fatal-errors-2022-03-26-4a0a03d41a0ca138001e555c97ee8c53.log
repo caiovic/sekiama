@@ -1,0 +1,18 @@
+2022-03-26T01:37:55+00:00 CRITICAL Maximum execution time of 55 seconds exceeded, em /home/p000001a/public_html/sekiama/wp-content/plugins/php-compatibility-checker/vendor/squizlabs/php_codesniffer/CodeSniffer.php, na linha 298
+
+2022-03-26T03:14:31+00:00 CRITICAL Maximum execution time of 55 seconds exceeded, em /home/p000001a/public_html/sekiama/wp-content/plugins/php-compatibility-checker/vendor/squizlabs/php_codesniffer/CodeSniffer/File.php, na linha 1950
+
+2022-03-26T06:00:17+00:00 CRITICAL Maximum execution time of 55 seconds exceeded, em /home/p000001a/public_html/sekiama/wp-content/plugins/php-compatibility-checker/vendor/phpcompatibility/php-compatibility/PHPCompatibility/PHPCSHelper.php, na linha 95
+
+2022-03-26T06:34:03+00:00 CRITICAL Maximum execution time of 55 seconds exceeded, em /home/p000001a/public_html/sekiama/wp-content/plugins/php-compatibility-checker/vendor/phpcompatibility/php-compatibility/PHPCompatibility/PHPCSHelper.php, na linha 95
+
+2022-03-26T07:23:59+00:00 CRITICAL Maximum execution time of 55 seconds exceeded, em /home/p000001a/public_html/sekiama/wp-content/plugins/php-compatibility-checker/vendor/squizlabs/php_codesniffer/CodeSniffer.php, na linha 2207
+
+2022-03-26T09:29:08+00:00 CRITICAL Maximum execution time of 55 seconds exceeded, em /home/p000001a/public_html/sekiama/wp-content/plugins/php-compatibility-checker/vendor/phpcompatibility/php-compatibility/PHPCompatibility/PHPCSHelper.php, na linha 95
+
+2022-03-26T10:18:17+00:00 CRITICAL Maximum execution time of 55 seconds exceeded, em /home/p000001a/public_html/sekiama/wp-content/plugins/wordfence/modules/login-security/wordfence-login-security.php, na linha 58
+
+2022-03-26T17:49:13+00:00 CRITICAL Maximum execution time of 55 seconds exceeded, em /home/p000001a/public_html/sekiama/wp-content/plugins/php-compatibility-checker/vendor/phpcompatibility/php-compatibility/PHPCompatibility/PHPCSHelper.php, na linha 95
+
+2022-03-26T18:26:22+00:00 CRITICAL Maximum execution time of 55 seconds exceeded, em /home/p000001a/public_html/sekiama/wp-content/plugins/php-compatibility-checker/vendor/phpcompatibility/php-compatibility/PHPCompatibility/PHPCSHelper.php, na linha 95
+

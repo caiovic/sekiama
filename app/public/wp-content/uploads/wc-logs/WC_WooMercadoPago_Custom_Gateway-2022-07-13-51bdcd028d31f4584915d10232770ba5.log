@@ -1,0 +1,792 @@
+07-12-2022 @ 23:30:20 - [process_payment]: POST Custom: {
+    "amount": "92.35",
+    "currency_ratio": "1",
+    "paymentMethodId": "visa",
+    "checkout_type": "custom",
+    "installments": "1"
+}
+07-12-2022 @ 23:30:20 - [process_payment]: preparing to get response of custom checkout.
+07-12-2022 @ 23:30:20 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13827",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "transaction_amount": 92.349999999999994315658113919198513031005859375,
+    "description": "Farofa com Muita Cebola x 4",
+    "installments": 1,
+    "payment_method_id": "visa",
+    "payer": {
+        "email": "thaisbnaves@gmail.com"
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.7.0",
+        "module_version": "6.0.1",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "90040-001",
+            "street_name": "Avenida João Pessoa",
+            "city_name": "Porto Alegre",
+            "state_name": "RS",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "custom",
+        "checkout_type": "credit_card"
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 195,
+                "title": "Farofa com Muita Cebola x 4",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 68.7999999999999971578290569595992565155029296875
+            },
+            {
+                "title": "Sequoia SFX (Entrega em 5 dias úteis)",
+                "description": "Serviço de envio usado pela loja.",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 23.550000000000000710542735760100185871124267578125
+            }
+        ],
+        "payer": {
+            "first_name": "Thais",
+            "last_name": "Naves",
+            "phone": {
+                "number": "(91) 98135-3422"
+            },
+            "address": {
+                "zip_code": "90040-001",
+                "street_name": "Avenida João Pessoa \/ Porto Alegre RS BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "90040-001",
+                "street_name": "Avenida João Pessoa Apto 504 Porto Alegre RS BR",
+                "apartment": "Apto 504",
+                "city_name": "Porto Alegre",
+                "state_name": "RS"
+            }
+        }
+    }
+}
+07-12-2022 @ 23:30:22 - [create_preference]: Preference created: {
+    "status": 201,
+    "response": {
+        "id": 23963575415,
+        "date_created": "2022-07-12T22:30:19.361-04:00",
+        "date_approved": "2022-07-12T22:30:20.682-04:00",
+        "date_last_updated": "2022-07-12T22:30:20.682-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-07-12T22:30:20.682-04:00",
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": "194",
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Farofa com Muita Cebola x 4",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "845289",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.103.3",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "259631778",
+            "operator_id": null,
+            "email": "thaisbnaves@gmail.com",
+            "identification": {
+                "type": "CPF",
+                "number": "01529540232"
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Porto Alegre",
+                "state_name": "RS",
+                "country_name": "BR",
+                "zip_code": "90040-001",
+                "street_name": "Avenida João Pessoa"
+            },
+            "module_version": "6.0.1",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.7.0",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "195",
+                    "title": "Farofa com Muita Cebola x 4",
+                    "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "68.8"
+                },
+                {
+                    "id": null,
+                    "title": "Sequoia SFX (Entrega em 5 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "23.55"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(91) 98135-3422"
+                },
+                "address": {
+                    "zip_code": "90040-001",
+                    "street_name": "Avenida João Pessoa \/ Porto Alegre RS BR"
+                },
+                "first_name": "Thais",
+                "last_name": "Naves"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "90040-001",
+                    "state_name": "RS",
+                    "city_name": "Porto Alegre",
+                    "street_name": "Avenida João Pessoa Apto 504 Porto Alegre RS BR",
+                    "apartment": "Apto 504"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQECAQNQ3PM-I-v79EANBKGH5fmm35AiRmQG52-wQ0NSmBaxcAD0QwY-RsDk9pk",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13827",
+        "transaction_amount": 92.349999999999994315658113919198513031005859375,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 87.7399999999999948840923025272786617279052734375,
+            "total_paid_amount": 92.349999999999994315658113919198513031005859375,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 92.349999999999994315658113919198513031005859375,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 4.61000000000000031974423109204508364200592041015625,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "498453",
+            "last_four_digits": "5476",
+            "bin": "49845382",
+            "expiration_month": 11,
+            "expiration_year": 2027,
+            "date_created": "2022-07-12T22:30:19.000-04:00",
+            "date_last_updated": "2022-07-12T22:30:19.000-04:00",
+            "cardholder": {
+                "name": "Thais Barroso Naves",
+                "identification": {
+                    "number": "01529540232",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+07-12-2022 @ 23:30:22 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 23963575415,
+        "date_created": "2022-07-12T22:30:19.361-04:00",
+        "date_approved": "2022-07-12T22:30:20.682-04:00",
+        "date_last_updated": "2022-07-12T22:30:20.682-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-07-12T22:30:20.682-04:00",
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": "194",
+        "payment_method_id": "visa",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Farofa com Muita Cebola x 4",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "845289",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.103.3",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "259631778",
+            "operator_id": null,
+            "email": "thaisbnaves@gmail.com",
+            "identification": {
+                "type": "CPF",
+                "number": "01529540232"
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Porto Alegre",
+                "state_name": "RS",
+                "country_name": "BR",
+                "zip_code": "90040-001",
+                "street_name": "Avenida João Pessoa"
+            },
+            "module_version": "6.0.1",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.7.0",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "195",
+                    "title": "Farofa com Muita Cebola x 4",
+                    "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "68.8"
+                },
+                {
+                    "id": null,
+                    "title": "Sequoia SFX (Entrega em 5 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "23.55"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(91) 98135-3422"
+                },
+                "address": {
+                    "zip_code": "90040-001",
+                    "street_name": "Avenida João Pessoa \/ Porto Alegre RS BR"
+                },
+                "first_name": "Thais",
+                "last_name": "Naves"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "90040-001",
+                    "state_name": "RS",
+                    "city_name": "Porto Alegre",
+                    "street_name": "Avenida João Pessoa Apto 504 Porto Alegre RS BR",
+                    "apartment": "Apto 504"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQECAQNQ3PM-I-v79EANBKGH5fmm35AiRmQG52-wQ0NSmBaxcAD0QwY-RsDk9pk",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13827",
+        "transaction_amount": 92.349999999999994315658113919198513031005859375,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 87.7399999999999948840923025272786617279052734375,
+            "total_paid_amount": 92.349999999999994315658113919198513031005859375,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 92.349999999999994315658113919198513031005859375,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 4.61000000000000031974423109204508364200592041015625,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "498453",
+            "last_four_digits": "5476",
+            "bin": "49845382",
+            "expiration_month": 11,
+            "expiration_year": 2027,
+            "date_created": "2022-07-12T22:30:19.000-04:00",
+            "date_last_updated": "2022-07-12T22:30:19.000-04:00",
+            "cardholder": {
+                "name": "Thais Barroso Naves",
+                "identification": {
+                    "number": "01529540232",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+07-12-2022 @ 23:30:22 - [check_ipn_response]: received _get content: {
+    "data_id": "23963575415",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+07-12-2022 @ 23:30:22 - [successful_request]: starting to process  update...
+07-12-2022 @ 23:30:22 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "id": "195",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "quantity": "1",
+                "title": "Farofa com Muita Cebola x 4",
+                "unit_price": "68.8"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Sequoia SFX (Entrega em 5 dias úteis)",
+                "unit_price": "23.55"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Avenida João Pessoa \/ Porto Alegre RS BR",
+                "zip_code": "90040-001"
+            },
+            "first_name": "Thais",
+            "last_name": "Naves",
+            "phone": {
+                "number": "(91) 98135-3422"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Apto 504",
+                "city_name": "Porto Alegre",
+                "state_name": "RS",
+                "street_name": "Avenida João Pessoa Apto 504 Porto Alegre RS BR",
+                "zip_code": "90040-001"
+            }
+        }
+    },
+    "authorization_code": "845289",
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.103.3",
+    "call_for_authorize_id": null,
+    "captured": true,
+    "card": {
+        "bin": "49845382",
+        "cardholder": {
+            "identification": {
+                "number": "01529540232",
+                "type": "CPF"
+            },
+            "name": "Thais Barroso Naves"
+        },
+        "date_created": "2022-07-12T22:30:19.000-04:00",
+        "date_last_updated": "2022-07-12T22:30:19.000-04:00",
+        "expiration_month": 11,
+        "expiration_year": 2027,
+        "first_six_digits": "498453",
+        "id": null,
+        "last_four_digits": "5476"
+    },
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-07-12T22:30:20.000-04:00",
+    "date_created": "2022-07-12T22:30:19.000-04:00",
+    "date_last_updated": "2022-07-12T22:30:20.000-04:00",
+    "date_of_expiration": null,
+    "deduction_schema": null,
+    "description": "Farofa com Muita Cebola x 4",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13827",
+    "fee_details": [
+        {
+            "amount": 4.61000000000000031974423109204508364200592041015625,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 23963575415,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": "194",
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "credit_card",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Porto Alegre",
+            "state_name": "RS",
+            "country_name": "BR",
+            "street_name": "Avenida João Pessoa",
+            "zip_code": "90040-001"
+        },
+        "module_version": "6.0.1",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.7.0",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-07-12T22:30:20.000-04:00",
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": "thaisbnaves@gmail.com",
+        "entity_type": null,
+        "first_name": null,
+        "id": "259631778",
+        "identification": {
+            "number": "01529540232",
+            "type": "CPF"
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "visa",
+    "payment_type_id": "credit_card",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "type": "UNSPECIFIED"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": "MERCPAGO*SEKIAMAMP",
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 92.349999999999994315658113919198513031005859375,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 92.349999999999994315658113919198513031005859375,
+        "net_received_amount": 87.7399999999999948840923025272786617279052734375,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 92.349999999999994315658113919198513031005859375
+    }
+}
+07-12-2022 @ 23:30:22 - [successful_request]: Changing order status to: processing

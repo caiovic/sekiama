@@ -1,0 +1,1443 @@
+05-03-2022 @ 10:41:55 - Product: WC_Product_Simple Object
+(
+    [object_type:protected] => product
+    [post_type:protected] => product
+    [cache_group:protected] => products
+    [data:protected] => Array
+        (
+            [name] => Kit Fit
+            [slug] => kit-fit
+            [date_created] => WC_DateTime Object
+                (
+                    [utc_offset:protected] => 0
+                    [date] => 2021-11-26 12:11:54.000000
+                    [timezone_type] => 3
+                    [timezone] => America/Sao_Paulo
+                )
+
+            [date_modified] => WC_DateTime Object
+                (
+                    [utc_offset:protected] => 0
+                    [date] => 2022-01-17 13:00:12.000000
+                    [timezone_type] => 3
+                    [timezone] => America/Sao_Paulo
+                )
+
+            [status] => publish
+            [featured] => 
+            [catalog_visibility] => visible
+            [description] => As farofas que cabem no seu plano alimentar. Ótima fonte de fibras nutricionais.
+
+Neste kit contém as farofas <strong>Com Muitas Sementes e Com Muitas Sementes &amp; Castanhas.</strong>
+
+&nbsp;
+            [short_description] => 
+            [sku] => 
+            [price] => 33
+            [regular_price] => 33
+            [sale_price] => 
+            [date_on_sale_from] => 
+            [date_on_sale_to] => 
+            [total_sales] => 0
+            [tax_status] => taxable
+            [tax_class] => 
+            [manage_stock] => 
+            [stock_quantity] => 
+            [stock_status] => instock
+            [backorders] => no
+            [low_stock_amount] => 
+            [sold_individually] => 
+            [weight] => 
+            [length] => 
+            [width] => 
+            [height] => 
+            [upsell_ids] => Array
+                (
+                )
+
+            [cross_sell_ids] => Array
+                (
+                )
+
+            [parent_id] => 0
+            [reviews_allowed] => 
+            [purchase_note] => 
+            [attributes] => Array
+                (
+                )
+
+            [default_attributes] => Array
+                (
+                )
+
+            [menu_order] => 0
+            [post_password] => 
+            [virtual] => 
+            [downloadable] => 
+            [category_ids] => Array
+                (
+                    [0] => 18
+                )
+
+            [tag_ids] => Array
+                (
+                )
+
+            [shipping_class_id] => 0
+            [downloads] => Array
+                (
+                )
+
+            [image_id] => 414
+            [gallery_image_ids] => Array
+                (
+                )
+
+            [download_limit] => -1
+            [download_expiry] => -1
+            [rating_counts] => Array
+                (
+                )
+
+            [average_rating] => 0
+            [review_count] => 0
+        )
+
+    [supports:protected] => Array
+        (
+            [0] => ajax_add_to_cart
+        )
+
+    [id:protected] => 205
+    [changes:protected] => Array
+        (
+        )
+
+    [object_read:protected] => 1
+    [extra_data:protected] => Array
+        (
+        )
+
+    [default_data:protected] => Array
+        (
+            [name] => 
+            [slug] => 
+            [date_created] => 
+            [date_modified] => 
+            [status] => 
+            [featured] => 
+            [catalog_visibility] => visible
+            [description] => 
+            [short_description] => 
+            [sku] => 
+            [price] => 
+            [regular_price] => 
+            [sale_price] => 
+            [date_on_sale_from] => 
+            [date_on_sale_to] => 
+            [total_sales] => 0
+            [tax_status] => taxable
+            [tax_class] => 
+            [manage_stock] => 
+            [stock_quantity] => 
+            [stock_status] => instock
+            [backorders] => no
+            [low_stock_amount] => 
+            [sold_individually] => 
+            [weight] => 
+            [length] => 
+            [width] => 
+            [height] => 
+            [upsell_ids] => Array
+                (
+                )
+
+            [cross_sell_ids] => Array
+                (
+                )
+
+            [parent_id] => 0
+            [reviews_allowed] => 1
+            [purchase_note] => 
+            [attributes] => Array
+                (
+                )
+
+            [default_attributes] => Array
+                (
+                )
+
+            [menu_order] => 0
+            [post_password] => 
+            [virtual] => 
+            [downloadable] => 
+            [category_ids] => Array
+                (
+                )
+
+            [tag_ids] => Array
+                (
+                )
+
+            [shipping_class_id] => 0
+            [downloads] => Array
+                (
+                )
+
+            [image_id] => 
+            [gallery_image_ids] => Array
+                (
+                )
+
+            [download_limit] => -1
+            [download_expiry] => -1
+            [rating_counts] => Array
+                (
+                )
+
+            [average_rating] => 0
+            [review_count] => 0
+        )
+
+    [data_store:protected] => WC_Data_Store Object
+        (
+            [instance:WC_Data_Store:private] => WC_Product_Data_Store_CPT Object
+                (
+                    [internal_meta_keys:protected] => Array
+                        (
+                            [0] => _visibility
+                            [1] => _sku
+                            [2] => _price
+                            [3] => _regular_price
+                            [4] => _sale_price
+                            [5] => _sale_price_dates_from
+                            [6] => _sale_price_dates_to
+                            [7] => total_sales
+                            [8] => _tax_status
+                            [9] => _tax_class
+                            [10] => _manage_stock
+                            [11] => _stock
+                            [12] => _stock_status
+                            [13] => _backorders
+                            [14] => _low_stock_amount
+                            [15] => _sold_individually
+                            [16] => _weight
+                            [17] => _length
+                            [18] => _width
+                            [19] => _height
+                            [20] => _upsell_ids
+                            [21] => _crosssell_ids
+                            [22] => _purchase_note
+                            [23] => _default_attributes
+                            [24] => _product_attributes
+                            [25] => _virtual
+                            [26] => _downloadable
+                            [27] => _download_limit
+                            [28] => _download_expiry
+                            [29] => _featured
+                            [30] => _downloadable_files
+                            [31] => _wc_rating_count
+                            [32] => _wc_average_rating
+                            [33] => _wc_review_count
+                            [34] => _variation_description
+                            [35] => _thumbnail_id
+                            [36] => _file_paths
+                            [37] => _product_image_gallery
+                            [38] => _product_version
+                            [39] => _wp_old_slug
+                            [40] => _edit_last
+                            [41] => _edit_lock
+                        )
+
+                    [must_exist_meta_keys:protected] => Array
+                        (
+                            [0] => _tax_class
+                        )
+
+                    [extra_data_saved:protected] => 
+                    [updated_props:protected] => Array
+                        (
+                        )
+
+                    [meta_type:protected] => post
+                    [object_id_field_for_meta:protected] => 
+                )
+
+            [stores:WC_Data_Store:private] => Array
+                (
+                    [coupon] => WC_Coupon_Data_Store_CPT
+                    [customer] => WC_Customer_Data_Store
+                    [customer-download] => WC_Customer_Download_Data_Store
+                    [customer-download-log] => WC_Customer_Download_Log_Data_Store
+                    [customer-session] => WC_Customer_Data_Store_Session
+                    [order] => WC_Order_Data_Store_CPT
+                    [order-refund] => WC_Order_Refund_Data_Store_CPT
+                    [order-item] => WC_Order_Item_Data_Store
+                    [order-item-coupon] => WC_Order_Item_Coupon_Data_Store
+                    [order-item-fee] => WC_Order_Item_Fee_Data_Store
+                    [order-item-product] => WC_Order_Item_Product_Data_Store
+                    [order-item-shipping] => WC_Order_Item_Shipping_Data_Store
+                    [order-item-tax] => WC_Order_Item_Tax_Data_Store
+                    [payment-token] => WC_Payment_Token_Data_Store
+                    [product] => WC_Product_Data_Store_CPT
+                    [product-grouped] => WC_Product_Grouped_Data_Store_CPT
+                    [product-variable] => WC_Product_Variable_Data_Store_CPT
+                    [product-variation] => WC_Product_Variation_Data_Store_CPT
+                    [shipping-zone] => WC_Shipping_Zone_Data_Store
+                    [webhook] => WC_Webhook_Data_Store
+                    [report-revenue-stats] => Automattic\WooCommerce\Admin\API\Reports\Orders\Stats\DataStore
+                    [report-orders] => Automattic\WooCommerce\Admin\API\Reports\Orders\DataStore
+                    [report-orders-stats] => Automattic\WooCommerce\Admin\API\Reports\Orders\Stats\DataStore
+                    [report-products] => Automattic\WooCommerce\Admin\API\Reports\Products\DataStore
+                    [report-variations] => Automattic\WooCommerce\Admin\API\Reports\Variations\DataStore
+                    [report-products-stats] => Automattic\WooCommerce\Admin\API\Reports\Products\Stats\DataStore
+                    [report-variations-stats] => Automattic\WooCommerce\Admin\API\Reports\Variations\Stats\DataStore
+                    [report-categories] => Automattic\WooCommerce\Admin\API\Reports\Categories\DataStore
+                    [report-taxes] => Automattic\WooCommerce\Admin\API\Reports\Taxes\DataStore
+                    [report-taxes-stats] => Automattic\WooCommerce\Admin\API\Reports\Taxes\Stats\DataStore
+                    [report-coupons] => Automattic\WooCommerce\Admin\API\Reports\Coupons\DataStore
+                    [report-coupons-stats] => Automattic\WooCommerce\Admin\API\Reports\Coupons\Stats\DataStore
+                    [report-downloads] => Automattic\WooCommerce\Admin\API\Reports\Downloads\DataStore
+                    [report-downloads-stats] => Automattic\WooCommerce\Admin\API\Reports\Downloads\Stats\DataStore
+                    [admin-note] => Automattic\WooCommerce\Admin\Notes\DataStore
+                    [report-customers] => Automattic\WooCommerce\Admin\API\Reports\Customers\DataStore
+                    [report-customers-stats] => Automattic\WooCommerce\Admin\API\Reports\Customers\Stats\DataStore
+                    [report-stock-stats] => Automattic\WooCommerce\Admin\API\Reports\Stock\Stats\DataStore
+                )
+
+            [current_class_name:WC_Data_Store:private] => WC_Product_Data_Store_CPT
+            [object_type:WC_Data_Store:private] => product-simple
+        )
+
+    [meta_data:protected] => 
+)
+
+05-03-2022 @ 10:41:55 - shippingItem: stdClass Object
+(
+    [Weight] => 1
+    [Length] => 16
+    [Height] => 2
+    [Width] => 11
+    [Diameter] => 0
+    [SKU] => 
+    [Category] => kits|
+    [isFragile] => 
+)
+
+05-03-2022 @ 10:41:55 - CEP 21215-060
+05-03-2022 @ 10:41:55 - Requesting the Frenet WebServices...
+05-03-2022 @ 10:41:55 - Array
+(
+    [Token] => 3D2F795ER0734R4699RA595RC0EB30404754
+    [Coupom] => 
+    [PlatformName] => WOOCOMMERCE
+    [PlatformVersion] => 6.4.1
+    [SellerCEP] => 04004070
+    [RecipientCEP] => 21215-060
+    [RecipientDocument] => 
+    [ShipmentInvoiceValue] => 33
+    [ShippingItemArray] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [Weight] => 1
+                    [Length] => 16
+                    [Height] => 2
+                    [Width] => 11
+                    [Diameter] => 0
+                    [SKU] => 
+                    [Category] => kits|
+                    [isFragile] => 
+                    [Quantity] => 1
+                )
+
+        )
+
+    [RecipientCountry] => BR
+)
+
+05-03-2022 @ 10:41:55 - URL: http://api.frenet.com.br/shipping/quote
+05-03-2022 @ 10:41:56 - Curl response: {"ShippingSevicesArray":[{"ServiceCode":"03298","ServiceDescription":"PAC","Carrier":"Correios","CarrierCode":"COR","ShippingPrice":"21.40","DeliveryTime":"13","Error":false,"OriginalDeliveryTime":"13","OriginalShippingPrice":"21.39780000000","ResponseTime":"257.6119","AllowBuyLabel":true},{"ServiceCode":"F_3","ServiceDescription":"Jadlog Package","Carrier":"Jadlog","CarrierCode":"JAD","ShippingPrice":"24.96","DeliveryTime":"3","Error":false,"OriginalDeliveryTime":"3","OriginalShippingPrice":"24.9632000","ResponseTime":"19.5577","AllowBuyLabel":true},{"ServiceCode":"03220","ServiceDescription":"Sedex","Carrier":"Correios","CarrierCode":"COR","ShippingPrice":"30.55","DeliveryTime":"10","Error":false,"OriginalDeliveryTime":"10","OriginalShippingPrice":"30.55200000000","ResponseTime":"253.1312","AllowBuyLabel":true},{"ServiceCode":"04227","ServiceDescription":"Mini Envios","Carrier":"Correios","CarrierCode":"COR","Msg":"Erro: Peso excedido.","Error":true,"ResponseTime":"0.0224","AllowBuyLabel":true}],"Timeout":0}
+05-03-2022 @ 10:41:56 - Percorrendo os serviços retornados
+05-03-2022 @ 10:41:56 - WebServices response [PAC]: stdClass Object
+(
+    [ServiceCode] => 03298
+    [ServiceDescription] => PAC
+    [Carrier] => Correios
+    [CarrierCode] => COR
+    [ShippingPrice] => 21.40
+    [DeliveryTime] => 13
+    [Error] => 
+    [OriginalDeliveryTime] => 13
+    [OriginalShippingPrice] => 21.39780000000
+    [ResponseTime] => 257.6119
+    [AllowBuyLabel] => 1
+)
+
+05-03-2022 @ 10:41:56 - Percorrendo os serviços retornados
+05-03-2022 @ 10:41:56 - WebServices response [Jadlog Package]: stdClass Object
+(
+    [ServiceCode] => F_3
+    [ServiceDescription] => Jadlog Package
+    [Carrier] => Jadlog
+    [CarrierCode] => JAD
+    [ShippingPrice] => 24.96
+    [DeliveryTime] => 3
+    [Error] => 
+    [OriginalDeliveryTime] => 3
+    [OriginalShippingPrice] => 24.9632000
+    [ResponseTime] => 19.5577
+    [AllowBuyLabel] => 1
+)
+
+05-03-2022 @ 10:41:56 - Percorrendo os serviços retornados
+05-03-2022 @ 10:41:56 - WebServices response [Sedex]: stdClass Object
+(
+    [ServiceCode] => 03220
+    [ServiceDescription] => Sedex
+    [Carrier] => Correios
+    [CarrierCode] => COR
+    [ShippingPrice] => 30.55
+    [DeliveryTime] => 10
+    [Error] => 
+    [OriginalDeliveryTime] => 10
+    [OriginalShippingPrice] => 30.55200000000
+    [ResponseTime] => 253.1312
+    [AllowBuyLabel] => 1
+)
+
+05-03-2022 @ 10:41:56 - Percorrendo os serviços retornados
+05-03-2022 @ 10:41:56 - *continue*
+05-03-2022 @ 13:27:00 - ERRO: CEP destino não informado
+05-03-2022 @ 13:27:28 - Product: WC_Product_Simple Object
+(
+    [object_type:protected] => product
+    [post_type:protected] => product
+    [cache_group:protected] => products
+    [data:protected] => Array
+        (
+            [name] => Farofa Doce
+            [slug] => farofa-doce
+            [date_created] => WC_DateTime Object
+                (
+                    [utc_offset:protected] => 0
+                    [date] => 2021-11-26 11:11:46.000000
+                    [timezone_type] => 3
+                    [timezone] => America/Sao_Paulo
+                )
+
+            [date_modified] => WC_DateTime Object
+                (
+                    [utc_offset:protected] => 0
+                    [date] => 2022-04-07 10:03:54.000000
+                    [timezone_type] => 3
+                    [timezone] => America/Sao_Paulo
+                )
+
+            [status] => publish
+            [featured] => 
+            [catalog_visibility] => visible
+            [description] => Ideal para você que deseja inovar no sabor das suas deliciosas sobremesas, finalizando com um toque extra crocante.
+
+Você ainda pode experimentar em vitaminas, massas de tortas, cobertura de bolos e onde mais preferir. Surpreendente, não? Imagina quando você provar!
+
+<span style="color: #a81414;"><strong>Ingredientes: </strong></span>Flocão de Arroz, Farinha de Mandioca, Castanha-do-Pará, Gordura de Palma, Açúcar Demerara, Leite Integral e Sal Rosa do Himalaia. Contém Lactose. Alérgicos contém derivados do Leite e Castanhas.
+
+<span style="color: #a81414;"><strong>É perfeita para: </strong></span>sobremesas, frutas, cremes, mousses, iogurtes, sorvetes, açaí e muito mais<!--more-->
+<table class="nutri_table" style="height: 718px;" width="418">
+<tbody>
+<tr>
+<td colspan="4" width="324"><strong>INFORMAÇÃO NUTRICIONAL</strong></td>
+</tr>
+<tr>
+<td colspan="4" width="324">Porções por embalagem: 8,5 porções
+
+Porção: 35 g (duas colheres de sopa)</td>
+</tr>
+<tr>
+<td width="151"></td>
+<td width="59">100 g</td>
+<td width="57">35 g</td>
+<td width="57">%VD*</td>
+</tr>
+<tr>
+<td width="151">Valor energético (kcal)</td>
+<td width="59">500</td>
+<td width="57">175</td>
+<td width="57">9</td>
+</tr>
+<tr>
+<td width="151">Carboidratos totais (g)</td>
+<td width="59">54</td>
+<td width="57">19</td>
+<td width="57">6</td>
+</tr>
+<tr>
+<td width="151">Açúcares totais (g)</td>
+<td width="59">3</td>
+<td width="57">1,2</td>
+<td width="57">2</td>
+</tr>
+<tr>
+<td width="151">Açúcares adicionados (g)</td>
+<td width="59">0</td>
+<td width="57">0</td>
+<td width="57">0</td>
+</tr>
+<tr>
+<td width="151">Proteínas (g)</td>
+<td width="59">6</td>
+<td width="57">2,1</td>
+<td width="57">4</td>
+</tr>
+<tr>
+<td width="151">Gorduras totais (g)</td>
+<td width="59">29</td>
+<td width="57">10</td>
+<td width="57">15</td>
+</tr>
+<tr>
+<td width="151">Gorduras saturadas (g)</td>
+<td width="59">12</td>
+<td width="57">4,1</td>
+<td width="57">21</td>
+</tr>
+<tr>
+<td width="151">Gorduras trans (g)</td>
+<td width="59">0</td>
+<td width="57">0</td>
+<td width="57">0</td>
+</tr>
+<tr>
+<td width="151">Fibra alimentar (g)</td>
+<td width="59">3</td>
+<td width="57">1</td>
+<td width="57">4</td>
+</tr>
+<tr>
+<td width="151">Cálcio (mg)</td>
+<td width="59">114</td>
+<td width="57">40</td>
+<td width="57">4</td>
+</tr>
+<tr>
+<td width="151">Zinco (mg)</td>
+<td width="59">1</td>
+<td width="57">0,3</td>
+<td width="57">3</td>
+</tr>
+<tr>
+<td width="151">Fósforo (mg)</td>
+<td width="59">171</td>
+<td width="57">60</td>
+<td width="57">9</td>
+</tr>
+<tr>
+<td width="151">Magnésio (mg)</td>
+<td width="59">57</td>
+<td width="57">20</td>
+<td width="57">5</td>
+</tr>
+<tr>
+<td width="151">Sódio (mg)</td>
+<td width="59">131</td>
+<td width="57">46</td>
+<td width="57">2</td>
+</tr>
+<tr>
+<td colspan="4" width="324">*Percentual de valores diários fornecidos pela porção</td>
+</tr>
+</tbody>
+</table>
+            [short_description] => 
+            [sku] => 
+            [price] => 18.00
+            [regular_price] => 19.80
+            [sale_price] => 18.00
+            [date_on_sale_from] => 
+            [date_on_sale_to] => 
+            [total_sales] => 4
+            [tax_status] => taxable
+            [tax_class] => 
+            [manage_stock] => 
+            [stock_quantity] => 
+            [stock_status] => instock
+            [backorders] => no
+            [low_stock_amount] => 
+            [sold_individually] => 
+            [weight] => 
+            [length] => 
+            [width] => 
+            [height] => 
+            [upsell_ids] => Array
+                (
+                )
+
+            [cross_sell_ids] => Array
+                (
+                )
+
+            [parent_id] => 0
+            [reviews_allowed] => 
+            [purchase_note] => 
+            [attributes] => Array
+                (
+                )
+
+            [default_attributes] => Array
+                (
+                )
+
+            [menu_order] => 0
+            [post_password] => 
+            [virtual] => 
+            [downloadable] => 
+            [category_ids] => Array
+                (
+                    [0] => 17
+                )
+
+            [tag_ids] => Array
+                (
+                )
+
+            [shipping_class_id] => 0
+            [downloads] => Array
+                (
+                )
+
+            [image_id] => 7700
+            [gallery_image_ids] => Array
+                (
+                    [0] => 7701
+                )
+
+            [download_limit] => -1
+            [download_expiry] => -1
+            [rating_counts] => Array
+                (
+                )
+
+            [average_rating] => 0
+            [review_count] => 0
+        )
+
+    [supports:protected] => Array
+        (
+            [0] => ajax_add_to_cart
+        )
+
+    [id:protected] => 199
+    [changes:protected] => Array
+        (
+        )
+
+    [object_read:protected] => 1
+    [extra_data:protected] => Array
+        (
+        )
+
+    [default_data:protected] => Array
+        (
+            [name] => 
+            [slug] => 
+            [date_created] => 
+            [date_modified] => 
+            [status] => 
+            [featured] => 
+            [catalog_visibility] => visible
+            [description] => 
+            [short_description] => 
+            [sku] => 
+            [price] => 
+            [regular_price] => 
+            [sale_price] => 
+            [date_on_sale_from] => 
+            [date_on_sale_to] => 
+            [total_sales] => 0
+            [tax_status] => taxable
+            [tax_class] => 
+            [manage_stock] => 
+            [stock_quantity] => 
+            [stock_status] => instock
+            [backorders] => no
+            [low_stock_amount] => 
+            [sold_individually] => 
+            [weight] => 
+            [length] => 
+            [width] => 
+            [height] => 
+            [upsell_ids] => Array
+                (
+                )
+
+            [cross_sell_ids] => Array
+                (
+                )
+
+            [parent_id] => 0
+            [reviews_allowed] => 1
+            [purchase_note] => 
+            [attributes] => Array
+                (
+                )
+
+            [default_attributes] => Array
+                (
+                )
+
+            [menu_order] => 0
+            [post_password] => 
+            [virtual] => 
+            [downloadable] => 
+            [category_ids] => Array
+                (
+                )
+
+            [tag_ids] => Array
+                (
+                )
+
+            [shipping_class_id] => 0
+            [downloads] => Array
+                (
+                )
+
+            [image_id] => 
+            [gallery_image_ids] => Array
+                (
+                )
+
+            [download_limit] => -1
+            [download_expiry] => -1
+            [rating_counts] => Array
+                (
+                )
+
+            [average_rating] => 0
+            [review_count] => 0
+        )
+
+    [data_store:protected] => WC_Data_Store Object
+        (
+            [instance:WC_Data_Store:private] => WC_Product_Data_Store_CPT Object
+                (
+                    [internal_meta_keys:protected] => Array
+                        (
+                            [0] => _visibility
+                            [1] => _sku
+                            [2] => _price
+                            [3] => _regular_price
+                            [4] => _sale_price
+                            [5] => _sale_price_dates_from
+                            [6] => _sale_price_dates_to
+                            [7] => total_sales
+                            [8] => _tax_status
+                            [9] => _tax_class
+                            [10] => _manage_stock
+                            [11] => _stock
+                            [12] => _stock_status
+                            [13] => _backorders
+                            [14] => _low_stock_amount
+                            [15] => _sold_individually
+                            [16] => _weight
+                            [17] => _length
+                            [18] => _width
+                            [19] => _height
+                            [20] => _upsell_ids
+                            [21] => _crosssell_ids
+                            [22] => _purchase_note
+                            [23] => _default_attributes
+                            [24] => _product_attributes
+                            [25] => _virtual
+                            [26] => _downloadable
+                            [27] => _download_limit
+                            [28] => _download_expiry
+                            [29] => _featured
+                            [30] => _downloadable_files
+                            [31] => _wc_rating_count
+                            [32] => _wc_average_rating
+                            [33] => _wc_review_count
+                            [34] => _variation_description
+                            [35] => _thumbnail_id
+                            [36] => _file_paths
+                            [37] => _product_image_gallery
+                            [38] => _product_version
+                            [39] => _wp_old_slug
+                            [40] => _edit_last
+                            [41] => _edit_lock
+                        )
+
+                    [must_exist_meta_keys:protected] => Array
+                        (
+                            [0] => _tax_class
+                        )
+
+                    [extra_data_saved:protected] => 
+                    [updated_props:protected] => Array
+                        (
+                        )
+
+                    [meta_type:protected] => post
+                    [object_id_field_for_meta:protected] => 
+                )
+
+            [stores:WC_Data_Store:private] => Array
+                (
+                    [coupon] => WC_Coupon_Data_Store_CPT
+                    [customer] => WC_Customer_Data_Store
+                    [customer-download] => WC_Customer_Download_Data_Store
+                    [customer-download-log] => WC_Customer_Download_Log_Data_Store
+                    [customer-session] => WC_Customer_Data_Store_Session
+                    [order] => WC_Order_Data_Store_CPT
+                    [order-refund] => WC_Order_Refund_Data_Store_CPT
+                    [order-item] => WC_Order_Item_Data_Store
+                    [order-item-coupon] => WC_Order_Item_Coupon_Data_Store
+                    [order-item-fee] => WC_Order_Item_Fee_Data_Store
+                    [order-item-product] => WC_Order_Item_Product_Data_Store
+                    [order-item-shipping] => WC_Order_Item_Shipping_Data_Store
+                    [order-item-tax] => WC_Order_Item_Tax_Data_Store
+                    [payment-token] => WC_Payment_Token_Data_Store
+                    [product] => WC_Product_Data_Store_CPT
+                    [product-grouped] => WC_Product_Grouped_Data_Store_CPT
+                    [product-variable] => WC_Product_Variable_Data_Store_CPT
+                    [product-variation] => WC_Product_Variation_Data_Store_CPT
+                    [shipping-zone] => WC_Shipping_Zone_Data_Store
+                    [webhook] => WC_Webhook_Data_Store
+                    [report-revenue-stats] => Automattic\WooCommerce\Admin\API\Reports\Orders\Stats\DataStore
+                    [report-orders] => Automattic\WooCommerce\Admin\API\Reports\Orders\DataStore
+                    [report-orders-stats] => Automattic\WooCommerce\Admin\API\Reports\Orders\Stats\DataStore
+                    [report-products] => Automattic\WooCommerce\Admin\API\Reports\Products\DataStore
+                    [report-variations] => Automattic\WooCommerce\Admin\API\Reports\Variations\DataStore
+                    [report-products-stats] => Automattic\WooCommerce\Admin\API\Reports\Products\Stats\DataStore
+                    [report-variations-stats] => Automattic\WooCommerce\Admin\API\Reports\Variations\Stats\DataStore
+                    [report-categories] => Automattic\WooCommerce\Admin\API\Reports\Categories\DataStore
+                    [report-taxes] => Automattic\WooCommerce\Admin\API\Reports\Taxes\DataStore
+                    [report-taxes-stats] => Automattic\WooCommerce\Admin\API\Reports\Taxes\Stats\DataStore
+                    [report-coupons] => Automattic\WooCommerce\Admin\API\Reports\Coupons\DataStore
+                    [report-coupons-stats] => Automattic\WooCommerce\Admin\API\Reports\Coupons\Stats\DataStore
+                    [report-downloads] => Automattic\WooCommerce\Admin\API\Reports\Downloads\DataStore
+                    [report-downloads-stats] => Automattic\WooCommerce\Admin\API\Reports\Downloads\Stats\DataStore
+                    [admin-note] => Automattic\WooCommerce\Admin\Notes\DataStore
+                    [report-customers] => Automattic\WooCommerce\Admin\API\Reports\Customers\DataStore
+                    [report-customers-stats] => Automattic\WooCommerce\Admin\API\Reports\Customers\Stats\DataStore
+                    [report-stock-stats] => Automattic\WooCommerce\Admin\API\Reports\Stock\Stats\DataStore
+                )
+
+            [current_class_name:WC_Data_Store:private] => WC_Product_Data_Store_CPT
+            [object_type:WC_Data_Store:private] => product-simple
+        )
+
+    [meta_data:protected] => 
+)
+
+05-03-2022 @ 13:27:28 - shippingItem: stdClass Object
+(
+    [Weight] => 1
+    [Length] => 16
+    [Height] => 2
+    [Width] => 11
+    [Diameter] => 0
+    [SKU] => 
+    [Category] => farofas|
+    [isFragile] => 
+)
+
+05-03-2022 @ 13:27:28 - CEP 08831-070
+05-03-2022 @ 13:27:28 - Requesting the Frenet WebServices...
+05-03-2022 @ 13:27:28 - Array
+(
+    [Token] => 3D2F795ER0734R4699RA595RC0EB30404754
+    [Coupom] => 
+    [PlatformName] => WOOCOMMERCE
+    [PlatformVersion] => 6.4.1
+    [SellerCEP] => 04004070
+    [RecipientCEP] => 08831-070
+    [RecipientDocument] => 
+    [ShipmentInvoiceValue] => 18
+    [ShippingItemArray] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [Weight] => 1
+                    [Length] => 16
+                    [Height] => 2
+                    [Width] => 11
+                    [Diameter] => 0
+                    [SKU] => 
+                    [Category] => farofas|
+                    [isFragile] => 
+                    [Quantity] => 1
+                )
+
+        )
+
+    [RecipientCountry] => BR
+)
+
+05-03-2022 @ 13:27:28 - URL: http://api.frenet.com.br/shipping/quote
+05-03-2022 @ 13:27:29 - Curl response: {"ShippingSevicesArray":[{"ServiceCode":"03220","ServiceDescription":"Sedex","Carrier":"Correios","CarrierCode":"COR","ShippingPrice":"11.66","DeliveryTime":"1","Error":false,"OriginalDeliveryTime":"1","OriginalShippingPrice":"11.66220000000","ResponseTime":"94.9364","AllowBuyLabel":true},{"ServiceCode":"03298","ServiceDescription":"PAC","Carrier":"Correios","CarrierCode":"COR","ShippingPrice":"17.97","DeliveryTime":"5","Msg":"","Error":false,"OriginalDeliveryTime":"5","OriginalShippingPrice":"17.9664000","ResponseTime":"266.8632","AllowBuyLabel":true},{"ServiceCode":"F_3","ServiceDescription":"Jadlog Package","Carrier":"Jadlog","CarrierCode":"JAD","ShippingPrice":"24.38","DeliveryTime":"3","Error":false,"OriginalDeliveryTime":"3","OriginalShippingPrice":"24.3832000","ResponseTime":"6.3036","AllowBuyLabel":true},{"ServiceCode":"04227","ServiceDescription":"Mini Envios","Carrier":"Correios","CarrierCode":"COR","Msg":"Erro: Peso excedido.","Error":true,"ResponseTime":"0.0201","AllowBuyLabel":true}],"Timeout":0}
+05-03-2022 @ 13:27:29 - Percorrendo os serviços retornados
+05-03-2022 @ 13:27:29 - WebServices response [Sedex]: stdClass Object
+(
+    [ServiceCode] => 03220
+    [ServiceDescription] => Sedex
+    [Carrier] => Correios
+    [CarrierCode] => COR
+    [ShippingPrice] => 11.66
+    [DeliveryTime] => 1
+    [Error] => 
+    [OriginalDeliveryTime] => 1
+    [OriginalShippingPrice] => 11.66220000000
+    [ResponseTime] => 94.9364
+    [AllowBuyLabel] => 1
+)
+
+05-03-2022 @ 13:27:29 - Percorrendo os serviços retornados
+05-03-2022 @ 13:27:29 - WebServices response [PAC]: stdClass Object
+(
+    [ServiceCode] => 03298
+    [ServiceDescription] => PAC
+    [Carrier] => Correios
+    [CarrierCode] => COR
+    [ShippingPrice] => 17.97
+    [DeliveryTime] => 5
+    [Msg] => 
+    [Error] => 
+    [OriginalDeliveryTime] => 5
+    [OriginalShippingPrice] => 17.9664000
+    [ResponseTime] => 266.8632
+    [AllowBuyLabel] => 1
+)
+
+05-03-2022 @ 13:27:29 - Percorrendo os serviços retornados
+05-03-2022 @ 13:27:29 - WebServices response [Jadlog Package]: stdClass Object
+(
+    [ServiceCode] => F_3
+    [ServiceDescription] => Jadlog Package
+    [Carrier] => Jadlog
+    [CarrierCode] => JAD
+    [ShippingPrice] => 24.38
+    [DeliveryTime] => 3
+    [Error] => 
+    [OriginalDeliveryTime] => 3
+    [OriginalShippingPrice] => 24.3832000
+    [ResponseTime] => 6.3036
+    [AllowBuyLabel] => 1
+)
+
+05-03-2022 @ 13:27:29 - Percorrendo os serviços retornados
+05-03-2022 @ 13:27:29 - *continue*
+05-03-2022 @ 15:47:37 - ERRO: CEP destino não informado
+05-03-2022 @ 15:53:02 - ERRO: CEP destino não informado
+05-03-2022 @ 15:53:27 - ERRO: CEP destino não informado
+05-03-2022 @ 15:55:36 - ERRO: CEP destino não informado
+05-03-2022 @ 18:53:01 - ERRO: CEP destino não informado
+05-03-2022 @ 18:53:33 - Product: WC_Product_Simple Object
+(
+    [object_type:protected] => product
+    [post_type:protected] => product
+    [cache_group:protected] => products
+    [data:protected] => Array
+        (
+            [name] => Farofa com Muita Cebola
+            [slug] => farofa-com-muita-cebola-2
+            [date_created] => WC_DateTime Object
+                (
+                    [utc_offset:protected] => 0
+                    [date] => 2021-11-26 10:52:36.000000
+                    [timezone_type] => 3
+                    [timezone] => America/Sao_Paulo
+                )
+
+            [date_modified] => WC_DateTime Object
+                (
+                    [utc_offset:protected] => 0
+                    [date] => 2022-04-07 13:11:40.000000
+                    [timezone_type] => 3
+                    [timezone] => America/Sao_Paulo
+                )
+
+            [status] => publish
+            [featured] => 
+            [catalog_visibility] => visible
+            [description] => Por ser incrivelmente saborosa, a Farofa com muita cebola crocante é a campeã de vendas, conquistando todos os paladares.
+Nesta nobre preparação, a farinha de mandioca absorve o incrível sabor da cebola fresca, resultando em uma farofa com sabor caseiro e muito versátil para acompanhar diferentes pratos.
+
+<span style="color: #a81414;"><strong>Ingredientes: </strong></span>Farinha de Mandioca, Cebola, Gordura de Palma, Sal Rosa do Himalaia. Livre de Lactose e Livre de Glúten. Contém Feninalalina.
+
+<span style="color: #a81414;"><strong>É perfeita para: </strong></span>Todas as suas ideias
+
+<!--more-->
+<table class="nutri_table" style="height: 659px;" width="448">
+<tbody>
+<tr>
+<td colspan="4" width="321"><span style="color: #a81414;"><strong>INFORMAÇÃO NUTRICIONAL</strong></span></td>
+</tr>
+<tr>
+<td colspan="4" width="321">Porções por embalagem: 8,5 porções
+
+Porção: 35 g (duas colheres de sopa)</td>
+</tr>
+<tr>
+<td width="151"></td>
+<td width="57">100g</td>
+<td width="57">35g</td>
+<td width="57">%VD*</td>
+</tr>
+<tr>
+<td width="151">Valor energético (kcal)</td>
+<td width="57">466</td>
+<td width="57">163</td>
+<td width="57">8</td>
+</tr>
+<tr>
+<td width="151">Carboidratos totais (g)</td>
+<td width="57">63</td>
+<td width="57">22</td>
+<td width="57">7</td>
+</tr>
+<tr>
+<td width="151">Açúcares totais (g)</td>
+<td width="57"></td>
+<td width="57"></td>
+<td width="57"></td>
+</tr>
+<tr>
+<td width="151">Açúcares adicionados (g)</td>
+<td width="57"></td>
+<td width="57"></td>
+<td width="57"></td>
+</tr>
+<tr>
+<td width="151">Proteínas (g)</td>
+<td width="57">0</td>
+<td width="57">0</td>
+<td width="57">0</td>
+</tr>
+<tr>
+<td width="151">Gorduras totais (g)</td>
+<td width="57">23</td>
+<td width="57">8,2</td>
+<td width="57">13</td>
+</tr>
+<tr>
+<td width="151">Gorduras saturadas (g)</td>
+<td width="57">11</td>
+<td width="57">3,8</td>
+<td width="57">19</td>
+</tr>
+<tr>
+<td width="151">Gorduras trans (g)</td>
+<td width="57">0</td>
+<td width="57">0</td>
+<td width="57">0</td>
+</tr>
+<tr>
+<td width="151">Fibra alimentar (g)</td>
+<td width="57">5</td>
+<td width="57">1,7</td>
+<td width="57">7</td>
+</tr>
+<tr>
+<td width="151">Cálcio (mg)</td>
+<td width="57">57</td>
+<td width="57">20</td>
+<td width="57">2</td>
+</tr>
+<tr>
+<td width="151">Magnésio (mg)</td>
+<td width="57">31</td>
+<td width="57">11</td>
+<td width="57">3</td>
+</tr>
+<tr>
+<td width="151">Sódio (mg)</td>
+<td width="57">206</td>
+<td width="57">72</td>
+<td width="57">4</td>
+</tr>
+<tr>
+<td colspan="4" width="321">*Percentual de valores diários fornecidos pela porção</td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+            [short_description] => 
+            [sku] => 
+            [price] => 15.20
+            [regular_price] => 17.20
+            [sale_price] => 15.20
+            [date_on_sale_from] => 
+            [date_on_sale_to] => 
+            [total_sales] => 21
+            [tax_status] => taxable
+            [tax_class] => 
+            [manage_stock] => 
+            [stock_quantity] => 
+            [stock_status] => instock
+            [backorders] => no
+            [low_stock_amount] => 
+            [sold_individually] => 
+            [weight] => 
+            [length] => 
+            [width] => 
+            [height] => 
+            [upsell_ids] => Array
+                (
+                )
+
+            [cross_sell_ids] => Array
+                (
+                )
+
+            [parent_id] => 0
+            [reviews_allowed] => 
+            [purchase_note] => 
+            [attributes] => Array
+                (
+                )
+
+            [default_attributes] => Array
+                (
+                )
+
+            [menu_order] => 0
+            [post_password] => 
+            [virtual] => 
+            [downloadable] => 
+            [category_ids] => Array
+                (
+                    [0] => 17
+                )
+
+            [tag_ids] => Array
+                (
+                )
+
+            [shipping_class_id] => 0
+            [downloads] => Array
+                (
+                )
+
+            [image_id] => 7673
+            [gallery_image_ids] => Array
+                (
+                    [0] => 7674
+                )
+
+            [download_limit] => -1
+            [download_expiry] => -1
+            [rating_counts] => Array
+                (
+                )
+
+            [average_rating] => 0
+            [review_count] => 0
+        )
+
+    [supports:protected] => Array
+        (
+            [0] => ajax_add_to_cart
+        )
+
+    [id:protected] => 195
+    [changes:protected] => Array
+        (
+        )
+
+    [object_read:protected] => 1
+    [extra_data:protected] => Array
+        (
+        )
+
+    [default_data:protected] => Array
+        (
+            [name] => 
+            [slug] => 
+            [date_created] => 
+            [date_modified] => 
+            [status] => 
+            [featured] => 
+            [catalog_visibility] => visible
+            [description] => 
+            [short_description] => 
+            [sku] => 
+            [price] => 
+            [regular_price] => 
+            [sale_price] => 
+            [date_on_sale_from] => 
+            [date_on_sale_to] => 
+            [total_sales] => 0
+            [tax_status] => taxable
+            [tax_class] => 
+            [manage_stock] => 
+            [stock_quantity] => 
+            [stock_status] => instock
+            [backorders] => no
+            [low_stock_amount] => 
+            [sold_individually] => 
+            [weight] => 
+            [length] => 
+            [width] => 
+            [height] => 
+            [upsell_ids] => Array
+                (
+                )
+
+            [cross_sell_ids] => Array
+                (
+                )
+
+            [parent_id] => 0
+            [reviews_allowed] => 1
+            [purchase_note] => 
+            [attributes] => Array
+                (
+                )
+
+            [default_attributes] => Array
+                (
+                )
+
+            [menu_order] => 0
+            [post_password] => 
+            [virtual] => 
+            [downloadable] => 
+            [category_ids] => Array
+                (
+                )
+
+            [tag_ids] => Array
+                (
+                )
+
+            [shipping_class_id] => 0
+            [downloads] => Array
+                (
+                )
+
+            [image_id] => 
+            [gallery_image_ids] => Array
+                (
+                )
+
+            [download_limit] => -1
+            [download_expiry] => -1
+            [rating_counts] => Array
+                (
+                )
+
+            [average_rating] => 0
+            [review_count] => 0
+        )
+
+    [data_store:protected] => WC_Data_Store Object
+        (
+            [instance:WC_Data_Store:private] => WC_Product_Data_Store_CPT Object
+                (
+                    [internal_meta_keys:protected] => Array
+                        (
+                            [0] => _visibility
+                            [1] => _sku
+                            [2] => _price
+                            [3] => _regular_price
+                            [4] => _sale_price
+                            [5] => _sale_price_dates_from
+                            [6] => _sale_price_dates_to
+                            [7] => total_sales
+                            [8] => _tax_status
+                            [9] => _tax_class
+                            [10] => _manage_stock
+                            [11] => _stock
+                            [12] => _stock_status
+                            [13] => _backorders
+                            [14] => _low_stock_amount
+                            [15] => _sold_individually
+                            [16] => _weight
+                            [17] => _length
+                            [18] => _width
+                            [19] => _height
+                            [20] => _upsell_ids
+                            [21] => _crosssell_ids
+                            [22] => _purchase_note
+                            [23] => _default_attributes
+                            [24] => _product_attributes
+                            [25] => _virtual
+                            [26] => _downloadable
+                            [27] => _download_limit
+                            [28] => _download_expiry
+                            [29] => _featured
+                            [30] => _downloadable_files
+                            [31] => _wc_rating_count
+                            [32] => _wc_average_rating
+                            [33] => _wc_review_count
+                            [34] => _variation_description
+                            [35] => _thumbnail_id
+                            [36] => _file_paths
+                            [37] => _product_image_gallery
+                            [38] => _product_version
+                            [39] => _wp_old_slug
+                            [40] => _edit_last
+                            [41] => _edit_lock
+                        )
+
+                    [must_exist_meta_keys:protected] => Array
+                        (
+                            [0] => _tax_class
+                        )
+
+                    [extra_data_saved:protected] => 
+                    [updated_props:protected] => Array
+                        (
+                        )
+
+                    [meta_type:protected] => post
+                    [object_id_field_for_meta:protected] => 
+                )
+
+            [stores:WC_Data_Store:private] => Array
+                (
+                    [coupon] => WC_Coupon_Data_Store_CPT
+                    [customer] => WC_Customer_Data_Store
+                    [customer-download] => WC_Customer_Download_Data_Store
+                    [customer-download-log] => WC_Customer_Download_Log_Data_Store
+                    [customer-session] => WC_Customer_Data_Store_Session
+                    [order] => WC_Order_Data_Store_CPT
+                    [order-refund] => WC_Order_Refund_Data_Store_CPT
+                    [order-item] => WC_Order_Item_Data_Store
+                    [order-item-coupon] => WC_Order_Item_Coupon_Data_Store
+                    [order-item-fee] => WC_Order_Item_Fee_Data_Store
+                    [order-item-product] => WC_Order_Item_Product_Data_Store
+                    [order-item-shipping] => WC_Order_Item_Shipping_Data_Store
+                    [order-item-tax] => WC_Order_Item_Tax_Data_Store
+                    [payment-token] => WC_Payment_Token_Data_Store
+                    [product] => WC_Product_Data_Store_CPT
+                    [product-grouped] => WC_Product_Grouped_Data_Store_CPT
+                    [product-variable] => WC_Product_Variable_Data_Store_CPT
+                    [product-variation] => WC_Product_Variation_Data_Store_CPT
+                    [shipping-zone] => WC_Shipping_Zone_Data_Store
+                    [webhook] => WC_Webhook_Data_Store
+                    [report-revenue-stats] => Automattic\WooCommerce\Admin\API\Reports\Orders\Stats\DataStore
+                    [report-orders] => Automattic\WooCommerce\Admin\API\Reports\Orders\DataStore
+                    [report-orders-stats] => Automattic\WooCommerce\Admin\API\Reports\Orders\Stats\DataStore
+                    [report-products] => Automattic\WooCommerce\Admin\API\Reports\Products\DataStore
+                    [report-variations] => Automattic\WooCommerce\Admin\API\Reports\Variations\DataStore
+                    [report-products-stats] => Automattic\WooCommerce\Admin\API\Reports\Products\Stats\DataStore
+                    [report-variations-stats] => Automattic\WooCommerce\Admin\API\Reports\Variations\Stats\DataStore
+                    [report-categories] => Automattic\WooCommerce\Admin\API\Reports\Categories\DataStore
+                    [report-taxes] => Automattic\WooCommerce\Admin\API\Reports\Taxes\DataStore
+                    [report-taxes-stats] => Automattic\WooCommerce\Admin\API\Reports\Taxes\Stats\DataStore
+                    [report-coupons] => Automattic\WooCommerce\Admin\API\Reports\Coupons\DataStore
+                    [report-coupons-stats] => Automattic\WooCommerce\Admin\API\Reports\Coupons\Stats\DataStore
+                    [report-downloads] => Automattic\WooCommerce\Admin\API\Reports\Downloads\DataStore
+                    [report-downloads-stats] => Automattic\WooCommerce\Admin\API\Reports\Downloads\Stats\DataStore
+                    [admin-note] => Automattic\WooCommerce\Admin\Notes\DataStore
+                    [report-customers] => Automattic\WooCommerce\Admin\API\Reports\Customers\DataStore
+                    [report-customers-stats] => Automattic\WooCommerce\Admin\API\Reports\Customers\Stats\DataStore
+                    [report-stock-stats] => Automattic\WooCommerce\Admin\API\Reports\Stock\Stats\DataStore
+                )
+
+            [current_class_name:WC_Data_Store:private] => WC_Product_Data_Store_CPT
+            [object_type:WC_Data_Store:private] => product-simple
+        )
+
+    [meta_data:protected] => 
+)
+
+05-03-2022 @ 18:53:33 - shippingItem: stdClass Object
+(
+    [Weight] => 1
+    [Length] => 16
+    [Height] => 2
+    [Width] => 11
+    [Diameter] => 0
+    [SKU] => 
+    [Category] => farofas|
+    [isFragile] => 
+)
+
+05-03-2022 @ 18:53:33 - CEP 66020120
+05-03-2022 @ 18:53:33 - Requesting the Frenet WebServices...
+05-03-2022 @ 18:53:33 - Array
+(
+    [Token] => 3D2F795ER0734R4699RA595RC0EB30404754
+    [Coupom] => 
+    [PlatformName] => WOOCOMMERCE
+    [PlatformVersion] => 6.4.1
+    [SellerCEP] => 04004070
+    [RecipientCEP] => 66020120
+    [RecipientDocument] => 
+    [ShipmentInvoiceValue] => 15.2
+    [ShippingItemArray] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [Weight] => 1
+                    [Length] => 16
+                    [Height] => 2
+                    [Width] => 11
+                    [Diameter] => 0
+                    [SKU] => 
+                    [Category] => farofas|
+                    [isFragile] => 
+                    [Quantity] => 1
+                )
+
+        )
+
+    [RecipientCountry] => BR
+)
+
+05-03-2022 @ 18:53:33 - URL: http://api.frenet.com.br/shipping/quote
+05-03-2022 @ 18:53:34 - Curl response: {"ShippingSevicesArray":[{"ServiceCode":"F_3","ServiceDescription":"Jadlog Package","Carrier":"Jadlog","CarrierCode":"JAD","ShippingPrice":"26.05","DeliveryTime":"5","Error":false,"OriginalDeliveryTime":"5","OriginalShippingPrice":"26.0536000","ResponseTime":"12.5889","AllowBuyLabel":true},{"ServiceCode":"03298","ServiceDescription":"PAC","Carrier":"Correios","CarrierCode":"COR","ShippingPrice":"26.74","DeliveryTime":"10","Error":false,"OriginalDeliveryTime":"10","OriginalShippingPrice":"26.74440000000","ResponseTime":"340.924","AllowBuyLabel":true},{"ServiceCode":"03220","ServiceDescription":"Sedex","Carrier":"Correios","CarrierCode":"COR","ShippingPrice":"54.98","DeliveryTime":"4","Error":false,"OriginalDeliveryTime":"4","OriginalShippingPrice":"54.98220000000","ResponseTime":"301.3127","AllowBuyLabel":true},{"ServiceCode":"04227","ServiceDescription":"Mini Envios","Carrier":"Correios","CarrierCode":"COR","Msg":"Erro: Peso excedido.","Error":true,"ResponseTime":"0.0222","AllowBuyLabel":true}],"Timeout":0}
+05-03-2022 @ 18:53:34 - Percorrendo os serviços retornados
+05-03-2022 @ 18:53:34 - WebServices response [Jadlog Package]: stdClass Object
+(
+    [ServiceCode] => F_3
+    [ServiceDescription] => Jadlog Package
+    [Carrier] => Jadlog
+    [CarrierCode] => JAD
+    [ShippingPrice] => 26.05
+    [DeliveryTime] => 5
+    [Error] => 
+    [OriginalDeliveryTime] => 5
+    [OriginalShippingPrice] => 26.0536000
+    [ResponseTime] => 12.5889
+    [AllowBuyLabel] => 1
+)
+
+05-03-2022 @ 18:53:34 - Percorrendo os serviços retornados
+05-03-2022 @ 18:53:34 - WebServices response [PAC]: stdClass Object
+(
+    [ServiceCode] => 03298
+    [ServiceDescription] => PAC
+    [Carrier] => Correios
+    [CarrierCode] => COR
+    [ShippingPrice] => 26.74
+    [DeliveryTime] => 10
+    [Error] => 
+    [OriginalDeliveryTime] => 10
+    [OriginalShippingPrice] => 26.74440000000
+    [ResponseTime] => 340.924
+    [AllowBuyLabel] => 1
+)
+
+05-03-2022 @ 18:53:34 - Percorrendo os serviços retornados
+05-03-2022 @ 18:53:34 - WebServices response [Sedex]: stdClass Object
+(
+    [ServiceCode] => 03220
+    [ServiceDescription] => Sedex
+    [Carrier] => Correios
+    [CarrierCode] => COR
+    [ShippingPrice] => 54.98
+    [DeliveryTime] => 4
+    [Error] => 
+    [OriginalDeliveryTime] => 4
+    [OriginalShippingPrice] => 54.98220000000
+    [ResponseTime] => 301.3127
+    [AllowBuyLabel] => 1
+)
+
+05-03-2022 @ 18:53:34 - Percorrendo os serviços retornados
+05-03-2022 @ 18:53:34 - *continue*

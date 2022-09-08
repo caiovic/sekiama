@@ -1,0 +1,125 @@
+04-01-2022 @ 02:21:23 - [check_ipn_response]: received _get content: {
+    "id": "21257120896",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+04-01-2022 @ 02:21:23 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+04-01-2022 @ 04:41:31 - [check_ipn_response]: received _get content: {
+    "id": "21257120896",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+04-01-2022 @ 04:41:31 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+04-01-2022 @ 04:41:31 - [check_ipn_response]: received _get content: {
+    "id": "4444039300",
+    "source_news": "ipn",
+    "topic": "merchant_order"
+}
+04-01-2022 @ 04:41:31 - [successful_request]: starting to process  update...
+04-01-2022 @ 04:41:31 - [successful_request]: updating metadata and status with data: {
+    "id": 4444039300,
+    "status": "closed",
+    "external_reference": "WC-7506",
+    "preference_id": "163745094-a6f93ece-36ae-4972-beeb-fa8dad38b7bd",
+    "payments": [
+        {
+            "id": 21257120896,
+            "transaction_amount": 101.530000000000001136868377216160297393798828125,
+            "total_paid_amount": 101.530000000000001136868377216160297393798828125,
+            "shipping_cost": 0,
+            "currency_id": "BRL",
+            "status": "approved",
+            "status_detail": "accredited",
+            "operation_type": "regular_payment",
+            "date_approved": "2022-04-01T03:41:29.000-04:00",
+            "date_created": "2022-03-31T18:17:11.000-04:00",
+            "last_modified": "2022-03-31T18:17:11.000-04:00",
+            "amount_refunded": 0
+        }
+    ],
+    "shipments": [],
+    "payouts": [],
+    "collector": {
+        "id": 163745094,
+        "email": "",
+        "nickname": "THIAGOERMINIO"
+    },
+    "marketplace": "NONE",
+    "notification_url": "https:\/\/sekiama.otimaideia.com.br\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "date_created": "2022-03-31T22:16:54.014+00:00",
+    "last_updated": "2022-04-01T07:41:29.458+00:00",
+    "sponsor_id": null,
+    "shipping_cost": 0,
+    "total_amount": 101.530000000000001136868377216160297393798828125,
+    "site_id": "MLB",
+    "paid_amount": 101.530000000000001136868377216160297393798828125,
+    "refunded_amount": 0,
+    "payer": {
+        "id": 40058112,
+        "email": ""
+    },
+    "items": [
+        {
+            "id": "197",
+            "category_id": "others",
+            "currency_id": "BRL",
+            "description": "A-farinha-de-mandioca-e-ENRIQUECIDA-com-SEMENTES-e-CASTANHAS-obtendo-micronutrientes-essenciais-gorduras-beneficas-e-muitas-fibras-para-a-felicidade-do-seu-organismo.-strongspan-stylecolor-a81414Ingredientessp",
+            "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/sementesecastanha.png",
+            "picture_id": "882422-MLB49537088766_032022",
+            "title": "Farofa com Muitas Sementes e Castanhas x 4",
+            "quantity": 1,
+            "unit_price": 67.59999847412109375
+        },
+        {
+            "id": "195",
+            "category_id": "others",
+            "currency_id": "BRL",
+            "description": "Nesta-nobre-preparacao-a-farinha-de-mandioca-ganha-o-incrivel-sabor-da-cebola-com-o-gostinho-de-farofa-caseira-uma-verdadeira-delicia-que-vai-bem-com-todo-tipo-de-prato.-span-stylecolor-a81414strongIngredientes",
+            "picture_url": "https:\/\/sekiama.otimaideia.com.br\/wp-content\/uploads\/2021\/11\/cebola.png",
+            "picture_id": "684322-MLB49537086836_032022",
+            "title": "Farofa com Muita Cebola x 1",
+            "quantity": 1,
+            "unit_price": 15.19999980926513671875
+        },
+        {
+            "id": "",
+            "category_id": "others",
+            "currency_id": "BRL",
+            "description": "Serviço de envio usado pela loja.",
+            "picture_url": null,
+            "title": "Sequoia SFX (Entrega em 5 dias úteis)",
+            "quantity": 1,
+            "unit_price": 18.729999542236328125
+        }
+    ],
+    "cancelled": false,
+    "additional_info": "",
+    "application_id": null,
+    "order_status": "paid",
+    "ipn_type": "merchant_order"
+}
+04-01-2022 @ 04:41:31 - [successful_request]: Changing order status to: processing
+04-01-2022 @ 04:41:32 - [check_ipn_response]: received _get content: {
+    "id": "21257120896",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+04-01-2022 @ 04:41:32 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+04-01-2022 @ 05:01:18 - [check_ipn_response]: received _get content: {
+    "id": "21257120896",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+04-01-2022 @ 05:01:18 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+04-01-2022 @ 05:39:31 - [check_ipn_response]: received _get content: {
+    "id": "21257120896",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+04-01-2022 @ 05:39:31 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+04-01-2022 @ 11:45:02 - [check_ipn_response]: received _get content: {
+    "id": "21257120896",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+04-01-2022 @ 11:45:02 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order

@@ -1,0 +1,866 @@
+09-03-2022 @ 13:21:03 - [process_payment]: POST Custom: {
+    "amount": "102.6",
+    "currency_ratio": "1",
+    "paymentMethodId": "master",
+    "checkout_type": "custom",
+    "installments": "1"
+}
+09-03-2022 @ 13:21:03 - [process_payment]: preparing to get response of custom checkout.
+09-03-2022 @ 13:21:03 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13903",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "transaction_amount": 102.599999999999994315658113919198513031005859375,
+    "description": "Kit Favoritas x 1, Faropop x 1, Farofa Doce x 1, Farofa com Muitas Sementes e Castanhas x 1",
+    "installments": 1,
+    "payment_method_id": "master",
+    "payer": {
+        "email": "alinefbelem@yahoo.com.br"
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.8.2",
+        "module_version": "6.1.0",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "05458-001",
+            "street_name": "Avenida DiÓgenes Ribeiro De Lima",
+            "city_name": "SÃo Paulo",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "custom",
+        "checkout_type": "credit_card"
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 203,
+                "title": "Kit Favoritas x 1",
+                "description": "O-Kit-perfeito-para-voce-experimentar-as-mais-vendidas.-Contem-as-farofas-bDoce-Com-Muita-Cebola-e-Com-Muitas-Sementesb",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-fav-2.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 50
+            },
+            {
+                "id": 200,
+                "title": "Faropop x 1",
+                "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 14.199999999999999289457264239899814128875732421875
+            },
+            {
+                "id": 199,
+                "title": "Farofa Doce x 1",
+                "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 19.800000000000000710542735760100185871124267578125
+            },
+            {
+                "id": 197,
+                "title": "Farofa com Muitas Sementes e Castanhas x 1",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 18.60000000000000142108547152020037174224853515625
+            }
+        ],
+        "payer": {
+            "first_name": "Aline",
+            "last_name": "Farias",
+            "phone": {
+                "number": "(11) 99940-2681"
+            },
+            "address": {
+                "zip_code": "05458-001",
+                "street_name": "Avenida DiÓgenes Ribeiro De Lima \/ SÃo Paulo SP BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "05458-001",
+                "street_name": "Avenida DiÓgenes Ribeiro De Lima Alto De Pinheiros SÃo Paulo SP BR",
+                "apartment": "Alto De Pinheiros",
+                "city_name": "SÃo Paulo",
+                "state_name": "SP"
+            }
+        }
+    }
+}
+09-03-2022 @ 13:21:05 - [create_preference]: Preference created: {
+    "status": 201,
+    "response": {
+        "id": 25441335148,
+        "date_created": "2022-09-03T12:21:03.011-04:00",
+        "date_approved": "2022-09-03T12:21:04.559-04:00",
+        "date_last_updated": "2022-09-03T12:21:04.559-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-09-03T12:21:04.559-04:00",
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": "24",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Kit Favoritas x 1, Faropop x 1, Farofa Doce x 1, Farofa com Muitas Sementes e Castanhas x 1",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "210375",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.109.0",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "203659671",
+            "operator_id": null,
+            "email": "alinefbelem@yahoo.com.br",
+            "identification": {
+                "type": "CPF",
+                "number": "08340035622"
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "SÃo Paulo",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "05458-001",
+                "street_name": "Avenida DiÓgenes Ribeiro De Lima"
+            },
+            "module_version": "6.1.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.8.2",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "203",
+                    "title": "Kit Favoritas x 1",
+                    "description": "O-Kit-perfeito-para-voce-experimentar-as-mais-vendidas.-Contem-as-farofas-bDoce-Com-Muita-Cebola-e-Com-Muitas-Sementesb",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-fav-2.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "50"
+                },
+                {
+                    "id": "200",
+                    "title": "Faropop x 1",
+                    "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "14.2"
+                },
+                {
+                    "id": "199",
+                    "title": "Farofa Doce x 1",
+                    "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "19.8"
+                },
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 1",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "18.6"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 99940-2681"
+                },
+                "address": {
+                    "zip_code": "05458-001",
+                    "street_name": "Avenida DiÓgenes Ribeiro De Lima \/ SÃo Paulo SP BR"
+                },
+                "first_name": "Aline",
+                "last_name": "Farias"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "05458-001",
+                    "state_name": "SP",
+                    "city_name": "SÃo Paulo",
+                    "street_name": "Avenida DiÓgenes Ribeiro De Lima Alto De Pinheiros SÃo Paulo SP BR",
+                    "apartment": "Alto De Pinheiros"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQEBAQTpMYwFMmAuoY5G_Egq8MPi2TE7R8_JPHp07draqr5j1wCh7ckFR-aXbxA",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13903",
+        "transaction_amount": 102.599999999999994315658113919198513031005859375,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 97.4800000000000039790393202565610408782958984375,
+            "total_paid_amount": 102.599999999999994315658113919198513031005859375,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 102.599999999999994315658113919198513031005859375,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 5.12000000000000010658141036401502788066864013671875,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "522840",
+            "last_four_digits": "4968",
+            "bin": "52284028",
+            "expiration_month": 6,
+            "expiration_year": 2028,
+            "date_created": "2022-09-03T12:21:03.000-04:00",
+            "date_last_updated": "2022-09-03T12:21:03.000-04:00",
+            "cardholder": {
+                "name": "Aline n farias",
+                "identification": {
+                    "number": "69830266249",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+09-03-2022 @ 13:21:05 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 25441335148,
+        "date_created": "2022-09-03T12:21:03.011-04:00",
+        "date_approved": "2022-09-03T12:21:04.559-04:00",
+        "date_last_updated": "2022-09-03T12:21:04.559-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-09-03T12:21:04.559-04:00",
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": "24",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Kit Favoritas x 1, Faropop x 1, Farofa Doce x 1, Farofa com Muitas Sementes e Castanhas x 1",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "210375",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.109.0",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "203659671",
+            "operator_id": null,
+            "email": "alinefbelem@yahoo.com.br",
+            "identification": {
+                "type": "CPF",
+                "number": "08340035622"
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "SÃo Paulo",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "05458-001",
+                "street_name": "Avenida DiÓgenes Ribeiro De Lima"
+            },
+            "module_version": "6.1.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.8.2",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "203",
+                    "title": "Kit Favoritas x 1",
+                    "description": "O-Kit-perfeito-para-voce-experimentar-as-mais-vendidas.-Contem-as-farofas-bDoce-Com-Muita-Cebola-e-Com-Muitas-Sementesb",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-fav-2.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "50"
+                },
+                {
+                    "id": "200",
+                    "title": "Faropop x 1",
+                    "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "14.2"
+                },
+                {
+                    "id": "199",
+                    "title": "Farofa Doce x 1",
+                    "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "19.8"
+                },
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 1",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "18.6"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 99940-2681"
+                },
+                "address": {
+                    "zip_code": "05458-001",
+                    "street_name": "Avenida DiÓgenes Ribeiro De Lima \/ SÃo Paulo SP BR"
+                },
+                "first_name": "Aline",
+                "last_name": "Farias"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "05458-001",
+                    "state_name": "SP",
+                    "city_name": "SÃo Paulo",
+                    "street_name": "Avenida DiÓgenes Ribeiro De Lima Alto De Pinheiros SÃo Paulo SP BR",
+                    "apartment": "Alto De Pinheiros"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQEBAQTpMYwFMmAuoY5G_Egq8MPi2TE7R8_JPHp07draqr5j1wCh7ckFR-aXbxA",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13903",
+        "transaction_amount": 102.599999999999994315658113919198513031005859375,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 97.4800000000000039790393202565610408782958984375,
+            "total_paid_amount": 102.599999999999994315658113919198513031005859375,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 102.599999999999994315658113919198513031005859375,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 5.12000000000000010658141036401502788066864013671875,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "522840",
+            "last_four_digits": "4968",
+            "bin": "52284028",
+            "expiration_month": 6,
+            "expiration_year": 2028,
+            "date_created": "2022-09-03T12:21:03.000-04:00",
+            "date_last_updated": "2022-09-03T12:21:03.000-04:00",
+            "cardholder": {
+                "name": "Aline n farias",
+                "identification": {
+                    "number": "69830266249",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+09-03-2022 @ 13:21:05 - [check_ipn_response]: received _get content: {
+    "data_id": "25441335148",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+09-03-2022 @ 13:21:06 - [successful_request]: starting to process  update...
+09-03-2022 @ 13:21:06 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "O-Kit-perfeito-para-voce-experimentar-as-mais-vendidas.-Contem-as-farofas-bDoce-Com-Muita-Cebola-e-Com-Muitas-Sementesb",
+                "id": "203",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-fav-2.png",
+                "quantity": "1",
+                "title": "Kit Favoritas x 1",
+                "unit_price": "50"
+            },
+            {
+                "category_id": "others",
+                "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                "id": "200",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                "quantity": "1",
+                "title": "Faropop x 1",
+                "unit_price": "14.2"
+            },
+            {
+                "category_id": "others",
+                "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                "id": "199",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                "quantity": "1",
+                "title": "Farofa Doce x 1",
+                "unit_price": "19.8"
+            },
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 1",
+                "unit_price": "18.6"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Avenida DiÓgenes Ribeiro De Lima \/ SÃo Paulo SP BR",
+                "zip_code": "05458-001"
+            },
+            "first_name": "Aline",
+            "last_name": "Farias",
+            "phone": {
+                "number": "(11) 99940-2681"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Alto De Pinheiros",
+                "city_name": "SÃo Paulo",
+                "state_name": "SP",
+                "street_name": "Avenida DiÓgenes Ribeiro De Lima Alto De Pinheiros SÃo Paulo SP BR",
+                "zip_code": "05458-001"
+            }
+        }
+    },
+    "authorization_code": "210375",
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.109.0",
+    "call_for_authorize_id": null,
+    "captured": true,
+    "card": {
+        "bin": "52284028",
+        "cardholder": {
+            "identification": {
+                "number": "69830266249",
+                "type": "CPF"
+            },
+            "name": "Aline n farias"
+        },
+        "date_created": "2022-09-03T12:21:03.000-04:00",
+        "date_last_updated": "2022-09-03T12:21:03.000-04:00",
+        "expiration_month": 6,
+        "expiration_year": 2028,
+        "first_six_digits": "522840",
+        "id": null,
+        "last_four_digits": "4968"
+    },
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-09-03T12:21:04.000-04:00",
+    "date_created": "2022-09-03T12:21:03.000-04:00",
+    "date_last_updated": "2022-09-03T12:21:04.000-04:00",
+    "date_of_expiration": null,
+    "deduction_schema": null,
+    "description": "Kit Favoritas x 1, Faropop x 1, Farofa Doce x 1, Farofa com Muitas Sementes e Castanhas x 1",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13903",
+    "fee_details": [
+        {
+            "amount": 5.12000000000000010658141036401502788066864013671875,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 25441335148,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": "24",
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "credit_card",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "SÃo Paulo",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Avenida DiÓgenes Ribeiro De Lima",
+            "zip_code": "05458-001"
+        },
+        "module_version": "6.1.0",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.8.2",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-09-03T12:21:04.000-04:00",
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": "alinefbelem@yahoo.com.br",
+        "entity_type": null,
+        "first_name": null,
+        "id": "203659671",
+        "identification": {
+            "number": "08340035622",
+            "type": "CPF"
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "master",
+    "payment_type_id": "credit_card",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "type": "UNSPECIFIED"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 102.599999999999994315658113919198513031005859375,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 102.599999999999994315658113919198513031005859375,
+        "net_received_amount": 97.4800000000000039790393202565610408782958984375,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 102.599999999999994315658113919198513031005859375
+    }
+}
+09-03-2022 @ 13:21:06 - [successful_request]: Changing order status to: processing

@@ -1,0 +1,3340 @@
+09-02-2022 @ 08:45:20 - [process_payment]: POST Custom: {
+    "amount": "96.65",
+    "currency_ratio": "1",
+    "paymentMethodId": "",
+    "checkout_type": "wallet_button",
+    "installments": ""
+}
+09-02-2022 @ 08:45:20 - [process_payment]: preparing to render wallet button checkout.
+09-02-2022 @ 08:45:22 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13898",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "items": [
+        {
+            "id": 195,
+            "title": "Farofa com Muita Cebola x 2",
+            "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+            "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 34.39999999999999857891452847979962825775146484375,
+            "currency_id": "BRL"
+        },
+        {
+            "id": 197,
+            "title": "Farofa com Muitas Sementes e Castanhas x 1",
+            "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+            "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 18.60000000000000142108547152020037174224853515625,
+            "currency_id": "BRL"
+        },
+        {
+            "id": 199,
+            "title": "Farofa Doce x 1",
+            "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+            "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 19.800000000000000710542735760100185871124267578125,
+            "currency_id": "BRL"
+        },
+        {
+            "title": "Jadlog Package (Entrega em 5 dias úteis)",
+            "description": "Serviço de envio usado pela loja.",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 23.85000000000000142108547152020037174224853515625
+        }
+    ],
+    "payer": {
+        "name": "Alessandra",
+        "surname": "Cunha",
+        "email": "alemigotto2017@gmail.com",
+        "phone": {
+            "number": "(11) 96435-4800"
+        },
+        "address": {
+            "zip_code": "13050-080",
+            "street_name": "Rua Teixeira da Silva 240 \/ São Paulo SP BR"
+        }
+    },
+    "back_urls": {
+        "success": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13898\/?key=wc_order_oyNcyYTmqXbE8",
+        "failure": "https:\/\/www.sekiama.com.br\/carrinho\/?cancel_order=true&order=wc_order_oyNcyYTmqXbE8&order_id=13898&redirect&_wpnonce=3b09634cf8",
+        "pending": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13898\/?key=wc_order_oyNcyYTmqXbE8"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "13050-080",
+            "street_name": "Rua Teixeira da Silva 240 124 São Paulo SP BR",
+            "apartment": "124",
+            "city_name": "São Paulo",
+            "state_name": "SP"
+        }
+    },
+    "payment_methods": {
+        "installments": 12,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.8.2",
+        "module_version": "6.1.0",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "13050-080",
+            "street_name": "Rua Teixeira da Silva 240",
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "pro",
+        "checkout_type": "wallet_button"
+    },
+    "purpose": "wallet_purchase"
+}
+09-02-2022 @ 08:45:22 - [create_preference_wallet_button]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/www.sekiama.com.br\/carrinho\/?cancel_order=true&order=wc_order_oyNcyYTmqXbE8&order_id=13898&redirect&_wpnonce=3b09634cf8",
+            "pending": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13898\/?key=wc_order_oyNcyYTmqXbE8",
+            "success": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13898\/?key=wc_order_oyNcyYTmqXbE8"
+        },
+        "binary_mode": false,
+        "client_id": "6290074584163570",
+        "collector_id": 163745094,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-09-02T07:45:22.036-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-13898",
+        "id": "163745094-2e4ac244-b964-4ce8-878e-31662231f36a",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-2e4ac244-b964-4ce8-878e-31662231f36a",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "195",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "title": "Farofa com Muita Cebola x 2",
+                "quantity": 1,
+                "unit_price": 34.39999999999999857891452847979962825775146484375
+            },
+            {
+                "id": "197",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "title": "Farofa com Muitas Sementes e Castanhas x 1",
+                "quantity": 1,
+                "unit_price": 18.60000000000000142108547152020037174224853515625
+            },
+            {
+                "id": "199",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                "title": "Farofa Doce x 1",
+                "quantity": 1,
+                "unit_price": 19.800000000000000710542735760100185871124267578125
+            },
+            {
+                "id": "",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Serviço de envio usado pela loja.",
+                "title": "Jadlog Package (Entrega em 5 dias úteis)",
+                "quantity": 1,
+                "unit_price": 23.85000000000000142108547152020037174224853515625
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "no",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "São Paulo",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Rua Teixeira da Silva 240",
+                "zip_code": "13050-080"
+            },
+            "checkout": "pro",
+            "checkout_type": "wallet_button",
+            "collector": "163745094",
+            "custom_settings": {
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "gateway_discount_checkbox": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "6.1.0",
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.8.2",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(11) 96435-4800"
+            },
+            "address": {
+                "zip_code": "13050-080",
+                "street_name": "Rua Teixeira da Silva 240  São Paulo SP BR",
+                "street_number": null
+            },
+            "email": "alemigotto2017@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Alessandra",
+            "surname": "Cunha",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 12,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-2e4ac244-b964-4ce8-878e-31662231f36a",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "13050-080",
+                "street_name": "Rua Teixeira da Silva 240 124 São Paulo SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "124",
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "Sekiama MP",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+09-02-2022 @ 08:45:22 - [create_preference_wallet_button]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/www.sekiama.com.br\/carrinho\/?cancel_order=true&order=wc_order_oyNcyYTmqXbE8&order_id=13898&redirect&_wpnonce=3b09634cf8",
+            "pending": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13898\/?key=wc_order_oyNcyYTmqXbE8",
+            "success": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13898\/?key=wc_order_oyNcyYTmqXbE8"
+        },
+        "binary_mode": false,
+        "client_id": "6290074584163570",
+        "collector_id": 163745094,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-09-02T07:45:22.036-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-13898",
+        "id": "163745094-2e4ac244-b964-4ce8-878e-31662231f36a",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-2e4ac244-b964-4ce8-878e-31662231f36a",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "195",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "title": "Farofa com Muita Cebola x 2",
+                "quantity": 1,
+                "unit_price": 34.39999999999999857891452847979962825775146484375
+            },
+            {
+                "id": "197",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "title": "Farofa com Muitas Sementes e Castanhas x 1",
+                "quantity": 1,
+                "unit_price": 18.60000000000000142108547152020037174224853515625
+            },
+            {
+                "id": "199",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                "title": "Farofa Doce x 1",
+                "quantity": 1,
+                "unit_price": 19.800000000000000710542735760100185871124267578125
+            },
+            {
+                "id": "",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Serviço de envio usado pela loja.",
+                "title": "Jadlog Package (Entrega em 5 dias úteis)",
+                "quantity": 1,
+                "unit_price": 23.85000000000000142108547152020037174224853515625
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "no",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "São Paulo",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Rua Teixeira da Silva 240",
+                "zip_code": "13050-080"
+            },
+            "checkout": "pro",
+            "checkout_type": "wallet_button",
+            "collector": "163745094",
+            "custom_settings": {
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "gateway_discount_checkbox": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "6.1.0",
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.8.2",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(11) 96435-4800"
+            },
+            "address": {
+                "zip_code": "13050-080",
+                "street_name": "Rua Teixeira da Silva 240  São Paulo SP BR",
+                "street_number": null
+            },
+            "email": "alemigotto2017@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Alessandra",
+            "surname": "Cunha",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 12,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-2e4ac244-b964-4ce8-878e-31662231f36a",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "13050-080",
+                "street_name": "Rua Teixeira da Silva 240 124 São Paulo SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "124",
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "Sekiama MP",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+09-02-2022 @ 08:46:47 - [check_ipn_response]: received _get content: {
+    "data_id": "25401193395",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+09-02-2022 @ 08:46:47 - [successful_request]: starting to process  update...
+09-02-2022 @ 08:46:47 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "ip_address": "189.96.234.21",
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "id": "195",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "quantity": "1",
+                "title": "Farofa com Muita Cebola x 2",
+                "unit_price": "34.400001525878906"
+            },
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 1",
+                "unit_price": "18.600000381469727"
+            },
+            {
+                "category_id": "others",
+                "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                "id": "199",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                "quantity": "1",
+                "title": "Farofa Doce x 1",
+                "unit_price": "19.799999237060547"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Jadlog Package (Entrega em 5 dias úteis)",
+                "unit_price": "23.850000381469727"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Teixeira da Silva 240  São Paulo SP BR",
+                "zip_code": "13050-080"
+            },
+            "first_name": "Alessandra",
+            "last_name": "Cunha",
+            "phone": {
+                "number": "(11) 96435-4800"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "street_name": "Rua Teixeira da Silva 240 124 São Paulo SP BR",
+                "zip_code": "13050-080"
+            }
+        }
+    },
+    "authorization_code": "464266",
+    "binary_mode": true,
+    "brand_id": null,
+    "build_version": "2.109.0",
+    "call_for_authorize_id": null,
+    "captured": true,
+    "card": {
+        "bin": "52284028",
+        "cardholder": {
+            "identification": {
+                "number": "29817353818",
+                "type": "CPF"
+            },
+            "name": "Alessandra migotto"
+        },
+        "date_created": "2022-09-02T07:46:42.000-04:00",
+        "date_last_updated": "2022-09-02T07:46:42.000-04:00",
+        "expiration_month": 7,
+        "expiration_year": 2028,
+        "first_six_digits": "522840",
+        "id": null,
+        "last_four_digits": "9063"
+    },
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-09-02T07:46:43.000-04:00",
+    "date_created": "2022-09-02T07:46:42.000-04:00",
+    "date_last_updated": "2022-09-02T07:46:43.000-04:00",
+    "date_of_expiration": null,
+    "deduction_schema": null,
+    "description": "Farofa com Muita Cebola x 2",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13898",
+    "fee_details": [
+        {
+            "amount": 4.82000000000000028421709430404007434844970703125,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 25401193395,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": "24",
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "wallet_button",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Rua Teixeira da Silva 240",
+            "zip_code": "13050-080"
+        },
+        "module_version": "6.1.0",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.8.2",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "pro",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-09-02T07:46:43.000-04:00",
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": {
+        "id": "5686180855",
+        "type": "mercadopago"
+    },
+    "payer": {
+        "email": "alemigotto@ig.com.br",
+        "entity_type": null,
+        "first_name": null,
+        "id": "279821924",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "master",
+    "payment_type_id": "credit_card",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "business_info": {
+            "sub_unit": "checkout_pro",
+            "unit": "online_payments"
+        },
+        "type": "UNSPECIFIED"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 96.650000000000005684341886080801486968994140625,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 96.650000000000005684341886080801486968994140625,
+        "net_received_amount": 91.8299999999999982946974341757595539093017578125,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 96.650000000000005684341886080801486968994140625
+    }
+}
+09-02-2022 @ 08:46:47 - [successful_request]: Changing order status to: processing
+09-02-2022 @ 13:34:54 - [process_payment]: POST Custom: {
+    "amount": "112.07",
+    "currency_ratio": "1",
+    "paymentMethodId": "master",
+    "checkout_type": "custom",
+    "installments": "1"
+}
+09-02-2022 @ 13:34:54 - [process_payment]: preparing to get response of custom checkout.
+09-02-2022 @ 13:34:54 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13901",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "transaction_amount": 112.06999999999999317878973670303821563720703125,
+    "description": "Farofa com Muitas Sementes e Castanhas x 5",
+    "installments": 1,
+    "payment_method_id": "master",
+    "payer": {
+        "email": "rkabbani@gmail.com"
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.8.2",
+        "module_version": "6.1.0",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "01238-001",
+            "street_name": "Av Higienópolis",
+            "city_name": "Sāo Paulo",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "custom",
+        "checkout_type": "credit_card"
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 197,
+                "title": "Farofa com Muitas Sementes e Castanhas x 5",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 93
+            },
+            {
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "description": "Serviço de envio usado pela loja.",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 19.07000000000000028421709430404007434844970703125
+            }
+        ],
+        "payer": {
+            "first_name": "Roni",
+            "last_name": "Kabbani",
+            "phone": {
+                "number": "(11) 3666-8030"
+            },
+            "address": {
+                "zip_code": "01238-001",
+                "street_name": "Av Higienópolis \/ Sāo Paulo SP BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "01238-001",
+                "street_name": "Av Higienópolis Apto 1B Sāo Paulo SP BR",
+                "apartment": "Apto 1B",
+                "city_name": "Sāo Paulo",
+                "state_name": "SP"
+            }
+        }
+    }
+}
+09-02-2022 @ 13:34:58 - [create_preference]: Preference created: {
+    "status": 201,
+    "response": {
+        "id": 25410005894,
+        "date_created": "2022-09-02T12:34:54.375-04:00",
+        "date_approved": null,
+        "date_last_updated": "2022-09-02T12:34:57.564-04:00",
+        "date_of_expiration": null,
+        "money_release_date": null,
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": "12518",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "rejected",
+        "status_detail": "cc_rejected_call_for_authorize",
+        "currency_id": "BRL",
+        "description": "Farofa com Muitas Sementes e Castanhas x 5",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.109.0",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "198474976",
+            "operator_id": null,
+            "email": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Sāo Paulo",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "01238-001",
+                "street_name": "Av Higienópolis"
+            },
+            "module_version": "6.1.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.8.2",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 5",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "93"
+                },
+                {
+                    "id": null,
+                    "title": "Sedex (Entrega em 3 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "19.07"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 3666-8030"
+                },
+                "address": {
+                    "zip_code": "01238-001",
+                    "street_name": "Av Higienópolis \/ Sāo Paulo SP BR"
+                },
+                "first_name": "Roni",
+                "last_name": "Kabbani"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "01238-001",
+                    "state_name": "SP",
+                    "city_name": "Sāo Paulo",
+                    "street_name": "Av Higienópolis Apto 1B Sāo Paulo SP BR",
+                    "apartment": "Apto 1B"
+                }
+            },
+            "iso_response_code": "1836",
+            "available_balance": null,
+            "nsu_processadora": "34521088108803",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13901",
+        "transaction_amount": 112.06999999999999317878973670303821563720703125,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 0,
+            "total_paid_amount": 112.06999999999999317878973670303821563720703125,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 112.06999999999999317878973670303821563720703125,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "EC*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "516292",
+            "last_four_digits": "3242",
+            "bin": "51629211",
+            "expiration_month": 8,
+            "expiration_year": 2029,
+            "date_created": "2022-09-02T12:34:54.000-04:00",
+            "date_last_updated": "2022-09-02T12:34:54.000-04:00",
+            "cardholder": {
+                "name": "Roni Kabbani",
+                "identification": {
+                    "number": "08238267838",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+09-02-2022 @ 13:34:58 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 25410005894,
+        "date_created": "2022-09-02T12:34:54.375-04:00",
+        "date_approved": null,
+        "date_last_updated": "2022-09-02T12:34:57.564-04:00",
+        "date_of_expiration": null,
+        "money_release_date": null,
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": "12518",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "rejected",
+        "status_detail": "cc_rejected_call_for_authorize",
+        "currency_id": "BRL",
+        "description": "Farofa com Muitas Sementes e Castanhas x 5",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.109.0",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "198474976",
+            "operator_id": null,
+            "email": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Sāo Paulo",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "01238-001",
+                "street_name": "Av Higienópolis"
+            },
+            "module_version": "6.1.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.8.2",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 5",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "93"
+                },
+                {
+                    "id": null,
+                    "title": "Sedex (Entrega em 3 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "19.07"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 3666-8030"
+                },
+                "address": {
+                    "zip_code": "01238-001",
+                    "street_name": "Av Higienópolis \/ Sāo Paulo SP BR"
+                },
+                "first_name": "Roni",
+                "last_name": "Kabbani"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "01238-001",
+                    "state_name": "SP",
+                    "city_name": "Sāo Paulo",
+                    "street_name": "Av Higienópolis Apto 1B Sāo Paulo SP BR",
+                    "apartment": "Apto 1B"
+                }
+            },
+            "iso_response_code": "1836",
+            "available_balance": null,
+            "nsu_processadora": "34521088108803",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13901",
+        "transaction_amount": 112.06999999999999317878973670303821563720703125,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 0,
+            "total_paid_amount": 112.06999999999999317878973670303821563720703125,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 112.06999999999999317878973670303821563720703125,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "EC*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "516292",
+            "last_four_digits": "3242",
+            "bin": "51629211",
+            "expiration_month": 8,
+            "expiration_year": 2029,
+            "date_created": "2022-09-02T12:34:54.000-04:00",
+            "date_last_updated": "2022-09-02T12:34:54.000-04:00",
+            "cardholder": {
+                "name": "Roni Kabbani",
+                "identification": {
+                    "number": "08238267838",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+09-02-2022 @ 13:34:59 - [check_ipn_response]: received _get content: {
+    "data_id": "25410005894",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+09-02-2022 @ 13:34:59 - [successful_request]: starting to process  update...
+09-02-2022 @ 13:34:59 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 5",
+                "unit_price": "93"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "unit_price": "19.07"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Av Higienópolis \/ Sāo Paulo SP BR",
+                "zip_code": "01238-001"
+            },
+            "first_name": "Roni",
+            "last_name": "Kabbani",
+            "phone": {
+                "number": "(11) 3666-8030"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Apto 1B",
+                "city_name": "Sāo Paulo",
+                "state_name": "SP",
+                "street_name": "Av Higienópolis Apto 1B Sāo Paulo SP BR",
+                "zip_code": "01238-001"
+            }
+        }
+    },
+    "authorization_code": "",
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.109.0",
+    "call_for_authorize_id": null,
+    "captured": true,
+    "card": {
+        "bin": "51629211",
+        "cardholder": {
+            "identification": {
+                "number": "08238267838",
+                "type": "CPF"
+            },
+            "name": "Roni Kabbani"
+        },
+        "date_created": "2022-09-02T12:34:54.000-04:00",
+        "date_last_updated": "2022-09-02T12:34:54.000-04:00",
+        "expiration_month": 8,
+        "expiration_year": 2029,
+        "first_six_digits": "516292",
+        "id": null,
+        "last_four_digits": "3242"
+    },
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": null,
+    "date_created": "2022-09-02T12:34:54.000-04:00",
+    "date_last_updated": "2022-09-02T12:34:57.000-04:00",
+    "date_of_expiration": null,
+    "deduction_schema": null,
+    "description": "Farofa com Muitas Sementes e Castanhas x 5",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13901",
+    "fee_details": [],
+    "id": 25410005894,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": "12518",
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "credit_card",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Sāo Paulo",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Av Higienópolis",
+            "zip_code": "01238-001"
+        },
+        "module_version": "6.1.0",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.8.2",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": null,
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": null,
+        "entity_type": null,
+        "first_name": null,
+        "id": "198474976",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "master",
+    "payment_type_id": "credit_card",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "type": "UNSPECIFIED"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": "EC*SEKIAMAMP",
+    "status": "rejected",
+    "status_detail": "cc_rejected_call_for_authorize",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 112.06999999999999317878973670303821563720703125,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 112.06999999999999317878973670303821563720703125,
+        "net_received_amount": 0,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 112.06999999999999317878973670303821563720703125
+    }
+}
+09-02-2022 @ 13:34:59 - [successful_request]: Changing order status to: failed
+09-02-2022 @ 13:35:55 - [process_payment]: POST Custom: {
+    "amount": "112.07",
+    "currency_ratio": "1",
+    "paymentMethodId": "master",
+    "checkout_type": "custom",
+    "installments": "1"
+}
+09-02-2022 @ 13:35:55 - [process_payment]: preparing to get response of custom checkout.
+09-02-2022 @ 13:35:55 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13901",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "transaction_amount": 112.06999999999999317878973670303821563720703125,
+    "description": "Farofa com Muitas Sementes e Castanhas x 5",
+    "installments": 1,
+    "payment_method_id": "master",
+    "payer": {
+        "email": "rkabbani@gmail.com"
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.8.2",
+        "module_version": "6.1.0",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "01238-001",
+            "street_name": "Av Higienópolis",
+            "city_name": "Sāo Paulo",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "custom",
+        "checkout_type": "credit_card"
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 197,
+                "title": "Farofa com Muitas Sementes e Castanhas x 5",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 93
+            },
+            {
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "description": "Serviço de envio usado pela loja.",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 19.07000000000000028421709430404007434844970703125
+            }
+        ],
+        "payer": {
+            "first_name": "Roni",
+            "last_name": "Kabbani",
+            "phone": {
+                "number": "(11) 3666-8030"
+            },
+            "address": {
+                "zip_code": "01238-001",
+                "street_name": "Av Higienópolis \/ Sāo Paulo SP BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "01238-001",
+                "street_name": "Av Higienópolis Apto 1B Sāo Paulo SP BR",
+                "apartment": "Apto 1B",
+                "city_name": "Sāo Paulo",
+                "state_name": "SP"
+            }
+        }
+    }
+}
+09-02-2022 @ 13:35:57 - [create_preference]: Preference created: {
+    "status": 201,
+    "response": {
+        "id": 25410048625,
+        "date_created": "2022-09-02T12:35:55.104-04:00",
+        "date_approved": null,
+        "date_last_updated": "2022-09-02T12:35:55.104-04:00",
+        "date_of_expiration": null,
+        "money_release_date": null,
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": "12518",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "in_process",
+        "status_detail": "pending_review_manual",
+        "currency_id": "BRL",
+        "description": "Farofa com Muitas Sementes e Castanhas x 5",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "347801",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.109.0",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "198474976",
+            "operator_id": null,
+            "email": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Sāo Paulo",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "01238-001",
+                "street_name": "Av Higienópolis"
+            },
+            "module_version": "6.1.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.8.2",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 5",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "93"
+                },
+                {
+                    "id": null,
+                    "title": "Sedex (Entrega em 3 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "19.07"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 3666-8030"
+                },
+                "address": {
+                    "zip_code": "01238-001",
+                    "street_name": "Av Higienópolis \/ Sāo Paulo SP BR"
+                },
+                "first_name": "Roni",
+                "last_name": "Kabbani"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "01238-001",
+                    "state_name": "SP",
+                    "city_name": "Sāo Paulo",
+                    "street_name": "Av Higienópolis Apto 1B Sāo Paulo SP BR",
+                    "apartment": "Apto 1B"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQEBAQTJei73dsGHdlhAetF9j1NdaznMUxMzJMc5abHxLe-LuAB2aTP3U6uksxE",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13901",
+        "transaction_amount": 112.06999999999999317878973670303821563720703125,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 0,
+            "total_paid_amount": 112.06999999999999317878973670303821563720703125,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 112.06999999999999317878973670303821563720703125,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "516292",
+            "last_four_digits": "3242",
+            "bin": "51629211",
+            "expiration_month": 8,
+            "expiration_year": 2029,
+            "date_created": "2022-09-02T12:35:55.000-04:00",
+            "date_last_updated": "2022-09-02T12:35:55.000-04:00",
+            "cardholder": {
+                "name": "Roni Kabbani",
+                "identification": {
+                    "number": "08238267838",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+09-02-2022 @ 13:35:57 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 25410048625,
+        "date_created": "2022-09-02T12:35:55.104-04:00",
+        "date_approved": null,
+        "date_last_updated": "2022-09-02T12:35:55.104-04:00",
+        "date_of_expiration": null,
+        "money_release_date": null,
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": "12518",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "in_process",
+        "status_detail": "pending_review_manual",
+        "currency_id": "BRL",
+        "description": "Farofa com Muitas Sementes e Castanhas x 5",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "347801",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.109.0",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "198474976",
+            "operator_id": null,
+            "email": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Sāo Paulo",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "01238-001",
+                "street_name": "Av Higienópolis"
+            },
+            "module_version": "6.1.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.8.2",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 5",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "93"
+                },
+                {
+                    "id": null,
+                    "title": "Sedex (Entrega em 3 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "19.07"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 3666-8030"
+                },
+                "address": {
+                    "zip_code": "01238-001",
+                    "street_name": "Av Higienópolis \/ Sāo Paulo SP BR"
+                },
+                "first_name": "Roni",
+                "last_name": "Kabbani"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "01238-001",
+                    "state_name": "SP",
+                    "city_name": "Sāo Paulo",
+                    "street_name": "Av Higienópolis Apto 1B Sāo Paulo SP BR",
+                    "apartment": "Apto 1B"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQEBAQTJei73dsGHdlhAetF9j1NdaznMUxMzJMc5abHxLe-LuAB2aTP3U6uksxE",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13901",
+        "transaction_amount": 112.06999999999999317878973670303821563720703125,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 0,
+            "total_paid_amount": 112.06999999999999317878973670303821563720703125,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 112.06999999999999317878973670303821563720703125,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "516292",
+            "last_four_digits": "3242",
+            "bin": "51629211",
+            "expiration_month": 8,
+            "expiration_year": 2029,
+            "date_created": "2022-09-02T12:35:55.000-04:00",
+            "date_last_updated": "2022-09-02T12:35:55.000-04:00",
+            "cardholder": {
+                "name": "Roni Kabbani",
+                "identification": {
+                    "number": "08238267838",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+09-02-2022 @ 13:35:58 - [check_ipn_response]: received _get content: {
+    "data_id": "25410048625",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+09-02-2022 @ 13:35:58 - [successful_request]: starting to process  update...
+09-02-2022 @ 13:35:58 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 5",
+                "unit_price": "93"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "unit_price": "19.07"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Av Higienópolis \/ Sāo Paulo SP BR",
+                "zip_code": "01238-001"
+            },
+            "first_name": "Roni",
+            "last_name": "Kabbani",
+            "phone": {
+                "number": "(11) 3666-8030"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Apto 1B",
+                "city_name": "Sāo Paulo",
+                "state_name": "SP",
+                "street_name": "Av Higienópolis Apto 1B Sāo Paulo SP BR",
+                "zip_code": "01238-001"
+            }
+        }
+    },
+    "authorization_code": "347801",
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.109.0",
+    "call_for_authorize_id": null,
+    "captured": true,
+    "card": {
+        "bin": "51629211",
+        "cardholder": {
+            "identification": {
+                "number": "08238267838",
+                "type": "CPF"
+            },
+            "name": "Roni Kabbani"
+        },
+        "date_created": "2022-09-02T12:35:55.000-04:00",
+        "date_last_updated": "2022-09-02T12:35:55.000-04:00",
+        "expiration_month": 8,
+        "expiration_year": 2029,
+        "first_six_digits": "516292",
+        "id": null,
+        "last_four_digits": "3242"
+    },
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": null,
+    "date_created": "2022-09-02T12:35:55.000-04:00",
+    "date_last_updated": "2022-09-02T12:35:55.000-04:00",
+    "date_of_expiration": null,
+    "deduction_schema": null,
+    "description": "Farofa com Muitas Sementes e Castanhas x 5",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13901",
+    "fee_details": [],
+    "id": 25410048625,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": "12518",
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "credit_card",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Sāo Paulo",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Av Higienópolis",
+            "zip_code": "01238-001"
+        },
+        "module_version": "6.1.0",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.8.2",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": null,
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": null,
+        "entity_type": null,
+        "first_name": null,
+        "id": "198474976",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "master",
+    "payment_type_id": "credit_card",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "type": "UNSPECIFIED"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+    "status": "in_process",
+    "status_detail": "pending_review_manual",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 112.06999999999999317878973670303821563720703125,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 112.06999999999999317878973670303821563720703125,
+        "net_received_amount": 0,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 112.06999999999999317878973670303821563720703125
+    }
+}
+09-02-2022 @ 13:35:58 - [successful_request]: Changing order status to: on-hold
+09-02-2022 @ 13:36:03 - [check_ipn_response]: received _get content: {
+    "data_id": "25410048625",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+09-02-2022 @ 13:36:03 - [successful_request]: starting to process  update...
+09-02-2022 @ 13:36:03 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 5",
+                "unit_price": "93"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "unit_price": "19.07"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Av Higienópolis \/ Sāo Paulo SP BR",
+                "zip_code": "01238-001"
+            },
+            "first_name": "Roni",
+            "last_name": "Kabbani",
+            "phone": {
+                "number": "(11) 3666-8030"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Apto 1B",
+                "city_name": "Sāo Paulo",
+                "state_name": "SP",
+                "street_name": "Av Higienópolis Apto 1B Sāo Paulo SP BR",
+                "zip_code": "01238-001"
+            }
+        }
+    },
+    "authorization_code": "347801",
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.109.0",
+    "call_for_authorize_id": null,
+    "captured": true,
+    "card": {
+        "bin": "51629211",
+        "cardholder": {
+            "identification": {
+                "number": "08238267838",
+                "type": "CPF"
+            },
+            "name": "Roni Kabbani"
+        },
+        "date_created": "2022-09-02T12:35:55.000-04:00",
+        "date_last_updated": "2022-09-02T12:35:55.000-04:00",
+        "expiration_month": 8,
+        "expiration_year": 2029,
+        "first_six_digits": "516292",
+        "id": null,
+        "last_four_digits": "3242"
+    },
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": null,
+    "date_created": "2022-09-02T12:35:55.000-04:00",
+    "date_last_updated": "2022-09-02T12:36:01.000-04:00",
+    "date_of_expiration": null,
+    "deduction_schema": null,
+    "description": "Farofa com Muitas Sementes e Castanhas x 5",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13901",
+    "fee_details": [],
+    "id": 25410048625,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": "12518",
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "credit_card",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Sāo Paulo",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Av Higienópolis",
+            "zip_code": "01238-001"
+        },
+        "module_version": "6.1.0",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.8.2",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": null,
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": null,
+        "entity_type": null,
+        "first_name": null,
+        "id": "198474976",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "master",
+    "payment_type_id": "credit_card",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "type": "UNSPECIFIED"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+    "status": "rejected",
+    "status_detail": "cc_rejected_high_risk",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 112.06999999999999317878973670303821563720703125,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 112.06999999999999317878973670303821563720703125,
+        "net_received_amount": 0,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 112.06999999999999317878973670303821563720703125
+    }
+}
+09-02-2022 @ 13:36:03 - [successful_request]: Changing order status to: failed
+09-02-2022 @ 15:35:33 - [process_payment]: POST Custom: {
+    "amount": "112.07",
+    "currency_ratio": "1",
+    "paymentMethodId": "master",
+    "checkout_type": "custom",
+    "installments": "1"
+}
+09-02-2022 @ 15:35:33 - [process_payment]: preparing to get response of custom checkout.
+09-02-2022 @ 15:35:33 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13902",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "transaction_amount": 112.06999999999999317878973670303821563720703125,
+    "description": "Farofa com Muitas Sementes e Castanhas x 5",
+    "installments": 1,
+    "payment_method_id": "master",
+    "payer": {
+        "email": "rkabbani@gmail.com"
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.8.2",
+        "module_version": "6.1.0",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "01238-001",
+            "street_name": "Av Higienópolis",
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "custom",
+        "checkout_type": "credit_card"
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 197,
+                "title": "Farofa com Muitas Sementes e Castanhas x 5",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 93
+            },
+            {
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "description": "Serviço de envio usado pela loja.",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 19.07000000000000028421709430404007434844970703125
+            }
+        ],
+        "payer": {
+            "first_name": "Roni",
+            "last_name": "Kabbani",
+            "phone": {
+                "number": "(11) 99190-9991"
+            },
+            "address": {
+                "zip_code": "01238-001",
+                "street_name": "Av Higienópolis \/ São Paulo SP BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "01238-001",
+                "street_name": "Av Higienópolis Apto 1B São Paulo SP BR",
+                "apartment": "Apto 1B",
+                "city_name": "São Paulo",
+                "state_name": "SP"
+            }
+        }
+    }
+}
+09-02-2022 @ 15:35:35 - [create_preference]: Preference created: {
+    "status": 201,
+    "response": {
+        "id": 25413614969,
+        "date_created": "2022-09-02T14:35:32.683-04:00",
+        "date_approved": "2022-09-02T14:35:34.516-04:00",
+        "date_last_updated": "2022-09-02T14:35:34.516-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-09-02T14:35:34.516-04:00",
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": "12518",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Farofa com Muitas Sementes e Castanhas x 5",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "248366",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.109.0",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "198474976",
+            "operator_id": null,
+            "email": "rkabbani@gmail.com",
+            "identification": {
+                "type": "CPF",
+                "number": "08238267838"
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "01238-001",
+                "street_name": "Av Higienópolis"
+            },
+            "module_version": "6.1.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.8.2",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 5",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "93"
+                },
+                {
+                    "id": null,
+                    "title": "Sedex (Entrega em 3 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "19.07"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 99190-9991"
+                },
+                "address": {
+                    "zip_code": "01238-001",
+                    "street_name": "Av Higienópolis \/ São Paulo SP BR"
+                },
+                "first_name": "Roni",
+                "last_name": "Kabbani"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "01238-001",
+                    "state_name": "SP",
+                    "city_name": "São Paulo",
+                    "street_name": "Av Higienópolis Apto 1B São Paulo SP BR",
+                    "apartment": "Apto 1B"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQEBAQRIohM62CE4w41e2qz5BL7H_WN7ucKnE3fkbdgF3fmJ_ADDbac6ub6_oes",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13902",
+        "transaction_amount": 112.06999999999999317878973670303821563720703125,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 106.4800000000000039790393202565610408782958984375,
+            "total_paid_amount": 112.06999999999999317878973670303821563720703125,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 112.06999999999999317878973670303821563720703125,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 5.589999999999999857891452847979962825775146484375,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "516292",
+            "last_four_digits": "3242",
+            "bin": "51629211",
+            "expiration_month": 8,
+            "expiration_year": 2029,
+            "date_created": "2022-09-02T14:35:32.000-04:00",
+            "date_last_updated": "2022-09-02T14:35:32.000-04:00",
+            "cardholder": {
+                "name": "Roni Kabbani",
+                "identification": {
+                    "number": "08238267838",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+09-02-2022 @ 15:35:35 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 25413614969,
+        "date_created": "2022-09-02T14:35:32.683-04:00",
+        "date_approved": "2022-09-02T14:35:34.516-04:00",
+        "date_last_updated": "2022-09-02T14:35:34.516-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-09-02T14:35:34.516-04:00",
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": "12518",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Farofa com Muitas Sementes e Castanhas x 5",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "248366",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.109.0",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "198474976",
+            "operator_id": null,
+            "email": "rkabbani@gmail.com",
+            "identification": {
+                "type": "CPF",
+                "number": "08238267838"
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "01238-001",
+                "street_name": "Av Higienópolis"
+            },
+            "module_version": "6.1.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.8.2",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 5",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "93"
+                },
+                {
+                    "id": null,
+                    "title": "Sedex (Entrega em 3 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "19.07"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 99190-9991"
+                },
+                "address": {
+                    "zip_code": "01238-001",
+                    "street_name": "Av Higienópolis \/ São Paulo SP BR"
+                },
+                "first_name": "Roni",
+                "last_name": "Kabbani"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "01238-001",
+                    "state_name": "SP",
+                    "city_name": "São Paulo",
+                    "street_name": "Av Higienópolis Apto 1B São Paulo SP BR",
+                    "apartment": "Apto 1B"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQEBAQRIohM62CE4w41e2qz5BL7H_WN7ucKnE3fkbdgF3fmJ_ADDbac6ub6_oes",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13902",
+        "transaction_amount": 112.06999999999999317878973670303821563720703125,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 106.4800000000000039790393202565610408782958984375,
+            "total_paid_amount": 112.06999999999999317878973670303821563720703125,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 112.06999999999999317878973670303821563720703125,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 5.589999999999999857891452847979962825775146484375,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "516292",
+            "last_four_digits": "3242",
+            "bin": "51629211",
+            "expiration_month": 8,
+            "expiration_year": 2029,
+            "date_created": "2022-09-02T14:35:32.000-04:00",
+            "date_last_updated": "2022-09-02T14:35:32.000-04:00",
+            "cardholder": {
+                "name": "Roni Kabbani",
+                "identification": {
+                    "number": "08238267838",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+09-02-2022 @ 15:35:36 - [check_ipn_response]: received _get content: {
+    "data_id": "25413614969",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+09-02-2022 @ 15:35:36 - [successful_request]: starting to process  update...
+09-02-2022 @ 15:35:36 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 5",
+                "unit_price": "93"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "unit_price": "19.07"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Av Higienópolis \/ São Paulo SP BR",
+                "zip_code": "01238-001"
+            },
+            "first_name": "Roni",
+            "last_name": "Kabbani",
+            "phone": {
+                "number": "(11) 99190-9991"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Apto 1B",
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "street_name": "Av Higienópolis Apto 1B São Paulo SP BR",
+                "zip_code": "01238-001"
+            }
+        }
+    },
+    "authorization_code": "248366",
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.109.0",
+    "call_for_authorize_id": null,
+    "captured": true,
+    "card": {
+        "bin": "51629211",
+        "cardholder": {
+            "identification": {
+                "number": "08238267838",
+                "type": "CPF"
+            },
+            "name": "Roni Kabbani"
+        },
+        "date_created": "2022-09-02T14:35:32.000-04:00",
+        "date_last_updated": "2022-09-02T14:35:32.000-04:00",
+        "expiration_month": 8,
+        "expiration_year": 2029,
+        "first_six_digits": "516292",
+        "id": null,
+        "last_four_digits": "3242"
+    },
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-09-02T14:35:34.000-04:00",
+    "date_created": "2022-09-02T14:35:32.000-04:00",
+    "date_last_updated": "2022-09-02T14:35:34.000-04:00",
+    "date_of_expiration": null,
+    "deduction_schema": null,
+    "description": "Farofa com Muitas Sementes e Castanhas x 5",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13902",
+    "fee_details": [
+        {
+            "amount": 5.589999999999999857891452847979962825775146484375,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 25413614969,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": "12518",
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "credit_card",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Av Higienópolis",
+            "zip_code": "01238-001"
+        },
+        "module_version": "6.1.0",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.8.2",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-09-02T14:35:34.000-04:00",
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": "rkabbani@gmail.com",
+        "entity_type": null,
+        "first_name": null,
+        "id": "198474976",
+        "identification": {
+            "number": "08238267838",
+            "type": "CPF"
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "master",
+    "payment_type_id": "credit_card",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "type": "UNSPECIFIED"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 112.06999999999999317878973670303821563720703125,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 112.06999999999999317878973670303821563720703125,
+        "net_received_amount": 106.4800000000000039790393202565610408782958984375,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 112.06999999999999317878973670303821563720703125
+    }
+}
+09-02-2022 @ 15:35:36 - [successful_request]: Changing order status to: processing

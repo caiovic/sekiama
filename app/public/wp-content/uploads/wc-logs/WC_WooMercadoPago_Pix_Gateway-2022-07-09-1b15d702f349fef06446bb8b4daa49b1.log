@@ -1,0 +1,1083 @@
+07-09-2022 @ 12:39:20 - [process_payment]: Payment via Pix POST: 
+07-09-2022 @ 12:39:20 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13823",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "date_of_expiration": "2022-07-09T16:09:20.000+0000",
+    "transaction_amount": 76.469999999999998863131622783839702606201171875,
+    "description": "Farofa com Muitas Sementes e Castanhas x 3",
+    "payment_method_id": "pix",
+    "payer": {
+        "email": "rooseveltserra@yahoo.com.br",
+        "first_name": "ROOSEVELT",
+        "last_name": "SERRA",
+        "address": {
+            "zip_code": "73020-013",
+            "street_name": "Quadra 01 Conj. C Casa 45",
+            "street_number": "",
+            "neighborhood": "",
+            "city": "Brasilia",
+            "federal_unit": "DF"
+        }
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 197,
+                "title": "Farofa com Muitas Sementes e Castanhas x 3",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 55.7999999999999971578290569595992565155029296875
+            },
+            {
+                "title": "Sequoia SFX (Entrega em 5 dias úteis)",
+                "description": "Serviço de envio usado pela loja.",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 20.6700000000000017053025658242404460906982421875
+            }
+        ],
+        "payer": {
+            "first_name": "ROOSEVELT",
+            "last_name": "SERRA",
+            "phone": {
+                "number": "(61) 3591-5373"
+            },
+            "address": {
+                "zip_code": "73020-013",
+                "street_name": "Quadra 01 Conj. C Casa 45 \/ Brasilia DF BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "73020-013",
+                "street_name": "Quadra 01 Conj. C Casa 45 Casa 45 Brasilia DF BR",
+                "apartment": "Casa 45",
+                "city_name": "Brasilia",
+                "state_name": "DF"
+            }
+        }
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.6.1",
+        "module_version": "6.0.1",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "73020-013",
+            "street_name": "Quadra 01 Conj. C Casa 45",
+            "city_name": "Brasilia",
+            "state_name": "DF",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "custom",
+        "checkout_type": "pix"
+    }
+}
+07-09-2022 @ 12:39:20 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "id": 23863249548,
+        "date_created": "2022-07-09T11:39:20.387-04:00",
+        "date_approved": null,
+        "date_last_updated": "2022-07-09T11:39:20.387-04:00",
+        "date_of_expiration": "2022-07-09T12:09:20.000-04:00",
+        "money_release_date": null,
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": null,
+        "payment_method_id": "pix",
+        "payment_type_id": "bank_transfer",
+        "status": "pending",
+        "status_detail": "pending_waiting_transfer",
+        "currency_id": "BRL",
+        "description": "Farofa com Muitas Sementes e Castanhas x 3",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": null,
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.102.1",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "35480584",
+            "operator_id": null,
+            "email": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "pix",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Brasilia",
+                "state_name": "DF",
+                "country_name": "BR",
+                "zip_code": "73020-013",
+                "street_name": "Quadra 01 Conj. C Casa 45"
+            },
+            "module_version": "6.0.1",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.6.1",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 3",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "55.8"
+                },
+                {
+                    "id": null,
+                    "title": "Sequoia SFX (Entrega em 5 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "20.67"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(61) 3591-5373"
+                },
+                "address": {
+                    "zip_code": "73020-013",
+                    "street_name": "Quadra 01 Conj. C Casa 45 \/ Brasilia DF BR"
+                },
+                "first_name": "ROOSEVELT",
+                "last_name": "SERRA"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "73020-013",
+                    "state_name": "DF",
+                    "city_name": "Brasilia",
+                    "street_name": "Quadra 01 Conj. C Casa 45 Casa 45 Brasilia DF BR",
+                    "apartment": "Casa 45"
+                }
+            },
+            "available_balance": null,
+            "nsu_processadora": null,
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13823",
+        "transaction_amount": 76.469999999999998863131622783839702606201171875,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "callback_url": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 0,
+            "total_paid_amount": 76.469999999999998863131622783839702606201171875,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 0,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null,
+            "bank_transfer_id": null,
+            "transaction_id": null
+        },
+        "fee_details": [],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": null,
+        "card": [],
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "OPENPLATFORM",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            },
+            "location": {
+                "state_id": null,
+                "source": null
+            },
+            "application_data": {
+                "name": null,
+                "version": null
+            },
+            "transaction_data": {
+                "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da0520400005303986540576.475802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter238632495486304C2C6",
+                "bank_transfer_id": null,
+                "transaction_id": null,
+                "financial_institution": null,
+                "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/23863249548\/ticket?caller_id=35480584&hash=8e5300c0-233d-4815-b1ca-e580de4babe1",
+                "bank_info": {
+                    "payer": {
+                        "account_id": null,
+                        "id": null,
+                        "long_name": null,
+                        "external_account_id": null
+                    },
+                    "collector": {
+                        "account_id": null,
+                        "long_name": null,
+                        "account_holder_name": "Thiago Erminio Victor",
+                        "transfer_account_id": null
+                    },
+                    "is_same_bank_account_owner": null,
+                    "origin_bank_id": null,
+                    "origin_wallet_id": null
+                },
+                "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAI0klEQVR42u3dQW7kNhAFUN5A97+lbsBggkEssT6pnswgiKnXC8N2t6TH3n1Usdj6N3qdjZaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpb2z2vb+Dp+\/O\/4+caPz17+V644\/vnzuL7x9bm\/bzBc9nXT6+0rg5aWlpaWlpaWlpaW9iXa4xrZrje53f36xGEtXx85ywquHxm+oEGbGLS0tLS0tLS0tLS0tG\/RDgHyGgL77J5na\/ca3Ao\/jaY1uIYH0dLS0tLS0tLS0tLSvk+bot+qGlfwqZz3VfY7Zj9oaWlpaWlpaWlpaWlpx+Jcioi37Jhew\/rKn2f+MC0tLS0tLS0tLS0t7Wu1U3x5WN3lVt49Zss4Zs\/ov9UjSktLS0tLS0tLS0tL+9210ykl\/+2P352pQktLS0tLS0tLS0tL+021i1etwV2z47mIiOm3fKvarBkYtLS0tLS0tLS0tLS0e2vPWdPkbdxIuWI9lL9d37hecXtkqQceD9U9WlpaWlpaWlpaWlraHbVJ9kGv5SN5yJ3TqSdD0AzfDS0tLS0tLS0tLS0t7c7aj\/ogjw\/dt6A5LOjr2rKqYXLJ80wVWlpaWlpaWlpaWlrajbTliLQhWd4WlN7Ih6rVKwZeCq6pzkdLS0tLS0tLS0tLS7u\/dmi9PMKfkw+nGf3D8P7Stjk5HjuHT1paWlpaWlpaWlpa2rdok2z62HJQ9jm7tueezOlH8ouWlpaWlpaWlpaWlnZ3bR0ZMowqWQyEPMo+ttJN2a9dl6ko+ISnpaWlpaWlpaWlpaXdXdvzBJHUJTnsbUtD\/q\/3O\/NQyUKunZi0tLS0tLS0tLS0tLTv0Zb2yXUf5DkbMtJLda8E0trPef1aaj6lpaWlpaWlpaWlpaV9hTaFwDTavwTIW4qcjiUZui7Ltec9QPb4DFpaWlpaWlpaWlpa2r219cCz8tvx0czINOk\/hdTS3vmLU\/1paWlpaWlpaWlpaWm30pYy3XTuYy+TRmapL2bCxTa5ujRaWlpaWlpaWlpaWto3aY8cIHOHZQ9Bs5US39Pha6thkh+f2U1LS0tLS0tLS0tLS7uVtoa7NEYkzRKZbolLEXE9LrLkU1paWlpaWlpaWlpa2rdolz2PcVp\/iZz1lTo20+FreSfdQUtLS0tLS0tLS0tL+xLtdEBJuWdrcejk8Jy0Ta6kyHPZk7lIkbS0tLS0tLS0tLS0tDtqh6tqpBuWkYz57LSjrL4sd\/1IWlpaWlpaWlpaWlraV2iHI65rsizjItOHj7C0WucrTZ21yPhh5qWlpaWlpaWlpaWlpd1H23PX5WILWzoyO+2Va\/eddKnRc3IYAC0tLS0tLS0tLS0t7Xu0aUBJquSVUNkXLZVlrsmkfpc+NzyDlpaWlpaWlpaWlpZ2d+21c3J4HbkxMxcA62VDxnwaS9Lmc1JoaWlpaWlpaWlpaWl31k6f8zQ4crqZ7bEUmJ\/WZwcE0NLS0tLS0tLS0tLS7q6d1OqmzZWDItf5hkzY7j2ZPU\/1\/6QWSUtLS0tLS0tLS0tLu5s2J8FWbpxresdszatrCzm1Y9LS0tLS0tLS0tLS0r5HW4t4OfWltPlBduyh2NfLgnLDJS0tLS0tLS0tLS0t7Qu0RVardkM6zJ2T6doWCoCtxQi73HZHS0tLS0tLS0tLS0u7tzaNhqyPKJ5zoV0DSq9lu7dyPvWI0tLS0tLS0tLS0tLS7qidkNPh1OXdvpzq3\/P0kaEdc5EsaWlpaWlpaWlpaWlpX6DN3Y\/pdkNOTB2bR\/4KykHZ\/bq0UjykpaWlpaWlpaWlpaV9j7aV1Jdqf8MIyXyDnuf2l+VOnnFdAS0tLS0tLS0tLS0t7Uu1KfWVNyogRL9WImJt0RzCZykU0tLS0tLS0tLS0tLSvkd7e8707sMV6xkm09pf3vSWioe0tLS0tLS0tLS0tLSv0A7Q1uJeuUVNb3oiwFGKeEOynA48oaWlpaWlpaWlpaWlfY82TRXJkS7V6s5Zr2W91bSzsxzr1uZT\/WlpaWlpaWlpaWlpaXfU1i7J4arhtyEnltrfEY5w6\/eltdCT2do029LS0tLS0tLS0tLS0u6tPRc3zndv5cOpT3P6ynG1ly5OWlpaWlpaWlpaWlral2hXCS8tqMztn56xljo2z3CiW42StLS0tLS0tLS0tLS079GmT6RJI8NaSq\/lkA7TCWz12lLOO2PGpKWlpaWlpaWlpaWl3VlbpkIOKfIMYyCPMNyknrFWANNF9tmxbrS0tLS0tLS0tLS0tO\/TDm+UGY8pLB6LNV\/\/97h1LmdMWlpaWlpaWlpaWlrat2iHbW1lSkny1BSZMmH6CqYL\/zBF0tLS0tLS0tLS0tLS7qItvHO5oy1N+j+eImcOkC3fL2zUo6WlpaWlpaWlpaWl3Vk7BMPcUtkKpRwBcJS7pASavqDSfzmET1paWlpaWlpaWlpa2r21xViH9xdtzxP8cyPlOq72sHWuP0yPpKWlpaWlpaWlpaWl3VHbZhvXHiNievfTkmH6Rj5JkbS0tLS0tLS0tLS0tBtp02s63nHWFtny+dW1gphPWxtKgU9dl7S0tLS0tLS0tLS0tFtpF0GuLQ5ay12Xk\/CZdtKVs90+PwWblpaWlpaWlpaWlpZ2M+0RAmSusrXrb2foyexFkVNpOhbgwxRJS0tLS0tLS0tLS0u7pbb0Sw7DQ+op2Jk8CaTrkwN+rUeUlpaWlpaWlpaWlpb2HdqjxMY0wyQvY3rFsMh\/Xd2jpaWlpaWlpaWlpaV9gTYlwaFPcwh8513bF+9+rTTxPjkFm5aWlpaWlpaWlpaWdjdtwpdpj7VMV97ts+1vNXem\/XhZRUtLS0tLS0tLS0tLu7u25W1tuaVyGNlfD2kb7pw2vV09Z5mE8tB1SUtLS0tLS0tLS0tLu5v2\/\/+ipaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpf1j2r8Ax+tPpLmp4O0AAAAASUVORK5CYII="
+            }
+        }
+    }
+}
+07-09-2022 @ 12:39:20 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 23863249548,
+        "date_created": "2022-07-09T11:39:20.387-04:00",
+        "date_approved": null,
+        "date_last_updated": "2022-07-09T11:39:20.387-04:00",
+        "date_of_expiration": "2022-07-09T12:09:20.000-04:00",
+        "money_release_date": null,
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": null,
+        "payment_method_id": "pix",
+        "payment_type_id": "bank_transfer",
+        "status": "pending",
+        "status_detail": "pending_waiting_transfer",
+        "currency_id": "BRL",
+        "description": "Farofa com Muitas Sementes e Castanhas x 3",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": null,
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.102.1",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "35480584",
+            "operator_id": null,
+            "email": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "pix",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Brasilia",
+                "state_name": "DF",
+                "country_name": "BR",
+                "zip_code": "73020-013",
+                "street_name": "Quadra 01 Conj. C Casa 45"
+            },
+            "module_version": "6.0.1",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.6.1",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 3",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "55.8"
+                },
+                {
+                    "id": null,
+                    "title": "Sequoia SFX (Entrega em 5 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "20.67"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(61) 3591-5373"
+                },
+                "address": {
+                    "zip_code": "73020-013",
+                    "street_name": "Quadra 01 Conj. C Casa 45 \/ Brasilia DF BR"
+                },
+                "first_name": "ROOSEVELT",
+                "last_name": "SERRA"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "73020-013",
+                    "state_name": "DF",
+                    "city_name": "Brasilia",
+                    "street_name": "Quadra 01 Conj. C Casa 45 Casa 45 Brasilia DF BR",
+                    "apartment": "Casa 45"
+                }
+            },
+            "available_balance": null,
+            "nsu_processadora": null,
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13823",
+        "transaction_amount": 76.469999999999998863131622783839702606201171875,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "callback_url": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 0,
+            "total_paid_amount": 76.469999999999998863131622783839702606201171875,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 0,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null,
+            "bank_transfer_id": null,
+            "transaction_id": null
+        },
+        "fee_details": [],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": null,
+        "card": [],
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "OPENPLATFORM",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            },
+            "location": {
+                "state_id": null,
+                "source": null
+            },
+            "application_data": {
+                "name": null,
+                "version": null
+            },
+            "transaction_data": {
+                "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da0520400005303986540576.475802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter238632495486304C2C6",
+                "bank_transfer_id": null,
+                "transaction_id": null,
+                "financial_institution": null,
+                "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/23863249548\/ticket?caller_id=35480584&hash=8e5300c0-233d-4815-b1ca-e580de4babe1",
+                "bank_info": {
+                    "payer": {
+                        "account_id": null,
+                        "id": null,
+                        "long_name": null,
+                        "external_account_id": null
+                    },
+                    "collector": {
+                        "account_id": null,
+                        "long_name": null,
+                        "account_holder_name": "Thiago Erminio Victor",
+                        "transfer_account_id": null
+                    },
+                    "is_same_bank_account_owner": null,
+                    "origin_bank_id": null,
+                    "origin_wallet_id": null
+                },
+                "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAI0klEQVR42u3dQW7kNhAFUN5A97+lbsBggkEssT6pnswgiKnXC8N2t6TH3n1Usdj6N3qdjZaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpb2z2vb+Dp+\/O\/4+caPz17+V644\/vnzuL7x9bm\/bzBc9nXT6+0rg5aWlpaWlpaWlpaW9iXa4xrZrje53f36xGEtXx85ywquHxm+oEGbGLS0tLS0tLS0tLS0tG\/RDgHyGgL77J5na\/ca3Ao\/jaY1uIYH0dLS0tLS0tLS0tLSvk+bot+qGlfwqZz3VfY7Zj9oaWlpaWlpaWlpaWlpx+Jcioi37Jhew\/rKn2f+MC0tLS0tLS0tLS0t7Wu1U3x5WN3lVt49Zss4Zs\/ov9UjSktLS0tLS0tLS0tL+9210ykl\/+2P352pQktLS0tLS0tLS0tL+021i1etwV2z47mIiOm3fKvarBkYtLS0tLS0tLS0tLS0e2vPWdPkbdxIuWI9lL9d37hecXtkqQceD9U9WlpaWlpaWlpaWlraHbVJ9kGv5SN5yJ3TqSdD0AzfDS0tLS0tLS0tLS0t7c7aj\/ogjw\/dt6A5LOjr2rKqYXLJ80wVWlpaWlpaWlpaWlrajbTliLQhWd4WlN7Ih6rVKwZeCq6pzkdLS0tLS0tLS0tLS7u\/dmi9PMKfkw+nGf3D8P7Stjk5HjuHT1paWlpaWlpaWlpa2rdok2z62HJQ9jm7tueezOlH8ouWlpaWlpaWlpaWlnZ3bR0ZMowqWQyEPMo+ttJN2a9dl6ko+ISnpaWlpaWlpaWlpaXdXdvzBJHUJTnsbUtD\/q\/3O\/NQyUKunZi0tLS0tLS0tLS0tLTv0Zb2yXUf5DkbMtJLda8E0trPef1aaj6lpaWlpaWlpaWlpaV9hTaFwDTavwTIW4qcjiUZui7Ltec9QPb4DFpaWlpaWlpaWlpa2r219cCz8tvx0czINOk\/hdTS3vmLU\/1paWlpaWlpaWlpaWm30pYy3XTuYy+TRmapL2bCxTa5ujRaWlpaWlpaWlpaWto3aY8cIHOHZQ9Bs5US39Pha6thkh+f2U1LS0tLS0tLS0tLS7uVtoa7NEYkzRKZbolLEXE9LrLkU1paWlpaWlpaWlpa2rdolz2PcVp\/iZz1lTo20+FreSfdQUtLS0tLS0tLS0tL+xLtdEBJuWdrcejk8Jy0Ta6kyHPZk7lIkbS0tLS0tLS0tLS0tDtqh6tqpBuWkYz57LSjrL4sd\/1IWlpaWlpaWlpaWlraV2iHI65rsizjItOHj7C0WucrTZ21yPhh5qWlpaWlpaWlpaWlpd1H23PX5WILWzoyO+2Va\/eddKnRc3IYAC0tLS0tLS0tLS0t7Xu0aUBJquSVUNkXLZVlrsmkfpc+NzyDlpaWlpaWlpaWlpZ2d+21c3J4HbkxMxcA62VDxnwaS9Lmc1JoaWlpaWlpaWlpaWl31k6f8zQ4crqZ7bEUmJ\/WZwcE0NLS0tLS0tLS0tLS7q6d1OqmzZWDItf5hkzY7j2ZPU\/1\/6QWSUtLS0tLS0tLS0tLu5s2J8FWbpxresdszatrCzm1Y9LS0tLS0tLS0tLS0r5HW4t4OfWltPlBduyh2NfLgnLDJS0tLS0tLS0tLS0t7Qu0RVardkM6zJ2T6doWCoCtxQi73HZHS0tLS0tLS0tLS0u7tzaNhqyPKJ5zoV0DSq9lu7dyPvWI0tLS0tLS0tLS0tLS7qidkNPh1OXdvpzq3\/P0kaEdc5EsaWlpaWlpaWlpaWlpX6DN3Y\/pdkNOTB2bR\/4KykHZ\/bq0UjykpaWlpaWlpaWlpaV9j7aV1Jdqf8MIyXyDnuf2l+VOnnFdAS0tLS0tLS0tLS0t7Uu1KfWVNyogRL9WImJt0RzCZykU0tLS0tLS0tLS0tLSvkd7e8707sMV6xkm09pf3vSWioe0tLS0tLS0tLS0tLSv0A7Q1uJeuUVNb3oiwFGKeEOynA48oaWlpaWlpaWlpaWlfY82TRXJkS7V6s5Zr2W91bSzsxzr1uZT\/WlpaWlpaWlpaWlpaXfU1i7J4arhtyEnltrfEY5w6\/eltdCT2do029LS0tLS0tLS0tLS0u6tPRc3zndv5cOpT3P6ynG1ly5OWlpaWlpaWlpaWlral2hXCS8tqMztn56xljo2z3CiW42StLS0tLS0tLS0tLS079GmT6RJI8NaSq\/lkA7TCWz12lLOO2PGpKWlpaWlpaWlpaWl3VlbpkIOKfIMYyCPMNyknrFWANNF9tmxbrS0tLS0tLS0tLS0tO\/TDm+UGY8pLB6LNV\/\/97h1LmdMWlpaWlpaWlpaWlrat2iHbW1lSkny1BSZMmH6CqYL\/zBF0tLS0tLS0tLS0tLS7qItvHO5oy1N+j+eImcOkC3fL2zUo6WlpaWlpaWlpaWl3Vk7BMPcUtkKpRwBcJS7pASavqDSfzmET1paWlpaWlpaWlpa2r21xViH9xdtzxP8cyPlOq72sHWuP0yPpKWlpaWlpaWlpaWl3VHbZhvXHiNievfTkmH6Rj5JkbS0tLS0tLS0tLS0tBtp02s63nHWFtny+dW1gphPWxtKgU9dl7S0tLS0tLS0tLS0tFtpF0GuLQ5ay12Xk\/CZdtKVs90+PwWblpaWlpaWlpaWlpZ2M+0RAmSusrXrb2foyexFkVNpOhbgwxRJS0tLS0tLS0tLS0u7pbb0Sw7DQ+op2Jk8CaTrkwN+rUeUlpaWlpaWlpaWlpb2HdqjxMY0wyQvY3rFsMh\/Xd2jpaWlpaWlpaWlpaV9gTYlwaFPcwh8513bF+9+rTTxPjkFm5aWlpaWlpaWlpaWdjdtwpdpj7VMV97ts+1vNXem\/XhZRUtLS0tLS0tLS0tLu7u25W1tuaVyGNlfD2kb7pw2vV09Z5mE8tB1SUtLS0tLS0tLS0tLu5v2\/\/+ipaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpf1j2r8Ax+tPpLmp4O0AAAAASUVORK5CYII="
+            }
+        }
+    }
+}
+07-09-2022 @ 12:39:21 - [check_ipn_response]: received _get content: {
+    "data_id": "23863249548",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+07-09-2022 @ 12:39:21 - [successful_request]: starting to process  update...
+07-09-2022 @ 12:39:21 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 3",
+                "unit_price": "55.8"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Sequoia SFX (Entrega em 5 dias úteis)",
+                "unit_price": "20.67"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Quadra 01 Conj. C Casa 45 \/ Brasilia DF BR",
+                "zip_code": "73020-013"
+            },
+            "first_name": "ROOSEVELT",
+            "last_name": "SERRA",
+            "phone": {
+                "number": "(61) 3591-5373"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Casa 45",
+                "city_name": "Brasilia",
+                "state_name": "DF",
+                "street_name": "Quadra 01 Conj. C Casa 45 Casa 45 Brasilia DF BR",
+                "zip_code": "73020-013"
+            }
+        }
+    },
+    "authorization_code": null,
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.102.1",
+    "call_for_authorize_id": null,
+    "callback_url": null,
+    "captured": true,
+    "card": [],
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": null,
+    "date_created": "2022-07-09T11:39:20.000-04:00",
+    "date_last_updated": "2022-07-09T11:39:20.000-04:00",
+    "date_of_expiration": "2022-07-09T12:09:20.000-04:00",
+    "deduction_schema": null,
+    "description": "Farofa com Muitas Sementes e Castanhas x 3",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13823",
+    "fee_details": [],
+    "id": 23863249548,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": null,
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "pix",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Brasilia",
+            "state_name": "DF",
+            "country_name": "BR",
+            "street_name": "Quadra 01 Conj. C Casa 45",
+            "zip_code": "73020-013"
+        },
+        "module_version": "6.0.1",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.6.1",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": null,
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": null,
+        "entity_type": null,
+        "first_name": null,
+        "id": "35480584",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "pix",
+    "payment_type_id": "bank_transfer",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "application_data": {
+            "name": null,
+            "version": null
+        },
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "location": {
+            "source": null,
+            "state_id": null
+        },
+        "transaction_data": {
+            "bank_info": {
+                "collector": {
+                    "account_holder_name": "Thiago Erminio Victor",
+                    "account_id": null,
+                    "long_name": null,
+                    "transfer_account_id": null
+                },
+                "is_same_bank_account_owner": null,
+                "origin_bank_id": null,
+                "origin_wallet_id": null,
+                "payer": {
+                    "account_id": null,
+                    "external_account_id": null,
+                    "id": null,
+                    "long_name": null
+                }
+            },
+            "bank_transfer_id": null,
+            "financial_institution": null,
+            "infringement_notification": {
+                "status": null,
+                "type": null
+            },
+            "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da0520400005303986540576.475802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter238632495486304C2C6",
+            "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAI0klEQVR42u3dQW7kNhAFUN5A97+lbsBggkEssT6pnswgiKnXC8N2t6TH3n1Usdj6N3qdjZaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpb2z2vb+Dp+\/O\/4+caPz17+V644\/vnzuL7x9bm\/bzBc9nXT6+0rg5aWlpaWlpaWlpaW9iXa4xrZrje53f36xGEtXx85ywquHxm+oEGbGLS0tLS0tLS0tLS0tG\/RDgHyGgL77J5na\/ca3Ao\/jaY1uIYH0dLS0tLS0tLS0tLSvk+bot+qGlfwqZz3VfY7Zj9oaWlpaWlpaWlpaWlpx+Jcioi37Jhew\/rKn2f+MC0tLS0tLS0tLS0t7Wu1U3x5WN3lVt49Zss4Zs\/ov9UjSktLS0tLS0tLS0tL+9210ykl\/+2P352pQktLS0tLS0tLS0tL+021i1etwV2z47mIiOm3fKvarBkYtLS0tLS0tLS0tLS0e2vPWdPkbdxIuWI9lL9d37hecXtkqQceD9U9WlpaWlpaWlpaWlraHbVJ9kGv5SN5yJ3TqSdD0AzfDS0tLS0tLS0tLS0t7c7aj\/ogjw\/dt6A5LOjr2rKqYXLJ80wVWlpaWlpaWlpaWlrajbTliLQhWd4WlN7Ih6rVKwZeCq6pzkdLS0tLS0tLS0tLS7u\/dmi9PMKfkw+nGf3D8P7Stjk5HjuHT1paWlpaWlpaWlpa2rdok2z62HJQ9jm7tueezOlH8ouWlpaWlpaWlpaWlnZ3bR0ZMowqWQyEPMo+ttJN2a9dl6ko+ISnpaWlpaWlpaWlpaXdXdvzBJHUJTnsbUtD\/q\/3O\/NQyUKunZi0tLS0tLS0tLS0tLTv0Zb2yXUf5DkbMtJLda8E0trPef1aaj6lpaWlpaWlpaWlpaV9hTaFwDTavwTIW4qcjiUZui7Ltec9QPb4DFpaWlpaWlpaWlpa2r219cCz8tvx0czINOk\/hdTS3vmLU\/1paWlpaWlpaWlpaWm30pYy3XTuYy+TRmapL2bCxTa5ujRaWlpaWlpaWlpaWto3aY8cIHOHZQ9Bs5US39Pha6thkh+f2U1LS0tLS0tLS0tLS7uVtoa7NEYkzRKZbolLEXE9LrLkU1paWlpaWlpaWlpa2rdolz2PcVp\/iZz1lTo20+FreSfdQUtLS0tLS0tLS0tL+xLtdEBJuWdrcejk8Jy0Ta6kyHPZk7lIkbS0tLS0tLS0tLS0tDtqh6tqpBuWkYz57LSjrL4sd\/1IWlpaWlpaWlpaWlraV2iHI65rsizjItOHj7C0WucrTZ21yPhh5qWlpaWlpaWlpaWlpd1H23PX5WILWzoyO+2Va\/eddKnRc3IYAC0tLS0tLS0tLS0t7Xu0aUBJquSVUNkXLZVlrsmkfpc+NzyDlpaWlpaWlpaWlpZ2d+21c3J4HbkxMxcA62VDxnwaS9Lmc1JoaWlpaWlpaWlpaWl31k6f8zQ4crqZ7bEUmJ\/WZwcE0NLS0tLS0tLS0tLS7q6d1OqmzZWDItf5hkzY7j2ZPU\/1\/6QWSUtLS0tLS0tLS0tLu5s2J8FWbpxresdszatrCzm1Y9LS0tLS0tLS0tLS0r5HW4t4OfWltPlBduyh2NfLgnLDJS0tLS0tLS0tLS0t7Qu0RVardkM6zJ2T6doWCoCtxQi73HZHS0tLS0tLS0tLS0u7tzaNhqyPKJ5zoV0DSq9lu7dyPvWI0tLS0tLS0tLS0tLS7qidkNPh1OXdvpzq3\/P0kaEdc5EsaWlpaWlpaWlpaWlpX6DN3Y\/pdkNOTB2bR\/4KykHZ\/bq0UjykpaWlpaWlpaWlpaV9j7aV1Jdqf8MIyXyDnuf2l+VOnnFdAS0tLS0tLS0tLS0t7Uu1KfWVNyogRL9WImJt0RzCZykU0tLS0tLS0tLS0tLSvkd7e8707sMV6xkm09pf3vSWioe0tLS0tLS0tLS0tLSv0A7Q1uJeuUVNb3oiwFGKeEOynA48oaWlpaWlpaWlpaWlfY82TRXJkS7V6s5Zr2W91bSzsxzr1uZT\/WlpaWlpaWlpaWlpaXfU1i7J4arhtyEnltrfEY5w6\/eltdCT2do029LS0tLS0tLS0tLS0u6tPRc3zndv5cOpT3P6ynG1ly5OWlpaWlpaWlpaWlral2hXCS8tqMztn56xljo2z3CiW42StLS0tLS0tLS0tLS079GmT6RJI8NaSq\/lkA7TCWz12lLOO2PGpKWlpaWlpaWlpaWl3VlbpkIOKfIMYyCPMNyknrFWANNF9tmxbrS0tLS0tLS0tLS0tO\/TDm+UGY8pLB6LNV\/\/97h1LmdMWlpaWlpaWlpaWlrat2iHbW1lSkny1BSZMmH6CqYL\/zBF0tLS0tLS0tLS0tLS7qItvHO5oy1N+j+eImcOkC3fL2zUo6WlpaWlpaWlpaWl3Vk7BMPcUtkKpRwBcJS7pASavqDSfzmET1paWlpaWlpaWlpa2r21xViH9xdtzxP8cyPlOq72sHWuP0yPpKWlpaWlpaWlpaWl3VHbZhvXHiNievfTkmH6Rj5JkbS0tLS0tLS0tLS0tBtp02s63nHWFtny+dW1gphPWxtKgU9dl7S0tLS0tLS0tLS0tFtpF0GuLQ5ay12Xk\/CZdtKVs90+PwWblpaWlpaWlpaWlpZ2M+0RAmSusrXrb2foyexFkVNpOhbgwxRJS0tLS0tLS0tLS0u7pbb0Sw7DQ+op2Jk8CaTrkwN+rUeUlpaWlpaWlpaWlpb2HdqjxMY0wyQvY3rFsMh\/Xd2jpaWlpaWlpaWlpaV9gTYlwaFPcwh8513bF+9+rTTxPjkFm5aWlpaWlpaWlpaWdjdtwpdpj7VMV97ts+1vNXem\/XhZRUtLS0tLS0tLS0tLu7u25W1tuaVyGNlfD2kb7pw2vV09Z5mE8tB1SUtLS0tLS0tLS0tLu5v2\/\/+ipaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpf1j2r8Ax+tPpLmp4O0AAAAASUVORK5CYII=",
+            "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/23863249548\/ticket?caller_id=35480584&hash=8e5300c0-233d-4815-b1ca-e580de4babe1",
+            "transaction_id": null
+        },
+        "type": "OPENPLATFORM"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": null,
+    "status": "pending",
+    "status_detail": "pending_waiting_transfer",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 76.469999999999998863131622783839702606201171875,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "bank_transfer_id": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 0,
+        "net_received_amount": 0,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 76.469999999999998863131622783839702606201171875,
+        "transaction_id": null
+    }
+}
+07-09-2022 @ 12:39:21 - [successful_request]: Changing order status to: pending
+07-09-2022 @ 13:16:45 - [check_ipn_response]: received _get content: {
+    "data_id": "23863249548",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+07-09-2022 @ 13:16:45 - [successful_request]: starting to process  update...
+07-09-2022 @ 13:16:45 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 3",
+                "unit_price": "55.8"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Sequoia SFX (Entrega em 5 dias úteis)",
+                "unit_price": "20.67"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Quadra 01 Conj. C Casa 45 \/ Brasilia DF BR",
+                "zip_code": "73020-013"
+            },
+            "first_name": "ROOSEVELT",
+            "last_name": "SERRA",
+            "phone": {
+                "number": "(61) 3591-5373"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Casa 45",
+                "city_name": "Brasilia",
+                "state_name": "DF",
+                "street_name": "Quadra 01 Conj. C Casa 45 Casa 45 Brasilia DF BR",
+                "zip_code": "73020-013"
+            }
+        }
+    },
+    "authorization_code": null,
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.102.1",
+    "call_for_authorize_id": null,
+    "callback_url": null,
+    "captured": true,
+    "card": [],
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": null,
+    "date_created": "2022-07-09T11:39:20.000-04:00",
+    "date_last_updated": "2022-07-09T12:16:37.000-04:00",
+    "date_of_expiration": "2022-07-09T12:09:20.000-04:00",
+    "deduction_schema": null,
+    "description": "Farofa com Muitas Sementes e Castanhas x 3",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13823",
+    "fee_details": [],
+    "id": 23863249548,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": null,
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "pix",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Brasilia",
+            "state_name": "DF",
+            "country_name": "BR",
+            "street_name": "Quadra 01 Conj. C Casa 45",
+            "zip_code": "73020-013"
+        },
+        "module_version": "6.0.1",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.6.1",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": null,
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": null,
+        "entity_type": null,
+        "first_name": null,
+        "id": "35480584",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "pix",
+    "payment_type_id": "bank_transfer",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "application_data": {
+            "name": null,
+            "version": null
+        },
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "location": {
+            "source": null,
+            "state_id": null
+        },
+        "transaction_data": {
+            "bank_info": {
+                "collector": {
+                    "account_holder_name": "Thiago Erminio Victor",
+                    "account_id": null,
+                    "long_name": null,
+                    "transfer_account_id": null
+                },
+                "is_same_bank_account_owner": null,
+                "origin_bank_id": null,
+                "origin_wallet_id": null,
+                "payer": {
+                    "account_id": null,
+                    "external_account_id": null,
+                    "id": null,
+                    "long_name": null
+                }
+            },
+            "bank_transfer_id": null,
+            "financial_institution": null,
+            "infringement_notification": {
+                "status": null,
+                "type": null
+            },
+            "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da0520400005303986540576.475802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter238632495486304C2C6",
+            "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/23863249548\/ticket?caller_id=35480584&hash=8e5300c0-233d-4815-b1ca-e580de4babe1",
+            "transaction_id": null
+        },
+        "type": "OPENPLATFORM"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": null,
+    "status": "cancelled",
+    "status_detail": "expired",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 76.469999999999998863131622783839702606201171875,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "bank_transfer_id": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 0,
+        "net_received_amount": 0,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 76.469999999999998863131622783839702606201171875,
+        "transaction_id": null
+    }
+}
+07-09-2022 @ 13:16:45 - [successful_request]: Changing order status to: cancelled
+07-09-2022 @ 13:16:45 - [process_cancel_order_meta_box_actions]: cancelling payments for 23863249548
+07-09-2022 @ 13:16:45 - [process_cancel_order_meta_box_actions]: cancel payment of id 23863249548 => SUCCESS

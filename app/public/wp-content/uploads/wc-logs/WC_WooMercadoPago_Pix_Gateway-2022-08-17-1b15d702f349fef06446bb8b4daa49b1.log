@@ -1,0 +1,1661 @@
+08-17-2022 @ 19:20:13 - [process_payment]: Payment via Pix POST: 
+08-17-2022 @ 19:20:13 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13877",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "date_of_expiration": "2022-08-17T22:50:13.000+0000",
+    "transaction_amount": 58.9200000000000017053025658242404460906982421875,
+    "description": "Farofa com Muitas Sementes x 1, Farofa com Muita Cebola x 1",
+    "payment_method_id": "pix",
+    "payer": {
+        "email": "regisantunes1021@gmail.com",
+        "first_name": "Regina",
+        "last_name": "Antunes",
+        "address": {
+            "zip_code": "30421-310",
+            "street_name": "Rua Açucenas",
+            "street_number": "",
+            "neighborhood": "",
+            "city": "Belo Horizonte",
+            "federal_unit": "MG"
+        }
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 194,
+                "title": "Farofa com Muitas Sementes x 1",
+                "description": "A-Farofa-com-muitas-sementes-e-incrivel-e-vai-te-saciar-de-forma-natural-e-saudavel.-As-sementes-permitem-melhorar-o-seu-consumo-de-fibras-e-micronutrientes.-Voce-vai-amar-o-resultado-crocante-saboroso-e-saudavel-desta-Faro",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/sementes-Frente-1.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 18.199999999999999289457264239899814128875732421875
+            },
+            {
+                "id": 195,
+                "title": "Farofa com Muita Cebola x 1",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 17.199999999999999289457264239899814128875732421875
+            },
+            {
+                "title": "PAC (Entrega em 7 dias úteis)",
+                "description": "Serviço de envio usado pela loja.",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 23.519999999999999573674358543939888477325439453125
+            }
+        ],
+        "payer": {
+            "first_name": "Regina",
+            "last_name": "Antunes",
+            "phone": {
+                "number": "(31) 99981-7171"
+            },
+            "address": {
+                "zip_code": "30421-310",
+                "street_name": "Rua Açucenas \/ Belo Horizonte MG BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "30421-310",
+                "street_name": "Rua Açucenas 603B Belo Horizonte MG BR",
+                "apartment": "603B",
+                "city_name": "Belo Horizonte",
+                "state_name": "MG"
+            }
+        }
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.8.0",
+        "module_version": "6.0.2",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "30421-310",
+            "street_name": "Rua Açucenas",
+            "city_name": "Belo Horizonte",
+            "state_name": "MG",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "custom",
+        "checkout_type": "pix"
+    }
+}
+08-17-2022 @ 19:20:14 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "id": 24975703613,
+        "date_created": "2022-08-17T18:20:12.984-04:00",
+        "date_approved": null,
+        "date_last_updated": "2022-08-17T18:20:12.984-04:00",
+        "date_of_expiration": "2022-08-17T18:50:13.000-04:00",
+        "money_release_date": null,
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": null,
+        "payment_method_id": "pix",
+        "payment_type_id": "bank_transfer",
+        "status": "pending",
+        "status_detail": "pending_waiting_transfer",
+        "currency_id": "BRL",
+        "description": "Farofa com Muitas Sementes x 1, Farofa com Muita Cebola x 1",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": null,
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.107.4",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "215830552",
+            "operator_id": null,
+            "email": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "pix",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Belo Horizonte",
+                "state_name": "MG",
+                "country_name": "BR",
+                "zip_code": "30421-310",
+                "street_name": "Rua Açucenas"
+            },
+            "module_version": "6.0.2",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.8.0",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "194",
+                    "title": "Farofa com Muitas Sementes x 1",
+                    "description": "A-Farofa-com-muitas-sementes-e-incrivel-e-vai-te-saciar-de-forma-natural-e-saudavel.-As-sementes-permitem-melhorar-o-seu-consumo-de-fibras-e-micronutrientes.-Voce-vai-amar-o-resultado-crocante-saboroso-e-saudavel-desta-Faro",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/sementes-Frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "18.2"
+                },
+                {
+                    "id": "195",
+                    "title": "Farofa com Muita Cebola x 1",
+                    "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "17.2"
+                },
+                {
+                    "id": null,
+                    "title": "PAC (Entrega em 7 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "23.52"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(31) 99981-7171"
+                },
+                "address": {
+                    "zip_code": "30421-310",
+                    "street_name": "Rua Açucenas \/ Belo Horizonte MG BR"
+                },
+                "first_name": "Regina",
+                "last_name": "Antunes"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "30421-310",
+                    "state_name": "MG",
+                    "city_name": "Belo Horizonte",
+                    "street_name": "Rua Açucenas 603B Belo Horizonte MG BR",
+                    "apartment": "603B"
+                }
+            },
+            "available_balance": null,
+            "nsu_processadora": null,
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13877",
+        "transaction_amount": 58.9200000000000017053025658242404460906982421875,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "callback_url": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 0,
+            "total_paid_amount": 58.9200000000000017053025658242404460906982421875,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 0,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null,
+            "bank_transfer_id": null,
+            "transaction_id": null
+        },
+        "fee_details": [],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": null,
+        "card": [],
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "OPENPLATFORM",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            },
+            "location": {
+                "state_id": null,
+                "source": null
+            },
+            "application_data": {
+                "name": null,
+                "version": null
+            },
+            "transaction_data": {
+                "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da0520400005303986540558.925802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter249757036136304E8BA",
+                "bank_transfer_id": null,
+                "transaction_id": null,
+                "financial_institution": null,
+                "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/24975703613\/ticket?caller_id=215830552&hash=c5593732-5838-45d2-8a5a-ff4b0c82e6a6",
+                "bank_info": {
+                    "payer": {
+                        "account_id": null,
+                        "id": null,
+                        "long_name": null,
+                        "external_account_id": null
+                    },
+                    "collector": {
+                        "account_id": null,
+                        "long_name": null,
+                        "account_holder_name": "Thiago Erminio Victor",
+                        "transfer_account_id": null
+                    },
+                    "is_same_bank_account_owner": null,
+                    "origin_bank_id": null,
+                    "origin_wallet_id": null
+                },
+                "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAIzUlEQVR42u3dQZLbNhAFUNyA978lb8CUK2ObQv+G5MRVicGnhWs8ksCH2f3qRmNcf9DrHLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0v1875tfx7XfH1xvfPnv7XfnG8eO\/x\/2Nr699\/+nra8ffz74tel++MmhpaWlpaWlpaWlpaR+iPe6R7b7IeH3iGYzpIz+3+7LU3T2CNjFoaWlpaWlpaWlpaWmfop0C5M81E\/THIvN\/i6ziSzStwbXgaWlpaWlpaWlpaWlpn6hdF+euLkVer0kwFfuuV3zdCy0tLS0tLS0tLS0tLe2VEmOqvI3ulfd3lLRZdkBLS0tLS0tLS0tLS\/tQbYufHnav0E3uY9G2Oe0+\/UX+RY8oLS0tLS0tLS0tLS3tn66ta\/4n\/3w4pYSWlpaWlpaWlpaWlnY37eKVanDjtbnyzBFx+nCZLflyfu49g5aWlpaWlpaWlpaWdm\/t2TVNjsWRuHdD+etZuTLhZHSLLqp7tLS0tLS0tLS0tLS0O2qvMikyJbwUAvNk\/jOExZpAc1PnCMmSlpaWlpaWlpaWlpZ2b23utRzherUPxv2fpXS3HjrZLvWmR5SWlpaWlpaWlpaWlnY\/7RTfzmBM3ZRNT2baXyn21eCa6ny0tLS0tLS0tLS0tLS7a8txtSkOXmWyYwl8tWNzUShsrsfO4ZOWlpaWlpaWlpaWlvYp2va4Wq7BTeP5a9osSx0hch7dwwuNlpaWlpaWlpaWlpZ2e22py7VluhZ6Loab5FS6GEsyPplSQktLS0tLS0tLS0tLu4e2HRL5waG30n9ZD8zl429XGGky\/URLS0tLS0tLS0tLS\/sU7RTzcnFuvB6TS2W\/K8fLllcuwF6UB2lpaWlpaWlpaWlpaXfWdslt5Hn8ZeL+m\/rd1HVZvnu+Bsj8DFpaWlpaWlpaWlpa2p21qaZ3f9VL0NL+0pSSXCOcwuL4tan+tLS0tLS0tLS0tLS0+2nTHJI09zFNGsn41S3Y+Zhc3RotLS0tLS0tLS0tLe2TtLX7cVo4t09eZUBJ7rpcDZhsF6WlpaWlpaWlpaWlpX2cth5rK0W3is\/hMy1wdINMUimwHNSjpaWlpaWlpaWlpaXdXpsHPR7dmbVmB4s8mWRHafm8VwEPWlpaWlpaWlpaWlrah2gnxZT\/FpRR5ou0d7GVFHnmAPk+RdLS0tLS0tLS0tLS0u6ovV5T5HH\/9eJYW50PmZdKH7mWN22P1fRIWlpaWlpaWlpaWlra\/bRTrW5KllMBcPrpKldh5yde4Qq3I7x7fpx5aWlpaWlpaWlpaWlp99FOEbGO3S8NktO5uCNvPJfzmt2326ClpaWlpaWlpaWlpd1du264TKfXfiralsppfElbv0ufC5GTlpaWlpaWlpaWlpZ2Z+29kTLlvyt3Tk71wPS1vMmR8e27tLS0tLS0tLS0tLS0u2vb57RD+dM9aSn\/5VXSfP+jS7S0tLS0tLS0tLS0tLSP0LaXU69GkEzXqxXKlAlHGDU5cqHwTS2SlpaWlpaWlpaWlpZ2N21OgrV09+4b9RBd+W4dh1Ly5LsUSUtLS0tLS0tLS0tLu6P2zD2Xi6vU2tNwTQEwTST5NE\/S0tLS0tLS0tLS0tLurp3WTFW7KR3maty0yaNkwrKDK1TyrvuGaGlpaWlpaWlpaWlpn6MtYfEMCW+820t6IwFS2lwsQEtLS0tLS0tLS0tLu7u2CXwlDl65wzKsXndVuylLem2TJS0tLS0tLS0tLS0t7d7ad\/Mh67PzfWoj35iWiof5d1VAS0tLS0tLS0tLS0v7CG1bumt7LT8a91+HTraJMYVKWlpaWlpaWlpaWlrax2mP+LGRL0urLZVpL\/f5J0e+VG0aUEJLS0tLS0tLS0tLS\/tY7fTs0lI5yqSR1Il5l408y\/+jU3O0tLS0tLS0tLS0tLQP06YrrpN7aqmcxkXWaSYT5b7K5E4r09LS0tLS0tLS0tLSPkVbzrZduXSX6nxpZP\/0xufPGN2d27S0tLS0tLS0tLS0tA\/QpgkipYfyypeqpUn\/U7wsqXSEnswx2mxLS0tLS0tLS0tLS0u7tzYV9q580Vr53ZVHPo7lK2XM0uhJS0tLS0tLS0tLS0v7HG1zMVoa7V9SXxMv73lyKva9beWkpaWlpaWlpaWlpaV9mLb0S17ZWN5Yt1TW2SRpL21nZ9d1SUtLS0tLS0tLS0tLu5+2XJs2whj\/kWf0lxuvj1Chq9dopxmUU6j8+M5uWlpaWlpaWlpaWlraP17bDurPx99SsW+8es5Q51tFyRJSL1paWlpaWlpaWlpa2mdpx2tJrmbHxaiSaWvH6z8vJcOUWUs9MN20TUtLS0tLS0tLS0tLu7u25dXeyHI72lQZTOW8c3F+Lq13zS9aWlpaWlpaWlpaWtq9tVMwLEGuvbV6BPKxzKLNH6j0X07hk5aWlpaWlpaWlpaWdm\/tZEzD+6cCYJ4FOfJta4u4WiuDXXqlpaWlpaWlpaWlpaV9gDZluHOxjekRbQxtS4Zl9MkIhUJaWlpaWlpaWlpaWtoHaNMrF90WMW\/k+6vrop\/etrbsuqSlpaWlpaWlpaWlpd1KW8p4NeG1hb081b+t853lvoD1d2lpaWlpaWlpaWlpaR+iPUr3YzfFcXbnG7Sbn+6ptN3z+GSmCi0tLS0tLS0tLS0t7X7a0i85FterlVDZnJ\/7aHj\/+NUeUVpaWlpaWlpaWlpa2sdoJ1lpsxxBeyy6Kcv4yX9c3aOlpaWlpaWlpaWlpX2Qtp32mBRlqfrudC4u8T65BZuWlpaWlpaWlpaWlnY3bcKXaY9TzBvvB\/rX2l85Uzel0qSipaWlpaWlpaWlpaXdXVsbH6dFptSXWzSnA3NXeSP9WaavdQxaWlpaWlpaWlpaWtqdtf\/\/Fy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS3tb9P+BaBAS6f0l9mNAAAAAElFTkSuQmCC"
+            }
+        }
+    }
+}
+08-17-2022 @ 19:20:14 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 24975703613,
+        "date_created": "2022-08-17T18:20:12.984-04:00",
+        "date_approved": null,
+        "date_last_updated": "2022-08-17T18:20:12.984-04:00",
+        "date_of_expiration": "2022-08-17T18:50:13.000-04:00",
+        "money_release_date": null,
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": null,
+        "payment_method_id": "pix",
+        "payment_type_id": "bank_transfer",
+        "status": "pending",
+        "status_detail": "pending_waiting_transfer",
+        "currency_id": "BRL",
+        "description": "Farofa com Muitas Sementes x 1, Farofa com Muita Cebola x 1",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": null,
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.107.4",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "215830552",
+            "operator_id": null,
+            "email": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "pix",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Belo Horizonte",
+                "state_name": "MG",
+                "country_name": "BR",
+                "zip_code": "30421-310",
+                "street_name": "Rua Açucenas"
+            },
+            "module_version": "6.0.2",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.8.0",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "194",
+                    "title": "Farofa com Muitas Sementes x 1",
+                    "description": "A-Farofa-com-muitas-sementes-e-incrivel-e-vai-te-saciar-de-forma-natural-e-saudavel.-As-sementes-permitem-melhorar-o-seu-consumo-de-fibras-e-micronutrientes.-Voce-vai-amar-o-resultado-crocante-saboroso-e-saudavel-desta-Faro",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/sementes-Frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "18.2"
+                },
+                {
+                    "id": "195",
+                    "title": "Farofa com Muita Cebola x 1",
+                    "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "17.2"
+                },
+                {
+                    "id": null,
+                    "title": "PAC (Entrega em 7 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "23.52"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(31) 99981-7171"
+                },
+                "address": {
+                    "zip_code": "30421-310",
+                    "street_name": "Rua Açucenas \/ Belo Horizonte MG BR"
+                },
+                "first_name": "Regina",
+                "last_name": "Antunes"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "30421-310",
+                    "state_name": "MG",
+                    "city_name": "Belo Horizonte",
+                    "street_name": "Rua Açucenas 603B Belo Horizonte MG BR",
+                    "apartment": "603B"
+                }
+            },
+            "available_balance": null,
+            "nsu_processadora": null,
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13877",
+        "transaction_amount": 58.9200000000000017053025658242404460906982421875,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "callback_url": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 0,
+            "total_paid_amount": 58.9200000000000017053025658242404460906982421875,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 0,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null,
+            "bank_transfer_id": null,
+            "transaction_id": null
+        },
+        "fee_details": [],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": null,
+        "card": [],
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "OPENPLATFORM",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            },
+            "location": {
+                "state_id": null,
+                "source": null
+            },
+            "application_data": {
+                "name": null,
+                "version": null
+            },
+            "transaction_data": {
+                "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da0520400005303986540558.925802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter249757036136304E8BA",
+                "bank_transfer_id": null,
+                "transaction_id": null,
+                "financial_institution": null,
+                "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/24975703613\/ticket?caller_id=215830552&hash=c5593732-5838-45d2-8a5a-ff4b0c82e6a6",
+                "bank_info": {
+                    "payer": {
+                        "account_id": null,
+                        "id": null,
+                        "long_name": null,
+                        "external_account_id": null
+                    },
+                    "collector": {
+                        "account_id": null,
+                        "long_name": null,
+                        "account_holder_name": "Thiago Erminio Victor",
+                        "transfer_account_id": null
+                    },
+                    "is_same_bank_account_owner": null,
+                    "origin_bank_id": null,
+                    "origin_wallet_id": null
+                },
+                "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAIzUlEQVR42u3dQZLbNhAFUNyA978lb8CUK2ObQv+G5MRVicGnhWs8ksCH2f3qRmNcf9DrHLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0v1875tfx7XfH1xvfPnv7XfnG8eO\/x\/2Nr699\/+nra8ffz74tel++MmhpaWlpaWlpaWlpaR+iPe6R7b7IeH3iGYzpIz+3+7LU3T2CNjFoaWlpaWlpaWlpaWmfop0C5M81E\/THIvN\/i6ziSzStwbXgaWlpaWlpaWlpaWlpn6hdF+euLkVer0kwFfuuV3zdCy0tLS0tLS0tLS0tLe2VEmOqvI3ulfd3lLRZdkBLS0tLS0tLS0tLS\/tQbYufHnav0E3uY9G2Oe0+\/UX+RY8oLS0tLS0tLS0tLS3tn66ta\/4n\/3w4pYSWlpaWlpaWlpaWlnY37eKVanDjtbnyzBFx+nCZLflyfu49g5aWlpaWlpaWlpaWdm\/t2TVNjsWRuHdD+etZuTLhZHSLLqp7tLS0tLS0tLS0tLS0O2qvMikyJbwUAvNk\/jOExZpAc1PnCMmSlpaWlpaWlpaWlpZ2b23utRzherUPxv2fpXS3HjrZLvWmR5SWlpaWlpaWlpaWlnY\/7RTfzmBM3ZRNT2baXyn21eCa6ny0tLS0tLS0tLS0tLS7a8txtSkOXmWyYwl8tWNzUShsrsfO4ZOWlpaWlpaWlpaWlvYp2va4Wq7BTeP5a9osSx0hch7dwwuNlpaWlpaWlpaWlpZ2e22py7VluhZ6Loab5FS6GEsyPplSQktLS0tLS0tLS0tLu4e2HRL5waG30n9ZD8zl429XGGky\/URLS0tLS0tLS0tLS\/sU7RTzcnFuvB6TS2W\/K8fLllcuwF6UB2lpaWlpaWlpaWlpaXfWdslt5Hn8ZeL+m\/rd1HVZvnu+Bsj8DFpaWlpaWlpaWlpa2p21qaZ3f9VL0NL+0pSSXCOcwuL4tan+tLS0tLS0tLS0tLS0+2nTHJI09zFNGsn41S3Y+Zhc3RotLS0tLS0tLS0tLe2TtLX7cVo4t09eZUBJ7rpcDZhsF6WlpaWlpaWlpaWlpX2cth5rK0W3is\/hMy1wdINMUimwHNSjpaWlpaWlpaWlpaXdXpsHPR7dmbVmB4s8mWRHafm8VwEPWlpaWlpaWlpaWlrah2gnxZT\/FpRR5ou0d7GVFHnmAPk+RdLS0tLS0tLS0tLS0u6ovV5T5HH\/9eJYW50PmZdKH7mWN22P1fRIWlpaWlpaWlpaWlra\/bRTrW5KllMBcPrpKldh5yde4Qq3I7x7fpx5aWlpaWlpaWlpaWlp99FOEbGO3S8NktO5uCNvPJfzmt2326ClpaWlpaWlpaWlpd1du264TKfXfiralsppfElbv0ufC5GTlpaWlpaWlpaWlpZ2Z+29kTLlvyt3Tk71wPS1vMmR8e27tLS0tLS0tLS0tLS0u2vb57RD+dM9aSn\/5VXSfP+jS7S0tLS0tLS0tLS0tLSP0LaXU69GkEzXqxXKlAlHGDU5cqHwTS2SlpaWlpaWlpaWlpZ2N21OgrV09+4b9RBd+W4dh1Ly5LsUSUtLS0tLS0tLS0tLu6P2zD2Xi6vU2tNwTQEwTST5NE\/S0tLS0tLS0tLS0tLurp3WTFW7KR3maty0yaNkwrKDK1TyrvuGaGlpaWlpaWlpaWlpn6MtYfEMCW+820t6IwFS2lwsQEtLS0tLS0tLS0tLu7u2CXwlDl65wzKsXndVuylLem2TJS0tLS0tLS0tLS0t7d7ad\/Mh67PzfWoj35iWiof5d1VAS0tLS0tLS0tLS0v7CG1bumt7LT8a91+HTraJMYVKWlpaWlpaWlpaWlrax2mP+LGRL0urLZVpL\/f5J0e+VG0aUEJLS0tLS0tLS0tLS\/tY7fTs0lI5yqSR1Il5l408y\/+jU3O0tLS0tLS0tLS0tLQP06YrrpN7aqmcxkXWaSYT5b7K5E4r09LS0tLS0tLS0tLSPkVbzrZduXSX6nxpZP\/0xufPGN2d27S0tLS0tLS0tLS0tA\/QpgkipYfyypeqpUn\/U7wsqXSEnswx2mxLS0tLS0tLS0tLS0u7tzYV9q580Vr53ZVHPo7lK2XM0uhJS0tLS0tLS0tLS0v7HG1zMVoa7V9SXxMv73lyKva9beWkpaWlpaWlpaWlpaV9mLb0S17ZWN5Yt1TW2SRpL21nZ9d1SUtLS0tLS0tLS0tLu5+2XJs2whj\/kWf0lxuvj1Chq9dopxmUU6j8+M5uWlpaWlpaWlpaWlraP17bDurPx99SsW+8es5Q51tFyRJSL1paWlpaWlpaWlpa2mdpx2tJrmbHxaiSaWvH6z8vJcOUWUs9MN20TUtLS0tLS0tLS0tLu7u25dXeyHI72lQZTOW8c3F+Lq13zS9aWlpaWlpaWlpaWtq9tVMwLEGuvbV6BPKxzKLNH6j0X07hk5aWlpaWlpaWlpaWdm\/tZEzD+6cCYJ4FOfJta4u4WiuDXXqlpaWlpaWlpaWlpaV9gDZluHOxjekRbQxtS4Zl9MkIhUJaWlpaWlpaWlpaWtoHaNMrF90WMW\/k+6vrop\/etrbsuqSlpaWlpaWlpaWlpd1KW8p4NeG1hb081b+t853lvoD1d2lpaWlpaWlpaWlpaR+iPUr3YzfFcXbnG7Sbn+6ptN3z+GSmCi0tLS0tLS0tLS0t7X7a0i85FterlVDZnJ\/7aHj\/+NUeUVpaWlpaWlpaWlpa2sdoJ1lpsxxBeyy6Kcv4yX9c3aOlpaWlpaWlpaWlpX2Qtp32mBRlqfrudC4u8T65BZuWlpaWlpaWlpaWlnY3bcKXaY9TzBvvB\/rX2l85Uzel0qSipaWlpaWlpaWlpaXdXVsbH6dFptSXWzSnA3NXeSP9WaavdQxaWlpaWlpaWlpaWtqdtf\/\/Fy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS3tb9P+BaBAS6f0l9mNAAAAAElFTkSuQmCC"
+            }
+        }
+    }
+}
+08-17-2022 @ 19:20:15 - [check_ipn_response]: received _get content: {
+    "data_id": "24975703613",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+08-17-2022 @ 19:20:15 - [successful_request]: starting to process  update...
+08-17-2022 @ 19:20:15 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "A-Farofa-com-muitas-sementes-e-incrivel-e-vai-te-saciar-de-forma-natural-e-saudavel.-As-sementes-permitem-melhorar-o-seu-consumo-de-fibras-e-micronutrientes.-Voce-vai-amar-o-resultado-crocante-saboroso-e-saudavel-desta-Faro",
+                "id": "194",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/sementes-Frente-1.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes x 1",
+                "unit_price": "18.2"
+            },
+            {
+                "category_id": "others",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "id": "195",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "quantity": "1",
+                "title": "Farofa com Muita Cebola x 1",
+                "unit_price": "17.2"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "PAC (Entrega em 7 dias úteis)",
+                "unit_price": "23.52"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Açucenas \/ Belo Horizonte MG BR",
+                "zip_code": "30421-310"
+            },
+            "first_name": "Regina",
+            "last_name": "Antunes",
+            "phone": {
+                "number": "(31) 99981-7171"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "603B",
+                "city_name": "Belo Horizonte",
+                "state_name": "MG",
+                "street_name": "Rua Açucenas 603B Belo Horizonte MG BR",
+                "zip_code": "30421-310"
+            }
+        }
+    },
+    "authorization_code": null,
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.107.4",
+    "call_for_authorize_id": null,
+    "callback_url": null,
+    "captured": true,
+    "card": [],
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": null,
+    "date_created": "2022-08-17T18:20:12.000-04:00",
+    "date_last_updated": "2022-08-17T18:20:12.000-04:00",
+    "date_of_expiration": "2022-08-17T18:50:13.000-04:00",
+    "deduction_schema": null,
+    "description": "Farofa com Muitas Sementes x 1, Farofa com Muita Cebola x 1",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13877",
+    "fee_details": [],
+    "id": 24975703613,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": null,
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "pix",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Belo Horizonte",
+            "state_name": "MG",
+            "country_name": "BR",
+            "street_name": "Rua Açucenas",
+            "zip_code": "30421-310"
+        },
+        "module_version": "6.0.2",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.8.0",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": null,
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": null,
+        "entity_type": null,
+        "first_name": null,
+        "id": "215830552",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "pix",
+    "payment_type_id": "bank_transfer",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "application_data": {
+            "name": null,
+            "version": null
+        },
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "location": {
+            "source": null,
+            "state_id": null
+        },
+        "transaction_data": {
+            "bank_info": {
+                "collector": {
+                    "account_holder_name": "Thiago Erminio Victor",
+                    "account_id": null,
+                    "long_name": null,
+                    "transfer_account_id": null
+                },
+                "is_same_bank_account_owner": null,
+                "origin_bank_id": null,
+                "origin_wallet_id": null,
+                "payer": {
+                    "account_id": null,
+                    "external_account_id": null,
+                    "id": null,
+                    "long_name": null
+                }
+            },
+            "bank_transfer_id": null,
+            "financial_institution": null,
+            "infringement_notification": {
+                "status": null,
+                "type": null
+            },
+            "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da0520400005303986540558.925802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter249757036136304E8BA",
+            "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAIzUlEQVR42u3dQZLbNhAFUNyA978lb8CUK2ObQv+G5MRVicGnhWs8ksCH2f3qRmNcf9DrHLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0v1875tfx7XfH1xvfPnv7XfnG8eO\/x\/2Nr699\/+nra8ffz74tel++MmhpaWlpaWlpaWlpaR+iPe6R7b7IeH3iGYzpIz+3+7LU3T2CNjFoaWlpaWlpaWlpaWmfop0C5M81E\/THIvN\/i6ziSzStwbXgaWlpaWlpaWlpaWlpn6hdF+euLkVer0kwFfuuV3zdCy0tLS0tLS0tLS0tLe2VEmOqvI3ulfd3lLRZdkBLS0tLS0tLS0tLS\/tQbYufHnav0E3uY9G2Oe0+\/UX+RY8oLS0tLS0tLS0tLS3tn66ta\/4n\/3w4pYSWlpaWlpaWlpaWlnY37eKVanDjtbnyzBFx+nCZLflyfu49g5aWlpaWlpaWlpaWdm\/t2TVNjsWRuHdD+etZuTLhZHSLLqp7tLS0tLS0tLS0tLS0O2qvMikyJbwUAvNk\/jOExZpAc1PnCMmSlpaWlpaWlpaWlpZ2b23utRzherUPxv2fpXS3HjrZLvWmR5SWlpaWlpaWlpaWlnY\/7RTfzmBM3ZRNT2baXyn21eCa6ny0tLS0tLS0tLS0tLS7a8txtSkOXmWyYwl8tWNzUShsrsfO4ZOWlpaWlpaWlpaWlvYp2va4Wq7BTeP5a9osSx0hch7dwwuNlpaWlpaWlpaWlpZ2e22py7VluhZ6Loab5FS6GEsyPplSQktLS0tLS0tLS0tLu4e2HRL5waG30n9ZD8zl429XGGky\/URLS0tLS0tLS0tLS\/sU7RTzcnFuvB6TS2W\/K8fLllcuwF6UB2lpaWlpaWlpaWlpaXfWdslt5Hn8ZeL+m\/rd1HVZvnu+Bsj8DFpaWlpaWlpaWlpa2p21qaZ3f9VL0NL+0pSSXCOcwuL4tan+tLS0tLS0tLS0tLS0+2nTHJI09zFNGsn41S3Y+Zhc3RotLS0tLS0tLS0tLe2TtLX7cVo4t09eZUBJ7rpcDZhsF6WlpaWlpaWlpaWlpX2cth5rK0W3is\/hMy1wdINMUimwHNSjpaWlpaWlpaWlpaXdXpsHPR7dmbVmB4s8mWRHafm8VwEPWlpaWlpaWlpaWlrah2gnxZT\/FpRR5ou0d7GVFHnmAPk+RdLS0tLS0tLS0tLS0u6ovV5T5HH\/9eJYW50PmZdKH7mWN22P1fRIWlpaWlpaWlpaWlra\/bRTrW5KllMBcPrpKldh5yde4Qq3I7x7fpx5aWlpaWlpaWlpaWlp99FOEbGO3S8NktO5uCNvPJfzmt2326ClpaWlpaWlpaWlpd1du264TKfXfiralsppfElbv0ufC5GTlpaWlpaWlpaWlpZ2Z+29kTLlvyt3Tk71wPS1vMmR8e27tLS0tLS0tLS0tLS0u2vb57RD+dM9aSn\/5VXSfP+jS7S0tLS0tLS0tLS0tLSP0LaXU69GkEzXqxXKlAlHGDU5cqHwTS2SlpaWlpaWlpaWlpZ2N21OgrV09+4b9RBd+W4dh1Ly5LsUSUtLS0tLS0tLS0tLu6P2zD2Xi6vU2tNwTQEwTST5NE\/S0tLS0tLS0tLS0tLurp3WTFW7KR3maty0yaNkwrKDK1TyrvuGaGlpaWlpaWlpaWlpn6MtYfEMCW+820t6IwFS2lwsQEtLS0tLS0tLS0tLu7u2CXwlDl65wzKsXndVuylLem2TJS0tLS0tLS0tLS0t7d7ad\/Mh67PzfWoj35iWiof5d1VAS0tLS0tLS0tLS0v7CG1bumt7LT8a91+HTraJMYVKWlpaWlpaWlpaWlrax2mP+LGRL0urLZVpL\/f5J0e+VG0aUEJLS0tLS0tLS0tLS\/tY7fTs0lI5yqSR1Il5l408y\/+jU3O0tLS0tLS0tLS0tLQP06YrrpN7aqmcxkXWaSYT5b7K5E4r09LS0tLS0tLS0tLSPkVbzrZduXSX6nxpZP\/0xufPGN2d27S0tLS0tLS0tLS0tA\/QpgkipYfyypeqpUn\/U7wsqXSEnswx2mxLS0tLS0tLS0tLS0u7tzYV9q580Vr53ZVHPo7lK2XM0uhJS0tLS0tLS0tLS0v7HG1zMVoa7V9SXxMv73lyKva9beWkpaWlpaWlpaWlpaV9mLb0S17ZWN5Yt1TW2SRpL21nZ9d1SUtLS0tLS0tLS0tLu5+2XJs2whj\/kWf0lxuvj1Chq9dopxmUU6j8+M5uWlpaWlpaWlpaWlraP17bDurPx99SsW+8es5Q51tFyRJSL1paWlpaWlpaWlpa2mdpx2tJrmbHxaiSaWvH6z8vJcOUWUs9MN20TUtLS0tLS0tLS0tLu7u25dXeyHI72lQZTOW8c3F+Lq13zS9aWlpaWlpaWlpaWtq9tVMwLEGuvbV6BPKxzKLNH6j0X07hk5aWlpaWlpaWlpaWdm\/tZEzD+6cCYJ4FOfJta4u4WiuDXXqlpaWlpaWlpaWlpaV9gDZluHOxjekRbQxtS4Zl9MkIhUJaWlpaWlpaWlpaWtoHaNMrF90WMW\/k+6vrop\/etrbsuqSlpaWlpaWlpaWlpd1KW8p4NeG1hb081b+t853lvoD1d2lpaWlpaWlpaWlpaR+iPUr3YzfFcXbnG7Sbn+6ptN3z+GSmCi0tLS0tLS0tLS0t7X7a0i85FterlVDZnJ\/7aHj\/+NUeUVpaWlpaWlpaWlpa2sdoJ1lpsxxBeyy6Kcv4yX9c3aOlpaWlpaWlpaWlpX2Qtp32mBRlqfrudC4u8T65BZuWlpaWlpaWlpaWlnY3bcKXaY9TzBvvB\/rX2l85Uzel0qSipaWlpaWlpaWlpaXdXVsbH6dFptSXWzSnA3NXeSP9WaavdQxaWlpaWlpaWlpaWtqdtf\/\/Fy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS3tb9P+BaBAS6f0l9mNAAAAAElFTkSuQmCC",
+            "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/24975703613\/ticket?caller_id=215830552&hash=c5593732-5838-45d2-8a5a-ff4b0c82e6a6",
+            "transaction_id": null
+        },
+        "type": "OPENPLATFORM"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": null,
+    "status": "pending",
+    "status_detail": "pending_waiting_transfer",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 58.9200000000000017053025658242404460906982421875,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "bank_transfer_id": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 0,
+        "net_received_amount": 0,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 58.9200000000000017053025658242404460906982421875,
+        "transaction_id": null
+    }
+}
+08-17-2022 @ 19:20:15 - [successful_request]: Changing order status to: pending
+08-17-2022 @ 19:20:55 - [check_ipn_response]: received _get content: {
+    "data_id": "24975703613",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+08-17-2022 @ 19:20:55 - [successful_request]: starting to process  update...
+08-17-2022 @ 19:20:55 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "bank_info": {
+            "is_same_bank_account_owner": false
+        },
+        "items": [
+            {
+                "category_id": "others",
+                "description": "A-Farofa-com-muitas-sementes-e-incrivel-e-vai-te-saciar-de-forma-natural-e-saudavel.-As-sementes-permitem-melhorar-o-seu-consumo-de-fibras-e-micronutrientes.-Voce-vai-amar-o-resultado-crocante-saboroso-e-saudavel-desta-Faro",
+                "id": "194",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/sementes-Frente-1.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes x 1",
+                "unit_price": "18.2"
+            },
+            {
+                "category_id": "others",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "id": "195",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "quantity": "1",
+                "title": "Farofa com Muita Cebola x 1",
+                "unit_price": "17.2"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "PAC (Entrega em 7 dias úteis)",
+                "unit_price": "23.52"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Açucenas \/ Belo Horizonte MG BR",
+                "zip_code": "30421-310"
+            },
+            "first_name": "Regina",
+            "last_name": "Antunes",
+            "phone": {
+                "number": "(31) 99981-7171"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "603B",
+                "city_name": "Belo Horizonte",
+                "state_name": "MG",
+                "street_name": "Rua Açucenas 603B Belo Horizonte MG BR",
+                "zip_code": "30421-310"
+            }
+        }
+    },
+    "authorization_code": null,
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.107.4",
+    "call_for_authorize_id": null,
+    "callback_url": null,
+    "captured": true,
+    "card": [],
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-08-17T18:20:49.000-04:00",
+    "date_created": "2022-08-17T18:20:12.000-04:00",
+    "date_last_updated": "2022-08-17T18:20:49.000-04:00",
+    "date_of_expiration": "2022-08-17T18:50:13.000-04:00",
+    "deduction_schema": null,
+    "description": "Farofa com Muitas Sementes x 1, Farofa com Muita Cebola x 1",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13877",
+    "fee_details": [
+        {
+            "amount": 0.57999999999999996003197111349436454474925994873046875,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 24975703613,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": null,
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "pix",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Belo Horizonte",
+            "state_name": "MG",
+            "country_name": "BR",
+            "street_name": "Rua Açucenas",
+            "zip_code": "30421-310"
+        },
+        "module_version": "6.0.2",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.8.0",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-08-17T18:20:49.000-04:00",
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": "regisantunes1021@gmail.com",
+        "entity_type": null,
+        "first_name": null,
+        "id": "215830552",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "pix",
+    "payment_type_id": "bank_transfer",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "application_data": {
+            "name": null,
+            "version": null
+        },
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "location": {
+            "source": null,
+            "state_id": null
+        },
+        "sub_type": "INTER_PSP",
+        "transaction_data": {
+            "bank_info": {
+                "collector": {
+                    "account_holder_name": "Thiago Erminio Victor",
+                    "account_id": 55972707790,
+                    "long_name": "Mercadopago.com Representações Ltda.",
+                    "transfer_account_id": null
+                },
+                "is_same_bank_account_owner": false,
+                "origin_bank_id": null,
+                "origin_wallet_id": null,
+                "payer": {
+                    "account_id": 288814843,
+                    "external_account_id": null,
+                    "id": null,
+                    "long_name": "Sicoob Credicom - Cooperativa de Economia e Crédito Mútuo dos Médicos e Profissionais da Área de Saúde do Brasil Ltda."
+                }
+            },
+            "bank_transfer_id": 1369602239,
+            "financial_institution": 1,
+            "infringement_notification": {
+                "status": null,
+                "type": null
+            },
+            "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da0520400005303986540558.925802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter249757036136304E8BA",
+            "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAIzUlEQVR42u3dQZLbNhAFUNyA978lb8CUK2ObQv+G5MRVicGnhWs8ksCH2f3qRmNcf9DrHLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0v1875tfx7XfH1xvfPnv7XfnG8eO\/x\/2Nr699\/+nra8ffz74tel++MmhpaWlpaWlpaWlpaR+iPe6R7b7IeH3iGYzpIz+3+7LU3T2CNjFoaWlpaWlpaWlpaWmfop0C5M81E\/THIvN\/i6ziSzStwbXgaWlpaWlpaWlpaWlpn6hdF+euLkVer0kwFfuuV3zdCy0tLS0tLS0tLS0tLe2VEmOqvI3ulfd3lLRZdkBLS0tLS0tLS0tLS\/tQbYufHnav0E3uY9G2Oe0+\/UX+RY8oLS0tLS0tLS0tLS3tn66ta\/4n\/3w4pYSWlpaWlpaWlpaWlnY37eKVanDjtbnyzBFx+nCZLflyfu49g5aWlpaWlpaWlpaWdm\/t2TVNjsWRuHdD+etZuTLhZHSLLqp7tLS0tLS0tLS0tLS0O2qvMikyJbwUAvNk\/jOExZpAc1PnCMmSlpaWlpaWlpaWlpZ2b23utRzherUPxv2fpXS3HjrZLvWmR5SWlpaWlpaWlpaWlnY\/7RTfzmBM3ZRNT2baXyn21eCa6ny0tLS0tLS0tLS0tLS7a8txtSkOXmWyYwl8tWNzUShsrsfO4ZOWlpaWlpaWlpaWlvYp2va4Wq7BTeP5a9osSx0hch7dwwuNlpaWlpaWlpaWlpZ2e22py7VluhZ6Loab5FS6GEsyPplSQktLS0tLS0tLS0tLu4e2HRL5waG30n9ZD8zl429XGGky\/URLS0tLS0tLS0tLS\/sU7RTzcnFuvB6TS2W\/K8fLllcuwF6UB2lpaWlpaWlpaWlpaXfWdslt5Hn8ZeL+m\/rd1HVZvnu+Bsj8DFpaWlpaWlpaWlpa2p21qaZ3f9VL0NL+0pSSXCOcwuL4tan+tLS0tLS0tLS0tLS0+2nTHJI09zFNGsn41S3Y+Zhc3RotLS0tLS0tLS0tLe2TtLX7cVo4t09eZUBJ7rpcDZhsF6WlpaWlpaWlpaWlpX2cth5rK0W3is\/hMy1wdINMUimwHNSjpaWlpaWlpaWlpaXdXpsHPR7dmbVmB4s8mWRHafm8VwEPWlpaWlpaWlpaWlrah2gnxZT\/FpRR5ou0d7GVFHnmAPk+RdLS0tLS0tLS0tLS0u6ovV5T5HH\/9eJYW50PmZdKH7mWN22P1fRIWlpaWlpaWlpaWlra\/bRTrW5KllMBcPrpKldh5yde4Qq3I7x7fpx5aWlpaWlpaWlpaWlp99FOEbGO3S8NktO5uCNvPJfzmt2326ClpaWlpaWlpaWlpd1du264TKfXfiralsppfElbv0ufC5GTlpaWlpaWlpaWlpZ2Z+29kTLlvyt3Tk71wPS1vMmR8e27tLS0tLS0tLS0tLS0u2vb57RD+dM9aSn\/5VXSfP+jS7S0tLS0tLS0tLS0tLSP0LaXU69GkEzXqxXKlAlHGDU5cqHwTS2SlpaWlpaWlpaWlpZ2N21OgrV09+4b9RBd+W4dh1Ly5LsUSUtLS0tLS0tLS0tLu6P2zD2Xi6vU2tNwTQEwTST5NE\/S0tLS0tLS0tLS0tLurp3WTFW7KR3maty0yaNkwrKDK1TyrvuGaGlpaWlpaWlpaWlpn6MtYfEMCW+820t6IwFS2lwsQEtLS0tLS0tLS0tLu7u2CXwlDl65wzKsXndVuylLem2TJS0tLS0tLS0tLS0t7d7ad\/Mh67PzfWoj35iWiof5d1VAS0tLS0tLS0tLS0v7CG1bumt7LT8a91+HTraJMYVKWlpaWlpaWlpaWlrax2mP+LGRL0urLZVpL\/f5J0e+VG0aUEJLS0tLS0tLS0tLS\/tY7fTs0lI5yqSR1Il5l408y\/+jU3O0tLS0tLS0tLS0tLQP06YrrpN7aqmcxkXWaSYT5b7K5E4r09LS0tLS0tLS0tLSPkVbzrZduXSX6nxpZP\/0xufPGN2d27S0tLS0tLS0tLS0tA\/QpgkipYfyypeqpUn\/U7wsqXSEnswx2mxLS0tLS0tLS0tLS0u7tzYV9q580Vr53ZVHPo7lK2XM0uhJS0tLS0tLS0tLS0v7HG1zMVoa7V9SXxMv73lyKva9beWkpaWlpaWlpaWlpaV9mLb0S17ZWN5Yt1TW2SRpL21nZ9d1SUtLS0tLS0tLS0tLu5+2XJs2whj\/kWf0lxuvj1Chq9dopxmUU6j8+M5uWlpaWlpaWlpaWlraP17bDurPx99SsW+8es5Q51tFyRJSL1paWlpaWlpaWlpa2mdpx2tJrmbHxaiSaWvH6z8vJcOUWUs9MN20TUtLS0tLS0tLS0tLu7u25dXeyHI72lQZTOW8c3F+Lq13zS9aWlpaWlpaWlpaWtq9tVMwLEGuvbV6BPKxzKLNH6j0X07hk5aWlpaWlpaWlpaWdm\/tZEzD+6cCYJ4FOfJta4u4WiuDXXqlpaWlpaWlpaWlpaV9gDZluHOxjekRbQxtS4Zl9MkIhUJaWlpaWlpaWlpaWtoHaNMrF90WMW\/k+6vrop\/etrbsuqSlpaWlpaWlpaWlpd1KW8p4NeG1hb081b+t853lvoD1d2lpaWlpaWlpaWlpaR+iPUr3YzfFcXbnG7Sbn+6ptN3z+GSmCi0tLS0tLS0tLS0t7X7a0i85FterlVDZnJ\/7aHj\/+NUeUVpaWlpaWlpaWlpa2sdoJ1lpsxxBeyy6Kcv4yX9c3aOlpaWlpaWlpaWlpX2Qtp32mBRlqfrudC4u8T65BZuWlpaWlpaWlpaWlnY3bcKXaY9TzBvvB\/rX2l85Uzel0qSipaWlpaWlpaWlpaXdXVsbH6dFptSXWzSnA3NXeSP9WaavdQxaWlpaWlpaWlpaWtqdtf\/\/Fy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS3tb9P+BaBAS6f0l9mNAAAAAElFTkSuQmCC",
+            "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/24975703613\/ticket?caller_id=215830552&hash=c5593732-5838-45d2-8a5a-ff4b0c82e6a6",
+            "transaction_id": "PIXE42898825202208172220pi5TuI6NwQG"
+        },
+        "type": "OPENPLATFORM"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": null,
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 58.9200000000000017053025658242404460906982421875,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "bank_transfer_id": 1369602239,
+        "external_resource_url": null,
+        "financial_institution": "1",
+        "installment_amount": 0,
+        "net_received_amount": 58.340000000000003410605131648480892181396484375,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 58.9200000000000017053025658242404460906982421875,
+        "transaction_id": "PIXE42898825202208172220pi5TuI6NwQG"
+    }
+}
+08-17-2022 @ 19:20:55 - [successful_request]: Changing order status to: processing
+08-17-2022 @ 19:21:03 - [check_ipn_response]: received _get content: {
+    "data_id": "24975703613",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+08-17-2022 @ 19:21:03 - [successful_request]: starting to process  update...
+08-17-2022 @ 19:21:03 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "bank_info": {
+            "is_same_bank_account_owner": false
+        },
+        "items": [
+            {
+                "category_id": "others",
+                "description": "A-Farofa-com-muitas-sementes-e-incrivel-e-vai-te-saciar-de-forma-natural-e-saudavel.-As-sementes-permitem-melhorar-o-seu-consumo-de-fibras-e-micronutrientes.-Voce-vai-amar-o-resultado-crocante-saboroso-e-saudavel-desta-Faro",
+                "id": "194",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/sementes-Frente-1.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes x 1",
+                "unit_price": "18.2"
+            },
+            {
+                "category_id": "others",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "id": "195",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "quantity": "1",
+                "title": "Farofa com Muita Cebola x 1",
+                "unit_price": "17.2"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "PAC (Entrega em 7 dias úteis)",
+                "unit_price": "23.52"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Açucenas \/ Belo Horizonte MG BR",
+                "zip_code": "30421-310"
+            },
+            "first_name": "Regina",
+            "last_name": "Antunes",
+            "phone": {
+                "number": "(31) 99981-7171"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "603B",
+                "city_name": "Belo Horizonte",
+                "state_name": "MG",
+                "street_name": "Rua Açucenas 603B Belo Horizonte MG BR",
+                "zip_code": "30421-310"
+            }
+        }
+    },
+    "authorization_code": null,
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.107.4",
+    "call_for_authorize_id": null,
+    "callback_url": null,
+    "captured": true,
+    "card": [],
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-08-17T18:20:49.000-04:00",
+    "date_created": "2022-08-17T18:20:12.000-04:00",
+    "date_last_updated": "2022-08-17T18:21:01.000-04:00",
+    "date_of_expiration": "2022-08-17T18:50:13.000-04:00",
+    "deduction_schema": null,
+    "description": "Farofa com Muitas Sementes x 1, Farofa com Muita Cebola x 1",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13877",
+    "fee_details": [
+        {
+            "amount": 0.57999999999999996003197111349436454474925994873046875,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 24975703613,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": null,
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "pix",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Belo Horizonte",
+            "state_name": "MG",
+            "country_name": "BR",
+            "street_name": "Rua Açucenas",
+            "zip_code": "30421-310"
+        },
+        "module_version": "6.0.2",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.8.0",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-08-17T18:20:49.000-04:00",
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": "regisantunes1021@gmail.com",
+        "entity_type": null,
+        "first_name": null,
+        "id": "215830552",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "pix",
+    "payment_type_id": "bank_transfer",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "application_data": {
+            "name": null,
+            "version": null
+        },
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "location": {
+            "source": null,
+            "state_id": null
+        },
+        "sub_type": "INTER_PSP",
+        "transaction_data": {
+            "bank_info": {
+                "collector": {
+                    "account_holder_name": "Thiago Erminio Victor",
+                    "account_id": 55972707790,
+                    "long_name": "Mercadopago.com Representações Ltda.",
+                    "transfer_account_id": null
+                },
+                "is_same_bank_account_owner": false,
+                "origin_bank_id": null,
+                "origin_wallet_id": null,
+                "payer": {
+                    "account_id": 288814843,
+                    "external_account_id": null,
+                    "id": null,
+                    "long_name": "Sicoob Credicom - Cooperativa de Economia e Crédito Mútuo dos Médicos e Profissionais da Área de Saúde do Brasil Ltda."
+                }
+            },
+            "bank_transfer_id": 1369602239,
+            "financial_institution": 1,
+            "infringement_notification": {
+                "status": null,
+                "type": null
+            },
+            "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da0520400005303986540558.925802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter249757036136304E8BA",
+            "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAIzUlEQVR42u3dQZLbNhAFUNyA978lb8CUK2ObQv+G5MRVicGnhWs8ksCH2f3qRmNcf9DrHLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0v1875tfx7XfH1xvfPnv7XfnG8eO\/x\/2Nr699\/+nra8ffz74tel++MmhpaWlpaWlpaWlpaR+iPe6R7b7IeH3iGYzpIz+3+7LU3T2CNjFoaWlpaWlpaWlpaWmfop0C5M81E\/THIvN\/i6ziSzStwbXgaWlpaWlpaWlpaWlpn6hdF+euLkVer0kwFfuuV3zdCy0tLS0tLS0tLS0tLe2VEmOqvI3ulfd3lLRZdkBLS0tLS0tLS0tLS\/tQbYufHnav0E3uY9G2Oe0+\/UX+RY8oLS0tLS0tLS0tLS3tn66ta\/4n\/3w4pYSWlpaWlpaWlpaWlnY37eKVanDjtbnyzBFx+nCZLflyfu49g5aWlpaWlpaWlpaWdm\/t2TVNjsWRuHdD+etZuTLhZHSLLqp7tLS0tLS0tLS0tLS0O2qvMikyJbwUAvNk\/jOExZpAc1PnCMmSlpaWlpaWlpaWlpZ2b23utRzherUPxv2fpXS3HjrZLvWmR5SWlpaWlpaWlpaWlnY\/7RTfzmBM3ZRNT2baXyn21eCa6ny0tLS0tLS0tLS0tLS7a8txtSkOXmWyYwl8tWNzUShsrsfO4ZOWlpaWlpaWlpaWlvYp2va4Wq7BTeP5a9osSx0hch7dwwuNlpaWlpaWlpaWlpZ2e22py7VluhZ6Loab5FS6GEsyPplSQktLS0tLS0tLS0tLu4e2HRL5waG30n9ZD8zl429XGGky\/URLS0tLS0tLS0tLS\/sU7RTzcnFuvB6TS2W\/K8fLllcuwF6UB2lpaWlpaWlpaWlpaXfWdslt5Hn8ZeL+m\/rd1HVZvnu+Bsj8DFpaWlpaWlpaWlpa2p21qaZ3f9VL0NL+0pSSXCOcwuL4tan+tLS0tLS0tLS0tLS0+2nTHJI09zFNGsn41S3Y+Zhc3RotLS0tLS0tLS0tLe2TtLX7cVo4t09eZUBJ7rpcDZhsF6WlpaWlpaWlpaWlpX2cth5rK0W3is\/hMy1wdINMUimwHNSjpaWlpaWlpaWlpaXdXpsHPR7dmbVmB4s8mWRHafm8VwEPWlpaWlpaWlpaWlrah2gnxZT\/FpRR5ou0d7GVFHnmAPk+RdLS0tLS0tLS0tLS0u6ovV5T5HH\/9eJYW50PmZdKH7mWN22P1fRIWlpaWlpaWlpaWlra\/bRTrW5KllMBcPrpKldh5yde4Qq3I7x7fpx5aWlpaWlpaWlpaWlp99FOEbGO3S8NktO5uCNvPJfzmt2326ClpaWlpaWlpaWlpd1du264TKfXfiralsppfElbv0ufC5GTlpaWlpaWlpaWlpZ2Z+29kTLlvyt3Tk71wPS1vMmR8e27tLS0tLS0tLS0tLS0u2vb57RD+dM9aSn\/5VXSfP+jS7S0tLS0tLS0tLS0tLSP0LaXU69GkEzXqxXKlAlHGDU5cqHwTS2SlpaWlpaWlpaWlpZ2N21OgrV09+4b9RBd+W4dh1Ly5LsUSUtLS0tLS0tLS0tLu6P2zD2Xi6vU2tNwTQEwTST5NE\/S0tLS0tLS0tLS0tLurp3WTFW7KR3maty0yaNkwrKDK1TyrvuGaGlpaWlpaWlpaWlpn6MtYfEMCW+820t6IwFS2lwsQEtLS0tLS0tLS0tLu7u2CXwlDl65wzKsXndVuylLem2TJS0tLS0tLS0tLS0t7d7ad\/Mh67PzfWoj35iWiof5d1VAS0tLS0tLS0tLS0v7CG1bumt7LT8a91+HTraJMYVKWlpaWlpaWlpaWlrax2mP+LGRL0urLZVpL\/f5J0e+VG0aUEJLS0tLS0tLS0tLS\/tY7fTs0lI5yqSR1Il5l408y\/+jU3O0tLS0tLS0tLS0tLQP06YrrpN7aqmcxkXWaSYT5b7K5E4r09LS0tLS0tLS0tLSPkVbzrZduXSX6nxpZP\/0xufPGN2d27S0tLS0tLS0tLS0tA\/QpgkipYfyypeqpUn\/U7wsqXSEnswx2mxLS0tLS0tLS0tLS0u7tzYV9q580Vr53ZVHPo7lK2XM0uhJS0tLS0tLS0tLS0v7HG1zMVoa7V9SXxMv73lyKva9beWkpaWlpaWlpaWlpaV9mLb0S17ZWN5Yt1TW2SRpL21nZ9d1SUtLS0tLS0tLS0tLu5+2XJs2whj\/kWf0lxuvj1Chq9dopxmUU6j8+M5uWlpaWlpaWlpaWlraP17bDurPx99SsW+8es5Q51tFyRJSL1paWlpaWlpaWlpa2mdpx2tJrmbHxaiSaWvH6z8vJcOUWUs9MN20TUtLS0tLS0tLS0tLu7u25dXeyHI72lQZTOW8c3F+Lq13zS9aWlpaWlpaWlpaWtq9tVMwLEGuvbV6BPKxzKLNH6j0X07hk5aWlpaWlpaWlpaWdm\/tZEzD+6cCYJ4FOfJta4u4WiuDXXqlpaWlpaWlpaWlpaV9gDZluHOxjekRbQxtS4Zl9MkIhUJaWlpaWlpaWlpaWtoHaNMrF90WMW\/k+6vrop\/etrbsuqSlpaWlpaWlpaWlpd1KW8p4NeG1hb081b+t853lvoD1d2lpaWlpaWlpaWlpaR+iPUr3YzfFcXbnG7Sbn+6ptN3z+GSmCi0tLS0tLS0tLS0t7X7a0i85FterlVDZnJ\/7aHj\/+NUeUVpaWlpaWlpaWlpa2sdoJ1lpsxxBeyy6Kcv4yX9c3aOlpaWlpaWlpaWlpX2Qtp32mBRlqfrudC4u8T65BZuWlpaWlpaWlpaWlnY3bcKXaY9TzBvvB\/rX2l85Uzel0qSipaWlpaWlpaWlpaXdXVsbH6dFptSXWzSnA3NXeSP9WaavdQxaWlpaWlpaWlpaWtqdtf\/\/Fy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS3tb9P+BaBAS6f0l9mNAAAAAElFTkSuQmCC",
+            "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/24975703613\/ticket?caller_id=215830552&hash=c5593732-5838-45d2-8a5a-ff4b0c82e6a6",
+            "transaction_id": "PIXE42898825202208172220pi5TuI6NwQG"
+        },
+        "type": "OPENPLATFORM"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": null,
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 58.9200000000000017053025658242404460906982421875,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "bank_transfer_id": 1369602239,
+        "external_resource_url": null,
+        "financial_institution": "1",
+        "installment_amount": 0,
+        "net_received_amount": 58.340000000000003410605131648480892181396484375,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 58.9200000000000017053025658242404460906982421875,
+        "transaction_id": "PIXE42898825202208172220pi5TuI6NwQG"
+    }
+}
+08-17-2022 @ 19:21:03 - [successful_request]: Changing order status to: processing
+08-17-2022 @ 19:21:28 - [check_ipn_response]: received _get content: {
+    "data_id": "24975703613",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+08-17-2022 @ 19:21:28 - [successful_request]: starting to process  update...
+08-17-2022 @ 19:21:28 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "bank_info": {
+            "is_same_bank_account_owner": false
+        },
+        "items": [
+            {
+                "category_id": "others",
+                "description": "A-Farofa-com-muitas-sementes-e-incrivel-e-vai-te-saciar-de-forma-natural-e-saudavel.-As-sementes-permitem-melhorar-o-seu-consumo-de-fibras-e-micronutrientes.-Voce-vai-amar-o-resultado-crocante-saboroso-e-saudavel-desta-Faro",
+                "id": "194",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/sementes-Frente-1.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes x 1",
+                "unit_price": "18.2"
+            },
+            {
+                "category_id": "others",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "id": "195",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "quantity": "1",
+                "title": "Farofa com Muita Cebola x 1",
+                "unit_price": "17.2"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "PAC (Entrega em 7 dias úteis)",
+                "unit_price": "23.52"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Açucenas \/ Belo Horizonte MG BR",
+                "zip_code": "30421-310"
+            },
+            "first_name": "Regina",
+            "last_name": "Antunes",
+            "phone": {
+                "number": "(31) 99981-7171"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "603B",
+                "city_name": "Belo Horizonte",
+                "state_name": "MG",
+                "street_name": "Rua Açucenas 603B Belo Horizonte MG BR",
+                "zip_code": "30421-310"
+            }
+        }
+    },
+    "authorization_code": null,
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.107.4",
+    "call_for_authorize_id": null,
+    "callback_url": null,
+    "captured": true,
+    "card": [],
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-08-17T18:20:49.000-04:00",
+    "date_created": "2022-08-17T18:20:12.000-04:00",
+    "date_last_updated": "2022-08-17T18:21:26.000-04:00",
+    "date_of_expiration": "2022-08-17T18:50:13.000-04:00",
+    "deduction_schema": null,
+    "description": "Farofa com Muitas Sementes x 1, Farofa com Muita Cebola x 1",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13877",
+    "fee_details": [
+        {
+            "amount": 0.57999999999999996003197111349436454474925994873046875,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 24975703613,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": null,
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "pix",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Belo Horizonte",
+            "state_name": "MG",
+            "country_name": "BR",
+            "street_name": "Rua Açucenas",
+            "zip_code": "30421-310"
+        },
+        "module_version": "6.0.2",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.8.0",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-08-17T18:20:49.000-04:00",
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": "regisantunes1021@gmail.com",
+        "entity_type": null,
+        "first_name": null,
+        "id": "215830552",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "pix",
+    "payment_type_id": "bank_transfer",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "application_data": {
+            "name": null,
+            "version": null
+        },
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "location": {
+            "source": null,
+            "state_id": null
+        },
+        "sub_type": "INTER_PSP",
+        "transaction_data": {
+            "bank_info": {
+                "collector": {
+                    "account_holder_name": "Thiago Erminio Victor",
+                    "account_id": 55972707790,
+                    "long_name": "Mercadopago.com Representações Ltda.",
+                    "transfer_account_id": null
+                },
+                "is_same_bank_account_owner": false,
+                "origin_bank_id": null,
+                "origin_wallet_id": null,
+                "payer": {
+                    "account_id": 288814843,
+                    "external_account_id": null,
+                    "id": null,
+                    "long_name": "Sicoob Credicom - Cooperativa de Economia e Crédito Mútuo dos Médicos e Profissionais da Área de Saúde do Brasil Ltda."
+                }
+            },
+            "bank_transfer_id": 1369602239,
+            "financial_institution": 1,
+            "infringement_notification": {
+                "status": null,
+                "type": null
+            },
+            "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da0520400005303986540558.925802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter249757036136304E8BA",
+            "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAIzUlEQVR42u3dQZLbNhAFUNyA978lb8CUK2ObQv+G5MRVicGnhWs8ksCH2f3qRmNcf9DrHLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0v1875tfx7XfH1xvfPnv7XfnG8eO\/x\/2Nr699\/+nra8ffz74tel++MmhpaWlpaWlpaWlpaR+iPe6R7b7IeH3iGYzpIz+3+7LU3T2CNjFoaWlpaWlpaWlpaWmfop0C5M81E\/THIvN\/i6ziSzStwbXgaWlpaWlpaWlpaWlpn6hdF+euLkVer0kwFfuuV3zdCy0tLS0tLS0tLS0tLe2VEmOqvI3ulfd3lLRZdkBLS0tLS0tLS0tLS\/tQbYufHnav0E3uY9G2Oe0+\/UX+RY8oLS0tLS0tLS0tLS3tn66ta\/4n\/3w4pYSWlpaWlpaWlpaWlnY37eKVanDjtbnyzBFx+nCZLflyfu49g5aWlpaWlpaWlpaWdm\/t2TVNjsWRuHdD+etZuTLhZHSLLqp7tLS0tLS0tLS0tLS0O2qvMikyJbwUAvNk\/jOExZpAc1PnCMmSlpaWlpaWlpaWlpZ2b23utRzherUPxv2fpXS3HjrZLvWmR5SWlpaWlpaWlpaWlnY\/7RTfzmBM3ZRNT2baXyn21eCa6ny0tLS0tLS0tLS0tLS7a8txtSkOXmWyYwl8tWNzUShsrsfO4ZOWlpaWlpaWlpaWlvYp2va4Wq7BTeP5a9osSx0hch7dwwuNlpaWlpaWlpaWlpZ2e22py7VluhZ6Loab5FS6GEsyPplSQktLS0tLS0tLS0tLu4e2HRL5waG30n9ZD8zl429XGGky\/URLS0tLS0tLS0tLS\/sU7RTzcnFuvB6TS2W\/K8fLllcuwF6UB2lpaWlpaWlpaWlpaXfWdslt5Hn8ZeL+m\/rd1HVZvnu+Bsj8DFpaWlpaWlpaWlpa2p21qaZ3f9VL0NL+0pSSXCOcwuL4tan+tLS0tLS0tLS0tLS0+2nTHJI09zFNGsn41S3Y+Zhc3RotLS0tLS0tLS0tLe2TtLX7cVo4t09eZUBJ7rpcDZhsF6WlpaWlpaWlpaWlpX2cth5rK0W3is\/hMy1wdINMUimwHNSjpaWlpaWlpaWlpaXdXpsHPR7dmbVmB4s8mWRHafm8VwEPWlpaWlpaWlpaWlrah2gnxZT\/FpRR5ou0d7GVFHnmAPk+RdLS0tLS0tLS0tLS0u6ovV5T5HH\/9eJYW50PmZdKH7mWN22P1fRIWlpaWlpaWlpaWlra\/bRTrW5KllMBcPrpKldh5yde4Qq3I7x7fpx5aWlpaWlpaWlpaWlp99FOEbGO3S8NktO5uCNvPJfzmt2326ClpaWlpaWlpaWlpd1du264TKfXfiralsppfElbv0ufC5GTlpaWlpaWlpaWlpZ2Z+29kTLlvyt3Tk71wPS1vMmR8e27tLS0tLS0tLS0tLS0u2vb57RD+dM9aSn\/5VXSfP+jS7S0tLS0tLS0tLS0tLSP0LaXU69GkEzXqxXKlAlHGDU5cqHwTS2SlpaWlpaWlpaWlpZ2N21OgrV09+4b9RBd+W4dh1Ly5LsUSUtLS0tLS0tLS0tLu6P2zD2Xi6vU2tNwTQEwTST5NE\/S0tLS0tLS0tLS0tLurp3WTFW7KR3maty0yaNkwrKDK1TyrvuGaGlpaWlpaWlpaWlpn6MtYfEMCW+820t6IwFS2lwsQEtLS0tLS0tLS0tLu7u2CXwlDl65wzKsXndVuylLem2TJS0tLS0tLS0tLS0t7d7ad\/Mh67PzfWoj35iWiof5d1VAS0tLS0tLS0tLS0v7CG1bumt7LT8a91+HTraJMYVKWlpaWlpaWlpaWlrax2mP+LGRL0urLZVpL\/f5J0e+VG0aUEJLS0tLS0tLS0tLS\/tY7fTs0lI5yqSR1Il5l408y\/+jU3O0tLS0tLS0tLS0tLQP06YrrpN7aqmcxkXWaSYT5b7K5E4r09LS0tLS0tLS0tLSPkVbzrZduXSX6nxpZP\/0xufPGN2d27S0tLS0tLS0tLS0tA\/QpgkipYfyypeqpUn\/U7wsqXSEnswx2mxLS0tLS0tLS0tLS0u7tzYV9q580Vr53ZVHPo7lK2XM0uhJS0tLS0tLS0tLS0v7HG1zMVoa7V9SXxMv73lyKva9beWkpaWlpaWlpaWlpaV9mLb0S17ZWN5Yt1TW2SRpL21nZ9d1SUtLS0tLS0tLS0tLu5+2XJs2whj\/kWf0lxuvj1Chq9dopxmUU6j8+M5uWlpaWlpaWlpaWlraP17bDurPx99SsW+8es5Q51tFyRJSL1paWlpaWlpaWlpa2mdpx2tJrmbHxaiSaWvH6z8vJcOUWUs9MN20TUtLS0tLS0tLS0tLu7u25dXeyHI72lQZTOW8c3F+Lq13zS9aWlpaWlpaWlpaWtq9tVMwLEGuvbV6BPKxzKLNH6j0X07hk5aWlpaWlpaWlpaWdm\/tZEzD+6cCYJ4FOfJta4u4WiuDXXqlpaWlpaWlpaWlpaV9gDZluHOxjekRbQxtS4Zl9MkIhUJaWlpaWlpaWlpaWtoHaNMrF90WMW\/k+6vrop\/etrbsuqSlpaWlpaWlpaWlpd1KW8p4NeG1hb081b+t853lvoD1d2lpaWlpaWlpaWlpaR+iPUr3YzfFcXbnG7Sbn+6ptN3z+GSmCi0tLS0tLS0tLS0t7X7a0i85FterlVDZnJ\/7aHj\/+NUeUVpaWlpaWlpaWlpa2sdoJ1lpsxxBeyy6Kcv4yX9c3aOlpaWlpaWlpaWlpX2Qtp32mBRlqfrudC4u8T65BZuWlpaWlpaWlpaWlnY3bcKXaY9TzBvvB\/rX2l85Uzel0qSipaWlpaWlpaWlpaXdXVsbH6dFptSXWzSnA3NXeSP9WaavdQxaWlpaWlpaWlpaWtqdtf\/\/Fy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS3tb9P+BaBAS6f0l9mNAAAAAElFTkSuQmCC",
+            "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/24975703613\/ticket?caller_id=215830552&hash=c5593732-5838-45d2-8a5a-ff4b0c82e6a6",
+            "transaction_id": "PIXE42898825202208172220pi5TuI6NwQG"
+        },
+        "type": "OPENPLATFORM"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": null,
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 58.9200000000000017053025658242404460906982421875,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "bank_transfer_id": 1369602239,
+        "external_resource_url": null,
+        "financial_institution": "1",
+        "installment_amount": 0,
+        "net_received_amount": 58.340000000000003410605131648480892181396484375,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 58.9200000000000017053025658242404460906982421875,
+        "transaction_id": "PIXE42898825202208172220pi5TuI6NwQG"
+    }
+}
+08-17-2022 @ 19:21:28 - [successful_request]: Changing order status to: processing

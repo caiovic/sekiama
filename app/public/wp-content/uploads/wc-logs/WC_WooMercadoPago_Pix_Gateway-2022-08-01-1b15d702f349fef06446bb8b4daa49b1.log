@@ -1,0 +1,1092 @@
+08-01-2022 @ 18:42:40 - [process_payment]: Payment via Pix POST: 
+08-01-2022 @ 18:42:41 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13864",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "date_of_expiration": "2022-08-01T22:12:41.000+0000",
+    "transaction_amount": 67.9200000000000017053025658242404460906982421875,
+    "description": "Farofa com Muita Cebola x 3",
+    "payment_method_id": "pix",
+    "payer": {
+        "email": "gabecoliveira@gmail.com",
+        "first_name": "Gabriela",
+        "last_name": "Moraes",
+        "address": {
+            "zip_code": "04106-010",
+            "street_name": "Rua Machado de Assis",
+            "street_number": "",
+            "neighborhood": "",
+            "city": "São Paulo",
+            "federal_unit": "SP"
+        }
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 195,
+                "title": "Farofa com Muita Cebola x 3",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 51.60000000000000142108547152020037174224853515625
+            },
+            {
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "description": "Serviço de envio usado pela loja.",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 16.32000000000000028421709430404007434844970703125
+            }
+        ],
+        "payer": {
+            "first_name": "Gabriela",
+            "last_name": "Moraes",
+            "phone": {
+                "number": "(11) 98927-4147"
+            },
+            "address": {
+                "zip_code": "04106-010",
+                "street_name": "Rua Machado de Assis \/ São Paulo SP BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "04106-010",
+                "street_name": "Rua Machado de Assis Apartamento 11 São Paulo SP BR",
+                "apartment": "Apartamento 11",
+                "city_name": "São Paulo",
+                "state_name": "SP"
+            }
+        }
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.7.0",
+        "module_version": "6.0.2",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "04106-010",
+            "street_name": "Rua Machado de Assis",
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "custom",
+        "checkout_type": "pix"
+    }
+}
+08-01-2022 @ 18:42:41 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "id": 24498341138,
+        "date_created": "2022-08-01T17:42:40.745-04:00",
+        "date_approved": null,
+        "date_last_updated": "2022-08-01T17:42:40.745-04:00",
+        "date_of_expiration": "2022-08-01T18:12:41.000-04:00",
+        "money_release_date": null,
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": null,
+        "payment_method_id": "pix",
+        "payment_type_id": "bank_transfer",
+        "status": "pending",
+        "status_detail": "pending_waiting_transfer",
+        "currency_id": "BRL",
+        "description": "Farofa com Muita Cebola x 3",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": null,
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "54.8.13-hotfix-2",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "171251133",
+            "operator_id": null,
+            "email": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "pix",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "04106-010",
+                "street_name": "Rua Machado de Assis"
+            },
+            "module_version": "6.0.2",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.7.0",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "195",
+                    "title": "Farofa com Muita Cebola x 3",
+                    "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "51.6"
+                },
+                {
+                    "id": null,
+                    "title": "Sedex (Entrega em 3 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "16.32"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 98927-4147"
+                },
+                "address": {
+                    "zip_code": "04106-010",
+                    "street_name": "Rua Machado de Assis \/ São Paulo SP BR"
+                },
+                "first_name": "Gabriela",
+                "last_name": "Moraes"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "04106-010",
+                    "state_name": "SP",
+                    "city_name": "São Paulo",
+                    "street_name": "Rua Machado de Assis Apartamento 11 São Paulo SP BR",
+                    "apartment": "Apartamento 11"
+                }
+            },
+            "available_balance": null,
+            "nsu_processadora": null,
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13864",
+        "transaction_amount": 67.9200000000000017053025658242404460906982421875,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "callback_url": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 0,
+            "total_paid_amount": 67.9200000000000017053025658242404460906982421875,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 0,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null,
+            "bank_transfer_id": null,
+            "transaction_id": null
+        },
+        "fee_details": [],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": null,
+        "card": [],
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "OPENPLATFORM",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            },
+            "location": {
+                "state_id": null,
+                "source": null
+            },
+            "application_data": {
+                "name": null,
+                "version": null
+            },
+            "transaction_data": {
+                "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da0520400005303986540567.925802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter244983411386304B6D6",
+                "bank_transfer_id": null,
+                "transaction_id": null,
+                "financial_institution": null,
+                "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/24498341138\/ticket?caller_id=171251133&hash=c13297c1-14da-4ce8-a59b-51091a7d6870",
+                "bank_info": {
+                    "payer": {
+                        "account_id": null,
+                        "id": null,
+                        "long_name": null,
+                        "external_account_id": null
+                    },
+                    "collector": {
+                        "account_id": null,
+                        "long_name": null,
+                        "account_holder_name": "Thiago Erminio Victor",
+                        "transfer_account_id": null
+                    },
+                    "is_same_bank_account_owner": null,
+                    "origin_bank_id": null,
+                    "origin_wallet_id": null
+                },
+                "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAI6ElEQVR42u3dQY7bOBAFUN6A97+lbsBBBkFaZv2S3UEwmEjPi0bSsunH3n1UsTjWX\/Q6Bi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS3tn9eO\/TV\/\/G7+fPDjvaff\/fzE19OvBeZ5qX8\/dv6xfi1wnBc9L18ZtLS0tLS0tLS0tLS0D9HOc2Q7L1K\/e5N9\/W5TnPe3veVlf+mPUVS0tLS0tLS0tLS0tLQP0G4B8mvNXx9I4W681uA+wZdoWoNrwdPS0tLS0tLS0tLS0j5R20S\/rVZXguZ6TYIvT8\/1wNn9oKWlpaWlpaWlpaWlpX39b4EeIVnWV2mzTF2XI+yAlpaWlpaWlpaWlpb2odoWX1LkVvarq6S2zbL79Bf57R5RWlpaWlpaWlpaWlrav13bTin5b398OKWElpaWlpaWlpaWlpb2btqLVx1VUk7DHTkipn9t5bxSLbxg0NLS0tLS0tLS0tLS3lt7XDRNXjRcXg\/lH+92mrozc7GPlpaWlpaWlpaWlpb27toVUNsRtpVDYCJvlNS2uRnz32bR0tLS0tLS0tLS0tI+RHvda3leqRla0u6g\/HfltJkvc5u0tLS0tLS0tLS0tLQP0RbAyrExXcN28ZaZE2gJmke5mi2UAmlpaWlpaWlpaWlpaW+v3fJkQc1wTK6GynzUrXZspuux01NaWlpaWlpaWlpaWtpHaM\/xbnY7GDnrlcR4xOLcSFNK0lvyi5aWlpaWlpaWlpaW9u7a5ra19ulmLJ\/Y9rfOWzuvcjGWZHz7bjhaWlpaWlpaWlpaWtq\/WHvVNFlGQ85cuitn6sbrg2Y45dZ\/2Y2apKWlpaWlpaWlpaWlvbe21uVKH+TWcJmGjKz38XK+LrD9MZqTdLS0tLS0tLS0tLS0tHfX5tuoj4sJIhfva5o1N3f6bDlJt2hpaWlpaWlpaWlpaZ+lXSXS5YLdKhW\/c40w5cl0kq59OuJxOlpaWlpaWlpaWlpa2jtr0xySAtguS5vdkP+tkXL7Y6QvOkLQ\/Gh6JC0tLS0tLS0tLS0t7X20MwTImY+rpVNz7aD+j27VPt7d1EZLS0tLS0tLS0tLS\/sQ7biMdCM0SB45fKa+yvbQ2\/mIXWrMpKWlpaWlpaWlpaWlfYq29DyOckitHHDbXs2g\/qKol6+lauEnM1VoaWlpaWlpaWlpaWnvod2+OzVN5qNu20G49a6wt+1qi4rb6bouRdLS0tLS0tLS0tLS0t5Rm8gr578tbaamyTxvcjvg1mxye0BLS0tLS0tLS0tLS\/sQ7VHiW3KXmt4WB9smzGZDBd\/ES1paWlpaWlpaWlpa2vtrtzW3USUpMaZ+yeasXKralRbNo\/Rk0tLS0tLS0tLS0tLSPkdbei3biftXUyZLRBx5gdyx2dzFRktLS0tLS0tLS0tL+whtCYZb\/W51nZPNDJN2eP+7sSTNU1paWlpaWlpaWlpa2rtr2+8px99GGO2\/8lVqeZVUMlwhXh79aThaWlpaWlpaWlpaWto7atsp\/GksyQpvWaH2t2XCcXFLQHtRNi0tLS0tLS0tLS0t7SO0OQmOsHCTCVMSTH2V6XBc+TuMONKElpaWlpaWlpaWlpb23tp0L\/XIRbytapezYzOeP806afNkV92jpaWlpaWlpaWlpaW9nzYFvjSKvwwoaSt+K\/dQpreUxLjOG6KlpaWlpaWlpaWlpX2ENgW5om2PxDXaa0DptWy\/l5aWlpaWlpaWlpaW9gHai7kh23j+FSb4pyR4hCxap4+c8+RxmSxpaWlpaWlpaWlpaWnvrb0YRjLC5Wur686c4SDcDKiXVs5yui61XtLS0tLS0tLS0tLS0t5b+y7NjW60\/8oH4dK5uPPK9TsSg5aWlpaWlpaWlpaW9nHa5p7rfOVaBWw3XqdomvJp6vYMO6WlpaWlpaWlpaWlpb29tswXSatvn5ilS3KLkmmnF4fearGPlpaWlpaWlpaWlpb2IdqX2HjtzptMV6kdeUMlJ6aBJ4OWlpaWlpaWlpaWlvZJ2jSMpDxtL8BO\/ZczNFd+8B2jXMNGS0tLS0tLS0tLS0v7CG2hjDyRpM2O6X628pb1urURejLHaLMtLS0tLS0tLS0tLS3tnbV5qOPKPZSpiFeS5SoDJvPHNsEqd27T0tLS0tLS0tLS0tI+QvvBBJE8c2TkEZL5arYjRMn5Wjxc3TXatLS0tLS0tLS0tLS0d9eOEAJnuNh65VGTZWbkSyNlyqLBM\/IqtLS0tLS0tLS0tLS0z9GmISNtdW\/mL0t7ztdoz4t+zve3YNPS0tLS0tLS0tLS0t5Kmw69paf5+NuW\/14CZDlT10TJ9kwdLS0tLS0tLS0tLS3tc7Q5Do6PJpeUr11hmGT6jhHqgTOWFmlpaWlpaWlpaWlpaW+v\/TDNxey41erSJnOAHJdZdNHS0tLS0tLS0tLS0j5LW3sei2eWc3ElO6ZVRjngtj3N\/ZeTlpaWlpaWlpaWlpb2IdpyAu0YzasZRnLOhOtzY3r6vuuSlpaWlpaWlpaWlpb2ttoR0uEstb8UNN89Hd2UkhlGpMzPUiQtLS0tLS0tLS0tLe2NtOmVy3kXY\/dHvr+6VhA\/vW3tsuuSlpaWlpaWlpaWlpb2Vtoc5GY4rja6+9RSbFxdijy6kDq\/cQs2LS0tLS0tLS0tLS3trbSzC5BbThyvvZZH6MlcpeyXyoNpZuTHKZKWlpaWlpaWlpaWlvaW2jYOlii5DZNcl9dofzC8\/9s9orS0tLS0tLS0tLS0tM\/QtllvK\/atchBuK\/tdLPDb1T1aWlpaWlpaWlpaWtpnaLdct5XfSuB7ewNbKeJte55dfZGWlpaWlpaWlpaWlvYB2oTP0x5nacJM17CV42+1UFjO1I3RqGhpaWlpaWlpaWlpae+ubbJenkMyyqSR0nC5wtm2rWNz5WmUHYOWlpaWlpaWlpaWlvbO2v\/\/i5aWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpb2j2n\/AfNf\/cw1ths0AAAAAElFTkSuQmCC"
+            }
+        }
+    }
+}
+08-01-2022 @ 18:42:41 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 24498341138,
+        "date_created": "2022-08-01T17:42:40.745-04:00",
+        "date_approved": null,
+        "date_last_updated": "2022-08-01T17:42:40.745-04:00",
+        "date_of_expiration": "2022-08-01T18:12:41.000-04:00",
+        "money_release_date": null,
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": null,
+        "payment_method_id": "pix",
+        "payment_type_id": "bank_transfer",
+        "status": "pending",
+        "status_detail": "pending_waiting_transfer",
+        "currency_id": "BRL",
+        "description": "Farofa com Muita Cebola x 3",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": null,
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "54.8.13-hotfix-2",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "171251133",
+            "operator_id": null,
+            "email": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "pix",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "04106-010",
+                "street_name": "Rua Machado de Assis"
+            },
+            "module_version": "6.0.2",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.7.0",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "195",
+                    "title": "Farofa com Muita Cebola x 3",
+                    "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "51.6"
+                },
+                {
+                    "id": null,
+                    "title": "Sedex (Entrega em 3 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "16.32"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 98927-4147"
+                },
+                "address": {
+                    "zip_code": "04106-010",
+                    "street_name": "Rua Machado de Assis \/ São Paulo SP BR"
+                },
+                "first_name": "Gabriela",
+                "last_name": "Moraes"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "04106-010",
+                    "state_name": "SP",
+                    "city_name": "São Paulo",
+                    "street_name": "Rua Machado de Assis Apartamento 11 São Paulo SP BR",
+                    "apartment": "Apartamento 11"
+                }
+            },
+            "available_balance": null,
+            "nsu_processadora": null,
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13864",
+        "transaction_amount": 67.9200000000000017053025658242404460906982421875,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "callback_url": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 0,
+            "total_paid_amount": 67.9200000000000017053025658242404460906982421875,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 0,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null,
+            "bank_transfer_id": null,
+            "transaction_id": null
+        },
+        "fee_details": [],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": null,
+        "card": [],
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "OPENPLATFORM",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            },
+            "location": {
+                "state_id": null,
+                "source": null
+            },
+            "application_data": {
+                "name": null,
+                "version": null
+            },
+            "transaction_data": {
+                "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da0520400005303986540567.925802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter244983411386304B6D6",
+                "bank_transfer_id": null,
+                "transaction_id": null,
+                "financial_institution": null,
+                "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/24498341138\/ticket?caller_id=171251133&hash=c13297c1-14da-4ce8-a59b-51091a7d6870",
+                "bank_info": {
+                    "payer": {
+                        "account_id": null,
+                        "id": null,
+                        "long_name": null,
+                        "external_account_id": null
+                    },
+                    "collector": {
+                        "account_id": null,
+                        "long_name": null,
+                        "account_holder_name": "Thiago Erminio Victor",
+                        "transfer_account_id": null
+                    },
+                    "is_same_bank_account_owner": null,
+                    "origin_bank_id": null,
+                    "origin_wallet_id": null
+                },
+                "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAI6ElEQVR42u3dQY7bOBAFUN6A97+lbsBBBkFaZv2S3UEwmEjPi0bSsunH3n1UsTjWX\/Q6Bi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS3tn9eO\/TV\/\/G7+fPDjvaff\/fzE19OvBeZ5qX8\/dv6xfi1wnBc9L18ZtLS0tLS0tLS0tLS0D9HOc2Q7L1K\/e5N9\/W5TnPe3veVlf+mPUVS0tLS0tLS0tLS0tLQP0G4B8mvNXx9I4W681uA+wZdoWoNrwdPS0tLS0tLS0tLS0j5R20S\/rVZXguZ6TYIvT8\/1wNn9oKWlpaWlpaWlpaWlpX39b4EeIVnWV2mzTF2XI+yAlpaWlpaWlpaWlpb2odoWX1LkVvarq6S2zbL79Bf57R5RWlpaWlpaWlpaWlrav13bTin5b398OKWElpaWlpaWlpaWlpb2btqLVx1VUk7DHTkipn9t5bxSLbxg0NLS0tLS0tLS0tLS3lt7XDRNXjRcXg\/lH+92mrozc7GPlpaWlpaWlpaWlpb27toVUNsRtpVDYCJvlNS2uRnz32bR0tLS0tLS0tLS0tI+RHvda3leqRla0u6g\/HfltJkvc5u0tLS0tLS0tLS0tLQP0RbAyrExXcN28ZaZE2gJmke5mi2UAmlpaWlpaWlpaWlpaW+v3fJkQc1wTK6GynzUrXZspuux01NaWlpaWlpaWlpaWtpHaM\/xbnY7GDnrlcR4xOLcSFNK0lvyi5aWlpaWlpaWlpaW9u7a5ra19ulmLJ\/Y9rfOWzuvcjGWZHz7bjhaWlpaWlpaWlpaWtq\/WHvVNFlGQ85cuitn6sbrg2Y45dZ\/2Y2apKWlpaWlpaWlpaWlvbe21uVKH+TWcJmGjKz38XK+LrD9MZqTdLS0tLS0tLS0tLS0tHfX5tuoj4sJIhfva5o1N3f6bDlJt2hpaWlpaWlpaWlpaZ+lXSXS5YLdKhW\/c40w5cl0kq59OuJxOlpaWlpaWlpaWlpa2jtr0xySAtguS5vdkP+tkXL7Y6QvOkLQ\/Gh6JC0tLS0tLS0tLS0t7X20MwTImY+rpVNz7aD+j27VPt7d1EZLS0tLS0tLS0tLS\/sQ7biMdCM0SB45fKa+yvbQ2\/mIXWrMpKWlpaWlpaWlpaWlfYq29DyOckitHHDbXs2g\/qKol6+lauEnM1VoaWlpaWlpaWlpaWnvod2+OzVN5qNu20G49a6wt+1qi4rb6bouRdLS0tLS0tLS0tLS0t5Rm8gr578tbaamyTxvcjvg1mxye0BLS0tLS0tLS0tLS\/sQ7VHiW3KXmt4WB9smzGZDBd\/ES1paWlpaWlpaWlpa2vtrtzW3USUpMaZ+yeasXKralRbNo\/Rk0tLS0tLS0tLS0tLSPkdbei3biftXUyZLRBx5gdyx2dzFRktLS0tLS0tLS0tL+whtCYZb\/W51nZPNDJN2eP+7sSTNU1paWlpaWlpaWlpa2rtr2+8px99GGO2\/8lVqeZVUMlwhXh79aThaWlpaWlpaWlpaWto7atsp\/GksyQpvWaH2t2XCcXFLQHtRNi0tLS0tLS0tLS0t7SO0OQmOsHCTCVMSTH2V6XBc+TuMONKElpaWlpaWlpaWlpb23tp0L\/XIRbytapezYzOeP806afNkV92jpaWlpaWlpaWlpaW9nzYFvjSKvwwoaSt+K\/dQpreUxLjOG6KlpaWlpaWlpaWlpX2ENgW5om2PxDXaa0DptWy\/l5aWlpaWlpaWlpaW9gHai7kh23j+FSb4pyR4hCxap4+c8+RxmSxpaWlpaWlpaWlpaWnvrb0YRjLC5Wur686c4SDcDKiXVs5yui61XtLS0tLS0tLS0tLS0t5b+y7NjW60\/8oH4dK5uPPK9TsSg5aWlpaWlpaWlpaW9nHa5p7rfOVaBWw3XqdomvJp6vYMO6WlpaWlpaWlpaWlpb29tswXSatvn5ilS3KLkmmnF4fearGPlpaWlpaWlpaWlpb2IdqX2HjtzptMV6kdeUMlJ6aBJ4OWlpaWlpaWlpaWlvZJ2jSMpDxtL8BO\/ZczNFd+8B2jXMNGS0tLS0tLS0tLS0v7CG2hjDyRpM2O6X628pb1urURejLHaLMtLS0tLS0tLS0tLS3tnbV5qOPKPZSpiFeS5SoDJvPHNsEqd27T0tLS0tLS0tLS0tI+QvvBBJE8c2TkEZL5arYjRMn5Wjxc3TXatLS0tLS0tLS0tLS0d9eOEAJnuNh65VGTZWbkSyNlyqLBM\/IqtLS0tLS0tLS0tLS0z9GmISNtdW\/mL0t7ztdoz4t+zve3YNPS0tLS0tLS0tLS0t5Kmw69paf5+NuW\/14CZDlT10TJ9kwdLS0tLS0tLS0tLS3tc7Q5Do6PJpeUr11hmGT6jhHqgTOWFmlpaWlpaWlpaWlpaW+v\/TDNxey41erSJnOAHJdZdNHS0tLS0tLS0tLS0j5LW3sei2eWc3ElO6ZVRjngtj3N\/ZeTlpaWlpaWlpaWlpb2IdpyAu0YzasZRnLOhOtzY3r6vuuSlpaWlpaWlpaWlpb2ttoR0uEstb8UNN89Hd2UkhlGpMzPUiQtLS0tLS0tLS0tLe2NtOmVy3kXY\/dHvr+6VhA\/vW3tsuuSlpaWlpaWlpaWlpb2Vtoc5GY4rja6+9RSbFxdijy6kDq\/cQs2LS0tLS0tLS0tLS3trbSzC5BbThyvvZZH6MlcpeyXyoNpZuTHKZKWlpaWlpaWlpaWlvaW2jYOlii5DZNcl9dofzC8\/9s9orS0tLS0tLS0tLS0tM\/QtllvK\/atchBuK\/tdLPDb1T1aWlpaWlpaWlpaWtpnaLdct5XfSuB7ewNbKeJte55dfZGWlpaWlpaWlpaWlvYB2oTP0x5nacJM17CV42+1UFjO1I3RqGhpaWlpaWlpaWlpae+ubbJenkMyyqSR0nC5wtm2rWNz5WmUHYOWlpaWlpaWlpaWlvbO2v\/\/i5aWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpb2j2n\/AfNf\/cw1ths0AAAAAElFTkSuQmCC"
+            }
+        }
+    }
+}
+08-01-2022 @ 18:42:44 - [check_ipn_response]: received _get content: {
+    "data_id": "24498341138",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+08-01-2022 @ 18:42:44 - [successful_request]: starting to process  update...
+08-01-2022 @ 18:42:44 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "id": "195",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "quantity": "1",
+                "title": "Farofa com Muita Cebola x 3",
+                "unit_price": "51.6"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "unit_price": "16.32"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Machado de Assis \/ São Paulo SP BR",
+                "zip_code": "04106-010"
+            },
+            "first_name": "Gabriela",
+            "last_name": "Moraes",
+            "phone": {
+                "number": "(11) 98927-4147"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Apartamento 11",
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "street_name": "Rua Machado de Assis Apartamento 11 São Paulo SP BR",
+                "zip_code": "04106-010"
+            }
+        }
+    },
+    "authorization_code": null,
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "54.8.13-hotfix-2",
+    "call_for_authorize_id": null,
+    "callback_url": null,
+    "captured": true,
+    "card": [],
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": null,
+    "date_created": "2022-08-01T17:42:40.000-04:00",
+    "date_last_updated": "2022-08-01T17:42:40.000-04:00",
+    "date_of_expiration": "2022-08-01T18:12:41.000-04:00",
+    "deduction_schema": null,
+    "description": "Farofa com Muita Cebola x 3",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13864",
+    "fee_details": [],
+    "id": 24498341138,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": null,
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "pix",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Rua Machado de Assis",
+            "zip_code": "04106-010"
+        },
+        "module_version": "6.0.2",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.7.0",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": null,
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": null,
+        "entity_type": null,
+        "first_name": null,
+        "id": "171251133",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "pix",
+    "payment_type_id": "bank_transfer",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "application_data": {
+            "name": null,
+            "version": null
+        },
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "location": {
+            "source": null,
+            "state_id": null
+        },
+        "transaction_data": {
+            "bank_info": {
+                "collector": {
+                    "account_holder_name": "Thiago Erminio Victor",
+                    "account_id": null,
+                    "long_name": null,
+                    "transfer_account_id": null
+                },
+                "is_same_bank_account_owner": null,
+                "origin_bank_id": null,
+                "origin_wallet_id": null,
+                "payer": {
+                    "account_id": null,
+                    "external_account_id": null,
+                    "id": null,
+                    "long_name": null
+                }
+            },
+            "bank_transfer_id": null,
+            "financial_institution": null,
+            "infringement_notification": {
+                "status": null,
+                "type": null
+            },
+            "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da0520400005303986540567.925802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter244983411386304B6D6",
+            "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAI6ElEQVR42u3dQY7bOBAFUN6A97+lbsBBBkFaZv2S3UEwmEjPi0bSsunH3n1UsTjWX\/Q6Bi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS3tn9eO\/TV\/\/G7+fPDjvaff\/fzE19OvBeZ5qX8\/dv6xfi1wnBc9L18ZtLS0tLS0tLS0tLS0D9HOc2Q7L1K\/e5N9\/W5TnPe3veVlf+mPUVS0tLS0tLS0tLS0tLQP0G4B8mvNXx9I4W681uA+wZdoWoNrwdPS0tLS0tLS0tLS0j5R20S\/rVZXguZ6TYIvT8\/1wNn9oKWlpaWlpaWlpaWlpX39b4EeIVnWV2mzTF2XI+yAlpaWlpaWlpaWlpb2odoWX1LkVvarq6S2zbL79Bf57R5RWlpaWlpaWlpaWlrav13bTin5b398OKWElpaWlpaWlpaWlpb2btqLVx1VUk7DHTkipn9t5bxSLbxg0NLS0tLS0tLS0tLS3lt7XDRNXjRcXg\/lH+92mrozc7GPlpaWlpaWlpaWlpb27toVUNsRtpVDYCJvlNS2uRnz32bR0tLS0tLS0tLS0tI+RHvda3leqRla0u6g\/HfltJkvc5u0tLS0tLS0tLS0tLQP0RbAyrExXcN28ZaZE2gJmke5mi2UAmlpaWlpaWlpaWlpaW+v3fJkQc1wTK6GynzUrXZspuux01NaWlpaWlpaWlpaWtpHaM\/xbnY7GDnrlcR4xOLcSFNK0lvyi5aWlpaWlpaWlpaW9u7a5ra19ulmLJ\/Y9rfOWzuvcjGWZHz7bjhaWlpaWlpaWlpaWtq\/WHvVNFlGQ85cuitn6sbrg2Y45dZ\/2Y2apKWlpaWlpaWlpaWlvbe21uVKH+TWcJmGjKz38XK+LrD9MZqTdLS0tLS0tLS0tLS0tHfX5tuoj4sJIhfva5o1N3f6bDlJt2hpaWlpaWlpaWlpaZ+lXSXS5YLdKhW\/c40w5cl0kq59OuJxOlpaWlpaWlpaWlpa2jtr0xySAtguS5vdkP+tkXL7Y6QvOkLQ\/Gh6JC0tLS0tLS0tLS0t7X20MwTImY+rpVNz7aD+j27VPt7d1EZLS0tLS0tLS0tLS\/sQ7biMdCM0SB45fKa+yvbQ2\/mIXWrMpKWlpaWlpaWlpaWlfYq29DyOckitHHDbXs2g\/qKol6+lauEnM1VoaWlpaWlpaWlpaWnvod2+OzVN5qNu20G49a6wt+1qi4rb6bouRdLS0tLS0tLS0tLS0t5Rm8gr578tbaamyTxvcjvg1mxye0BLS0tLS0tLS0tLS\/sQ7VHiW3KXmt4WB9smzGZDBd\/ES1paWlpaWlpaWlpa2vtrtzW3USUpMaZ+yeasXKralRbNo\/Rk0tLS0tLS0tLS0tLSPkdbei3biftXUyZLRBx5gdyx2dzFRktLS0tLS0tLS0tL+whtCYZb\/W51nZPNDJN2eP+7sSTNU1paWlpaWlpaWlpa2rtr2+8px99GGO2\/8lVqeZVUMlwhXh79aThaWlpaWlpaWlpaWto7atsp\/GksyQpvWaH2t2XCcXFLQHtRNi0tLS0tLS0tLS0t7SO0OQmOsHCTCVMSTH2V6XBc+TuMONKElpaWlpaWlpaWlpb23tp0L\/XIRbytapezYzOeP806afNkV92jpaWlpaWlpaWlpaW9nzYFvjSKvwwoaSt+K\/dQpreUxLjOG6KlpaWlpaWlpaWlpX2ENgW5om2PxDXaa0DptWy\/l5aWlpaWlpaWlpaW9gHai7kh23j+FSb4pyR4hCxap4+c8+RxmSxpaWlpaWlpaWlpaWnvrb0YRjLC5Wur686c4SDcDKiXVs5yui61XtLS0tLS0tLS0tLS0t5b+y7NjW60\/8oH4dK5uPPK9TsSg5aWlpaWlpaWlpaW9nHa5p7rfOVaBWw3XqdomvJp6vYMO6WlpaWlpaWlpaWlpb29tswXSatvn5ilS3KLkmmnF4fearGPlpaWlpaWlpaWlpb2IdqX2HjtzptMV6kdeUMlJ6aBJ4OWlpaWlpaWlpaWlvZJ2jSMpDxtL8BO\/ZczNFd+8B2jXMNGS0tLS0tLS0tLS0v7CG2hjDyRpM2O6X628pb1urURejLHaLMtLS0tLS0tLS0tLS3tnbV5qOPKPZSpiFeS5SoDJvPHNsEqd27T0tLS0tLS0tLS0tI+QvvBBJE8c2TkEZL5arYjRMn5Wjxc3TXatLS0tLS0tLS0tLS0d9eOEAJnuNh65VGTZWbkSyNlyqLBM\/IqtLS0tLS0tLS0tLS0z9GmISNtdW\/mL0t7ztdoz4t+zve3YNPS0tLS0tLS0tLS0t5Kmw69paf5+NuW\/14CZDlT10TJ9kwdLS0tLS0tLS0tLS3tc7Q5Do6PJpeUr11hmGT6jhHqgTOWFmlpaWlpaWlpaWlpaW+v\/TDNxey41erSJnOAHJdZdNHS0tLS0tLS0tLS0j5LW3sei2eWc3ElO6ZVRjngtj3N\/ZeTlpaWlpaWlpaWlpb2IdpyAu0YzasZRnLOhOtzY3r6vuuSlpaWlpaWlpaWlpb2ttoR0uEstb8UNN89Hd2UkhlGpMzPUiQtLS0tLS0tLS0tLe2NtOmVy3kXY\/dHvr+6VhA\/vW3tsuuSlpaWlpaWlpaWlpb2Vtoc5GY4rja6+9RSbFxdijy6kDq\/cQs2LS0tLS0tLS0tLS3trbSzC5BbThyvvZZH6MlcpeyXyoNpZuTHKZKWlpaWlpaWlpaWlvaW2jYOlii5DZNcl9dofzC8\/9s9orS0tLS0tLS0tLS0tM\/QtllvK\/atchBuK\/tdLPDb1T1aWlpaWlpaWlpaWtpnaLdct5XfSuB7ewNbKeJte55dfZGWlpaWlpaWlpaWlvYB2oTP0x5nacJM17CV42+1UFjO1I3RqGhpaWlpaWlpaWlpae+ubbJenkMyyqSR0nC5wtm2rWNz5WmUHYOWlpaWlpaWlpaWlvbO2v\/\/i5aWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpb2j2n\/AfNf\/cw1ths0AAAAAElFTkSuQmCC",
+            "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/24498341138\/ticket?caller_id=171251133&hash=c13297c1-14da-4ce8-a59b-51091a7d6870",
+            "transaction_id": null
+        },
+        "type": "OPENPLATFORM"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": null,
+    "status": "pending",
+    "status_detail": "pending_waiting_transfer",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 67.9200000000000017053025658242404460906982421875,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "bank_transfer_id": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 0,
+        "net_received_amount": 0,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 67.9200000000000017053025658242404460906982421875,
+        "transaction_id": null
+    }
+}
+08-01-2022 @ 18:42:44 - [successful_request]: Changing order status to: pending
+08-01-2022 @ 18:44:41 - [check_ipn_response]: received _get content: {
+    "data_id": "24498341138",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+08-01-2022 @ 18:44:41 - [successful_request]: starting to process  update...
+08-01-2022 @ 18:44:41 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "bank_info": {
+            "is_same_bank_account_owner": false
+        },
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "id": "195",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "quantity": "1",
+                "title": "Farofa com Muita Cebola x 3",
+                "unit_price": "51.6"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "unit_price": "16.32"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Machado de Assis \/ São Paulo SP BR",
+                "zip_code": "04106-010"
+            },
+            "first_name": "Gabriela",
+            "last_name": "Moraes",
+            "phone": {
+                "number": "(11) 98927-4147"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Apartamento 11",
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "street_name": "Rua Machado de Assis Apartamento 11 São Paulo SP BR",
+                "zip_code": "04106-010"
+            }
+        }
+    },
+    "authorization_code": null,
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "54.8.13-hotfix-2",
+    "call_for_authorize_id": null,
+    "callback_url": null,
+    "captured": true,
+    "card": [],
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-08-01T17:44:36.000-04:00",
+    "date_created": "2022-08-01T17:42:40.000-04:00",
+    "date_last_updated": "2022-08-01T17:44:36.000-04:00",
+    "date_of_expiration": "2022-08-01T18:12:41.000-04:00",
+    "deduction_schema": null,
+    "description": "Farofa com Muita Cebola x 3",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13864",
+    "fee_details": [
+        {
+            "amount": 0.67000000000000003996802888650563545525074005126953125,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 24498341138,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": null,
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "pix",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Rua Machado de Assis",
+            "zip_code": "04106-010"
+        },
+        "module_version": "6.0.2",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.7.0",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-08-01T17:44:36.000-04:00",
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": "gabecoliveira@gmail.com",
+        "entity_type": null,
+        "first_name": null,
+        "id": "171251133",
+        "identification": {
+            "number": "00101018290",
+            "type": "CPF"
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "pix",
+    "payment_type_id": "bank_transfer",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "application_data": {
+            "name": null,
+            "version": null
+        },
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "location": {
+            "source": null,
+            "state_id": null
+        },
+        "sub_type": "INTER_PSP",
+        "transaction_data": {
+            "bank_info": {
+                "collector": {
+                    "account_holder_name": "Thiago Erminio Victor",
+                    "account_id": 55972707790,
+                    "long_name": "Mercadopago.com Representações Ltda.",
+                    "transfer_account_id": null
+                },
+                "is_same_bank_account_owner": false,
+                "origin_bank_id": null,
+                "origin_wallet_id": null,
+                "payer": {
+                    "account_id": 268020,
+                    "external_account_id": null,
+                    "id": null,
+                    "long_name": "Banco do Brasil S.A."
+                }
+            },
+            "bank_transfer_id": 1281523800,
+            "financial_institution": 1,
+            "infringement_notification": {
+                "status": null,
+                "type": null
+            },
+            "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da0520400005303986540567.925802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter244983411386304B6D6",
+            "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAI6ElEQVR42u3dQY7bOBAFUN6A97+lbsBBBkFaZv2S3UEwmEjPi0bSsunH3n1UsTjWX\/Q6Bi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS3tn9eO\/TV\/\/G7+fPDjvaff\/fzE19OvBeZ5qX8\/dv6xfi1wnBc9L18ZtLS0tLS0tLS0tLS0D9HOc2Q7L1K\/e5N9\/W5TnPe3veVlf+mPUVS0tLS0tLS0tLS0tLQP0G4B8mvNXx9I4W681uA+wZdoWoNrwdPS0tLS0tLS0tLS0j5R20S\/rVZXguZ6TYIvT8\/1wNn9oKWlpaWlpaWlpaWlpX39b4EeIVnWV2mzTF2XI+yAlpaWlpaWlpaWlpb2odoWX1LkVvarq6S2zbL79Bf57R5RWlpaWlpaWlpaWlrav13bTin5b398OKWElpaWlpaWlpaWlpb2btqLVx1VUk7DHTkipn9t5bxSLbxg0NLS0tLS0tLS0tLS3lt7XDRNXjRcXg\/lH+92mrozc7GPlpaWlpaWlpaWlpb27toVUNsRtpVDYCJvlNS2uRnz32bR0tLS0tLS0tLS0tI+RHvda3leqRla0u6g\/HfltJkvc5u0tLS0tLS0tLS0tLQP0RbAyrExXcN28ZaZE2gJmke5mi2UAmlpaWlpaWlpaWlpaW+v3fJkQc1wTK6GynzUrXZspuux01NaWlpaWlpaWlpaWtpHaM\/xbnY7GDnrlcR4xOLcSFNK0lvyi5aWlpaWlpaWlpaW9u7a5ra19ulmLJ\/Y9rfOWzuvcjGWZHz7bjhaWlpaWlpaWlpaWtq\/WHvVNFlGQ85cuitn6sbrg2Y45dZ\/2Y2apKWlpaWlpaWlpaWlvbe21uVKH+TWcJmGjKz38XK+LrD9MZqTdLS0tLS0tLS0tLS0tHfX5tuoj4sJIhfva5o1N3f6bDlJt2hpaWlpaWlpaWlpaZ+lXSXS5YLdKhW\/c40w5cl0kq59OuJxOlpaWlpaWlpaWlpa2jtr0xySAtguS5vdkP+tkXL7Y6QvOkLQ\/Gh6JC0tLS0tLS0tLS0t7X20MwTImY+rpVNz7aD+j27VPt7d1EZLS0tLS0tLS0tLS\/sQ7biMdCM0SB45fKa+yvbQ2\/mIXWrMpKWlpaWlpaWlpaWlfYq29DyOckitHHDbXs2g\/qKol6+lauEnM1VoaWlpaWlpaWlpaWnvod2+OzVN5qNu20G49a6wt+1qi4rb6bouRdLS0tLS0tLS0tLS0t5Rm8gr578tbaamyTxvcjvg1mxye0BLS0tLS0tLS0tLS\/sQ7VHiW3KXmt4WB9smzGZDBd\/ES1paWlpaWlpaWlpa2vtrtzW3USUpMaZ+yeasXKralRbNo\/Rk0tLS0tLS0tLS0tLSPkdbei3biftXUyZLRBx5gdyx2dzFRktLS0tLS0tLS0tL+whtCYZb\/W51nZPNDJN2eP+7sSTNU1paWlpaWlpaWlpa2rtr2+8px99GGO2\/8lVqeZVUMlwhXh79aThaWlpaWlpaWlpaWto7atsp\/GksyQpvWaH2t2XCcXFLQHtRNi0tLS0tLS0tLS0t7SO0OQmOsHCTCVMSTH2V6XBc+TuMONKElpaWlpaWlpaWlpb23tp0L\/XIRbytapezYzOeP806afNkV92jpaWlpaWlpaWlpaW9nzYFvjSKvwwoaSt+K\/dQpreUxLjOG6KlpaWlpaWlpaWlpX2ENgW5om2PxDXaa0DptWy\/l5aWlpaWlpaWlpaW9gHai7kh23j+FSb4pyR4hCxap4+c8+RxmSxpaWlpaWlpaWlpaWnvrb0YRjLC5Wur686c4SDcDKiXVs5yui61XtLS0tLS0tLS0tLS0t5b+y7NjW60\/8oH4dK5uPPK9TsSg5aWlpaWlpaWlpaW9nHa5p7rfOVaBWw3XqdomvJp6vYMO6WlpaWlpaWlpaWlpb29tswXSatvn5ilS3KLkmmnF4fearGPlpaWlpaWlpaWlpb2IdqX2HjtzptMV6kdeUMlJ6aBJ4OWlpaWlpaWlpaWlvZJ2jSMpDxtL8BO\/ZczNFd+8B2jXMNGS0tLS0tLS0tLS0v7CG2hjDyRpM2O6X628pb1urURejLHaLMtLS0tLS0tLS0tLS3tnbV5qOPKPZSpiFeS5SoDJvPHNsEqd27T0tLS0tLS0tLS0tI+QvvBBJE8c2TkEZL5arYjRMn5Wjxc3TXatLS0tLS0tLS0tLS0d9eOEAJnuNh65VGTZWbkSyNlyqLBM\/IqtLS0tLS0tLS0tLS0z9GmISNtdW\/mL0t7ztdoz4t+zve3YNPS0tLS0tLS0tLS0t5Kmw69paf5+NuW\/14CZDlT10TJ9kwdLS0tLS0tLS0tLS3tc7Q5Do6PJpeUr11hmGT6jhHqgTOWFmlpaWlpaWlpaWlpaW+v\/TDNxey41erSJnOAHJdZdNHS0tLS0tLS0tLS0j5LW3sei2eWc3ElO6ZVRjngtj3N\/ZeTlpaWlpaWlpaWlpb2IdpyAu0YzasZRnLOhOtzY3r6vuuSlpaWlpaWlpaWlpb2ttoR0uEstb8UNN89Hd2UkhlGpMzPUiQtLS0tLS0tLS0tLe2NtOmVy3kXY\/dHvr+6VhA\/vW3tsuuSlpaWlpaWlpaWlpb2Vtoc5GY4rja6+9RSbFxdijy6kDq\/cQs2LS0tLS0tLS0tLS3trbSzC5BbThyvvZZH6MlcpeyXyoNpZuTHKZKWlpaWlpaWlpaWlvaW2jYOlii5DZNcl9dofzC8\/9s9orS0tLS0tLS0tLS0tM\/QtllvK\/atchBuK\/tdLPDb1T1aWlpaWlpaWlpaWtpnaLdct5XfSuB7ewNbKeJte55dfZGWlpaWlpaWlpaWlvYB2oTP0x5nacJM17CV42+1UFjO1I3RqGhpaWlpaWlpaWlpae+ubbJenkMyyqSR0nC5wtm2rWNz5WmUHYOWlpaWlpaWlpaWlvbO2v\/\/i5aWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpb2j2n\/AfNf\/cw1ths0AAAAAElFTkSuQmCC",
+            "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/24498341138\/ticket?caller_id=171251133&hash=c13297c1-14da-4ce8-a59b-51091a7d6870",
+            "transaction_id": "PIXE0000000020220801214419431488822"
+        },
+        "type": "OPENPLATFORM"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": null,
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 67.9200000000000017053025658242404460906982421875,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "bank_transfer_id": 1281523800,
+        "external_resource_url": null,
+        "financial_institution": "1",
+        "installment_amount": 0,
+        "net_received_amount": 67.25,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 67.9200000000000017053025658242404460906982421875,
+        "transaction_id": "PIXE0000000020220801214419431488822"
+    }
+}
+08-01-2022 @ 18:44:41 - [successful_request]: Changing order status to: processing

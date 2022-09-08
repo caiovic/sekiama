@@ -1,0 +1,73 @@
+/*********************************************
+VARIABLES/MIXINS/FUNCTIONS
+**********************************************/
+
+//Variables
+$primary-color:#3BA46B;
+$secondary-color: #AC2421;
+$green: #045C38;
+
+//Mixins
+
+//Responsive
+@mixin media-query($device) {
+  @if $device==mobile {
+    @media only screen and(max-width: 768px) {
+      @content;
+    }
+  }
+
+  @else if $device==medium {
+    @media only screen and (min-width: 769px) and (max-width: 991px) {
+      @content;
+    }
+  }
+
+  @else if $device==screen {
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+      @content;
+    }
+  }
+
+  @else if $device==screenLarge {
+    @media only screen and (min-width: 1201px) {
+      @content;
+    }
+  }
+}
+
+
+//Function
+
+//Conversor px = em 
+@function em($pixels, $contexto: 16) {
+  @return ($pixels / $contexto) * 1em;
+}
+
+/* mixin for multiline */
+@mixin multiLineEllipsis($lineHeight: 1.2em, $lineCount: 1, $bgColor: white) {
+  overflow: hidden;
+  position: relative;
+  line-height: $lineHeight;
+  max-height: $lineHeight * $lineCount;
+  text-align: justify;
+  margin-right: -1em;
+  padding-right: 1em;
+
+  &:before {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: $bgColor;
+  }
+}

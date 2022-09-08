@@ -1,0 +1,259 @@
+/*********************************************
+Mapa do Brasil
+**********************************************/
+#svg-map path {
+  fill: #045c38;
+}
+
+#svg-map text {
+  fill: #fff;
+  font: 12px Arial-BoldMT, sans-serif;
+  cursor: pointer;
+}
+
+#svg-map a {
+  text-decoration: none;
+}
+
+#svg-map a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#svg-map a:hover path {
+  fill: #ac2421 !important;
+}
+
+#svg-map .circle {
+  fill: #3ba46b;
+}
+
+#svg-map a:hover .circle {
+  fill: #ac2421 !important;
+  cursor: pointer;
+}
+
+/*********************************************
+Mapa do Brasil
+**********************************************/
+
+.inner_padding {
+  padding: 20px 0;
+}
+
+/*********************************************
+Lógica de ocultamento dos estados
+**********************************************/
+#am {
+  display: block;
+}
+#sp,
+#mg,
+#rj,
+#es,
+#pa,
+#ac,
+#ro,
+#rr,
+#ap,
+#to,
+#ma,
+#pi,
+#ce,
+#rn,
+#pb,
+#al,
+#se,
+#ba,
+#mt,
+#ms,
+#go,
+#df,
+#pr,
+#sc,
+#rs,
+#pe {
+  display: none;
+}
+
+.mapa_onde_estamos {
+  width: 450px;
+  height: 460px;
+}
+
+/*********************************************
+Estilização para tabela nutricional
+**********************************************/
+
+.nutri_table tr:nth-child(odd) {
+  background: #e0f7ed;
+}
+
+.nutri_table tr:nth-child(even) {
+  background: #ffd6d5;
+}
+
+.nutri_table tbody {
+  text-align: center;
+}
+
+.title_h3 {
+  font-size: 2.2em;
+  line-height: 1.2em;
+}
+
+/*********************************************
+Botões Onde Estamos
+**********************************************/
+
+.Wrap_btn_onde_estamos {
+  margin-top: 25px;
+}
+
+.Wrap_btn_onde_estamos a button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white !important;
+  padding: 14px 28px !important;
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  line-height: 0.9;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  position: relative;
+  font-weight: 700;
+  min-width: 100px;
+  text-transform: uppercase;
+  font-family: "Gotham", sans-serif !important;
+  background: #ac2421;
+}
+
+/**Timeline**/
+.timeline {
+  position: relative;
+
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+  border: 4px dashed #045c38;
+}
+.timeline .box_left {
+  position: relative;
+}
+.timeline .box_left .feature_img {
+  width: 50%;
+  margin-bottom: 50px;
+  left: 0;
+}
+.timeline .box_left .feature_img img {
+  max-width: 290px;
+  height: auto;
+  display: block;
+  margin: 0 40%;
+}
+
+.timeline .box_left .content_text{
+  width: 50%;
+  position: absolute;
+  right: -30px;
+  border: 6px dashed #045c38;
+  padding: 15px;
+  top: 0;
+}
+.timeline .box_left .content_text .detail-logo{
+  margin-left: 0;
+}
+
+.timeline .box_right {
+  position: relative;
+}
+
+.timeline .box_right .feature_img {
+  width: 100%;
+  margin-bottom: 50px;
+  right: 0;
+}
+
+.timeline .box_right .feature_img img {
+  max-width: 290px;
+  height: auto;
+  display: block;
+  margin: 0 55%;
+}
+
+.timeline .box_right .content_text{
+  width: 50%;
+  position: absolute;
+  left: -30px;
+  border: 6px dashed #045c38;
+  padding: 15px;
+  top: 0;
+}
+
+.woocommerce-order-received .woocommerce-column--billing-address{
+  max-width: 50%!important;
+}
+
+.woocommerce-order-received .woocommerce-column--shipping-address{
+  max-width: 50%!important;
+}
+
+
+
+
+
+@media (max-width: 980px) {
+  .mapa_onde_estamos {
+    width: 100%;
+    height: 460px;
+  }
+
+  .inner_padding {
+    padding: 10px 15px;
+  }
+
+  .Wrap_btn_onde_estamos a button {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .timeline{
+    padding: 5px 15px;
+  }
+
+  .timeline .box_left .feature_img{
+    width: 100%;
+  }
+
+  .timeline .box_left .feature_img img, .timeline .box_right .feature_img img{
+    max-width: 190px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .timeline .box_left .content_text, .timeline .box_right .content_text{
+    width: 100%;
+    position: relative;
+    right: 0;
+    left: 0;
+  }
+
+  .timeline::after{
+    position: relative;
+  }
+
+  .woocommerce-order-received .woocommerce-column--billing-address{
+    max-width: 100%!important;
+  }
+  
+  .woocommerce-order-received .woocommerce-column--shipping-address{
+    max-width: 100%!important;
+  }
+}

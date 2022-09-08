@@ -1,0 +1,2 @@
+03-31-2022 @ 10:17:02 - [process_cancel_order_meta_box_actions]: cancelling payments for 20993480109
+03-31-2022 @ 10:17:02 - [process_cancel_order_meta_box_actions]: cancel payment of id 20993480109 => FAIL - The action requested is not valid for the current payment state

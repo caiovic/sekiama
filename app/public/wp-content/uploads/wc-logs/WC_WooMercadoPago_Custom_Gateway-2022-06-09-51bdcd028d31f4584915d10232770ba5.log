@@ -1,0 +1,2193 @@
+06-09-2022 @ 06:38:53 - [process_payment]: POST Custom: {
+    "installments": "1",
+    "amount": "28.86",
+    "currency_ratio": "1",
+    "campaign_id": "",
+    "campaign": "",
+    "discount": "",
+    "paymentMethodId": "master",
+    "token": "e1d9d97a22d760e66833b02bfff35db9",
+    "checkout_type": "custom"
+}
+06-09-2022 @ 06:38:53 - [process_payment]: preparing to get response of custom checkout.
+06-09-2022 @ 06:38:53 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13782",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "transaction_amount": 28.8599999999999994315658113919198513031005859375,
+    "token": "e1d9d97a22d760e66833b02bfff35db9",
+    "description": "Farofa com Muita Cebola x 1",
+    "installments": 1,
+    "payment_method_id": "master",
+    "payer": {
+        "email": "rep01.sp@sekiama.com"
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.5.1",
+        "module_version": "5.8.0",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "05574-001",
+            "street_name": "Avenida São Paulo Paraná, 10100",
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "rep01.sp@sekiama.com",
+            "user_registration_date": "2022-03-11T17:30:02.000+00:00"
+        },
+        "checkout": "custom",
+        "checkout_type": "credit_card"
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 195,
+                "title": "Farofa com Muita Cebola x 1",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 17.199999999999999289457264239899814128875732421875
+            },
+            {
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "description": "Serviço de envio usado pela loja.",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 11.660000000000000142108547152020037174224853515625
+            }
+        ],
+        "payer": {
+            "first_name": "Maria",
+            "last_name": "Spindola",
+            "phone": {
+                "number": "(11) 98801-5731"
+            },
+            "address": {
+                "zip_code": "05574-001",
+                "street_name": "Avenida São Paulo Paraná, 10100 \/ São Paulo SP BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "05574-001",
+                "street_name": "Avenida São Paulo Paraná, 10100 apto 233D São Paulo SP BR",
+                "apartment": "apto 233D",
+                "city_name": "São Paulo",
+                "state_name": "SP"
+            }
+        }
+    }
+}
+06-09-2022 @ 06:38:54 - [create_preference]: Preference created: {
+    "status": 201,
+    "response": {
+        "id": 23027713317,
+        "date_created": "2022-06-09T05:38:53.502-04:00",
+        "date_approved": "2022-06-09T05:38:54.711-04:00",
+        "date_last_updated": "2022-06-09T05:38:54.711-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-06-09T05:38:54.711-04:00",
+        "operation_type": "regular_payment",
+        "issuer_id": "24",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Farofa com Muita Cebola x 1",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "385476",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "1003539748",
+            "operator_id": null,
+            "email": "rep01.sp@sekiama.com",
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "05574-001",
+                "street_name": "Avenida São Paulo Paraná, 10100"
+            },
+            "module_version": "5.8.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.5.1",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": "rep01.sp@sekiama.com",
+                "registered_user": "yes",
+                "user_registration_date": "2022-03-11T17:30:02.000+00:00"
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "195",
+                    "title": "Farofa com Muita Cebola x 1",
+                    "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "17.2"
+                },
+                {
+                    "id": null,
+                    "title": "Sedex (Entrega em 3 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "11.66"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 98801-5731"
+                },
+                "address": {
+                    "zip_code": "05574-001",
+                    "street_name": "Avenida São Paulo Paraná, 10100 \/ São Paulo SP BR"
+                },
+                "first_name": "Maria",
+                "last_name": "Spindola"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "05574-001",
+                    "state_name": "SP",
+                    "city_name": "São Paulo",
+                    "street_name": "Avenida São Paulo Paraná, 10100 apto 233D São Paulo SP BR",
+                    "apartment": "apto 233D"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQEBAQPhM_85TX_RqIJUlNRA-ocnQjdT82dg8VS59KnhehMbhQCo9GA58wh-Wts",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13782",
+        "transaction_amount": 28.8599999999999994315658113919198513031005859375,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 27.4200000000000017053025658242404460906982421875,
+            "total_paid_amount": 28.8599999999999994315658113919198513031005859375,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 28.8599999999999994315658113919198513031005859375,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 1.439999999999999946709294817992486059665679931640625,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "515590",
+            "last_four_digits": "9694",
+            "bin": "51559016",
+            "expiration_month": 12,
+            "expiration_year": 2027,
+            "date_created": "2022-06-09T05:38:53.000-04:00",
+            "date_last_updated": "2022-06-09T05:38:53.000-04:00",
+            "cardholder": {
+                "name": "Maria Garcia Spindola",
+                "identification": {
+                    "number": "37110725855",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+06-09-2022 @ 06:38:54 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 23027713317,
+        "date_created": "2022-06-09T05:38:53.502-04:00",
+        "date_approved": "2022-06-09T05:38:54.711-04:00",
+        "date_last_updated": "2022-06-09T05:38:54.711-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-06-09T05:38:54.711-04:00",
+        "operation_type": "regular_payment",
+        "issuer_id": "24",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Farofa com Muita Cebola x 1",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "385476",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "1003539748",
+            "operator_id": null,
+            "email": "rep01.sp@sekiama.com",
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "05574-001",
+                "street_name": "Avenida São Paulo Paraná, 10100"
+            },
+            "module_version": "5.8.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.5.1",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": "rep01.sp@sekiama.com",
+                "registered_user": "yes",
+                "user_registration_date": "2022-03-11T17:30:02.000+00:00"
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "195",
+                    "title": "Farofa com Muita Cebola x 1",
+                    "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "17.2"
+                },
+                {
+                    "id": null,
+                    "title": "Sedex (Entrega em 3 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "11.66"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 98801-5731"
+                },
+                "address": {
+                    "zip_code": "05574-001",
+                    "street_name": "Avenida São Paulo Paraná, 10100 \/ São Paulo SP BR"
+                },
+                "first_name": "Maria",
+                "last_name": "Spindola"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "05574-001",
+                    "state_name": "SP",
+                    "city_name": "São Paulo",
+                    "street_name": "Avenida São Paulo Paraná, 10100 apto 233D São Paulo SP BR",
+                    "apartment": "apto 233D"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQEBAQPhM_85TX_RqIJUlNRA-ocnQjdT82dg8VS59KnhehMbhQCo9GA58wh-Wts",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13782",
+        "transaction_amount": 28.8599999999999994315658113919198513031005859375,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 27.4200000000000017053025658242404460906982421875,
+            "total_paid_amount": 28.8599999999999994315658113919198513031005859375,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 28.8599999999999994315658113919198513031005859375,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 1.439999999999999946709294817992486059665679931640625,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "515590",
+            "last_four_digits": "9694",
+            "bin": "51559016",
+            "expiration_month": 12,
+            "expiration_year": 2027,
+            "date_created": "2022-06-09T05:38:53.000-04:00",
+            "date_last_updated": "2022-06-09T05:38:53.000-04:00",
+            "cardholder": {
+                "name": "Maria Garcia Spindola",
+                "identification": {
+                    "number": "37110725855",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+06-09-2022 @ 06:38:55 - [check_ipn_response]: received _get content: {
+    "data_id": "23027713317",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+06-09-2022 @ 06:38:55 - [successful_request]: starting to process  update...
+06-09-2022 @ 06:38:55 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Por-ser-incrivelmente-saborosa-a-Farofa-com-muita-cebola-crocante-e-a-campea-de-vendas-conquistando-todos-os-paladares.-Nesta-nobre-preparacao-a-farinha-de-mandioca-absorve-o-incrivel-sabor-da-cebola-fresca-resultando-em",
+                "id": "195",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/cebola-frente-1.png",
+                "quantity": "1",
+                "title": "Farofa com Muita Cebola x 1",
+                "unit_price": "17.2"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "unit_price": "11.66"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Avenida São Paulo Paraná, 10100 \/ São Paulo SP BR",
+                "zip_code": "05574-001"
+            },
+            "first_name": "Maria",
+            "last_name": "Spindola",
+            "phone": {
+                "number": "(11) 98801-5731"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "apto 233D",
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "street_name": "Avenida São Paulo Paraná, 10100 apto 233D São Paulo SP BR",
+                "zip_code": "05574-001"
+            }
+        }
+    },
+    "authorization_code": "385476",
+    "binary_mode": false,
+    "brand_id": null,
+    "call_for_authorize_id": null,
+    "captured": true,
+    "card": {
+        "bin": "51559016",
+        "cardholder": {
+            "identification": {
+                "number": "37110725855",
+                "type": "CPF"
+            },
+            "name": "Maria Garcia Spindola"
+        },
+        "date_created": "2022-06-09T05:38:53.000-04:00",
+        "date_last_updated": "2022-06-09T05:38:53.000-04:00",
+        "expiration_month": 12,
+        "expiration_year": 2027,
+        "first_six_digits": "515590",
+        "id": null,
+        "last_four_digits": "9694"
+    },
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-06-09T05:38:54.000-04:00",
+    "date_created": "2022-06-09T05:38:53.000-04:00",
+    "date_last_updated": "2022-06-09T05:38:54.000-04:00",
+    "date_of_expiration": null,
+    "deduction_schema": null,
+    "description": "Farofa com Muita Cebola x 1",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13782",
+    "fee_details": [
+        {
+            "amount": 1.439999999999999946709294817992486059665679931640625,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 23027713317,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": "24",
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "credit_card",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Avenida São Paulo Paraná, 10100",
+            "zip_code": "05574-001"
+        },
+        "module_version": "5.8.0",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.5.1",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": "rep01.sp@sekiama.com",
+            "registered_user": "yes",
+            "user_registration_date": "2022-03-11T17:30:02.000+00:00"
+        }
+    },
+    "money_release_date": "2022-06-09T05:38:54.000-04:00",
+    "money_release_schema": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": "rep01.sp@sekiama.com",
+        "entity_type": null,
+        "first_name": null,
+        "id": "1003539748",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "master",
+    "payment_type_id": "credit_card",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "type": "UNSPECIFIED"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 28.8599999999999994315658113919198513031005859375,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 28.8599999999999994315658113919198513031005859375,
+        "net_received_amount": 27.4200000000000017053025658242404460906982421875,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 28.8599999999999994315658113919198513031005859375
+    }
+}
+06-09-2022 @ 06:38:55 - [successful_request]: Changing order status to: processing
+06-09-2022 @ 14:28:34 - [process_payment]: POST Custom: {
+    "installments": "1",
+    "amount": "79.6",
+    "currency_ratio": "1",
+    "campaign_id": "",
+    "campaign": "",
+    "discount": "",
+    "paymentMethodId": "master",
+    "token": "",
+    "checkout_type": "wallet_button"
+}
+06-09-2022 @ 14:28:34 - [process_payment]: preparing to render wallet button checkout.
+06-09-2022 @ 14:28:35 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13783",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "items": [
+        {
+            "id": 196,
+            "title": "Farofa para Churrasco com Manteiga x 1",
+            "description": "Baseada-em-uma-receita-caseira-esta-farofa-consegue-ao-mesmo-tempo-ser-crocante-e-ter-um-sabor-bastante-marcado-de-manteiga.-Desenvolvida-especialmente-para-os-apreciadores-de-churrasco-esta-farofa-ira-conquistar-um-espaco-em",
+            "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/churrasco-frente-1.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 17.300000000000000710542735760100185871124267578125,
+            "currency_id": "BRL"
+        },
+        {
+            "id": 194,
+            "title": "Farofa com Muitas Sementes x 1",
+            "description": "A-Farofa-com-muitas-sementes-e-incrivel-e-vai-te-saciar-de-forma-natural-e-saudavel.-As-sementes-permitem-melhorar-o-seu-consumo-de-fibras-e-micronutrientes.-Voce-vai-amar-o-resultado-crocante-saboroso-e-saudavel-desta-Faro",
+            "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/sementes-Frente-1.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 18.199999999999999289457264239899814128875732421875,
+            "currency_id": "BRL"
+        },
+        {
+            "id": 200,
+            "title": "Faropop x 1",
+            "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+            "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 14.199999999999999289457264239899814128875732421875,
+            "currency_id": "BRL"
+        },
+        {
+            "title": "Jadlog Package (Entrega em 5 dias úteis)",
+            "description": "Serviço de envio usado pela loja.",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 29.89999999999999857891452847979962825775146484375
+        }
+    ],
+    "payer": {
+        "name": "Manoela",
+        "surname": "Freire",
+        "email": "manoela@freireimoveis.com.br",
+        "phone": {
+            "number": "(51) 99982-7451"
+        },
+        "address": {
+            "zip_code": "90050-360",
+            "street_name": "Dra Aurora Nunes Wagner, \/ Porto Alegre RS BR"
+        }
+    },
+    "back_urls": {
+        "success": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13783\/?key=wc_order_KybbSGkwiGwV9",
+        "failure": "https:\/\/www.sekiama.com.br\/carrinho\/?cancel_order=true&order=wc_order_KybbSGkwiGwV9&order_id=13783&redirect&_wpnonce=60109512a4",
+        "pending": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13783\/?key=wc_order_KybbSGkwiGwV9"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "90050-360",
+            "street_name": "Dra Aurora Nunes Wagner, casa Porto Alegre RS BR",
+            "apartment": "casa",
+            "city_name": "Porto Alegre",
+            "state_name": "RS"
+        }
+    },
+    "payment_methods": {
+        "installments": 12,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.5.1",
+        "module_version": "5.8.0",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "90050-360",
+            "street_name": "Dra Aurora Nunes Wagner,",
+            "city_name": "Porto Alegre",
+            "state_name": "RS",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "pro",
+        "checkout_type": "wallet_button"
+    },
+    "purpose": "wallet_purchase"
+}
+06-09-2022 @ 14:28:35 - [create_preference_wallet_button]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/www.sekiama.com.br\/carrinho\/?cancel_order=true&order=wc_order_KybbSGkwiGwV9&order_id=13783&redirect&_wpnonce=60109512a4",
+            "pending": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13783\/?key=wc_order_KybbSGkwiGwV9",
+            "success": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13783\/?key=wc_order_KybbSGkwiGwV9"
+        },
+        "binary_mode": false,
+        "client_id": "6290074584163570",
+        "collector_id": 163745094,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-09T13:28:34.893-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-13783",
+        "id": "163745094-734f0835-c21f-4cef-8705-a4fadda114aa",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-734f0835-c21f-4cef-8705-a4fadda114aa",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "196",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Baseada-em-uma-receita-caseira-esta-farofa-consegue-ao-mesmo-tempo-ser-crocante-e-ter-um-sabor-bastante-marcado-de-manteiga.-Desenvolvida-especialmente-para-os-apreciadores-de-churrasco-esta-farofa-ira-conquistar-um-espaco-em",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/churrasco-frente-1.png",
+                "title": "Farofa para Churrasco com Manteiga x 1",
+                "quantity": 1,
+                "unit_price": 17.300000000000000710542735760100185871124267578125
+            },
+            {
+                "id": "194",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "A-Farofa-com-muitas-sementes-e-incrivel-e-vai-te-saciar-de-forma-natural-e-saudavel.-As-sementes-permitem-melhorar-o-seu-consumo-de-fibras-e-micronutrientes.-Voce-vai-amar-o-resultado-crocante-saboroso-e-saudavel-desta-Faro",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/sementes-Frente-1.png",
+                "title": "Farofa com Muitas Sementes x 1",
+                "quantity": 1,
+                "unit_price": 18.199999999999999289457264239899814128875732421875
+            },
+            {
+                "id": "200",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                "title": "Faropop x 1",
+                "quantity": 1,
+                "unit_price": 14.199999999999999289457264239899814128875732421875
+            },
+            {
+                "id": "",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Serviço de envio usado pela loja.",
+                "title": "Jadlog Package (Entrega em 5 dias úteis)",
+                "quantity": 1,
+                "unit_price": 29.89999999999999857891452847979962825775146484375
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "no",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Porto Alegre",
+                "country_name": "BR",
+                "state_name": "RS",
+                "street_name": "Dra Aurora Nunes Wagner,",
+                "zip_code": "90050-360"
+            },
+            "checkout": "pro",
+            "checkout_type": "wallet_button",
+            "collector": "163745094",
+            "custom_settings": {
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "gateway_discount_checkbox": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "5.8.0",
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.5.1",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(51) 99982-7451"
+            },
+            "address": {
+                "zip_code": "90050-360",
+                "street_name": "Dra Aurora Nunes Wagner,  Porto Alegre RS BR",
+                "street_number": null
+            },
+            "email": "manoela@freireimoveis.com.br",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Manoela",
+            "surname": "Freire",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 12,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-734f0835-c21f-4cef-8705-a4fadda114aa",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "90050-360",
+                "street_name": "Dra Aurora Nunes Wagner, casa Porto Alegre RS BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "casa",
+                "city_name": "Porto Alegre",
+                "state_name": "RS",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "Sekiama MP",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-09-2022 @ 14:28:35 - [create_preference_wallet_button]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/www.sekiama.com.br\/carrinho\/?cancel_order=true&order=wc_order_KybbSGkwiGwV9&order_id=13783&redirect&_wpnonce=60109512a4",
+            "pending": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13783\/?key=wc_order_KybbSGkwiGwV9",
+            "success": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13783\/?key=wc_order_KybbSGkwiGwV9"
+        },
+        "binary_mode": false,
+        "client_id": "6290074584163570",
+        "collector_id": 163745094,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-06-09T13:28:34.893-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-13783",
+        "id": "163745094-734f0835-c21f-4cef-8705-a4fadda114aa",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-734f0835-c21f-4cef-8705-a4fadda114aa",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "196",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Baseada-em-uma-receita-caseira-esta-farofa-consegue-ao-mesmo-tempo-ser-crocante-e-ter-um-sabor-bastante-marcado-de-manteiga.-Desenvolvida-especialmente-para-os-apreciadores-de-churrasco-esta-farofa-ira-conquistar-um-espaco-em",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/churrasco-frente-1.png",
+                "title": "Farofa para Churrasco com Manteiga x 1",
+                "quantity": 1,
+                "unit_price": 17.300000000000000710542735760100185871124267578125
+            },
+            {
+                "id": "194",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "A-Farofa-com-muitas-sementes-e-incrivel-e-vai-te-saciar-de-forma-natural-e-saudavel.-As-sementes-permitem-melhorar-o-seu-consumo-de-fibras-e-micronutrientes.-Voce-vai-amar-o-resultado-crocante-saboroso-e-saudavel-desta-Faro",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/sementes-Frente-1.png",
+                "title": "Farofa com Muitas Sementes x 1",
+                "quantity": 1,
+                "unit_price": 18.199999999999999289457264239899814128875732421875
+            },
+            {
+                "id": "200",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                "title": "Faropop x 1",
+                "quantity": 1,
+                "unit_price": 14.199999999999999289457264239899814128875732421875
+            },
+            {
+                "id": "",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Serviço de envio usado pela loja.",
+                "title": "Jadlog Package (Entrega em 5 dias úteis)",
+                "quantity": 1,
+                "unit_price": 29.89999999999999857891452847979962825775146484375
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "no",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "Porto Alegre",
+                "country_name": "BR",
+                "state_name": "RS",
+                "street_name": "Dra Aurora Nunes Wagner,",
+                "zip_code": "90050-360"
+            },
+            "checkout": "pro",
+            "checkout_type": "wallet_button",
+            "collector": "163745094",
+            "custom_settings": {
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "gateway_discount_checkbox": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "5.8.0",
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.5.1",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(51) 99982-7451"
+            },
+            "address": {
+                "zip_code": "90050-360",
+                "street_name": "Dra Aurora Nunes Wagner,  Porto Alegre RS BR",
+                "street_number": null
+            },
+            "email": "manoela@freireimoveis.com.br",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Manoela",
+            "surname": "Freire",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 12,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-734f0835-c21f-4cef-8705-a4fadda114aa",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "90050-360",
+                "street_name": "Dra Aurora Nunes Wagner, casa Porto Alegre RS BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "casa",
+                "city_name": "Porto Alegre",
+                "state_name": "RS",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "Sekiama MP",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+06-09-2022 @ 16:06:00 - [process_payment]: POST Custom: {
+    "installments": "1",
+    "amount": "137.12",
+    "currency_ratio": "1",
+    "campaign_id": "",
+    "campaign": "",
+    "discount": "",
+    "paymentMethodId": "master",
+    "token": "ccc0674c6271097bc2b3fc0ecdfcde08",
+    "checkout_type": "custom"
+}
+06-09-2022 @ 16:06:00 - [process_payment]: preparing to get response of custom checkout.
+06-09-2022 @ 16:06:00 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13784",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "transaction_amount": 137.1200000000000045474735088646411895751953125,
+    "token": "ccc0674c6271097bc2b3fc0ecdfcde08",
+    "description": "Farofa para Churrasco com Manteiga x 2, Farofa com Muitas Sementes x 2, Faropop x 2",
+    "installments": 1,
+    "payment_method_id": "master",
+    "payer": {
+        "email": "manoela@freireimoveis.com.br"
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.5.1",
+        "module_version": "5.8.0",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "90050-360",
+            "street_name": "Dra Aurora Nunes Wagner,",
+            "city_name": "Porto Alegre",
+            "state_name": "RS",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "custom",
+        "checkout_type": "credit_card"
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 196,
+                "title": "Farofa para Churrasco com Manteiga x 2",
+                "description": "Baseada-em-uma-receita-caseira-esta-farofa-consegue-ao-mesmo-tempo-ser-crocante-e-ter-um-sabor-bastante-marcado-de-manteiga.-Desenvolvida-especialmente-para-os-apreciadores-de-churrasco-esta-farofa-ira-conquistar-um-espaco-em",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/churrasco-frente-1.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 34.60000000000000142108547152020037174224853515625
+            },
+            {
+                "id": 194,
+                "title": "Farofa com Muitas Sementes x 2",
+                "description": "A-Farofa-com-muitas-sementes-e-incrivel-e-vai-te-saciar-de-forma-natural-e-saudavel.-As-sementes-permitem-melhorar-o-seu-consumo-de-fibras-e-micronutrientes.-Voce-vai-amar-o-resultado-crocante-saboroso-e-saudavel-desta-Faro",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/sementes-Frente-1.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 36.39999999999999857891452847979962825775146484375
+            },
+            {
+                "id": 200,
+                "title": "Faropop x 2",
+                "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 28.39999999999999857891452847979962825775146484375
+            },
+            {
+                "title": "Jadlog Package (Entrega em 5 dias úteis)",
+                "description": "Serviço de envio usado pela loja.",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 37.719999999999998863131622783839702606201171875
+            }
+        ],
+        "payer": {
+            "first_name": "Manoela",
+            "last_name": "Freire",
+            "phone": {
+                "number": "(51) 99982-7451"
+            },
+            "address": {
+                "zip_code": "90050-360",
+                "street_name": "Dra Aurora Nunes Wagner, \/ Porto Alegre RS BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "90050-360",
+                "street_name": "Dra Aurora Nunes Wagner, casa Porto Alegre RS BR",
+                "apartment": "casa",
+                "city_name": "Porto Alegre",
+                "state_name": "RS"
+            }
+        }
+    }
+}
+06-09-2022 @ 16:06:02 - [create_preference]: Preference created: {
+    "status": 201,
+    "response": {
+        "id": 23042039889,
+        "date_created": "2022-06-09T15:05:59.586-04:00",
+        "date_approved": "2022-06-09T15:06:00.891-04:00",
+        "date_last_updated": "2022-06-09T15:06:00.891-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-06-09T15:06:00.891-04:00",
+        "operation_type": "regular_payment",
+        "issuer_id": "24",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Farofa para Churrasco com Manteiga x 2, Farofa com Muitas Sementes x 2, Faropop x 2",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "013481",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "28729885",
+            "operator_id": null,
+            "email": "manoela@freireimoveis.com.br",
+            "identification": {
+                "type": "CPF",
+                "number": "67054994000"
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Porto Alegre",
+                "state_name": "RS",
+                "country_name": "BR",
+                "zip_code": "90050-360",
+                "street_name": "Dra Aurora Nunes Wagner,"
+            },
+            "module_version": "5.8.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.5.1",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "196",
+                    "title": "Farofa para Churrasco com Manteiga x 2",
+                    "description": "Baseada-em-uma-receita-caseira-esta-farofa-consegue-ao-mesmo-tempo-ser-crocante-e-ter-um-sabor-bastante-marcado-de-manteiga.-Desenvolvida-especialmente-para-os-apreciadores-de-churrasco-esta-farofa-ira-conquistar-um-espaco-em",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/churrasco-frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "34.6"
+                },
+                {
+                    "id": "194",
+                    "title": "Farofa com Muitas Sementes x 2",
+                    "description": "A-Farofa-com-muitas-sementes-e-incrivel-e-vai-te-saciar-de-forma-natural-e-saudavel.-As-sementes-permitem-melhorar-o-seu-consumo-de-fibras-e-micronutrientes.-Voce-vai-amar-o-resultado-crocante-saboroso-e-saudavel-desta-Faro",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/sementes-Frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "36.4"
+                },
+                {
+                    "id": "200",
+                    "title": "Faropop x 2",
+                    "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "28.4"
+                },
+                {
+                    "id": null,
+                    "title": "Jadlog Package (Entrega em 5 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "37.72"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(51) 99982-7451"
+                },
+                "address": {
+                    "zip_code": "90050-360",
+                    "street_name": "Dra Aurora Nunes Wagner, \/ Porto Alegre RS BR"
+                },
+                "first_name": "Manoela",
+                "last_name": "Freire"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "90050-360",
+                    "state_name": "RS",
+                    "city_name": "Porto Alegre",
+                    "street_name": "Dra Aurora Nunes Wagner, casa Porto Alegre RS BR",
+                    "apartment": "casa"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQEBAQMc47cX6VFKBsoBhh4y0JM2oT3xgrwgDznxSNOTFqIs8gAGSCAXgjrbE_s",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13784",
+        "transaction_amount": 137.1200000000000045474735088646411895751953125,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 130.280000000000001136868377216160297393798828125,
+            "total_paid_amount": 137.1200000000000045474735088646411895751953125,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 137.1200000000000045474735088646411895751953125,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 6.839999999999999857891452847979962825775146484375,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "552289",
+            "last_four_digits": "7848",
+            "bin": "55228990",
+            "expiration_month": 1,
+            "expiration_year": 2027,
+            "date_created": "2022-06-09T15:05:59.000-04:00",
+            "date_last_updated": "2022-06-09T15:05:59.000-04:00",
+            "cardholder": {
+                "name": "manoela o freire",
+                "identification": {
+                    "number": "67054994000",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+06-09-2022 @ 16:06:02 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 23042039889,
+        "date_created": "2022-06-09T15:05:59.586-04:00",
+        "date_approved": "2022-06-09T15:06:00.891-04:00",
+        "date_last_updated": "2022-06-09T15:06:00.891-04:00",
+        "date_of_expiration": null,
+        "money_release_date": "2022-06-09T15:06:00.891-04:00",
+        "operation_type": "regular_payment",
+        "issuer_id": "24",
+        "payment_method_id": "master",
+        "payment_type_id": "credit_card",
+        "status": "approved",
+        "status_detail": "accredited",
+        "currency_id": "BRL",
+        "description": "Farofa para Churrasco com Manteiga x 2, Farofa com Muitas Sementes x 2, Faropop x 2",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": "013481",
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "28729885",
+            "operator_id": null,
+            "email": "manoela@freireimoveis.com.br",
+            "identification": {
+                "type": "CPF",
+                "number": "67054994000"
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "credit_card",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "Porto Alegre",
+                "state_name": "RS",
+                "country_name": "BR",
+                "zip_code": "90050-360",
+                "street_name": "Dra Aurora Nunes Wagner,"
+            },
+            "module_version": "5.8.0",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.5.1",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "196",
+                    "title": "Farofa para Churrasco com Manteiga x 2",
+                    "description": "Baseada-em-uma-receita-caseira-esta-farofa-consegue-ao-mesmo-tempo-ser-crocante-e-ter-um-sabor-bastante-marcado-de-manteiga.-Desenvolvida-especialmente-para-os-apreciadores-de-churrasco-esta-farofa-ira-conquistar-um-espaco-em",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/churrasco-frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "34.6"
+                },
+                {
+                    "id": "194",
+                    "title": "Farofa com Muitas Sementes x 2",
+                    "description": "A-Farofa-com-muitas-sementes-e-incrivel-e-vai-te-saciar-de-forma-natural-e-saudavel.-As-sementes-permitem-melhorar-o-seu-consumo-de-fibras-e-micronutrientes.-Voce-vai-amar-o-resultado-crocante-saboroso-e-saudavel-desta-Faro",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/sementes-Frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "36.4"
+                },
+                {
+                    "id": "200",
+                    "title": "Faropop x 2",
+                    "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "28.4"
+                },
+                {
+                    "id": null,
+                    "title": "Jadlog Package (Entrega em 5 dias úteis)",
+                    "description": "Serviço de envio usado pela loja.",
+                    "picture_url": null,
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "37.72"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(51) 99982-7451"
+                },
+                "address": {
+                    "zip_code": "90050-360",
+                    "street_name": "Dra Aurora Nunes Wagner, \/ Porto Alegre RS BR"
+                },
+                "first_name": "Manoela",
+                "last_name": "Freire"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "90050-360",
+                    "state_name": "RS",
+                    "city_name": "Porto Alegre",
+                    "street_name": "Dra Aurora Nunes Wagner, casa Porto Alegre RS BR",
+                    "apartment": "casa"
+                }
+            },
+            "iso_response_code": "00",
+            "available_balance": null,
+            "nsu_processadora": "CAQEBAQMc47cX6VFKBsoBhh4y0JM2oT3xgrwgDznxSNOTFqIs8gAGSCAXgjrbE_s",
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13784",
+        "transaction_amount": 137.1200000000000045474735088646411895751953125,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 130.280000000000001136868377216160297393798828125,
+            "total_paid_amount": 137.1200000000000045474735088646411895751953125,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 137.1200000000000045474735088646411895751953125,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null
+        },
+        "fee_details": [
+            {
+                "type": "mercadopago_fee",
+                "amount": 6.839999999999999857891452847979962825775146484375,
+                "fee_payer": "collector"
+            }
+        ],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+        "card": {
+            "id": null,
+            "first_six_digits": "552289",
+            "last_four_digits": "7848",
+            "bin": "55228990",
+            "expiration_month": 1,
+            "expiration_year": 2027,
+            "date_created": "2022-06-09T15:05:59.000-04:00",
+            "date_last_updated": "2022-06-09T15:05:59.000-04:00",
+            "cardholder": {
+                "name": "manoela o freire",
+                "identification": {
+                    "number": "67054994000",
+                    "type": "CPF"
+                }
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "UNSPECIFIED",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            }
+        }
+    }
+}
+06-09-2022 @ 16:06:03 - [check_ipn_response]: received _get content: {
+    "data_id": "23042039889",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+06-09-2022 @ 16:06:03 - [successful_request]: starting to process  update...
+06-09-2022 @ 16:06:03 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Baseada-em-uma-receita-caseira-esta-farofa-consegue-ao-mesmo-tempo-ser-crocante-e-ter-um-sabor-bastante-marcado-de-manteiga.-Desenvolvida-especialmente-para-os-apreciadores-de-churrasco-esta-farofa-ira-conquistar-um-espaco-em",
+                "id": "196",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/churrasco-frente-1.png",
+                "quantity": "1",
+                "title": "Farofa para Churrasco com Manteiga x 2",
+                "unit_price": "34.6"
+            },
+            {
+                "category_id": "others",
+                "description": "A-Farofa-com-muitas-sementes-e-incrivel-e-vai-te-saciar-de-forma-natural-e-saudavel.-As-sementes-permitem-melhorar-o-seu-consumo-de-fibras-e-micronutrientes.-Voce-vai-amar-o-resultado-crocante-saboroso-e-saudavel-desta-Faro",
+                "id": "194",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/sementes-Frente-1.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes x 2",
+                "unit_price": "36.4"
+            },
+            {
+                "category_id": "others",
+                "description": "Temperada-do-jeito-que-amamos-comer-farofa.-A-Faropop-Temperada-e-uma-das-farofas-tradicionais-que-combina-com-qualquer-refeicao.-span-stylecolor-a81414strongIngredientes-strongspanFarinha-de-Mandioca-Gor",
+                "id": "200",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/tradicional-frente.png",
+                "quantity": "1",
+                "title": "Faropop x 2",
+                "unit_price": "28.4"
+            },
+            {
+                "category_id": "others",
+                "description": "Serviço de envio usado pela loja.",
+                "id": null,
+                "picture_url": null,
+                "quantity": "1",
+                "title": "Jadlog Package (Entrega em 5 dias úteis)",
+                "unit_price": "37.72"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Dra Aurora Nunes Wagner, \/ Porto Alegre RS BR",
+                "zip_code": "90050-360"
+            },
+            "first_name": "Manoela",
+            "last_name": "Freire",
+            "phone": {
+                "number": "(51) 99982-7451"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "casa",
+                "city_name": "Porto Alegre",
+                "state_name": "RS",
+                "street_name": "Dra Aurora Nunes Wagner, casa Porto Alegre RS BR",
+                "zip_code": "90050-360"
+            }
+        }
+    },
+    "authorization_code": "013481",
+    "binary_mode": false,
+    "brand_id": null,
+    "call_for_authorize_id": null,
+    "captured": true,
+    "card": {
+        "bin": "55228990",
+        "cardholder": {
+            "identification": {
+                "number": "67054994000",
+                "type": "CPF"
+            },
+            "name": "manoela o freire"
+        },
+        "date_created": "2022-06-09T15:05:59.000-04:00",
+        "date_last_updated": "2022-06-09T15:05:59.000-04:00",
+        "expiration_month": 1,
+        "expiration_year": 2027,
+        "first_six_digits": "552289",
+        "id": null,
+        "last_four_digits": "7848"
+    },
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": "2022-06-09T15:06:00.000-04:00",
+    "date_created": "2022-06-09T15:05:59.000-04:00",
+    "date_last_updated": "2022-06-09T15:06:00.000-04:00",
+    "date_of_expiration": null,
+    "deduction_schema": null,
+    "description": "Farofa para Churrasco com Manteiga x 2, Farofa com Muitas Sementes x 2, Faropop x 2",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13784",
+    "fee_details": [
+        {
+            "amount": 6.839999999999999857891452847979962825775146484375,
+            "fee_payer": "collector",
+            "type": "mercadopago_fee"
+        }
+    ],
+    "id": 23042039889,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": "24",
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "credit_card",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "Porto Alegre",
+            "state_name": "RS",
+            "country_name": "BR",
+            "street_name": "Dra Aurora Nunes Wagner,",
+            "zip_code": "90050-360"
+        },
+        "module_version": "5.8.0",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.5.1",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": "2022-06-09T15:06:00.000-04:00",
+    "money_release_schema": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": "manoela@freireimoveis.com.br",
+        "entity_type": null,
+        "first_name": null,
+        "id": "28729885",
+        "identification": {
+            "number": "67054994000",
+            "type": "CPF"
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "master",
+    "payment_type_id": "credit_card",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "type": "UNSPECIFIED"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": "MERCADOPAGO*SEKIAMAMP",
+    "status": "approved",
+    "status_detail": "accredited",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 137.1200000000000045474735088646411895751953125,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 137.1200000000000045474735088646411895751953125,
+        "net_received_amount": 130.280000000000001136868377216160297393798828125,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 137.1200000000000045474735088646411895751953125
+    }
+}
+06-09-2022 @ 16:06:03 - [successful_request]: Changing order status to: processing

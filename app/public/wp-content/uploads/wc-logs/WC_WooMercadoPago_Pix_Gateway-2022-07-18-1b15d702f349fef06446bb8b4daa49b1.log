@@ -1,0 +1,1570 @@
+07-18-2022 @ 11:44:59 - [process_payment]: Payment via Pix POST: 
+07-18-2022 @ 11:44:59 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13831",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "date_of_expiration": "2022-07-18T15:14:59.000+0000",
+    "transaction_amount": 135,
+    "description": "Farofa com Muitas Sementes e Castanhas x 3, Farofa Doce x 4",
+    "payment_method_id": "pix",
+    "payer": {
+        "email": "luciamoarita@gmail.com",
+        "first_name": "Lucia",
+        "last_name": "Ogawa Arita",
+        "address": {
+            "zip_code": "04010-200",
+            "street_name": "Rua Domingos de Morais",
+            "street_number": "",
+            "neighborhood": "",
+            "city": "São Paulo",
+            "federal_unit": "SP"
+        }
+    },
+    "additional_info": {
+        "items": [
+            {
+                "id": 197,
+                "title": "Farofa com Muitas Sementes e Castanhas x 3",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 55.7999999999999971578290569595992565155029296875
+            },
+            {
+                "id": 199,
+                "title": "Farofa Doce x 4",
+                "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                "category_id": "others",
+                "quantity": 1,
+                "unit_price": 79.2000000000000028421709430404007434844970703125
+            }
+        ],
+        "payer": {
+            "first_name": "Lucia",
+            "last_name": "Ogawa Arita",
+            "phone": {
+                "number": "(11) 5081-6412"
+            },
+            "address": {
+                "zip_code": "04010-200",
+                "street_name": "Rua Domingos de Morais \/ São Paulo SP BR"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "04010-200",
+                "street_name": "Rua Domingos de Morais Apto 83 São Paulo SP BR",
+                "apartment": "Apto 83",
+                "city_name": "São Paulo",
+                "state_name": "SP"
+            }
+        }
+    },
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.7.0",
+        "module_version": "6.0.2",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "04010-200",
+            "street_name": "Rua Domingos de Morais",
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "custom",
+        "checkout_type": "pix"
+    }
+}
+07-18-2022 @ 11:44:59 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "id": 24108168701,
+        "date_created": "2022-07-18T10:44:59.710-04:00",
+        "date_approved": null,
+        "date_last_updated": "2022-07-18T10:44:59.710-04:00",
+        "date_of_expiration": "2022-07-18T11:14:59.000-04:00",
+        "money_release_date": null,
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": null,
+        "payment_method_id": "pix",
+        "payment_type_id": "bank_transfer",
+        "status": "pending",
+        "status_detail": "pending_waiting_transfer",
+        "currency_id": "BRL",
+        "description": "Farofa com Muitas Sementes e Castanhas x 3, Farofa Doce x 4",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": null,
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.103.6-hotfix-1",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "801418810",
+            "operator_id": null,
+            "email": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "pix",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "04010-200",
+                "street_name": "Rua Domingos de Morais"
+            },
+            "module_version": "6.0.2",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.7.0",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 3",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "55.8"
+                },
+                {
+                    "id": "199",
+                    "title": "Farofa Doce x 4",
+                    "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "79.2"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 5081-6412"
+                },
+                "address": {
+                    "zip_code": "04010-200",
+                    "street_name": "Rua Domingos de Morais \/ São Paulo SP BR"
+                },
+                "first_name": "Lucia",
+                "last_name": "Ogawa Arita"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "04010-200",
+                    "state_name": "SP",
+                    "city_name": "São Paulo",
+                    "street_name": "Rua Domingos de Morais Apto 83 São Paulo SP BR",
+                    "apartment": "Apto 83"
+                }
+            },
+            "available_balance": null,
+            "nsu_processadora": null,
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13831",
+        "transaction_amount": 135,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "callback_url": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 0,
+            "total_paid_amount": 135,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 0,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null,
+            "bank_transfer_id": null,
+            "transaction_id": null
+        },
+        "fee_details": [],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": null,
+        "card": [],
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "OPENPLATFORM",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            },
+            "location": {
+                "state_id": null,
+                "source": null
+            },
+            "application_data": {
+                "name": null,
+                "version": null
+            },
+            "transaction_data": {
+                "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da05204000053039865406135.005802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter2410816870163049A58",
+                "bank_transfer_id": null,
+                "transaction_id": null,
+                "financial_institution": null,
+                "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/24108168701\/ticket?caller_id=801418810&hash=d3bedbb7-fcae-4eb2-b6c8-0fdcf0c9ebe8",
+                "bank_info": {
+                    "payer": {
+                        "account_id": null,
+                        "id": null,
+                        "long_name": null,
+                        "external_account_id": null
+                    },
+                    "collector": {
+                        "account_id": null,
+                        "long_name": null,
+                        "account_holder_name": "Thiago Erminio Victor",
+                        "transfer_account_id": null
+                    },
+                    "is_same_bank_account_owner": null,
+                    "origin_bank_id": null,
+                    "origin_wallet_id": null
+                },
+                "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAIwElEQVR42u3dQY7cRgwFUN2g7n9L3UBBggSWip\/VbcQIYtXrxcCeGUlPs\/sgizyu3+hzHrS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0v157zJ\/x5\/fG3z\/483fn7\/343G\/wz6\/8dUX5cuWb3m9fGbS0tLS0tLS0tLS0tJtoxz2y3W\/yUXb\/6fl8tfLE+geatIlBS0tLS0tLS0tLS0u7i7YkwesZ+B6oO+8qnpxAj0WoLG8\/aGlpaWlpaWlpaWlpaafn\/Pi9MXdEHlNNLxf7pheqN6WlpaWlpaWlpaWlpaVt0lxNjD8elqqAi\/7Lq+CLm5aWlpaWlpaWlpaWdlNtxqcAeZYOy\/u\/UkRc1w3HsvmTlpaWlpaWlpaWlpZ2C207peS\/\/fJvZ6rQ0tLS0tLS0tLS0tL+ptr1p5xjO0Nhb4qI4xlI25EmU7Gv\/dDS0tLS0tLS0tLS0r5d206KHM\/eyAlauzPLNJPpmNx4PnJ6v7bYR0tLS0tLS0tLS0tL+25tzonNaJFyEG6EyHmVA3Ple48\/VXsFLS0tLS0tLS0tLS3tTtrr0xTHMrmkBdTaXzlEdzz\/VY0fUiQtLS0tLS0tLS0tLe2LtKUQd33VPnn\/wRF2ZE+n62rtL2nL0gBaWlpaWlpaWlpaWtoNtFOky82QR26aXDz7Kvuwc7XwkVmzm5aWlpaWlpaWlpaWdh\/tyM2Q+ZTbda\/apf7LNkqG+l3MsbS0tLS0tLS0tLS0tFtocyXvCLuvUxNmc\/wtbLLuF29PmXWZImlpaWlpaWlpaWlpad+oTZW3EdxpIOTjvFu6LH0WgygPWlpaWlpaWlpaWlra7bRTWW1dkiuAUUaVrI\/OlY7NlE\/HaqYKLS0tLS0tLS0tLS3t27RljP+EGvmtStfl6iBcfqsjT5RcTvWnpaWlpaWlpaWlpaV9n3bqnGyn+pfaXyrsHflcXHqrnE+\/3IJNS0tLS0tLS0tLS0v7Nm259Mqr1BbFvtpr2V473aDNnbS0tLS0tLS0tLS0tFto2\/hWnn2WiSQJVVova9dliZfXz3Vd0tLS0tLS0tLS0tLSvkrbVtnKtrXaQ7mIfldp0cxdnFdnvGhpaWlpaWlpaWlpabfRVlQ+mnZ+Hl8yvloQUPDT\/MqvpkfS0tLS0tLS0tLS0tK+RZvH8x8d\/uoWrU3vUr\/kZddn9\/YXLS0tLS0tLS0tLS3tNtqrM46y3XqRLGu8zIutU+\/mCN2etLS0tLS0tLS0tLS0+2invspJduXpI6lpsgTN6Xvj+cjVDWhpaWlpaWlpaWlpaXfSNnGwVPJW+OmXS8HuDMP7z+VPaWlpaWlpaWlpaWlpd9GWZ9e91HmB2lVKcmU12xm2YDf59Od2w9HS0tLS0tLS0tLS0r5Iu2ifHOGnde11DpAjdFM25bzc7UlLS0tLS0tLS0tLS7uLNoXFvNO6OceW8mRus0yJ8Sy1xNJ6SUtLS0tLS0tLS0tL+3ZtXT+dbly+HGWJdXrJvEDteq5rW0dOWlpaWlpaWlpaWlrad2unh021uhQ0c3Zsr22XuV1hM3ZOoLS0tLS0tLS0tLS0tO\/W1oVnaQ7JNH2kvGmifBwwue7YpKWlpaWlpaWlpaWl3ULbdknmdNgsrE79ktOd05t2Y\/w\/9YjS0tLS0tLS0tLS0tK+SJsfcXbFubaHcixf\/AzT\/8eXCZSWlpaWlpaWlpaWlvbd2tJc2ZT91lkvrEjrT9KVp9UoSUtLS0tLS0tLS0tLu4+2JaehjumEXG7brFuwy0aA8Xyr6UNLS0tLS0tLS0tLS7uVNtXgPh2TS8W56Xt1eXYaX7L4Ly0tLS0tLS0tLS0t7Qba73dVj1DEu7qezFU6zBMlR3kaLS0tLS0tLS0tLS3tFtpUb2uXqrW8CXC\/4uyrdt+GWVpaWlpaWlpaWlpa2tdrp9RXkuAod8\/bso9nc+URDsydpVA4xcZwKI+WlpaWlpaWlpaWlvbN2nJpGy+vsHKtuWLdwBnqdzOelpaWlpaWlpaWlpZ2H+09udXiXHnEUYJmGeh\/dKm0zZP1Nb6ZqUJLS0tLS0tLS0tLS\/sqbR3evwaUcSP1X\/nQWwqLqcRHS0tLS0tLS0tLS0u7lTYZ2+kj7e60QjnDPrWaT0uEpaWlpaWlpaWlpaWl3Uy7ynC5sHc+C4DTE+s+7NSnmQdRXrFjk5aWlpaWlpaWlpaW9s3aqYhXHnuWwSNpn1pJlmfIk22AvPL9aGlpaWlpaWlpaWlpt9BOlbySLFP57Vw2YR7hTN1quEl5Li0tLS0tLS0tLS0t7Y7a1FJ55M7JRZ1vPL8cy2JfWgtQ+zlpaWlpaWlpaWlpaWnfrz27hNdW6FLFr2bHokhDUNIq7PI3pKWlpaWlpaWlpaWlfbf2EQzLjdtV2KvC3rqcl597hF3atLS0tLS0tLS0tLS0G2jvNx7P\/svVGMhycO3sImKzuK1cMb7puqSlpaWlpaWlpaWlpX2tNh1mW\/VaLvapjdx\/+cVq7dysSUtLS0tLS0tLS0tL+27toug2uvXYY5H6Pk31r7Gx7BD41HVJS0tLS0tLS0tLS0v7Km1ulazXL5orjzx45NMwkhQ5j6+re7S0tLS0tLS0tLS0tO\/RjmeAHF1L5VlG+0\/aNk+Wqt10pu5nUiQtLS0tLS0tLS0tLe0rtW2km\/ov843P41gky+M55iQ992d6RGlpaWlpaWlpaWlpaffStj2ZaQv24omlYHd8qiDS0tLS0tLS0tLS0tLurT3ynrTcG3l2Jb5pEGV93ZQxl1uwaWlpaWlpaWlpaWlpX6pNXZc50l3LeZNnXgbQHrErrZw5ctLS0tLS0tLS0tLS0r5be4RjbedyBMl1L9N9i2onoaTNAbS0tLS0tLS0tLS0tPto\/\/8fWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWtpfpv0DiTx6CTpScCoAAAAASUVORK5CYII="
+            }
+        }
+    }
+}
+07-18-2022 @ 11:44:59 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "id": 24108168701,
+        "date_created": "2022-07-18T10:44:59.710-04:00",
+        "date_approved": null,
+        "date_last_updated": "2022-07-18T10:44:59.710-04:00",
+        "date_of_expiration": "2022-07-18T11:14:59.000-04:00",
+        "money_release_date": null,
+        "money_release_status": null,
+        "operation_type": "regular_payment",
+        "issuer_id": null,
+        "payment_method_id": "pix",
+        "payment_type_id": "bank_transfer",
+        "status": "pending",
+        "status_detail": "pending_waiting_transfer",
+        "currency_id": "BRL",
+        "description": "Farofa com Muitas Sementes e Castanhas x 3, Farofa Doce x 4",
+        "live_mode": true,
+        "sponsor_id": 208686191,
+        "authorization_code": null,
+        "money_release_schema": null,
+        "taxes_amount": 0,
+        "counter_currency": null,
+        "brand_id": null,
+        "shipping_amount": 0,
+        "build_version": "2.103.6-hotfix-1",
+        "pos_id": null,
+        "store_id": null,
+        "integrator_id": null,
+        "platform_id": "bo2hnr2ic4p001kbgpt0",
+        "corporation_id": null,
+        "collector_id": 163745094,
+        "payer": {
+            "type": null,
+            "id": "801418810",
+            "operator_id": null,
+            "email": null,
+            "identification": {
+                "type": null,
+                "number": null
+            },
+            "phone": {
+                "area_code": null,
+                "number": null,
+                "extension": null
+            },
+            "first_name": null,
+            "last_name": null,
+            "entity_type": null
+        },
+        "marketplace_owner": null,
+        "metadata": {
+            "basic_settings": {
+                "ex_payments_debelo": "yes",
+                "checkout_credential_prod": "deprecated",
+                "checkbox_checkout_test_mode": "yes",
+                "method": "redirect",
+                "ex_payments_amex": "yes",
+                "gateway_discount_checkbox": "no",
+                "enabled": "no",
+                "ex_payments_master": "yes",
+                "ex_payments_visa": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "installments": "1",
+                "binary_mode": "no",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "auto_return": "yes",
+                "ex_payments_hipercard": "yes"
+            },
+            "checkout_type": "pix",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "billing_address": {
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "country_name": "BR",
+                "zip_code": "04010-200",
+                "street_name": "Rua Domingos de Morais"
+            },
+            "module_version": "6.0.2",
+            "sponsor_id": 208686191,
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "collector": "163745094",
+            "ticket_settings": [],
+            "platform_version": "6.7.0",
+            "test_mode": false,
+            "site_id": "mlb",
+            "custom_settings": {
+                "wallet_button": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "currency_conversion": "no",
+                "binary_mode": "no",
+                "coupon_mode": "no",
+                "gateway_discount_checkbox": "no",
+                "enabled": "yes"
+            },
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "details": "",
+            "user": {
+                "user_email": null,
+                "registered_user": "no",
+                "user_registration_date": null
+            },
+            "checkout": "custom"
+        },
+        "additional_info": {
+            "items": [
+                {
+                    "id": "197",
+                    "title": "Farofa com Muitas Sementes e Castanhas x 3",
+                    "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "55.8"
+                },
+                {
+                    "id": "199",
+                    "title": "Farofa Doce x 4",
+                    "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                    "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                    "category_id": "others",
+                    "quantity": "1",
+                    "unit_price": "79.2"
+                }
+            ],
+            "payer": {
+                "phone": {
+                    "number": "(11) 5081-6412"
+                },
+                "address": {
+                    "zip_code": "04010-200",
+                    "street_name": "Rua Domingos de Morais \/ São Paulo SP BR"
+                },
+                "first_name": "Lucia",
+                "last_name": "Ogawa Arita"
+            },
+            "shipments": {
+                "receiver_address": {
+                    "zip_code": "04010-200",
+                    "state_name": "SP",
+                    "city_name": "São Paulo",
+                    "street_name": "Rua Domingos de Morais Apto 83 São Paulo SP BR",
+                    "apartment": "Apto 83"
+                }
+            },
+            "available_balance": null,
+            "nsu_processadora": null,
+            "authentication_code": null
+        },
+        "order": [],
+        "external_reference": "WC-13831",
+        "transaction_amount": 135,
+        "transaction_amount_refunded": 0,
+        "coupon_amount": 0,
+        "differential_pricing_id": null,
+        "deduction_schema": null,
+        "callback_url": null,
+        "installments": 1,
+        "transaction_details": {
+            "payment_method_reference_id": null,
+            "net_received_amount": 0,
+            "total_paid_amount": 135,
+            "overpaid_amount": 0,
+            "external_resource_url": null,
+            "installment_amount": 0,
+            "financial_institution": null,
+            "payable_deferral_period": null,
+            "acquirer_reference": null,
+            "bank_transfer_id": null,
+            "transaction_id": null
+        },
+        "fee_details": [],
+        "charges_details": [],
+        "captured": true,
+        "binary_mode": false,
+        "call_for_authorize_id": null,
+        "statement_descriptor": null,
+        "card": [],
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+        "refunds": [],
+        "processing_mode": "aggregator",
+        "merchant_account_id": null,
+        "merchant_number": null,
+        "acquirer_reconciliation": [],
+        "point_of_interaction": {
+            "type": "OPENPLATFORM",
+            "business_info": {
+                "unit": "online_payments",
+                "sub_unit": "woocommerce"
+            },
+            "location": {
+                "state_id": null,
+                "source": null
+            },
+            "application_data": {
+                "name": null,
+                "version": null
+            },
+            "transaction_data": {
+                "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da05204000053039865406135.005802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter2410816870163049A58",
+                "bank_transfer_id": null,
+                "transaction_id": null,
+                "financial_institution": null,
+                "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/24108168701\/ticket?caller_id=801418810&hash=d3bedbb7-fcae-4eb2-b6c8-0fdcf0c9ebe8",
+                "bank_info": {
+                    "payer": {
+                        "account_id": null,
+                        "id": null,
+                        "long_name": null,
+                        "external_account_id": null
+                    },
+                    "collector": {
+                        "account_id": null,
+                        "long_name": null,
+                        "account_holder_name": "Thiago Erminio Victor",
+                        "transfer_account_id": null
+                    },
+                    "is_same_bank_account_owner": null,
+                    "origin_bank_id": null,
+                    "origin_wallet_id": null
+                },
+                "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAIwElEQVR42u3dQY7cRgwFUN2g7n9L3UBBggSWip\/VbcQIYtXrxcCeGUlPs\/sgizyu3+hzHrS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0v157zJ\/x5\/fG3z\/483fn7\/343G\/wz6\/8dUX5cuWb3m9fGbS0tLS0tLS0tLS0tJtoxz2y3W\/yUXb\/6fl8tfLE+geatIlBS0tLS0tLS0tLS0u7i7YkwesZ+B6oO+8qnpxAj0WoLG8\/aGlpaWlpaWlpaWlpaafn\/Pi9MXdEHlNNLxf7pheqN6WlpaWlpaWlpaWlpaVt0lxNjD8elqqAi\/7Lq+CLm5aWlpaWlpaWlpaWdlNtxqcAeZYOy\/u\/UkRc1w3HsvmTlpaWlpaWlpaWlpZ2C207peS\/\/fJvZ6rQ0tLS0tLS0tLS0tL+ptr1p5xjO0Nhb4qI4xlI25EmU7Gv\/dDS0tLS0tLS0tLS0r5d206KHM\/eyAlauzPLNJPpmNx4PnJ6v7bYR0tLS0tLS0tLS0tL+25tzonNaJFyEG6EyHmVA3Ple48\/VXsFLS0tLS0tLS0tLS3tTtrr0xTHMrmkBdTaXzlEdzz\/VY0fUiQtLS0tLS0tLS0tLe2LtKUQd33VPnn\/wRF2ZE+n62rtL2nL0gBaWlpaWlpaWlpaWtoNtFOky82QR26aXDz7Kvuwc7XwkVmzm5aWlpaWlpaWlpaWdh\/tyM2Q+ZTbda\/apf7LNkqG+l3MsbS0tLS0tLS0tLS0tFtocyXvCLuvUxNmc\/wtbLLuF29PmXWZImlpaWlpaWlpaWlpad+oTZW3EdxpIOTjvFu6LH0WgygPWlpaWlpaWlpaWlra7bRTWW1dkiuAUUaVrI\/OlY7NlE\/HaqYKLS0tLS0tLS0tLS3t27RljP+EGvmtStfl6iBcfqsjT5RcTvWnpaWlpaWlpaWlpaV9n3bqnGyn+pfaXyrsHflcXHqrnE+\/3IJNS0tLS0tLS0tLS0v7Nm259Mqr1BbFvtpr2V473aDNnbS0tLS0tLS0tLS0tFto2\/hWnn2WiSQJVVova9dliZfXz3Vd0tLS0tLS0tLS0tLSvkrbVtnKtrXaQ7mIfldp0cxdnFdnvGhpaWlpaWlpaWlpabfRVlQ+mnZ+Hl8yvloQUPDT\/MqvpkfS0tLS0tLS0tLS0tK+RZvH8x8d\/uoWrU3vUr\/kZddn9\/YXLS0tLS0tLS0tLS3tNtqrM46y3XqRLGu8zIutU+\/mCN2etLS0tLS0tLS0tLS0+2invspJduXpI6lpsgTN6Xvj+cjVDWhpaWlpaWlpaWlpaXfSNnGwVPJW+OmXS8HuDMP7z+VPaWlpaWlpaWlpaWlpd9GWZ9e91HmB2lVKcmU12xm2YDf59Od2w9HS0tLS0tLS0tLS0r5Iu2ifHOGnde11DpAjdFM25bzc7UlLS0tLS0tLS0tLS7uLNoXFvNO6OceW8mRus0yJ8Sy1xNJ6SUtLS0tLS0tLS0tL+3ZtXT+dbly+HGWJdXrJvEDteq5rW0dOWlpaWlpaWlpaWlrad2unh021uhQ0c3Zsr22XuV1hM3ZOoLS0tLS0tLS0tLS0tO\/W1oVnaQ7JNH2kvGmifBwwue7YpKWlpaWlpaWlpaWl3ULbdknmdNgsrE79ktOd05t2Y\/w\/9YjS0tLS0tLS0tLS0tK+SJsfcXbFubaHcixf\/AzT\/8eXCZSWlpaWlpaWlpaWlvbd2tJc2ZT91lkvrEjrT9KVp9UoSUtLS0tLS0tLS0tLu4+2JaehjumEXG7brFuwy0aA8Xyr6UNLS0tLS0tLS0tLS7uVNtXgPh2TS8W56Xt1eXYaX7L4Ly0tLS0tLS0tLS0t7Qba73dVj1DEu7qezFU6zBMlR3kaLS0tLS0tLS0tLS3tFtpUb2uXqrW8CXC\/4uyrdt+GWVpaWlpaWlpaWlpa2tdrp9RXkuAod8\/bso9nc+URDsydpVA4xcZwKI+WlpaWlpaWlpaWlvbN2nJpGy+vsHKtuWLdwBnqdzOelpaWlpaWlpaWlpZ2H+09udXiXHnEUYJmGeh\/dKm0zZP1Nb6ZqUJLS0tLS0tLS0tLS\/sqbR3evwaUcSP1X\/nQWwqLqcRHS0tLS0tLS0tLS0u7lTYZ2+kj7e60QjnDPrWaT0uEpaWlpaWlpaWlpaWl3Uy7ynC5sHc+C4DTE+s+7NSnmQdRXrFjk5aWlpaWlpaWlpaW9s3aqYhXHnuWwSNpn1pJlmfIk22AvPL9aGlpaWlpaWlpaWlpt9BOlbySLFP57Vw2YR7hTN1quEl5Li0tLS0tLS0tLS0t7Y7a1FJ55M7JRZ1vPL8cy2JfWgtQ+zlpaWlpaWlpaWlpaWnfrz27hNdW6FLFr2bHokhDUNIq7PI3pKWlpaWlpaWlpaWlfbf2EQzLjdtV2KvC3rqcl597hF3atLS0tLS0tLS0tLS0G2jvNx7P\/svVGMhycO3sImKzuK1cMb7puqSlpaWlpaWlpaWlpX2tNh1mW\/VaLvapjdx\/+cVq7dysSUtLS0tLS0tLS0tL+27toug2uvXYY5H6Pk31r7Gx7BD41HVJS0tLS0tLS0tLS0v7Km1ulazXL5orjzx45NMwkhQ5j6+re7S0tLS0tLS0tLS0tO\/RjmeAHF1L5VlG+0\/aNk+Wqt10pu5nUiQtLS0tLS0tLS0tLe0rtW2km\/ov843P41gky+M55iQ992d6RGlpaWlpaWlpaWlpaffStj2ZaQv24omlYHd8qiDS0tLS0tLS0tLS0tLurT3ynrTcG3l2Jb5pEGV93ZQxl1uwaWlpaWlpaWlpaWlpX6pNXZc50l3LeZNnXgbQHrErrZw5ctLS0tLS0tLS0tLS0r5be4RjbedyBMl1L9N9i2onoaTNAbS0tLS0tLS0tLS0tPto\/\/8fWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWtpfpv0DiTx6CTpScCoAAAAASUVORK5CYII="
+            }
+        }
+    }
+}
+07-18-2022 @ 11:45:00 - [check_ipn_response]: received _get content: {
+    "data_id": "24108168701",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+07-18-2022 @ 11:45:00 - [successful_request]: starting to process  update...
+07-18-2022 @ 11:45:00 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 3",
+                "unit_price": "55.8"
+            },
+            {
+                "category_id": "others",
+                "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                "id": "199",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                "quantity": "1",
+                "title": "Farofa Doce x 4",
+                "unit_price": "79.2"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Domingos de Morais \/ São Paulo SP BR",
+                "zip_code": "04010-200"
+            },
+            "first_name": "Lucia",
+            "last_name": "Ogawa Arita",
+            "phone": {
+                "number": "(11) 5081-6412"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Apto 83",
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "street_name": "Rua Domingos de Morais Apto 83 São Paulo SP BR",
+                "zip_code": "04010-200"
+            }
+        }
+    },
+    "authorization_code": null,
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.103.6-hotfix-1",
+    "call_for_authorize_id": null,
+    "callback_url": null,
+    "captured": true,
+    "card": [],
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": null,
+    "date_created": "2022-07-18T10:44:59.000-04:00",
+    "date_last_updated": "2022-07-18T10:44:59.000-04:00",
+    "date_of_expiration": "2022-07-18T11:14:59.000-04:00",
+    "deduction_schema": null,
+    "description": "Farofa com Muitas Sementes e Castanhas x 3, Farofa Doce x 4",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13831",
+    "fee_details": [],
+    "id": 24108168701,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": null,
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "pix",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Rua Domingos de Morais",
+            "zip_code": "04010-200"
+        },
+        "module_version": "6.0.2",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.7.0",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": null,
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": null,
+        "entity_type": null,
+        "first_name": null,
+        "id": "801418810",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "pix",
+    "payment_type_id": "bank_transfer",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "application_data": {
+            "name": null,
+            "version": null
+        },
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "location": {
+            "source": null,
+            "state_id": null
+        },
+        "transaction_data": {
+            "bank_info": {
+                "collector": {
+                    "account_holder_name": "Thiago Erminio Victor",
+                    "account_id": null,
+                    "long_name": null,
+                    "transfer_account_id": null
+                },
+                "is_same_bank_account_owner": null,
+                "origin_bank_id": null,
+                "origin_wallet_id": null,
+                "payer": {
+                    "account_id": null,
+                    "external_account_id": null,
+                    "id": null,
+                    "long_name": null
+                }
+            },
+            "bank_transfer_id": null,
+            "financial_institution": null,
+            "infringement_notification": {
+                "status": null,
+                "type": null
+            },
+            "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da05204000053039865406135.005802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter2410816870163049A58",
+            "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAIwElEQVR42u3dQY7cRgwFUN2g7n9L3UBBggSWip\/VbcQIYtXrxcCeGUlPs\/sgizyu3+hzHrS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0v157zJ\/x5\/fG3z\/483fn7\/343G\/wz6\/8dUX5cuWb3m9fGbS0tLS0tLS0tLS0tJtoxz2y3W\/yUXb\/6fl8tfLE+geatIlBS0tLS0tLS0tLS0u7i7YkwesZ+B6oO+8qnpxAj0WoLG8\/aGlpaWlpaWlpaWlpaafn\/Pi9MXdEHlNNLxf7pheqN6WlpaWlpaWlpaWlpaVt0lxNjD8elqqAi\/7Lq+CLm5aWlpaWlpaWlpaWdlNtxqcAeZYOy\/u\/UkRc1w3HsvmTlpaWlpaWlpaWlpZ2C207peS\/\/fJvZ6rQ0tLS0tLS0tLS0tL+ptr1p5xjO0Nhb4qI4xlI25EmU7Gv\/dDS0tLS0tLS0tLS0r5d206KHM\/eyAlauzPLNJPpmNx4PnJ6v7bYR0tLS0tLS0tLS0tL+25tzonNaJFyEG6EyHmVA3Ple48\/VXsFLS0tLS0tLS0tLS3tTtrr0xTHMrmkBdTaXzlEdzz\/VY0fUiQtLS0tLS0tLS0tLe2LtKUQd33VPnn\/wRF2ZE+n62rtL2nL0gBaWlpaWlpaWlpaWtoNtFOky82QR26aXDz7Kvuwc7XwkVmzm5aWlpaWlpaWlpaWdh\/tyM2Q+ZTbda\/apf7LNkqG+l3MsbS0tLS0tLS0tLS0tFtocyXvCLuvUxNmc\/wtbLLuF29PmXWZImlpaWlpaWlpaWlpad+oTZW3EdxpIOTjvFu6LH0WgygPWlpaWlpaWlpaWlra7bRTWW1dkiuAUUaVrI\/OlY7NlE\/HaqYKLS0tLS0tLS0tLS3t27RljP+EGvmtStfl6iBcfqsjT5RcTvWnpaWlpaWlpaWlpaV9n3bqnGyn+pfaXyrsHflcXHqrnE+\/3IJNS0tLS0tLS0tLS0v7Nm259Mqr1BbFvtpr2V473aDNnbS0tLS0tLS0tLS0tFto2\/hWnn2WiSQJVVova9dliZfXz3Vd0tLS0tLS0tLS0tLSvkrbVtnKtrXaQ7mIfldp0cxdnFdnvGhpaWlpaWlpaWlpabfRVlQ+mnZ+Hl8yvloQUPDT\/MqvpkfS0tLS0tLS0tLS0tK+RZvH8x8d\/uoWrU3vUr\/kZddn9\/YXLS0tLS0tLS0tLS3tNtqrM46y3XqRLGu8zIutU+\/mCN2etLS0tLS0tLS0tLS0+2invspJduXpI6lpsgTN6Xvj+cjVDWhpaWlpaWlpaWlpaXfSNnGwVPJW+OmXS8HuDMP7z+VPaWlpaWlpaWlpaWlpd9GWZ9e91HmB2lVKcmU12xm2YDf59Od2w9HS0tLS0tLS0tLS0r5Iu2ifHOGnde11DpAjdFM25bzc7UlLS0tLS0tLS0tLS7uLNoXFvNO6OceW8mRus0yJ8Sy1xNJ6SUtLS0tLS0tLS0tL+3ZtXT+dbly+HGWJdXrJvEDteq5rW0dOWlpaWlpaWlpaWlrad2unh021uhQ0c3Zsr22XuV1hM3ZOoLS0tLS0tLS0tLS0tO\/W1oVnaQ7JNH2kvGmifBwwue7YpKWlpaWlpaWlpaWl3ULbdknmdNgsrE79ktOd05t2Y\/w\/9YjS0tLS0tLS0tLS0tK+SJsfcXbFubaHcixf\/AzT\/8eXCZSWlpaWlpaWlpaWlvbd2tJc2ZT91lkvrEjrT9KVp9UoSUtLS0tLS0tLS0tLu4+2JaehjumEXG7brFuwy0aA8Xyr6UNLS0tLS0tLS0tLS7uVNtXgPh2TS8W56Xt1eXYaX7L4Ly0tLS0tLS0tLS0t7Qba73dVj1DEu7qezFU6zBMlR3kaLS0tLS0tLS0tLS3tFtpUb2uXqrW8CXC\/4uyrdt+GWVpaWlpaWlpaWlpa2tdrp9RXkuAod8\/bso9nc+URDsydpVA4xcZwKI+WlpaWlpaWlpaWlvbN2nJpGy+vsHKtuWLdwBnqdzOelpaWlpaWlpaWlpZ2H+09udXiXHnEUYJmGeh\/dKm0zZP1Nb6ZqUJLS0tLS0tLS0tLS\/sqbR3evwaUcSP1X\/nQWwqLqcRHS0tLS0tLS0tLS0u7lTYZ2+kj7e60QjnDPrWaT0uEpaWlpaWlpaWlpaWl3Uy7ynC5sHc+C4DTE+s+7NSnmQdRXrFjk5aWlpaWlpaWlpaW9s3aqYhXHnuWwSNpn1pJlmfIk22AvPL9aGlpaWlpaWlpaWlpt9BOlbySLFP57Vw2YR7hTN1quEl5Li0tLS0tLS0tLS0t7Y7a1FJ55M7JRZ1vPL8cy2JfWgtQ+zlpaWlpaWlpaWlpaWnfrz27hNdW6FLFr2bHokhDUNIq7PI3pKWlpaWlpaWlpaWlfbf2EQzLjdtV2KvC3rqcl597hF3atLS0tLS0tLS0tLS0G2jvNx7P\/svVGMhycO3sImKzuK1cMb7puqSlpaWlpaWlpaWlpX2tNh1mW\/VaLvapjdx\/+cVq7dysSUtLS0tLS0tLS0tL+27toug2uvXYY5H6Pk31r7Gx7BD41HVJS0tLS0tLS0tLS0v7Km1ulazXL5orjzx45NMwkhQ5j6+re7S0tLS0tLS0tLS0tO\/RjmeAHF1L5VlG+0\/aNk+Wqt10pu5nUiQtLS0tLS0tLS0tLe0rtW2km\/ov843P41gky+M55iQ992d6RGlpaWlpaWlpaWlpaffStj2ZaQv24omlYHd8qiDS0tLS0tLS0tLS0tLurT3ynrTcG3l2Jb5pEGV93ZQxl1uwaWlpaWlpaWlpaWlpX6pNXZc50l3LeZNnXgbQHrErrZw5ctLS0tLS0tLS0tLS0r5be4RjbedyBMl1L9N9i2onoaTNAbS0tLS0tLS0tLS0tPto\/\/8fWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWtpfpv0DiTx6CTpScCoAAAAASUVORK5CYII=",
+            "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/24108168701\/ticket?caller_id=801418810&hash=d3bedbb7-fcae-4eb2-b6c8-0fdcf0c9ebe8",
+            "transaction_id": null
+        },
+        "type": "OPENPLATFORM"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": null,
+    "status": "pending",
+    "status_detail": "pending_waiting_transfer",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 135,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "bank_transfer_id": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 0,
+        "net_received_amount": 0,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 135,
+        "transaction_id": null
+    }
+}
+07-18-2022 @ 11:45:00 - [successful_request]: Changing order status to: pending
+07-18-2022 @ 11:45:37 - [check_ipn_response]: received _get content: {
+    "data_id": "24108168701",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+07-18-2022 @ 11:45:38 - [successful_request]: starting to process  update...
+07-18-2022 @ 11:45:38 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 3",
+                "unit_price": "55.8"
+            },
+            {
+                "category_id": "others",
+                "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                "id": "199",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                "quantity": "1",
+                "title": "Farofa Doce x 4",
+                "unit_price": "79.2"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Domingos de Morais \/ São Paulo SP BR",
+                "zip_code": "04010-200"
+            },
+            "first_name": "Lucia",
+            "last_name": "Ogawa Arita",
+            "phone": {
+                "number": "(11) 5081-6412"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Apto 83",
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "street_name": "Rua Domingos de Morais Apto 83 São Paulo SP BR",
+                "zip_code": "04010-200"
+            }
+        }
+    },
+    "authorization_code": null,
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.103.6-hotfix-1",
+    "call_for_authorize_id": null,
+    "callback_url": null,
+    "captured": true,
+    "card": [],
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": null,
+    "date_created": "2022-07-18T10:44:59.000-04:00",
+    "date_last_updated": "2022-07-18T10:45:36.000-04:00",
+    "date_of_expiration": "2022-07-18T11:14:59.000-04:00",
+    "deduction_schema": null,
+    "description": "Farofa com Muitas Sementes e Castanhas x 3, Farofa Doce x 4",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13831",
+    "fee_details": [],
+    "id": 24108168701,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": null,
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "pix",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Rua Domingos de Morais",
+            "zip_code": "04010-200"
+        },
+        "module_version": "6.0.2",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.7.0",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": null,
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": null,
+        "entity_type": null,
+        "first_name": null,
+        "id": "801418810",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "pix",
+    "payment_type_id": "bank_transfer",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "application_data": {
+            "name": null,
+            "version": null
+        },
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "location": {
+            "source": null,
+            "state_id": null
+        },
+        "transaction_data": {
+            "bank_info": {
+                "collector": {
+                    "account_holder_name": "Thiago Erminio Victor",
+                    "account_id": null,
+                    "long_name": null,
+                    "transfer_account_id": null
+                },
+                "is_same_bank_account_owner": null,
+                "origin_bank_id": null,
+                "origin_wallet_id": null,
+                "payer": {
+                    "account_id": null,
+                    "external_account_id": null,
+                    "id": null,
+                    "long_name": null
+                }
+            },
+            "bank_transfer_id": null,
+            "financial_institution": null,
+            "infringement_notification": {
+                "status": null,
+                "type": null
+            },
+            "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da05204000053039865406135.005802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter2410816870163049A58",
+            "qr_code_base64": "iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAIwElEQVR42u3dQY7cRgwFUN2g7n9L3UBBggSWip\/VbcQIYtXrxcCeGUlPs\/sgizyu3+hzHrS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0v157zJ\/x5\/fG3z\/483fn7\/343G\/wz6\/8dUX5cuWb3m9fGbS0tLS0tLS0tLS0tJtoxz2y3W\/yUXb\/6fl8tfLE+geatIlBS0tLS0tLS0tLS0u7i7YkwesZ+B6oO+8qnpxAj0WoLG8\/aGlpaWlpaWlpaWlpaafn\/Pi9MXdEHlNNLxf7pheqN6WlpaWlpaWlpaWlpaVt0lxNjD8elqqAi\/7Lq+CLm5aWlpaWlpaWlpaWdlNtxqcAeZYOy\/u\/UkRc1w3HsvmTlpaWlpaWlpaWlpZ2C207peS\/\/fJvZ6rQ0tLS0tLS0tLS0tL+ptr1p5xjO0Nhb4qI4xlI25EmU7Gv\/dDS0tLS0tLS0tLS0r5d206KHM\/eyAlauzPLNJPpmNx4PnJ6v7bYR0tLS0tLS0tLS0tL+25tzonNaJFyEG6EyHmVA3Ple48\/VXsFLS0tLS0tLS0tLS3tTtrr0xTHMrmkBdTaXzlEdzz\/VY0fUiQtLS0tLS0tLS0tLe2LtKUQd33VPnn\/wRF2ZE+n62rtL2nL0gBaWlpaWlpaWlpaWtoNtFOky82QR26aXDz7Kvuwc7XwkVmzm5aWlpaWlpaWlpaWdh\/tyM2Q+ZTbda\/apf7LNkqG+l3MsbS0tLS0tLS0tLS0tFtocyXvCLuvUxNmc\/wtbLLuF29PmXWZImlpaWlpaWlpaWlpad+oTZW3EdxpIOTjvFu6LH0WgygPWlpaWlpaWlpaWlra7bRTWW1dkiuAUUaVrI\/OlY7NlE\/HaqYKLS0tLS0tLS0tLS3t27RljP+EGvmtStfl6iBcfqsjT5RcTvWnpaWlpaWlpaWlpaV9n3bqnGyn+pfaXyrsHflcXHqrnE+\/3IJNS0tLS0tLS0tLS0v7Nm259Mqr1BbFvtpr2V473aDNnbS0tLS0tLS0tLS0tFto2\/hWnn2WiSQJVVova9dliZfXz3Vd0tLS0tLS0tLS0tLSvkrbVtnKtrXaQ7mIfldp0cxdnFdnvGhpaWlpaWlpaWlpabfRVlQ+mnZ+Hl8yvloQUPDT\/MqvpkfS0tLS0tLS0tLS0tK+RZvH8x8d\/uoWrU3vUr\/kZddn9\/YXLS0tLS0tLS0tLS3tNtqrM46y3XqRLGu8zIutU+\/mCN2etLS0tLS0tLS0tLS0+2invspJduXpI6lpsgTN6Xvj+cjVDWhpaWlpaWlpaWlpaXfSNnGwVPJW+OmXS8HuDMP7z+VPaWlpaWlpaWlpaWlpd9GWZ9e91HmB2lVKcmU12xm2YDf59Od2w9HS0tLS0tLS0tLS0r5Iu2ifHOGnde11DpAjdFM25bzc7UlLS0tLS0tLS0tLS7uLNoXFvNO6OceW8mRus0yJ8Sy1xNJ6SUtLS0tLS0tLS0tL+3ZtXT+dbly+HGWJdXrJvEDteq5rW0dOWlpaWlpaWlpaWlrad2unh021uhQ0c3Zsr22XuV1hM3ZOoLS0tLS0tLS0tLS0tO\/W1oVnaQ7JNH2kvGmifBwwue7YpKWlpaWlpaWlpaWl3ULbdknmdNgsrE79ktOd05t2Y\/w\/9YjS0tLS0tLS0tLS0tK+SJsfcXbFubaHcixf\/AzT\/8eXCZSWlpaWlpaWlpaWlvbd2tJc2ZT91lkvrEjrT9KVp9UoSUtLS0tLS0tLS0tLu4+2JaehjumEXG7brFuwy0aA8Xyr6UNLS0tLS0tLS0tLS7uVNtXgPh2TS8W56Xt1eXYaX7L4Ly0tLS0tLS0tLS0t7Qba73dVj1DEu7qezFU6zBMlR3kaLS0tLS0tLS0tLS3tFtpUb2uXqrW8CXC\/4uyrdt+GWVpaWlpaWlpaWlpa2tdrp9RXkuAod8\/bso9nc+URDsydpVA4xcZwKI+WlpaWlpaWlpaWlvbN2nJpGy+vsHKtuWLdwBnqdzOelpaWlpaWlpaWlpZ2H+09udXiXHnEUYJmGeh\/dKm0zZP1Nb6ZqUJLS0tLS0tLS0tLS\/sqbR3evwaUcSP1X\/nQWwqLqcRHS0tLS0tLS0tLS0u7lTYZ2+kj7e60QjnDPrWaT0uEpaWlpaWlpaWlpaWl3Uy7ynC5sHc+C4DTE+s+7NSnmQdRXrFjk5aWlpaWlpaWlpaW9s3aqYhXHnuWwSNpn1pJlmfIk22AvPL9aGlpaWlpaWlpaWlpt9BOlbySLFP57Vw2YR7hTN1quEl5Li0tLS0tLS0tLS0t7Y7a1FJ55M7JRZ1vPL8cy2JfWgtQ+zlpaWlpaWlpaWlpaWnfrz27hNdW6FLFr2bHokhDUNIq7PI3pKWlpaWlpaWlpaWlfbf2EQzLjdtV2KvC3rqcl597hF3atLS0tLS0tLS0tLS0G2jvNx7P\/svVGMhycO3sImKzuK1cMb7puqSlpaWlpaWlpaWlpX2tNh1mW\/VaLvapjdx\/+cVq7dysSUtLS0tLS0tLS0tL+27toug2uvXYY5H6Pk31r7Gx7BD41HVJS0tLS0tLS0tLS0v7Km1ulazXL5orjzx45NMwkhQ5j6+re7S0tLS0tLS0tLS0tO\/RjmeAHF1L5VlG+0\/aNk+Wqt10pu5nUiQtLS0tLS0tLS0tLe0rtW2km\/ov843P41gky+M55iQ992d6RGlpaWlpaWlpaWlpaffStj2ZaQv24omlYHd8qiDS0tLS0tLS0tLS0tLurT3ynrTcG3l2Jb5pEGV93ZQxl1uwaWlpaWlpaWlpaWlpX6pNXZc50l3LeZNnXgbQHrErrZw5ctLS0tLS0tLS0tLS0r5be4RjbedyBMl1L9N9i2onoaTNAbS0tLS0tLS0tLS0tPto\/\/8fWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWtpfpv0DiTx6CTpScCoAAAAASUVORK5CYII=",
+            "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/24108168701\/ticket?caller_id=801418810&hash=d3bedbb7-fcae-4eb2-b6c8-0fdcf0c9ebe8",
+            "transaction_id": null
+        },
+        "type": "OPENPLATFORM"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": null,
+    "status": "pending",
+    "status_detail": "pending_waiting_transfer",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 135,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "bank_transfer_id": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 0,
+        "net_received_amount": 0,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 135,
+        "transaction_id": null
+    }
+}
+07-18-2022 @ 11:45:38 - [successful_request]: Changing order status to: pending
+07-18-2022 @ 12:21:36 - [check_ipn_response]: received _get content: {
+    "data_id": "24108168701",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+07-18-2022 @ 12:21:36 - [successful_request]: starting to process  update...
+07-18-2022 @ 12:21:36 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 3",
+                "unit_price": "55.8"
+            },
+            {
+                "category_id": "others",
+                "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                "id": "199",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                "quantity": "1",
+                "title": "Farofa Doce x 4",
+                "unit_price": "79.2"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Domingos de Morais \/ São Paulo SP BR",
+                "zip_code": "04010-200"
+            },
+            "first_name": "Lucia",
+            "last_name": "Ogawa Arita",
+            "phone": {
+                "number": "(11) 5081-6412"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Apto 83",
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "street_name": "Rua Domingos de Morais Apto 83 São Paulo SP BR",
+                "zip_code": "04010-200"
+            }
+        }
+    },
+    "authorization_code": null,
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.103.6-hotfix-1",
+    "call_for_authorize_id": null,
+    "callback_url": null,
+    "captured": true,
+    "card": [],
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": null,
+    "date_created": "2022-07-18T10:44:59.000-04:00",
+    "date_last_updated": "2022-07-18T11:21:33.000-04:00",
+    "date_of_expiration": "2022-07-18T11:14:59.000-04:00",
+    "deduction_schema": null,
+    "description": "Farofa com Muitas Sementes e Castanhas x 3, Farofa Doce x 4",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13831",
+    "fee_details": [],
+    "id": 24108168701,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": null,
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "pix",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Rua Domingos de Morais",
+            "zip_code": "04010-200"
+        },
+        "module_version": "6.0.2",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.7.0",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": null,
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": null,
+        "entity_type": null,
+        "first_name": null,
+        "id": "801418810",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "pix",
+    "payment_type_id": "bank_transfer",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "application_data": {
+            "name": null,
+            "version": null
+        },
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "location": {
+            "source": null,
+            "state_id": null
+        },
+        "transaction_data": {
+            "bank_info": {
+                "collector": {
+                    "account_holder_name": "Thiago Erminio Victor",
+                    "account_id": null,
+                    "long_name": null,
+                    "transfer_account_id": null
+                },
+                "is_same_bank_account_owner": null,
+                "origin_bank_id": null,
+                "origin_wallet_id": null,
+                "payer": {
+                    "account_id": null,
+                    "external_account_id": null,
+                    "id": null,
+                    "long_name": null
+                }
+            },
+            "bank_transfer_id": null,
+            "financial_institution": null,
+            "infringement_notification": {
+                "status": null,
+                "type": null
+            },
+            "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da05204000053039865406135.005802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter2410816870163049A58",
+            "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/24108168701\/ticket?caller_id=801418810&hash=d3bedbb7-fcae-4eb2-b6c8-0fdcf0c9ebe8",
+            "transaction_id": null
+        },
+        "type": "OPENPLATFORM"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": null,
+    "status": "cancelled",
+    "status_detail": "expired",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 135,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "bank_transfer_id": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 0,
+        "net_received_amount": 0,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 135,
+        "transaction_id": null
+    }
+}
+07-18-2022 @ 12:21:36 - [successful_request]: Changing order status to: cancelled
+07-18-2022 @ 12:21:36 - [process_cancel_order_meta_box_actions]: cancelling payments for 24108168701
+07-18-2022 @ 12:21:37 - [process_cancel_order_meta_box_actions]: cancel payment of id 24108168701 => SUCCESS
+07-18-2022 @ 12:22:09 - [check_ipn_response]: received _get content: {
+    "data_id": "24108168701",
+    "source_news": "webhooks",
+    "type": "payment"
+}
+07-18-2022 @ 12:22:10 - [successful_request]: starting to process  update...
+07-18-2022 @ 12:22:10 - [successful_request]: updating metadata and status with data: {
+    "acquirer_reconciliation": [],
+    "additional_info": {
+        "authentication_code": null,
+        "available_balance": null,
+        "items": [
+            {
+                "category_id": "others",
+                "description": "Foi-a-primeira-Farofa-lancada-no-mercado.-E-enriquecida-com-muitas-sementes-e-castanhas-e-sendo-riquissima-em-fibras-pode-ser-incluida-no-seu-dia-a-dia-de-forma-saudavel.-Farofa-sem-culpa-recheada-de-nutrientes-essenciais",
+                "id": "197",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/castanhas-frente.png",
+                "quantity": "1",
+                "title": "Farofa com Muitas Sementes e Castanhas x 3",
+                "unit_price": "55.8"
+            },
+            {
+                "category_id": "others",
+                "description": "Ideal-para-voce-que-deseja-inovar-no-sabor-das-suas-deliciosas-sobremesas-finalizando-com-um-toque-extra-crocante.-Voce-ainda-pode-experimentar-em-vitaminas-massas-de-tortas-cobertura-de-bolos-e-onde-mais-preferir.-Surpree",
+                "id": "199",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/doce-Frente-1.png",
+                "quantity": "1",
+                "title": "Farofa Doce x 4",
+                "unit_price": "79.2"
+            }
+        ],
+        "nsu_processadora": null,
+        "payer": {
+            "address": {
+                "street_name": "Rua Domingos de Morais \/ São Paulo SP BR",
+                "zip_code": "04010-200"
+            },
+            "first_name": "Lucia",
+            "last_name": "Ogawa Arita",
+            "phone": {
+                "number": "(11) 5081-6412"
+            }
+        },
+        "shipments": {
+            "receiver_address": {
+                "apartment": "Apto 83",
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "street_name": "Rua Domingos de Morais Apto 83 São Paulo SP BR",
+                "zip_code": "04010-200"
+            }
+        }
+    },
+    "authorization_code": null,
+    "binary_mode": false,
+    "brand_id": null,
+    "build_version": "2.103.6-hotfix-1",
+    "call_for_authorize_id": null,
+    "callback_url": null,
+    "captured": true,
+    "card": [],
+    "charges_details": [],
+    "collector_id": 163745094,
+    "corporation_id": null,
+    "counter_currency": null,
+    "coupon_amount": 0,
+    "currency_id": "BRL",
+    "date_approved": null,
+    "date_created": "2022-07-18T10:44:59.000-04:00",
+    "date_last_updated": "2022-07-18T11:22:08.000-04:00",
+    "date_of_expiration": "2022-07-18T11:14:59.000-04:00",
+    "deduction_schema": null,
+    "description": "Farofa com Muitas Sementes e Castanhas x 3, Farofa Doce x 4",
+    "differential_pricing_id": null,
+    "external_reference": "WC-13831",
+    "fee_details": [],
+    "id": 24108168701,
+    "installments": 1,
+    "integrator_id": null,
+    "issuer_id": null,
+    "live_mode": true,
+    "marketplace_owner": null,
+    "merchant_account_id": null,
+    "merchant_number": null,
+    "metadata": {
+        "basic_settings": {
+            "ex_payments_debelo": "yes",
+            "checkout_credential_prod": "deprecated",
+            "checkbox_checkout_test_mode": "yes",
+            "method": "redirect",
+            "ex_payments_amex": "yes",
+            "gateway_discount_checkbox": "no",
+            "enabled": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "commission_checkbox": "no",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_elo": "yes",
+            "auto_return": "yes",
+            "ex_payments_hipercard": "yes"
+        },
+        "checkout_type": "pix",
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR",
+            "street_name": "Rua Domingos de Morais",
+            "zip_code": "04010-200"
+        },
+        "module_version": "6.0.2",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "ticket_settings": [],
+        "platform_version": "6.7.0",
+        "test_mode": false,
+        "site_id": "mlb",
+        "custom_settings": {
+            "checkout_credential_prod": "deprecated",
+            "wallet_button": "yes",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "binary_mode": "no",
+            "currency_conversion": "no",
+            "coupon_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "enabled": "yes"
+        },
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "details": "",
+        "checkout": "custom",
+        "user": {
+            "user_email": null,
+            "registered_user": "no",
+            "user_registration_date": null
+        }
+    },
+    "money_release_date": null,
+    "money_release_schema": null,
+    "money_release_status": null,
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Pix_Gateway\/?source_news=webhooks",
+    "operation_type": "regular_payment",
+    "order": [],
+    "payer": {
+        "email": null,
+        "entity_type": null,
+        "first_name": null,
+        "id": "801418810",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "last_name": null,
+        "operator_id": null,
+        "phone": {
+            "area_code": null,
+            "extension": null,
+            "number": null
+        },
+        "type": null
+    },
+    "payment_method_id": "pix",
+    "payment_type_id": "bank_transfer",
+    "platform_id": "bo2hnr2ic4p001kbgpt0",
+    "point_of_interaction": {
+        "application_data": {
+            "name": null,
+            "version": null
+        },
+        "business_info": {
+            "sub_unit": "woocommerce",
+            "unit": "online_payments"
+        },
+        "location": {
+            "source": null,
+            "state_id": null
+        },
+        "transaction_data": {
+            "bank_info": {
+                "collector": {
+                    "account_holder_name": "Thiago Erminio Victor",
+                    "account_id": null,
+                    "long_name": null,
+                    "transfer_account_id": null
+                },
+                "is_same_bank_account_owner": null,
+                "origin_bank_id": null,
+                "origin_wallet_id": null,
+                "payer": {
+                    "account_id": null,
+                    "external_account_id": null,
+                    "id": null,
+                    "long_name": null
+                }
+            },
+            "bank_transfer_id": null,
+            "financial_institution": null,
+            "infringement_notification": {
+                "status": null,
+                "type": null
+            },
+            "qr_code": "00020126580014br.gov.bcb.pix01365c772f2f-4a19-4c09-91f1-461d82801da05204000053039865406135.005802BR5913THIAGOERMINIO6008So Paulo62240520mpqrinter2410816870163049A58",
+            "ticket_url": "https:\/\/www.mercadopago.com.br\/payments\/24108168701\/ticket?caller_id=801418810&hash=d3bedbb7-fcae-4eb2-b6c8-0fdcf0c9ebe8",
+            "transaction_id": null
+        },
+        "type": "OPENPLATFORM"
+    },
+    "pos_id": null,
+    "processing_mode": "aggregator",
+    "refunds": [],
+    "shipping_amount": 0,
+    "sponsor_id": 208686191,
+    "statement_descriptor": null,
+    "status": "cancelled",
+    "status_detail": "expired",
+    "store_id": null,
+    "taxes_amount": 0,
+    "transaction_amount": 135,
+    "transaction_amount_refunded": 0,
+    "transaction_details": {
+        "acquirer_reference": null,
+        "bank_transfer_id": null,
+        "external_resource_url": null,
+        "financial_institution": null,
+        "installment_amount": 0,
+        "net_received_amount": 0,
+        "overpaid_amount": 0,
+        "payable_deferral_period": null,
+        "payment_method_reference_id": null,
+        "total_paid_amount": 135,
+        "transaction_id": null
+    }
+}
+07-18-2022 @ 12:22:10 - [successful_request]: Changing order status to: cancelled

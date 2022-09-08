@@ -1,0 +1,475 @@
+08-31-2022 @ 08:26:03 - [process_payment]: POST Custom: {
+    "amount": "61.66",
+    "currency_ratio": "1",
+    "paymentMethodId": "",
+    "checkout_type": "wallet_button",
+    "installments": ""
+}
+08-31-2022 @ 08:26:03 - [process_payment]: preparing to render wallet button checkout.
+08-31-2022 @ 08:26:03 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-13894",
+    "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+    "statement_descriptor": "Sekiama MP",
+    "sponsor_id": 208686191,
+    "items": [
+        {
+            "id": 203,
+            "title": "Kit Favoritas x 1",
+            "description": "O-Kit-perfeito-para-voce-experimentar-as-mais-vendidas.-Contem-as-farofas-bDoce-Com-Muita-Cebola-e-Com-Muitas-Sementesb",
+            "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-fav-2.png",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 50,
+            "currency_id": "BRL"
+        },
+        {
+            "title": "Sedex (Entrega em 3 dias úteis)",
+            "description": "Serviço de envio usado pela loja.",
+            "category_id": "others",
+            "quantity": 1,
+            "unit_price": 11.660000000000000142108547152020037174224853515625
+        }
+    ],
+    "payer": {
+        "name": "Roni",
+        "surname": "Saul Melamoude",
+        "email": "Roni.sm@gmail.com",
+        "phone": {
+            "number": "(11) 2225-9090"
+        },
+        "address": {
+            "zip_code": "01432-010",
+            "street_name": "Rua conselheiro torres homem \/ São Paulo SP BR"
+        }
+    },
+    "back_urls": {
+        "success": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13894\/?key=wc_order_lixIo2BzeNPnt",
+        "failure": "https:\/\/www.sekiama.com.br\/carrinho\/?cancel_order=true&order=wc_order_lixIo2BzeNPnt&order_id=13894&redirect&_wpnonce=1e0744b13b",
+        "pending": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13894\/?key=wc_order_lixIo2BzeNPnt"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "01432-010",
+            "street_name": "Rua conselheiro torres homem  São Paulo SP BR",
+            "apartment": "",
+            "city_name": "São Paulo",
+            "state_name": "SP"
+        }
+    },
+    "payment_methods": {
+        "installments": 12,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.8.2",
+        "module_version": "6.1.0",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "163745094",
+        "test_mode": false,
+        "details": "",
+        "basic_settings": {
+            "enabled": "no",
+            "currency_conversion": "no",
+            "installments": "1",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": {
+            "enabled": "yes"
+        },
+        "seller_website": "https:\/\/www.sekiama.com.br",
+        "billing_address": {
+            "zip_code": "01432-010",
+            "street_name": "Rua conselheiro torres homem",
+            "city_name": "São Paulo",
+            "state_name": "SP",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "no",
+            "user_email": null,
+            "user_registration_date": null
+        },
+        "checkout": "pro",
+        "checkout_type": "wallet_button"
+    },
+    "purpose": "wallet_purchase"
+}
+08-31-2022 @ 08:26:04 - [create_preference_wallet_button]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/www.sekiama.com.br\/carrinho\/?cancel_order=true&order=wc_order_lixIo2BzeNPnt&order_id=13894&redirect&_wpnonce=1e0744b13b",
+            "pending": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13894\/?key=wc_order_lixIo2BzeNPnt",
+            "success": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13894\/?key=wc_order_lixIo2BzeNPnt"
+        },
+        "binary_mode": false,
+        "client_id": "6290074584163570",
+        "collector_id": 163745094,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-08-31T07:26:04.670-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-13894",
+        "id": "163745094-1f262c4b-1420-4afd-9805-3fa743010af7",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-1f262c4b-1420-4afd-9805-3fa743010af7",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "203",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "O-Kit-perfeito-para-voce-experimentar-as-mais-vendidas.-Contem-as-farofas-bDoce-Com-Muita-Cebola-e-Com-Muitas-Sementesb",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-fav-2.png",
+                "title": "Kit Favoritas x 1",
+                "quantity": 1,
+                "unit_price": 50
+            },
+            {
+                "id": "",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Serviço de envio usado pela loja.",
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "quantity": 1,
+                "unit_price": 11.660000000000000142108547152020037174224853515625
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "no",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "São Paulo",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Rua conselheiro torres homem",
+                "zip_code": "01432-010"
+            },
+            "checkout": "pro",
+            "checkout_type": "wallet_button",
+            "collector": "163745094",
+            "custom_settings": {
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "gateway_discount_checkbox": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "6.1.0",
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.8.2",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(11) 2225-9090"
+            },
+            "address": {
+                "zip_code": "01432-010",
+                "street_name": "Rua conselheiro torres homem  São Paulo SP BR",
+                "street_number": null
+            },
+            "email": "Roni.sm@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Roni",
+            "surname": "Saul Melamoude",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 12,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-1f262c4b-1420-4afd-9805-3fa743010af7",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "01432-010",
+                "street_name": "Rua conselheiro torres homem  São Paulo SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "Sekiama MP",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+08-31-2022 @ 08:26:04 - [create_preference_wallet_button]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "https:\/\/www.sekiama.com.br\/carrinho\/?cancel_order=true&order=wc_order_lixIo2BzeNPnt&order_id=13894&redirect&_wpnonce=1e0744b13b",
+            "pending": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13894\/?key=wc_order_lixIo2BzeNPnt",
+            "success": "https:\/\/www.sekiama.com.br\/finalizar-compra\/order-received\/13894\/?key=wc_order_lixIo2BzeNPnt"
+        },
+        "binary_mode": false,
+        "client_id": "6290074584163570",
+        "collector_id": 163745094,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-08-31T07:26:04.670-04:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-13894",
+        "id": "163745094-1f262c4b-1420-4afd-9805-3fa743010af7",
+        "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-1f262c4b-1420-4afd-9805-3fa743010af7",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "203",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "O-Kit-perfeito-para-voce-experimentar-as-mais-vendidas.-Contem-as-farofas-bDoce-Com-Muita-Cebola-e-Com-Muitas-Sementesb",
+                "picture_url": "https:\/\/www.sekiama.com.br\/wp-content\/uploads\/2021\/11\/kit-fav-2.png",
+                "title": "Kit Favoritas x 1",
+                "quantity": 1,
+                "unit_price": 50
+            },
+            {
+                "id": "",
+                "category_id": "others",
+                "currency_id": "BRL",
+                "description": "Serviço de envio usado pela loja.",
+                "title": "Sedex (Entrega em 3 dias úteis)",
+                "quantity": 1,
+                "unit_price": 11.660000000000000142108547152020037174224853515625
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "currency_conversion": "no",
+                "enabled": "no",
+                "ex_payments_amex": "yes",
+                "ex_payments_bolbradesco": "yes",
+                "ex_payments_debelo": "yes",
+                "ex_payments_debvisa": "yes",
+                "ex_payments_elo": "yes",
+                "ex_payments_hipercard": "yes",
+                "ex_payments_master": "yes",
+                "ex_payments_pec": "yes",
+                "ex_payments_visa": "yes",
+                "gateway_discount_checkbox": "no",
+                "installments": "1",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "São Paulo",
+                "country_name": "BR",
+                "state_name": "SP",
+                "street_name": "Rua conselheiro torres homem",
+                "zip_code": "01432-010"
+            },
+            "checkout": "pro",
+            "checkout_type": "wallet_button",
+            "collector": "163745094",
+            "custom_settings": {
+                "binary_mode": "no",
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated",
+                "commission_checkbox": "no",
+                "coupon_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "gateway_discount_checkbox": "no",
+                "wallet_button": "yes"
+            },
+            "details": "",
+            "module_version": "6.1.0",
+            "pix_settings": {
+                "enabled": "yes"
+            },
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.8.2",
+            "seller_website": "https:\/\/www.sekiama.com.br",
+            "site_id": "mlb",
+            "sponsor_id": 208686191,
+            "test_mode": false,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "no",
+                "user_email": null,
+                "user_registration_date": null
+            }
+        },
+        "notification_url": "https:\/\/www.sekiama.com.br\/wc-api\/WC_WooMercadoPago_Custom_Gateway\/?source_news=webhooks",
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "(11) 2225-9090"
+            },
+            "address": {
+                "zip_code": "01432-010",
+                "street_name": "Rua conselheiro torres homem  São Paulo SP BR",
+                "street_number": null
+            },
+            "email": "Roni.sm@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Roni",
+            "surname": "Saul Melamoude",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 12,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=163745094-1f262c4b-1420-4afd-9805-3fa743010af7",
+        "site_id": "MLB",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "01432-010",
+                "street_name": "Rua conselheiro torres homem  São Paulo SP BR",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "São Paulo",
+                "state_name": "SP",
+                "country_name": null
+            }
+        },
+        "sponsor_id": 208686191,
+        "statement_descriptor": "Sekiama MP",
+        "total_amount": null,
+        "last_updated": null
+    }
+}

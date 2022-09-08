@@ -1,0 +1,12 @@
+04-03-2022 @ 02:28:14 - [check_ipn_response]: received _get content: {
+    "id": "21257120896",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+04-03-2022 @ 02:28:14 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
+04-03-2022 @ 11:52:06 - [check_ipn_response]: received _get content: {
+    "id": "21257120896",
+    "source_news": "ipn",
+    "topic": "payment"
+}
+04-03-2022 @ 11:52:06 - [check_ipn_response]: Type of topic IPN invalid, need to be merchant_order
